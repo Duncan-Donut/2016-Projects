@@ -1,0 +1,67 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Isidora {
+
+	public static void main(String[] args) throws FileNotFoundException {
+		// TODO Auto-generated method stub
+		Scanner Sf = new Scanner(new File("Isidora.dat"));
+		while(Sf.hasNext()){
+			String in = Sf.next();
+			int number = Sf.nextInt();
+			
+			String[] input = in.split("-");
+			
+			int changeNum = Integer.parseInt(input[1]);
+			
+			ArrayList<String> list = new ArrayList<String>();
+			
+			String binNum = Integer.toBinaryString(number);
+			
+			for(int x =0 ; x < binNum.length();x++){
+				list.add(binNum.substring(x,x+1));
+			}			
+			
+			if(input[0].equals("RS")){
+				if(list.size() - changeNum < 0){
+					System.out.println("0");
+				}
+				else{
+					int change = list.size()-changeNum;
+
+					for(int y = 0;y<change;y++){
+						
+						System.out.print(list.get(y));
+					}
+					System.out.println("");
+				}
+			}
+			if(input[0].equals("LS")){
+				
+				if(list.size() - changeNum < 0){
+					System.out.println("0");
+				}
+				else{
+					for(int z = changeNum; z>0;z++){
+						list.add("0");
+					}
+					for(int y = changeNum; y<list.size();y++){
+						System.out.print(list.get(y));
+					}
+					System.out.println("");
+				}				
+			}
+			if(input[0].equals("RC")){
+				
+			}
+			if(input[0].equals("LC")){
+				
+			}
+		}
+		
+	}
+
+
+}

@@ -1,0 +1,92 @@
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Hash {
+	
+	static ArrayList<String> original = new ArrayList<String>();
+
+	
+
+	public static void main(String[] args) throws IOException {
+		
+		Scanner Sf = new Scanner(System.in);
+		
+		System.out.println("Please enter what you desire to be encoded");
+		
+		String input = Sf.nextLine();
+		
+		char[] words = input.toCharArray();
+		
+		int y = 0;
+		String hash = "";
+		int temp =0;
+		
+		for(int x = 0; x<words.length;x++){
+			
+			switch(words[x]){
+				case 'a': y = 1;
+				case 'b': y = 2;
+				case 'c': y = 3;
+				case 'd': y = 4;
+				case 'e': y = 5;
+				case 'f': y = 6;
+				case 'g': y = 7;
+				case 'h': y = 8;
+				case 'i': y = 9;
+				case 'j': y = 10;
+				case 'k': y = 11;
+				case 'l': y = 12;
+				case 'm': y = 13;
+				case 'n': y = 14;
+				case 'o': y = 15;
+				case 'p': y = 16;
+				case 'q': y = 17;
+				case 'r': y = 18;
+				case 's': y = 19;
+				case 't': y = 20;
+				case 'u': y = 21;
+				case 'v': y = 22;
+				case 'w': y = 23;
+				case 'x': y = 24;
+				case 'y': y = 25;
+				case 'z': y = 26;
+				case 'A': y = 27;
+				case 'B': y = 28;
+				case 'C': y = 29;
+				case 'D': y = 30;
+				case 'E': y = 31;
+				case 'F': y = 32;
+				case 'G': y = 33;
+				case 'H': y = 34;
+				case 'I': y = 35;
+				case 'J': y = 36;
+				case 'K': y = 37;
+				case 'L': y = 38;
+				case 'M': y = 39;
+				case 'N': y = 40;
+				case 'O': y = 41;
+				case 'P': y = 42;
+				case 'Q': y = 43;
+				case 'R': y = 44;
+				case 'S': y = 45;
+				case 'T': y = 46;
+				case 'U': y = 47;
+				case 'V': y = 48;
+				case 'W': y = 49;
+				case 'X': y = 50;
+				case 'Y': y = 51;
+				case 'Z': y = 52;
+			}
+			
+			temp = (int) words[x] - y;
+			temp+=temp;			
+		}
+		
+		 
+		
+		
+		
+		
+	}
+}

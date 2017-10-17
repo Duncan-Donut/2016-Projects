@@ -1,0 +1,24 @@
+import java.lang.Math;
+import java.util.Scanner;
+
+public class RandomGuess{
+
+	public static void main(String[] args){	
+		
+		Scanner Sf = new Scanner(System.in);
+		System.out.println("Please think of a number between 1 and 10");
+		
+		int guess = Sf.nextInt();
+		
+		int random = (int) (Math.random() * 10);
+		
+		if(guess == random){
+			System.out.println("Wow your lucky punk");
+		}
+		else{
+			System.out.println("Sorry, your luck is out");
+			
+        }
+	
+	}
+}

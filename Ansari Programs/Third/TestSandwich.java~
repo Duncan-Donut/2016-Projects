@@ -1,0 +1,23 @@
+
+public class TestSandwich{
+	
+	public static void main(String[] args){
+		
+		Sandwich whichwhich = new Sandwich();
+		
+		whichwhich.setMain("tuna");
+		whichwhich.setBread("flat");
+		whichwhich.setPrice(4.99);
+		
+		String main = whichwhich.getMain();
+		String bread = whichwhich.getBread();
+		double price = whichwhich.getPrice();
+		
+		System.out.println("This is the main " + main); 
+		System.out.println("This is the bread " + bread); 
+		System.out.println("This is the price " + price); 
+		
+		
+	}
+	
+}

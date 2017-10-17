@@ -1,0 +1,671 @@
+CSUS Programming Contest System
+Version 9.2.5 20151014 (Wednesday, October 14th 2015 03:59 UTC) Java ver 1.8.0_111 build 3204 Windows 8.1 6.3 (amd64) 
+Contest Title: MAGNOLIA PACKET B
+On: Sunday, February 5, 2017 5:43:31 PM CST  Contest date/time: Sun Feb 05 17:31:06 CST 2017
+Profile: Default (Default Contest)
+
+
+** Account Permissions Report Report
+
+
+Type: ADMINISTRATOR
+  administrator1 (site 1) 
+    1 BALLOON_OUTPUT_SHUTOFF Shutoff output
+    2 CHANGE_PASSWORD Change password
+    3 ADD_ACCOUNT Add Accounts
+    4 EDIT_ACCOUNT Edit Accounts
+    5 JUDGE_RUN Judge runs
+    6 LOGIN Login
+    7 REJUDGE_RUN Re-judge runs
+    8 TEST_RUN Test run
+    9 VIEW_CLARIFICATIONS View Clarifications
+    10 VIEW_RUNS View Runs
+    11 ADD_PROBLEM Add problem
+    12 ADD_SITE Add site
+    13 ADD_SETTINGS Add general settings
+    14 ANSWER_CLARIFICATION Answer a clarification
+    15 ADD_LANGUAGE Add Language
+    16 EDIT_LANGUAGE Edit a language
+    17 EDIT_PERMISSIONS Edit Runs
+    18 EDIT_PROBLEM Edit a problem
+    19 EDIT_RUN Edit a run
+    20 EDIT_SITE Edit a site
+    21 EXECUTE_RUN Execute but not judge runs
+    22 SUBMIT_CLARIFICATION Submit a clarification
+    23 EDIT_CLARIFICATION Edit a clarification
+    24 SUBMIT_RUN Submit a run
+    25 VIEW_STANDINGS View standings
+    26 VIEW_DELETED_RUNS View deleted runs
+    27 VIEW_SUMMARY_ATTEMPTS_GRID View Summary Attempts Grid
+    28 FORCE_LOGOFF_CLIENT Force client logoff
+    29 FORCE_LOGOFF_SERVER Force server logoff
+    30 GIVE_RUN Give runs to judges
+    31 TAKE_RUN Take runs from judges
+    32 VIEW_RUN_JUDGEMENT_HISTORIES View run judgement histories
+    33 EXTRACT_RUNS Extract run contents from runs database
+    34 GIVE_CLARIFICATION Give clarifications to judges
+    35 TAKE_CLARIFICATION Take clarifications from judges
+    36 GENERATE_NEW_CLARIFICATION Generate a clarification and answer
+    37 START_CONTEST_CLOCK Start contest clock
+    38 STOP_CONTEST_CLOCK Stop contest clock
+    39 EDIT_CONTEST_CLOCK Edit Contest Clock/Times
+    40 ALLOWED_TO_RECONNECT_SERVER Reconnect server
+    41 ALLOWED_TO_AUTO_JUDGE Auto judge
+    42 VIEW_SECURITY_ALERTS View Security Alerts Log/View
+    43 ALLOWED_TO_FETCH_RUN Fetch run (not checkout)
+    44 RESET_CONTEST Reset contest/profile
+    45 SWITCH_PROFILE Switch profile
+    46 CLONE_PROFILE Clone or switch profile
+    47 EXPORT_PROFILE Export Profile
+    48 ADD_GROUPS Add Groups
+    49 EDIT_GROUPS Edit Groups
+    50 EDIT_AJ_SETTINGS Edit Auto Judge Settings
+    51 ADD_JUDGEMENTS Add Judgement
+    52 EDIT_JUDGEMENTS Edit Judgement
+    53 ADD_NOTIFICATIONS Add Notification
+    54 EDIT_NOTIFICATIONS Edit Notification
+    55 VIEW_PASSWORDS View Passwords
+    56 SHUTDOWN_SERVER Shutdown server
+    57 SHUTDOWN_ALL_SERVERS Shutdown all servers
+
+Type: TEAM
+  team1 (site 1) 
+    1 LOGIN Login
+    2 DISPLAY_ON_SCOREBOARD Shown on scoreboard displays
+    3 TEST_RUN Test run
+    4 VIEW_CLARIFICATIONS View Clarifications
+    5 VIEW_RUNS View Runs
+    6 SUBMIT_CLARIFICATION Submit a clarification
+    7 SUBMIT_RUN Submit a run
+
+Type: TEAM
+  team2 (site 1) 
+    1 LOGIN Login
+    2 DISPLAY_ON_SCOREBOARD Shown on scoreboard displays
+    3 TEST_RUN Test run
+    4 VIEW_CLARIFICATIONS View Clarifications
+    5 VIEW_RUNS View Runs
+    6 SUBMIT_CLARIFICATION Submit a clarification
+    7 SUBMIT_RUN Submit a run
+
+Type: TEAM
+  team3 (site 1) 
+    1 LOGIN Login
+    2 DISPLAY_ON_SCOREBOARD Shown on scoreboard displays
+    3 TEST_RUN Test run
+    4 VIEW_CLARIFICATIONS View Clarifications
+    5 VIEW_RUNS View Runs
+    6 SUBMIT_CLARIFICATION Submit a clarification
+    7 SUBMIT_RUN Submit a run
+
+Type: TEAM
+  team4 (site 1) 
+    1 LOGIN Login
+    2 DISPLAY_ON_SCOREBOARD Shown on scoreboard displays
+    3 TEST_RUN Test run
+    4 VIEW_CLARIFICATIONS View Clarifications
+    5 VIEW_RUNS View Runs
+    6 SUBMIT_CLARIFICATION Submit a clarification
+    7 SUBMIT_RUN Submit a run
+
+Type: TEAM
+  team5 (site 1) 
+    1 LOGIN Login
+    2 DISPLAY_ON_SCOREBOARD Shown on scoreboard displays
+    3 TEST_RUN Test run
+    4 VIEW_CLARIFICATIONS View Clarifications
+    5 VIEW_RUNS View Runs
+    6 SUBMIT_CLARIFICATION Submit a clarification
+    7 SUBMIT_RUN Submit a run
+
+Type: TEAM
+  team6 (site 1) 
+    1 LOGIN Login
+    2 DISPLAY_ON_SCOREBOARD Shown on scoreboard displays
+    3 TEST_RUN Test run
+    4 VIEW_CLARIFICATIONS View Clarifications
+    5 VIEW_RUNS View Runs
+    6 SUBMIT_CLARIFICATION Submit a clarification
+    7 SUBMIT_RUN Submit a run
+
+Type: TEAM
+  team7 (site 1) 
+    1 LOGIN Login
+    2 DISPLAY_ON_SCOREBOARD Shown on scoreboard displays
+    3 TEST_RUN Test run
+    4 VIEW_CLARIFICATIONS View Clarifications
+    5 VIEW_RUNS View Runs
+    6 SUBMIT_CLARIFICATION Submit a clarification
+    7 SUBMIT_RUN Submit a run
+
+Type: TEAM
+  team8 (site 1) 
+    1 LOGIN Login
+    2 DISPLAY_ON_SCOREBOARD Shown on scoreboard displays
+    3 TEST_RUN Test run
+    4 VIEW_CLARIFICATIONS View Clarifications
+    5 VIEW_RUNS View Runs
+    6 SUBMIT_CLARIFICATION Submit a clarification
+    7 SUBMIT_RUN Submit a run
+
+Type: TEAM
+  team9 (site 1) 
+    1 LOGIN Login
+    2 DISPLAY_ON_SCOREBOARD Shown on scoreboard displays
+    3 TEST_RUN Test run
+    4 VIEW_CLARIFICATIONS View Clarifications
+    5 VIEW_RUNS View Runs
+    6 SUBMIT_CLARIFICATION Submit a clarification
+    7 SUBMIT_RUN Submit a run
+
+Type: TEAM
+  team10 (site 1) 
+    1 LOGIN Login
+    2 DISPLAY_ON_SCOREBOARD Shown on scoreboard displays
+    3 TEST_RUN Test run
+    4 VIEW_CLARIFICATIONS View Clarifications
+    5 VIEW_RUNS View Runs
+    6 SUBMIT_CLARIFICATION Submit a clarification
+    7 SUBMIT_RUN Submit a run
+
+Type: TEAM
+  team11 (site 1) 
+    1 LOGIN Login
+    2 DISPLAY_ON_SCOREBOARD Shown on scoreboard displays
+    3 TEST_RUN Test run
+    4 VIEW_CLARIFICATIONS View Clarifications
+    5 VIEW_RUNS View Runs
+    6 SUBMIT_CLARIFICATION Submit a clarification
+    7 SUBMIT_RUN Submit a run
+
+Type: TEAM
+  team12 (site 1) 
+    1 LOGIN Login
+    2 DISPLAY_ON_SCOREBOARD Shown on scoreboard displays
+    3 TEST_RUN Test run
+    4 VIEW_CLARIFICATIONS View Clarifications
+    5 VIEW_RUNS View Runs
+    6 SUBMIT_CLARIFICATION Submit a clarification
+    7 SUBMIT_RUN Submit a run
+
+Type: TEAM
+  team13 (site 1) 
+    1 LOGIN Login
+    2 DISPLAY_ON_SCOREBOARD Shown on scoreboard displays
+    3 TEST_RUN Test run
+    4 VIEW_CLARIFICATIONS View Clarifications
+    5 VIEW_RUNS View Runs
+    6 SUBMIT_CLARIFICATION Submit a clarification
+    7 SUBMIT_RUN Submit a run
+
+Type: TEAM
+  team14 (site 1) 
+    1 LOGIN Login
+    2 DISPLAY_ON_SCOREBOARD Shown on scoreboard displays
+    3 TEST_RUN Test run
+    4 VIEW_CLARIFICATIONS View Clarifications
+    5 VIEW_RUNS View Runs
+    6 SUBMIT_CLARIFICATION Submit a clarification
+    7 SUBMIT_RUN Submit a run
+
+Type: TEAM
+  team15 (site 1) 
+    1 LOGIN Login
+    2 DISPLAY_ON_SCOREBOARD Shown on scoreboard displays
+    3 TEST_RUN Test run
+    4 VIEW_CLARIFICATIONS View Clarifications
+    5 VIEW_RUNS View Runs
+    6 SUBMIT_CLARIFICATION Submit a clarification
+    7 SUBMIT_RUN Submit a run
+
+Type: TEAM
+  team16 (site 1) 
+    1 LOGIN Login
+    2 DISPLAY_ON_SCOREBOARD Shown on scoreboard displays
+    3 TEST_RUN Test run
+    4 VIEW_CLARIFICATIONS View Clarifications
+    5 VIEW_RUNS View Runs
+    6 SUBMIT_CLARIFICATION Submit a clarification
+    7 SUBMIT_RUN Submit a run
+
+Type: TEAM
+  team17 (site 1) 
+    1 LOGIN Login
+    2 DISPLAY_ON_SCOREBOARD Shown on scoreboard displays
+    3 TEST_RUN Test run
+    4 VIEW_CLARIFICATIONS View Clarifications
+    5 VIEW_RUNS View Runs
+    6 SUBMIT_CLARIFICATION Submit a clarification
+    7 SUBMIT_RUN Submit a run
+
+Type: TEAM
+  team18 (site 1) 
+    1 LOGIN Login
+    2 DISPLAY_ON_SCOREBOARD Shown on scoreboard displays
+    3 TEST_RUN Test run
+    4 VIEW_CLARIFICATIONS View Clarifications
+    5 VIEW_RUNS View Runs
+    6 SUBMIT_CLARIFICATION Submit a clarification
+    7 SUBMIT_RUN Submit a run
+
+Type: TEAM
+  team19 (site 1) 
+    1 LOGIN Login
+    2 DISPLAY_ON_SCOREBOARD Shown on scoreboard displays
+    3 TEST_RUN Test run
+    4 VIEW_CLARIFICATIONS View Clarifications
+    5 VIEW_RUNS View Runs
+    6 SUBMIT_CLARIFICATION Submit a clarification
+    7 SUBMIT_RUN Submit a run
+
+Type: TEAM
+  team20 (site 1) 
+    1 LOGIN Login
+    2 DISPLAY_ON_SCOREBOARD Shown on scoreboard displays
+    3 TEST_RUN Test run
+    4 VIEW_CLARIFICATIONS View Clarifications
+    5 VIEW_RUNS View Runs
+    6 SUBMIT_CLARIFICATION Submit a clarification
+    7 SUBMIT_RUN Submit a run
+
+Type: TEAM
+  team21 (site 1) 
+    1 LOGIN Login
+    2 DISPLAY_ON_SCOREBOARD Shown on scoreboard displays
+    3 TEST_RUN Test run
+    4 VIEW_CLARIFICATIONS View Clarifications
+    5 VIEW_RUNS View Runs
+    6 SUBMIT_CLARIFICATION Submit a clarification
+    7 SUBMIT_RUN Submit a run
+
+Type: TEAM
+  team22 (site 1) 
+    1 LOGIN Login
+    2 DISPLAY_ON_SCOREBOARD Shown on scoreboard displays
+    3 TEST_RUN Test run
+    4 VIEW_CLARIFICATIONS View Clarifications
+    5 VIEW_RUNS View Runs
+    6 SUBMIT_CLARIFICATION Submit a clarification
+    7 SUBMIT_RUN Submit a run
+
+Type: TEAM
+  team23 (site 1) 
+    1 LOGIN Login
+    2 DISPLAY_ON_SCOREBOARD Shown on scoreboard displays
+    3 TEST_RUN Test run
+    4 VIEW_CLARIFICATIONS View Clarifications
+    5 VIEW_RUNS View Runs
+    6 SUBMIT_CLARIFICATION Submit a clarification
+    7 SUBMIT_RUN Submit a run
+
+Type: TEAM
+  team24 (site 1) 
+    1 LOGIN Login
+    2 DISPLAY_ON_SCOREBOARD Shown on scoreboard displays
+    3 TEST_RUN Test run
+    4 VIEW_CLARIFICATIONS View Clarifications
+    5 VIEW_RUNS View Runs
+    6 SUBMIT_CLARIFICATION Submit a clarification
+    7 SUBMIT_RUN Submit a run
+
+Type: TEAM
+  team25 (site 1) 
+    1 LOGIN Login
+    2 DISPLAY_ON_SCOREBOARD Shown on scoreboard displays
+    3 TEST_RUN Test run
+    4 VIEW_CLARIFICATIONS View Clarifications
+    5 VIEW_RUNS View Runs
+    6 SUBMIT_CLARIFICATION Submit a clarification
+    7 SUBMIT_RUN Submit a run
+
+Type: TEAM
+  team26 (site 1) 
+    1 LOGIN Login
+    2 DISPLAY_ON_SCOREBOARD Shown on scoreboard displays
+    3 TEST_RUN Test run
+    4 VIEW_CLARIFICATIONS View Clarifications
+    5 VIEW_RUNS View Runs
+    6 SUBMIT_CLARIFICATION Submit a clarification
+    7 SUBMIT_RUN Submit a run
+
+Type: TEAM
+  team27 (site 1) 
+    1 LOGIN Login
+    2 DISPLAY_ON_SCOREBOARD Shown on scoreboard displays
+    3 TEST_RUN Test run
+    4 VIEW_CLARIFICATIONS View Clarifications
+    5 VIEW_RUNS View Runs
+    6 SUBMIT_CLARIFICATION Submit a clarification
+    7 SUBMIT_RUN Submit a run
+
+Type: TEAM
+  team28 (site 1) 
+    1 LOGIN Login
+    2 DISPLAY_ON_SCOREBOARD Shown on scoreboard displays
+    3 TEST_RUN Test run
+    4 VIEW_CLARIFICATIONS View Clarifications
+    5 VIEW_RUNS View Runs
+    6 SUBMIT_CLARIFICATION Submit a clarification
+    7 SUBMIT_RUN Submit a run
+
+Type: TEAM
+  team29 (site 1) 
+    1 LOGIN Login
+    2 DISPLAY_ON_SCOREBOARD Shown on scoreboard displays
+    3 TEST_RUN Test run
+    4 VIEW_CLARIFICATIONS View Clarifications
+    5 VIEW_RUNS View Runs
+    6 SUBMIT_CLARIFICATION Submit a clarification
+    7 SUBMIT_RUN Submit a run
+
+Type: TEAM
+  team30 (site 1) 
+    1 LOGIN Login
+    2 DISPLAY_ON_SCOREBOARD Shown on scoreboard displays
+    3 TEST_RUN Test run
+    4 VIEW_CLARIFICATIONS View Clarifications
+    5 VIEW_RUNS View Runs
+    6 SUBMIT_CLARIFICATION Submit a clarification
+    7 SUBMIT_RUN Submit a run
+
+Type: TEAM
+  team31 (site 1) 
+    1 LOGIN Login
+    2 DISPLAY_ON_SCOREBOARD Shown on scoreboard displays
+    3 TEST_RUN Test run
+    4 VIEW_CLARIFICATIONS View Clarifications
+    5 VIEW_RUNS View Runs
+    6 SUBMIT_CLARIFICATION Submit a clarification
+    7 SUBMIT_RUN Submit a run
+
+Type: TEAM
+  team32 (site 1) 
+    1 LOGIN Login
+    2 DISPLAY_ON_SCOREBOARD Shown on scoreboard displays
+    3 TEST_RUN Test run
+    4 VIEW_CLARIFICATIONS View Clarifications
+    5 VIEW_RUNS View Runs
+    6 SUBMIT_CLARIFICATION Submit a clarification
+    7 SUBMIT_RUN Submit a run
+
+Type: TEAM
+  team33 (site 1) 
+    1 LOGIN Login
+    2 DISPLAY_ON_SCOREBOARD Shown on scoreboard displays
+    3 TEST_RUN Test run
+    4 VIEW_CLARIFICATIONS View Clarifications
+    5 VIEW_RUNS View Runs
+    6 SUBMIT_CLARIFICATION Submit a clarification
+    7 SUBMIT_RUN Submit a run
+
+Type: TEAM
+  team34 (site 1) 
+    1 LOGIN Login
+    2 DISPLAY_ON_SCOREBOARD Shown on scoreboard displays
+    3 TEST_RUN Test run
+    4 VIEW_CLARIFICATIONS View Clarifications
+    5 VIEW_RUNS View Runs
+    6 SUBMIT_CLARIFICATION Submit a clarification
+    7 SUBMIT_RUN Submit a run
+
+Type: TEAM
+  team35 (site 1) 
+    1 LOGIN Login
+    2 DISPLAY_ON_SCOREBOARD Shown on scoreboard displays
+    3 TEST_RUN Test run
+    4 VIEW_CLARIFICATIONS View Clarifications
+    5 VIEW_RUNS View Runs
+    6 SUBMIT_CLARIFICATION Submit a clarification
+    7 SUBMIT_RUN Submit a run
+
+Type: TEAM
+  team36 (site 1) 
+    1 LOGIN Login
+    2 DISPLAY_ON_SCOREBOARD Shown on scoreboard displays
+    3 TEST_RUN Test run
+    4 VIEW_CLARIFICATIONS View Clarifications
+    5 VIEW_RUNS View Runs
+    6 SUBMIT_CLARIFICATION Submit a clarification
+    7 SUBMIT_RUN Submit a run
+
+Type: TEAM
+  team37 (site 1) 
+    1 LOGIN Login
+    2 DISPLAY_ON_SCOREBOARD Shown on scoreboard displays
+    3 TEST_RUN Test run
+    4 VIEW_CLARIFICATIONS View Clarifications
+    5 VIEW_RUNS View Runs
+    6 SUBMIT_CLARIFICATION Submit a clarification
+    7 SUBMIT_RUN Submit a run
+
+Type: TEAM
+  team38 (site 1) 
+    1 LOGIN Login
+    2 DISPLAY_ON_SCOREBOARD Shown on scoreboard displays
+    3 TEST_RUN Test run
+    4 VIEW_CLARIFICATIONS View Clarifications
+    5 VIEW_RUNS View Runs
+    6 SUBMIT_CLARIFICATION Submit a clarification
+    7 SUBMIT_RUN Submit a run
+
+Type: TEAM
+  team39 (site 1) 
+    1 LOGIN Login
+    2 DISPLAY_ON_SCOREBOARD Shown on scoreboard displays
+    3 TEST_RUN Test run
+    4 VIEW_CLARIFICATIONS View Clarifications
+    5 VIEW_RUNS View Runs
+    6 SUBMIT_CLARIFICATION Submit a clarification
+    7 SUBMIT_RUN Submit a run
+
+Type: TEAM
+  team40 (site 1) 
+    1 LOGIN Login
+    2 DISPLAY_ON_SCOREBOARD Shown on scoreboard displays
+    3 TEST_RUN Test run
+    4 VIEW_CLARIFICATIONS View Clarifications
+    5 VIEW_RUNS View Runs
+    6 SUBMIT_CLARIFICATION Submit a clarification
+    7 SUBMIT_RUN Submit a run
+
+Type: TEAM
+  team41 (site 1) 
+    1 LOGIN Login
+    2 DISPLAY_ON_SCOREBOARD Shown on scoreboard displays
+    3 TEST_RUN Test run
+    4 VIEW_CLARIFICATIONS View Clarifications
+    5 VIEW_RUNS View Runs
+    6 SUBMIT_CLARIFICATION Submit a clarification
+    7 SUBMIT_RUN Submit a run
+
+Type: TEAM
+  team42 (site 1) 
+    1 LOGIN Login
+    2 DISPLAY_ON_SCOREBOARD Shown on scoreboard displays
+    3 TEST_RUN Test run
+    4 VIEW_CLARIFICATIONS View Clarifications
+    5 VIEW_RUNS View Runs
+    6 SUBMIT_CLARIFICATION Submit a clarification
+    7 SUBMIT_RUN Submit a run
+
+Type: TEAM
+  team43 (site 1) 
+    1 LOGIN Login
+    2 DISPLAY_ON_SCOREBOARD Shown on scoreboard displays
+    3 TEST_RUN Test run
+    4 VIEW_CLARIFICATIONS View Clarifications
+    5 VIEW_RUNS View Runs
+    6 SUBMIT_CLARIFICATION Submit a clarification
+    7 SUBMIT_RUN Submit a run
+
+Type: TEAM
+  team44 (site 1) 
+    1 LOGIN Login
+    2 DISPLAY_ON_SCOREBOARD Shown on scoreboard displays
+    3 TEST_RUN Test run
+    4 VIEW_CLARIFICATIONS View Clarifications
+    5 VIEW_RUNS View Runs
+    6 SUBMIT_CLARIFICATION Submit a clarification
+    7 SUBMIT_RUN Submit a run
+
+Type: TEAM
+  team45 (site 1) 
+    1 LOGIN Login
+    2 DISPLAY_ON_SCOREBOARD Shown on scoreboard displays
+    3 TEST_RUN Test run
+    4 VIEW_CLARIFICATIONS View Clarifications
+    5 VIEW_RUNS View Runs
+    6 SUBMIT_CLARIFICATION Submit a clarification
+    7 SUBMIT_RUN Submit a run
+
+Type: TEAM
+  team46 (site 1) 
+    1 LOGIN Login
+    2 DISPLAY_ON_SCOREBOARD Shown on scoreboard displays
+    3 TEST_RUN Test run
+    4 VIEW_CLARIFICATIONS View Clarifications
+    5 VIEW_RUNS View Runs
+    6 SUBMIT_CLARIFICATION Submit a clarification
+    7 SUBMIT_RUN Submit a run
+
+Type: TEAM
+  team47 (site 1) 
+    1 LOGIN Login
+    2 DISPLAY_ON_SCOREBOARD Shown on scoreboard displays
+    3 TEST_RUN Test run
+    4 VIEW_CLARIFICATIONS View Clarifications
+    5 VIEW_RUNS View Runs
+    6 SUBMIT_CLARIFICATION Submit a clarification
+    7 SUBMIT_RUN Submit a run
+
+Type: TEAM
+  team48 (site 1) 
+    1 LOGIN Login
+    2 DISPLAY_ON_SCOREBOARD Shown on scoreboard displays
+    3 TEST_RUN Test run
+    4 VIEW_CLARIFICATIONS View Clarifications
+    5 VIEW_RUNS View Runs
+    6 SUBMIT_CLARIFICATION Submit a clarification
+    7 SUBMIT_RUN Submit a run
+
+Type: TEAM
+  team49 (site 1) 
+    1 LOGIN Login
+    2 DISPLAY_ON_SCOREBOARD Shown on scoreboard displays
+    3 TEST_RUN Test run
+    4 VIEW_CLARIFICATIONS View Clarifications
+    5 VIEW_RUNS View Runs
+    6 SUBMIT_CLARIFICATION Submit a clarification
+    7 SUBMIT_RUN Submit a run
+
+Type: TEAM
+  team50 (site 1) 
+    1 LOGIN Login
+    2 DISPLAY_ON_SCOREBOARD Shown on scoreboard displays
+    3 TEST_RUN Test run
+    4 VIEW_CLARIFICATIONS View Clarifications
+    5 VIEW_RUNS View Runs
+    6 SUBMIT_CLARIFICATION Submit a clarification
+    7 SUBMIT_RUN Submit a run
+
+Type: JUDGE
+  judge1 (site 1) 
+    1 CHANGE_PASSWORD Change password
+    2 JUDGE_RUN Judge runs
+    3 LOGIN Login
+    4 REJUDGE_RUN Re-judge runs
+    5 TEST_RUN Test run
+    6 VIEW_CLARIFICATIONS View Clarifications
+    7 VIEW_RUNS View Runs
+    8 ANSWER_CLARIFICATION Answer a clarification
+    9 EXECUTE_RUN Execute but not judge runs
+    10 SUBMIT_CLARIFICATION Submit a clarification
+    11 VIEW_STANDINGS View standings
+    12 VIEW_SUMMARY_ATTEMPTS_GRID View Summary Attempts Grid
+    13 VIEW_RUN_JUDGEMENT_HISTORIES View run judgement histories
+    14 GENERATE_NEW_CLARIFICATION Generate a clarification and answer
+    15 ALLOWED_TO_AUTO_JUDGE Auto judge
+
+Type: JUDGE
+  judge2 (site 1) 
+    1 CHANGE_PASSWORD Change password
+    2 JUDGE_RUN Judge runs
+    3 LOGIN Login
+    4 REJUDGE_RUN Re-judge runs
+    5 TEST_RUN Test run
+    6 VIEW_CLARIFICATIONS View Clarifications
+    7 VIEW_RUNS View Runs
+    8 ANSWER_CLARIFICATION Answer a clarification
+    9 EXECUTE_RUN Execute but not judge runs
+    10 SUBMIT_CLARIFICATION Submit a clarification
+    11 VIEW_STANDINGS View standings
+    12 VIEW_SUMMARY_ATTEMPTS_GRID View Summary Attempts Grid
+    13 VIEW_RUN_JUDGEMENT_HISTORIES View run judgement histories
+    14 GENERATE_NEW_CLARIFICATION Generate a clarification and answer
+    15 ALLOWED_TO_AUTO_JUDGE Auto judge
+
+Type: JUDGE
+  judge3 (site 1) 
+    1 CHANGE_PASSWORD Change password
+    2 JUDGE_RUN Judge runs
+    3 LOGIN Login
+    4 REJUDGE_RUN Re-judge runs
+    5 TEST_RUN Test run
+    6 VIEW_CLARIFICATIONS View Clarifications
+    7 VIEW_RUNS View Runs
+    8 ANSWER_CLARIFICATION Answer a clarification
+    9 EXECUTE_RUN Execute but not judge runs
+    10 SUBMIT_CLARIFICATION Submit a clarification
+    11 VIEW_STANDINGS View standings
+    12 VIEW_SUMMARY_ATTEMPTS_GRID View Summary Attempts Grid
+    13 VIEW_RUN_JUDGEMENT_HISTORIES View run judgement histories
+    14 GENERATE_NEW_CLARIFICATION Generate a clarification and answer
+    15 ALLOWED_TO_AUTO_JUDGE Auto judge
+
+Type: JUDGE
+  judge4 (site 1) 
+    1 CHANGE_PASSWORD Change password
+    2 JUDGE_RUN Judge runs
+    3 LOGIN Login
+    4 REJUDGE_RUN Re-judge runs
+    5 TEST_RUN Test run
+    6 VIEW_CLARIFICATIONS View Clarifications
+    7 VIEW_RUNS View Runs
+    8 ANSWER_CLARIFICATION Answer a clarification
+    9 EXECUTE_RUN Execute but not judge runs
+    10 SUBMIT_CLARIFICATION Submit a clarification
+    11 VIEW_STANDINGS View standings
+    12 VIEW_SUMMARY_ATTEMPTS_GRID View Summary Attempts Grid
+    13 VIEW_RUN_JUDGEMENT_HISTORIES View run judgement histories
+    14 GENERATE_NEW_CLARIFICATION Generate a clarification and answer
+    15 ALLOWED_TO_AUTO_JUDGE Auto judge
+
+Type: JUDGE
+  judge5 (site 1) 
+    1 CHANGE_PASSWORD Change password
+    2 JUDGE_RUN Judge runs
+    3 LOGIN Login
+    4 REJUDGE_RUN Re-judge runs
+    5 TEST_RUN Test run
+    6 VIEW_CLARIFICATIONS View Clarifications
+    7 VIEW_RUNS View Runs
+    8 ANSWER_CLARIFICATION Answer a clarification
+    9 EXECUTE_RUN Execute but not judge runs
+    10 SUBMIT_CLARIFICATION Submit a clarification
+    11 VIEW_STANDINGS View standings
+    12 VIEW_SUMMARY_ATTEMPTS_GRID View Summary Attempts Grid
+    13 VIEW_RUN_JUDGEMENT_HISTORIES View run judgement histories
+    14 GENERATE_NEW_CLARIFICATION Generate a clarification and answer
+    15 ALLOWED_TO_AUTO_JUDGE Auto judge
+
+Type: SCOREBOARD
+  scoreboard1 (site 1) 
+    1 BALLOON_EMAIL E-mail balloons
+    2 BALLOON_OUTPUT_SHUTOFF Shutoff output
+    3 BALLOON_PRINT Print balloons
+    4 CHANGE_PASSWORD Change password
+    5 LOGIN Login
+    6 VIEW_STANDINGS View standings
+    7 VIEW_SUMMARY_ATTEMPTS_GRID View Summary Attempts Grid
+
+end report

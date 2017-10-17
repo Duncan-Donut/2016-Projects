@@ -1,0 +1,29 @@
+
+
+public class HashMap {
+      
+      HashEntry[] table;
+ 
+      HashMap() {
+            table = new HashEntry[12800];
+            for (int i = 0; i < 12800; i++)
+                  table[i] = null;
+      }
+ 
+      public int get(int key) {
+            int hash = (key % 12800);
+            while (table[hash] != null && table[hash].getKey() != key)
+                  hash = (hash + 1) % 12800;
+            if (table[hash] == null)
+                  return -1;
+            else
+                  return table[hash].getValue();
+      }
+ 
+      public void put(int key, int value) {
+            int hash = (key % 12800);
+            while (table[hash] != null && table[hash].getKey() != key)
+                  hash = (hash + 1) % 12800;
+            table[hash] = new HashEntry(key, value);
+      }
+}

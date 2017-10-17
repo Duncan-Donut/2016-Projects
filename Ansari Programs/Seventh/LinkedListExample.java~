@@ -1,0 +1,74 @@
+//CScourse	
+//Duncan, 1/10/17
+//LinkedList Class that has methods to alter the list
+import java.util.LinkedList;
+import java.util.Iterator;
+
+public class LinkedListExample{
+
+	//Variables
+	private Node head;
+	Node position = new Node();
+	Node iterator = new Node();
+	
+	//Constructor
+	public LinkedListExample(){
+		head = null;	
+	}
+	
+	public void addBeginning(String input){
+	
+		if(head == null){
+			head = new Node(input,head);
+			position.link = head;
+			iterator.link = head;
+		}
+		else{
+			Node second = new Node(head.item,head.link);
+			head.item = input;
+			head.link = second;
+			iterator.link = head;
+		}
+	}
+	
+	public void delete(){
+		if(head != null){
+			head = head.link;
+			iterator.link - head;
+			return true;
+		}
+			return false;
+	}
+	public void add(String input){
+		Node newNode = new Node(input,null);
+		Node temp;
+		
+		temp = position.link;
+		temp.link = newNode;
+		position.link = newNode;
+	
+	}
+	
+	public void insert(int position, String input){
+		
+	Node newNode = new Node (input,null);	
+	Node temp;
+	
+	for(int i =0; i < ( position-1); i++){
+	   next();
+	}
+	temp = iterator.link;
+	newNode.link = temp.link;
+	temp.link = newNode;
+	reset();
+	}
+	public void iterator(){
+
+		
+	}
+	
+
+
+	
+	
+}

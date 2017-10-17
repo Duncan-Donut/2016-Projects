@@ -1,0 +1,32 @@
+
+public class Alien {
+
+	static int numberofEyes;
+	static int numberofArms;
+	static int numberofHeads;
+	
+	public static int getNumberofEyes() {
+		return numberofEyes;
+	}
+
+	public static void setNumberofEyes(int numberofEyes) {
+		Alien.numberofEyes = numberofEyes;
+	}
+
+	public static int getNumberofArms() {
+		return numberofArms;
+	}
+
+	public static void setNumberofArms(int numberofArms) {
+		Alien.numberofArms = numberofArms;
+	}
+
+	public static int getNumberofHeads() {
+		return numberofHeads;
+	}
+
+	public static void setNumberofHeads(int numberofHeads) {
+		Alien.numberofHeads = numberofHeads;
+	}
+
+}

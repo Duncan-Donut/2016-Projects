@@ -1,0 +1,146 @@
+170205 170335.404|CONFIG|main|setFileHandlers|Now logging to C:\PacketA_2017_Waller\pc2-9.2.5\bin\logs directory.
+170205 170335.435|INFO|main|info|
+170205 170335.451|INFO|main|info|Version 9.2.5 20151014 (Wednesday, October 14th 2015 03:59 UTC) Java ver 1.8.0_111 build 3204 Windows 8.1 6.3 (amd64) 
+170205 170335.451|INFO|main|startLog|Working directory is C:\PacketA_2017_Waller\pc2-9.2.5\bin
+170205 170335.498|INFO|main|startLog|Process id is 10520@Mellen
+170205 170335.498|INFO|main|start|Starting ConnectionManager...
+170205 170336.091|INFO|main|start|Started ConnectionManager
+170205 170336.107|INFO|main|info|Starting Server Transport...
+170205 170356.452|CONFIG|main|setFileHandlers|Now logging to C:\PacketA_2017_Waller\pc2-9.2.5\bin\logs directory.
+170205 170356.452|INFO|main|info|
+170205 170356.468|INFO|main|info|Version 9.2.5 20151014 (Wednesday, October 14th 2015 03:59 UTC) Java ver 1.8.0_111 build 3204 Windows 8.1 6.3 (amd64) 
+170205 170356.468|INFO|main|startLog|Working directory is C:\PacketA_2017_Waller\pc2-9.2.5\bin
+170205 170356.515|INFO|main|startLog|Process id is 8116@Mellen
+170205 170356.530|INFO|main|start|Starting ConnectionManager...
+170205 170357.077|INFO|main|start|Started ConnectionManager
+170205 170357.093|INFO|main|setClientServerAndPort|INI File location: file:/C:/PacketA_2017_Waller/pc2-9.2.5/bin/pc2v9.ini
+170205 170357.108|INFO|main|setClientServerAndPort|setClientServerAndPort localhost parsed as localhost port 50002
+170205 170357.108|INFO|main|info|Contacting server at localhost:50002
+170205 170357.108|INFO|main|connectToMyServer|Connecting to localhost:50002
+170205 170357.765|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=localhost/127.0.0.1,port=50002,localport=51818]-5657985999114284475)
+170205 170358.437|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=localhost/127.0.0.1,port=50002,localport=51818]-5657985999114284475 key is com.sun.crypto.provider.DESKey@fffe7948
+170205 170358.437|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+170205 170358.452|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    2673fcf7 4b76d718 e11deede 6d151f59 e7649147 d30b4a4c 5a5ae9b7 ae3432ef
+    8cbdc353 4cf9d08f 13da78ba a727b5f4 b3d54713 87681c07 9aa28083 e2c42cac
+    169274a6 c86178eb 0d8077a0 ecbcbf9a cba4050e 108a1165 92b4ca28 1ecaa9c6
+    49990e54 5f8209c0 aebe2c5d 1ec8f392 9c954bb5 c97090da 18f4d8e7 95801bf9
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+170205 170358.468|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@7dba87d4
+170205 174318.362|CONFIG|main|setFileHandlers|Now logging to C:\PacketA_2017_Waller\pc2-9.2.5\bin\logs directory.
+170205 174318.378|INFO|main|info|
+170205 174318.394|INFO|main|info|Version 9.2.5 20151014 (Wednesday, October 14th 2015 03:59 UTC) Java ver 1.8.0_111 build 3204 Windows 8.1 6.3 (amd64) 
+170205 174318.394|INFO|main|startLog|Working directory is C:\PacketA_2017_Waller\pc2-9.2.5\bin
+170205 174318.456|INFO|main|startLog|Process id is 15428@Mellen
+170205 174318.456|INFO|main|start|Starting ConnectionManager...
+170205 174319.034|INFO|main|start|Started ConnectionManager
+170205 174319.050|INFO|main|info|Starting Server Transport...
+170205 174442.330|CONFIG|main|setFileHandlers|Now logging to C:\PacketA_2017_Waller\pc2-9.2.5\bin\logs directory.
+170205 174442.330|INFO|main|info|
+170205 174442.346|INFO|main|info|Version 9.2.5 20151014 (Wednesday, October 14th 2015 03:59 UTC) Java ver 1.8.0_111 build 3204 Windows 8.1 6.3 (amd64) 
+170205 174442.346|INFO|main|startLog|Working directory is C:\PacketA_2017_Waller\pc2-9.2.5\bin
+170205 174442.393|INFO|main|startLog|Process id is 16820@Mellen
+170205 174442.408|INFO|main|start|Starting ConnectionManager...
+170205 174442.940|INFO|main|start|Started ConnectionManager
+170205 174442.955|INFO|main|setClientServerAndPort|INI File location: file:/C:/PacketA_2017_Waller/pc2-9.2.5/bin/pc2v9.ini
+170205 174442.955|INFO|main|setClientServerAndPort|setClientServerAndPort localhost parsed as localhost port 50002
+170205 174442.955|INFO|main|info|Contacting server at localhost:50002
+170205 174442.955|INFO|main|connectToMyServer|Connecting to localhost:50002
+170205 174443.174|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=localhost/127.0.0.1,port=50002,localport=52164]--7570843077868017084)
+170205 174443.643|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=localhost/127.0.0.1,port=50002,localport=52164]--7570843077868017084 key is com.sun.crypto.provider.DESKey@fffe7dc5
+170205 174443.643|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+170205 174443.658|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    d638776f f70c8ec0 d30f6032 c1f2227c cc2feefd 37c818c7 ef7de095 047cf4fa
+    ab358315 00f3df52 a3e714e3 33cd6b07 772590db 03a903c7 82f28316 271f8e75
+    48afe4aa f94c91d1 4940f33a 46f95828 754b9469 3a2c14ef 6ab9f32a 3f14189a
+    ba6b856f d6131d34 9adb3aaf c375e2b5 4043661c aed0236b 7d117fc2 2eaf54ca
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+170205 174443.658|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@319d4843
+170205 174959.798|INFO|Thread-1|receive|SocketException in receive for Socket[addr=localhost/127.0.0.1,port=50002,localport=52164]--7570843077868017084
+|java.net.SocketException: Connection reset
+|    at java.net.SocketInputStream.read (Unknown Source)
+|    at java.net.SocketInputStream.read (Unknown Source)
+|    at java.net.SocketInputStream.read (Unknown Source)
+|    at java.io.ObjectInputStream$PeekInputStream.peek (Unknown Source)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peek (Unknown Source)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peekByte (Unknown Source)
+|    at java.io.ObjectInputStream.readObject0 (Unknown Source)
+|    at java.io.ObjectInputStream.readObject (Unknown Source)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:151)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:65)
+170205 174959.814|FINER|Thread-1|run|THROW
+|edu.csus.ecs.pc2.core.transport.TransportException: Connection reset
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:155)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:65)
+170209 123003.999|CONFIG|main|setFileHandlers|Now logging to C:\PacketB_Magnolia Student Info and PC Squared\pc2-9.2.5\bin\logs directory.
+170209 123004.015|INFO|main|info|
+170209 123004.030|INFO|main|info|Version 9.2.5 20151014 (Wednesday, October 14th 2015 03:59 UTC) Java ver 1.8.0_111 build 3204 Windows 8.1 6.3 (amd64) 
+170209 123004.030|INFO|main|startLog|Working directory is C:\PacketB_Magnolia Student Info and PC Squared\pc2-9.2.5\bin
+170209 123004.093|INFO|main|startLog|Process id is 7108@Mellen
+170209 123004.093|INFO|main|start|Starting ConnectionManager...
+170209 123004.686|INFO|main|start|Started ConnectionManager
+170209 123004.718|INFO|main|info|Starting Server Transport...
+170209 123009.553|CONFIG|main|setFileHandlers|Now logging to C:\PacketB_Magnolia Student Info and PC Squared\pc2-9.2.5\bin\logs directory.
+170209 123009.553|INFO|main|info|
+170209 123009.569|INFO|main|info|Version 9.2.5 20151014 (Wednesday, October 14th 2015 03:59 UTC) Java ver 1.8.0_111 build 3204 Windows 8.1 6.3 (amd64) 
+170209 123009.569|INFO|main|startLog|Working directory is C:\PacketB_Magnolia Student Info and PC Squared\pc2-9.2.5\bin
+170209 123009.616|INFO|main|startLog|Process id is 1996@Mellen
+170209 123009.616|INFO|main|start|Starting ConnectionManager...
+170209 123010.210|INFO|main|start|Started ConnectionManager
+170209 123010.225|INFO|main|info|Starting Server Transport...
+170209 123036.495|CONFIG|main|setFileHandlers|Now logging to C:\PacketB_Magnolia Student Info and PC Squared\pc2-9.2.5\bin\logs directory.
+170209 123036.495|INFO|main|info|
+170209 123036.511|INFO|main|info|Version 9.2.5 20151014 (Wednesday, October 14th 2015 03:59 UTC) Java ver 1.8.0_111 build 3204 Windows 8.1 6.3 (amd64) 
+170209 123036.511|INFO|main|startLog|Working directory is C:\PacketB_Magnolia Student Info and PC Squared\pc2-9.2.5\bin
+170209 123036.558|INFO|main|startLog|Process id is 6424@Mellen
+170209 123036.558|INFO|main|start|Starting ConnectionManager...
+170209 123037.137|INFO|main|start|Started ConnectionManager
+170209 123037.152|INFO|main|info|Starting Server Transport...
+170210 173805.680|CONFIG|main|setFileHandlers|Now logging to C:\Users\Duncan\Desktop\PacketB_Magnolia Student Info and PC Squared\pc2-9.2.5\bin\logs directory.
+170210 173805.683|INFO|main|info|
+170210 173805.689|INFO|main|info|Version 9.2.5 20151014 (Wednesday, October 14th 2015 03:59 UTC) Java ver 1.8.0_77 build 3204 Windows 10 10.0 (amd64) 
+170210 173805.690|INFO|main|startLog|Working directory is C:\Users\Duncan\Desktop\PacketB_Magnolia Student Info and PC Squared\pc2-9.2.5\bin
+170210 173805.706|INFO|main|startLog|Process id is 9948@LAPTOP-C60AQ1QG
+170210 173805.707|INFO|main|start|Starting ConnectionManager...
+170210 173806.034|INFO|main|start|Started ConnectionManager
+170210 173806.037|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/Duncan/Desktop/PacketB_Magnolia%20Student%20Info%20and%20PC%20Squared/pc2-9.2.5/bin/pc2v9.ini
+170210 173806.037|INFO|main|setClientServerAndPort|setClientServerAndPort 192.168.1.145 parsed as 192.168.1.145 port 50002
+170210 173806.038|INFO|main|info|Contacting server at 192.168.1.145:50002
+170210 173806.038|INFO|main|connectToMyServer|Connecting to 192.168.1.145:50002
+170210 173806.257|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/192.168.1.145,port=50002,localport=62673]-7728005461154281935)
+170210 173806.627|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/192.168.1.145,port=50002,localport=62673]-7728005461154281935 key is com.sun.crypto.provider.DESKey@fffe799b
+170210 173806.627|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+170210 173806.699|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    802191b5 1772bd87 6e000108 640546b9 45a4b434 a0cb33b5 1101af80 d0bd4f1c
+    d3b02c27 4399361e 70666d05 2a43a6e7 ed3fcca9 81fc7cfe a4b063ec 2bd3f4bd
+    e0f5b25f cfcfe92e 61f6e915 9473f105 299d0c1d e948d4b1 c981c5c6 d9696d2e
+    37237a64 9f946bf8 822e0317 7e83f539 af7dfabd 0be46bf2 9efd76e7 80309a68
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+170210 173806.708|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@6a1b2489

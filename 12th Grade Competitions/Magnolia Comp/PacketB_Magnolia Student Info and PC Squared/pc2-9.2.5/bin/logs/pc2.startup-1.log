@@ -1,0 +1,150 @@
+170205 173021.040|CONFIG|main|setFileHandlers|Now logging to C:\PacketA_2017_Waller\pc2-9.2.5\bin\logs directory.
+170205 173021.040|INFO|main|info|
+170205 173021.055|INFO|main|info|Version 9.2.5 20151014 (Wednesday, October 14th 2015 03:59 UTC) Java ver 1.8.0_111 build 3204 Windows 8.1 6.3 (amd64) 
+170205 173021.055|INFO|main|startLog|Working directory is C:\PacketA_2017_Waller\pc2-9.2.5\bin
+170205 173021.118|INFO|main|startLog|Process id is 8024@Mellen
+170205 173021.118|INFO|main|start|Starting ConnectionManager...
+170205 173021.774|INFO|main|start|Started ConnectionManager
+170205 173021.790|INFO|main|setClientServerAndPort|INI File location: file:/C:/PacketA_2017_Waller/pc2-9.2.5/bin/pc2v9.ini
+170205 173021.790|INFO|main|setClientServerAndPort|setClientServerAndPort localhost parsed as localhost port 50002
+170205 173021.790|INFO|main|info|Contacting server at localhost:50002
+170205 173021.805|INFO|main|connectToMyServer|Connecting to localhost:50002
+170205 173022.040|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=localhost/127.0.0.1,port=50002,localport=52095]-7285166872860604270)
+170205 173022.493|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=localhost/127.0.0.1,port=50002,localport=52095]-7285166872860604270 key is com.sun.crypto.provider.DESKey@186f8
+170205 173022.493|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+170205 173022.508|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    302164f2 a53621db 2e29cd54 7c9010a2 4b3a4aa6 cced5bb9 1cb71343 55b73f3a
+    436d56d4 fc0509f0 586e89d6 286be182 804c9ba8 b1b60722 b9a21212 15bbf939
+    3934101b 0d67f47d 111e70f4 9093e6e6 ac11c79b 082c6f77 4c29d4c4 3aab252d
+    33a8e5ae c7e01fe5 bb0d6c04 fbeaef8a 6f7c533a 372f3ad5 8a205357 04afdb69
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+170205 173022.508|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@4e9ca55
+170209 123102.123|CONFIG|main|setFileHandlers|Now logging to C:\PacketB_Magnolia Student Info and PC Squared\pc2-9.2.5\bin\logs directory.
+170209 123102.139|INFO|main|info|
+170209 123102.139|INFO|main|info|Version 9.2.5 20151014 (Wednesday, October 14th 2015 03:59 UTC) Java ver 1.8.0_111 build 3204 Windows 8.1 6.3 (amd64) 
+170209 123102.154|INFO|main|startLog|Working directory is C:\PacketB_Magnolia Student Info and PC Squared\pc2-9.2.5\bin
+170209 123102.201|INFO|main|startLog|Process id is 3376@Mellen
+170209 123102.201|INFO|main|start|Starting ConnectionManager...
+170209 123102.764|INFO|main|start|Started ConnectionManager
+170209 123102.779|INFO|main|setClientServerAndPort|INI File location: file:/C:/PacketB_Magnolia%20Student%20Info%20and%20PC%20Squared/pc2-9.2.5/bin/pc2v9.ini
+170209 123102.779|INFO|main|setClientServerAndPort|setClientServerAndPort localhost parsed as localhost port 50002
+170209 123102.779|INFO|main|info|Contacting server at localhost:50002
+170209 123102.779|INFO|main|connectToMyServer|Connecting to localhost:50002
+170209 123103.045|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=localhost/127.0.0.1,port=50002,localport=60658]--5987874290074980450)
+170209 123103.529|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=localhost/127.0.0.1,port=50002,localport=60658]--5987874290074980450 key is com.sun.crypto.provider.DESKey@fffe7b7d
+170209 123103.529|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+170209 123103.545|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    6e0a2f07 03cfbd5b 08c32ec4 3cd0e2fc cd724b6c 9ac3f4a5 0a36738e 82f8343f
+    893161ce 323a33d4 bfd1cef4 d55ced33 675c6113 347c5177 e3e4e109 3f35fc1f
+    53aad131 d0d5ac7c 91da41de 218ca70e bb531d81 15c44e51 953b0d61 bf320060
+    6708bb12 ac5c8af2 fb111f87 d9f747c5 057f71a1 64eefe80 fe443844 8bea412a
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+170209 123103.545|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@6c670c46
+170209 125103.147|CONFIG|main|setFileHandlers|Now logging to C:\PacketB_Magnolia Student Info and PC Squared\pc2-9.2.5\bin\logs directory.
+170209 125103.147|INFO|main|info|
+170209 125103.163|INFO|main|info|Version 9.2.5 20151014 (Wednesday, October 14th 2015 03:59 UTC) Java ver 1.8.0_111 build 3204 Windows 8.1 6.3 (amd64) 
+170209 125103.178|INFO|main|startLog|Working directory is C:\PacketB_Magnolia Student Info and PC Squared\pc2-9.2.5\bin
+170209 125103.209|INFO|main|startLog|Process id is 3768@Mellen
+170209 125103.225|INFO|main|start|Starting ConnectionManager...
+170209 125103.756|INFO|main|start|Started ConnectionManager
+170209 125103.772|INFO|main|setClientServerAndPort|INI File location: file:/C:/PacketB_Magnolia%20Student%20Info%20and%20PC%20Squared/pc2-9.2.5/bin/pc2v9.ini
+170209 125103.772|INFO|main|setClientServerAndPort|setClientServerAndPort localhost parsed as localhost port 50002
+170209 125103.772|INFO|main|info|Contacting server at localhost:50002
+170209 125103.772|INFO|main|connectToMyServer|Connecting to localhost:50002
+170209 125104.323|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=localhost/127.0.0.1,port=50002,localport=60796]--2982728712377584177)
+170209 125104.808|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=localhost/127.0.0.1,port=50002,localport=60796]--2982728712377584177 key is com.sun.crypto.provider.DESKey@fffe7bde
+170209 125104.808|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+170209 125104.808|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    11d96675 6432dcb5 23bdc9fd 48ad45bf 979b69e9 1690d576 0fa32d55 9376aef6
+    0b4a5f8f 41e1a6d7 62b5d82c f25e5d0c 95f4be8d 212486a0 7a99f24c 9e163922
+    c8ae13d9 909364b9 cd2aa99f 814274b6 d9c08ed2 eee63dd5 9df3c609 d86bc39a
+    04249a7c 00c8545a 24b73a98 2d04b156 b41d2951 c8408163 54ec3b4c a0de4546
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+170209 125104.808|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@71fe857f
+170209 125131.430|CONFIG|main|setFileHandlers|Now logging to C:\PacketB_Magnolia Student Info and PC Squared\pc2-9.2.5\bin\logs directory.
+170209 125131.430|INFO|main|info|
+170209 125131.446|INFO|main|info|Version 9.2.5 20151014 (Wednesday, October 14th 2015 03:59 UTC) Java ver 1.8.0_111 build 3204 Windows 8.1 6.3 (amd64) 
+170209 125131.446|INFO|main|startLog|Working directory is C:\PacketB_Magnolia Student Info and PC Squared\pc2-9.2.5\bin
+170209 125131.493|INFO|main|startLog|Process id is 9540@Mellen
+170209 125131.508|INFO|main|start|Starting ConnectionManager...
+170209 125132.024|INFO|main|start|Started ConnectionManager
+170209 125132.040|INFO|main|setClientServerAndPort|INI File location: file:/C:/PacketB_Magnolia%20Student%20Info%20and%20PC%20Squared/pc2-9.2.5/bin/pc2v9.ini
+170209 125132.040|INFO|main|setClientServerAndPort|setClientServerAndPort localhost parsed as localhost port 50002
+170209 125132.055|INFO|main|info|Contacting server at localhost:50002
+170209 125132.055|INFO|main|connectToMyServer|Connecting to localhost:50002
+170209 125132.305|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=localhost/127.0.0.1,port=50002,localport=60797]-6592115345753845217)
+170209 125132.852|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=localhost/127.0.0.1,port=50002,localport=60797]-6592115345753845217 key is com.sun.crypto.provider.DESKey@fffe7aee
+170209 125132.852|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+170209 125132.852|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    714dd8d4 eda3a75d fef5a5a6 2da491bd b4e14e69 0a2b6853 fb1ae216 0884585f
+    ebab0b98 76c872a9 cfe65ebc b5e38d64 534233a0 6a257426 62d41d07 4bce6318
+    fbf18315 88f1c65c 5f9e34b0 e3720a84 b2155ca1 bc63ac8d a26ac2f1 f473d38c
+    ea6ba60a b026f882 e203f27c f0134cee 1c3b6598 ffbe2fda fd5058bb ee91cceb
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+170209 125132.852|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@62cd17ac
+170209 125240.021|CONFIG|main|setFileHandlers|Now logging to C:\PacketB_Magnolia Student Info and PC Squared\pc2-9.2.5\bin\logs directory.
+170209 125240.021|INFO|main|info|
+170209 125240.036|INFO|main|info|Version 9.2.5 20151014 (Wednesday, October 14th 2015 03:59 UTC) Java ver 1.8.0_111 build 3204 Windows 8.1 6.3 (amd64) 
+170209 125240.036|INFO|main|startLog|Working directory is C:\PacketB_Magnolia Student Info and PC Squared\pc2-9.2.5\bin
+170209 125240.083|INFO|main|startLog|Process id is 368@Mellen
+170209 125240.083|INFO|main|start|Starting ConnectionManager...
+170209 125240.599|INFO|main|start|Started ConnectionManager
+170209 125240.614|INFO|main|setClientServerAndPort|INI File location: file:/C:/PacketB_Magnolia%20Student%20Info%20and%20PC%20Squared/pc2-9.2.5/bin/pc2v9.ini
+170209 125240.614|INFO|main|setClientServerAndPort|setClientServerAndPort localhost parsed as localhost port 50002
+170209 125240.614|INFO|main|info|Contacting server at localhost:50002
+170209 125240.614|INFO|main|connectToMyServer|Connecting to localhost:50002
+170209 125240.849|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=localhost/127.0.0.1,port=50002,localport=60806]-6970025540308313447)
+170209 125241.370|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=localhost/127.0.0.1,port=50002,localport=60806]-6970025540308313447 key is com.sun.crypto.provider.DESKey@1858b
+170209 125241.370|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+170209 125241.370|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    701225bb a17beee5 efc1894a b4ea21ce 42e15225 5044549b 3e0810a6 1a210502
+    e5cb513a e91f1f4d c118bb01 da212e89 63930894 70b848d5 40ffb7da a120e34e
+    a72e521d 6c2d3e58 a5cee380 059494e2 bbeb1cd9 36192192 fdd2c85a d55cf378
+    e8681dc7 94fa6f80 30f0d64d 1c50ef1d 15c5de77 d99c5352 23d6e8e5 78c41e4e
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+170209 125241.370|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@53911957

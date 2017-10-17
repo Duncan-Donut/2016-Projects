@@ -1,0 +1,235 @@
+170205 173046.014|CONFIG|Thread-7|setFileHandlers|Now logging to C:\PacketA_2017_Waller\pc2-9.2.5\bin\logs directory.
+170205 173046.014|INFO|Thread-7|info|
+170205 173046.014|INFO|Thread-7|info|Version 9.2.5 20151014 (Wednesday, October 14th 2015 03:59 UTC) Java ver 1.8.0_111 build 3204 Windows 8.1 6.3 (amd64) 
+170205 173046.014|INFO|Thread-7|info|Login: team1 (aka team1)
+170205 173046.014|INFO|Thread-7|startLog|Working directory is C:\PacketA_2017_Waller\pc2-9.2.5\bin
+170205 173046.014|INFO|Thread-7|startLog|Process id is 11660@Mellen
+170205 173046.014|INFO|Thread-7|info|Attempting to load UI class edu.csus.ecs.pc2.ui.team.TeamView
+170205 173046.045|INFO|Thread-7|info|Loaded UI class edu.csus.ecs.pc2.ui.team.TeamView
+170205 173046.514|INFO|Thread-7|info| handlePacket original LOGIN_SUCCESS after -- all settings loaded 
+170205 173046.514|INFO|Thread-7|info|handlePacket end Packet[LOGIN_SUCCESS] #172 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173046.514|INFO|Thread-7|info| receiveObject(S) end   got Packet[LOGIN_SUCCESS] #172 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173106.554|INFO|Thread-8|info| receiveObject(S) start got Packet[CLOCK_STARTED] #174 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173106.570|INFO|Thread-8|dumpPacket|Packet CLOCK_STARTED (Seq #174 ) recieveObject
+170205 173106.586|INFO|Thread-8|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173106.586|INFO|Thread-8|dumpPacket|    To: SERVER0 @ site 0
+170205 173106.617|INFO|Thread-8|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId ADMINISTRATOR1 @ site 1
+170205 173106.617|INFO|Thread-8|dumpPacket|   key: SERVER_CLOCK_OFFSET is: java.util.GregorianCalendar java.util.GregorianCalendar[time=1486337466492,areFieldsSet=true,areAllFieldsSet=false,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2017,MONTH=1,WEEK_OF_YEAR=6,WEEK_OF_MONTH=2,DAY_OF_MONTH=5,DAY_OF_YEAR=36,DAY_OF_WEEK=1,DAY_OF_WEEK_IN_MONTH=1,AM_PM=1,HOUR=11,HOUR_OF_DAY=23,MINUTE=31,SECOND=6,MILLISECOND=492,ZONE_OFFSET=0,DST_OFFSET=0]
+170205 173106.632|INFO|Thread-8|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+170205 173106.632|INFO|Thread-8|info|handlePacket start Packet[CLOCK_STARTED] #174 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173106.632|INFO|Thread-8|dumpPacket|Packet CLOCK_STARTED (Seq #174 ) handlePacket
+170205 173106.632|INFO|Thread-8|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173106.632|INFO|Thread-8|dumpPacket|    To: SERVER0 @ site 0
+170205 173106.632|INFO|Thread-8|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId ADMINISTRATOR1 @ site 1
+170205 173106.632|INFO|Thread-8|dumpPacket|   key: SERVER_CLOCK_OFFSET is: java.util.GregorianCalendar java.util.GregorianCalendar[time=1486337466492,areFieldsSet=true,areAllFieldsSet=false,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2017,MONTH=1,WEEK_OF_YEAR=6,WEEK_OF_MONTH=2,DAY_OF_MONTH=5,DAY_OF_YEAR=36,DAY_OF_WEEK=1,DAY_OF_WEEK_IN_MONTH=1,AM_PM=1,HOUR=11,HOUR_OF_DAY=23,MINUTE=31,SECOND=6,MILLISECOND=492,ZONE_OFFSET=0,DST_OFFSET=0]
+170205 173106.632|INFO|Thread-8|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+170205 173106.648|INFO|Thread-8|contestStarted|debug ContestTime site 1 STARTED 0:00:00
+170205 173106.648|INFO|Thread-8|info|Clock for site 1 started by ADMINISTRATOR1 @ site 1 elapsed 0:00:00
+170205 173106.648|INFO|Thread-8|info| receiveObject(S) end   got Packet[CLOCK_STARTED] #174 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173136.441|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for Akio Java file: C:\packetB_Magnolia\Akio.java
+170205 173136.503|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #3 TEAM1 @ site 1 -> SERVER0 @ site 1
+170205 173136.519|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #3 TEAM1 @ site 1 -> SERVER0 @ site 1
+170205 173136.863|INFO|Thread-11|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #175 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173136.863|INFO|Thread-11|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #175 ) recieveObject
+170205 173136.863|INFO|Thread-11|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173136.863|INFO|Thread-11|dumpPacket|    To: TEAM1 @ site 1
+170205 173136.863|INFO|Thread-11|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 1 NEW30074 ms from TEAM1 @ site 1 id Run--7479037805327237497
+170205 173136.863|INFO|Thread-11|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #175 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173136.863|INFO|Thread-11|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #175 ) handlePacket
+170205 173136.863|INFO|Thread-11|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173136.863|INFO|Thread-11|dumpPacket|    To: TEAM1 @ site 1
+170205 173136.863|INFO|Thread-11|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 1 NEW30074 ms from TEAM1 @ site 1 id Run--7479037805327237497
+170205 173138.050|INFO|Thread-11|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #175 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173151.782|INFO|Thread-12|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #179 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173151.782|INFO|Thread-12|dumpPacket|Packet RUN_JUDGEMENT (Seq #179 ) recieveObject
+170205 173151.797|INFO|Thread-12|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173151.797|INFO|Thread-12|dumpPacket|    To: TEAM1 @ site 1
+170205 173151.813|INFO|Thread-12|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE1 @ site 1 judgement Yes-3241447729218406501 id JudgementRecord-1679212680167698572
+170205 173151.828|INFO|Thread-12|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+170205 173151.828|INFO|Thread-12|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 1 JUDGED30074 ms from TEAM1 @ site 1 id Run--7479037805327237497
+170205 173151.860|INFO|Thread-12|info|handlePacket start Packet[RUN_JUDGEMENT] #179 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173151.860|INFO|Thread-12|dumpPacket|Packet RUN_JUDGEMENT (Seq #179 ) handlePacket
+170205 173151.860|INFO|Thread-12|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173151.860|INFO|Thread-12|dumpPacket|    To: TEAM1 @ site 1
+170205 173151.860|INFO|Thread-12|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE1 @ site 1 judgement Yes-3241447729218406501 id JudgementRecord-1679212680167698572
+170205 173151.860|INFO|Thread-12|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+170205 173151.860|INFO|Thread-12|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 1 JUDGED30074 ms from TEAM1 @ site 1 id Run--7479037805327237497
+170205 173154.188|INFO|Thread-12|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #179 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173204.445|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for danna Java file: C:\packetB_Magnolia\Danna.java
+170205 173204.491|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #4 TEAM1 @ site 1 -> SERVER0 @ site 1
+170205 173204.507|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #4 TEAM1 @ site 1 -> SERVER0 @ site 1
+170205 173204.773|INFO|Thread-14|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #181 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173204.773|INFO|Thread-14|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #181 ) recieveObject
+170205 173204.773|INFO|Thread-14|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173204.773|INFO|Thread-14|dumpPacket|    To: TEAM1 @ site 1
+170205 173204.773|INFO|Thread-14|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 2 NEW58046 ms from TEAM1 @ site 1 id Run-2211619898059410867
+170205 173204.773|INFO|Thread-14|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #181 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173204.773|INFO|Thread-14|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #181 ) handlePacket
+170205 173204.773|INFO|Thread-14|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173204.773|INFO|Thread-14|dumpPacket|    To: TEAM1 @ site 1
+170205 173204.773|INFO|Thread-14|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 2 NEW58046 ms from TEAM1 @ site 1 id Run-2211619898059410867
+170205 173206.101|INFO|Thread-14|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #181 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173213.322|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for evelyn Java file: C:\packetB_Magnolia\Evelyn.java
+170205 173213.369|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #5 TEAM1 @ site 1 -> SERVER0 @ site 1
+170205 173213.384|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #5 TEAM1 @ site 1 -> SERVER0 @ site 1
+170205 173213.681|INFO|Thread-16|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #183 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173213.681|INFO|Thread-16|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #183 ) recieveObject
+170205 173213.681|INFO|Thread-16|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173213.681|INFO|Thread-16|dumpPacket|    To: TEAM1 @ site 1
+170205 173213.681|INFO|Thread-16|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 3 NEW66924 ms from TEAM1 @ site 1 id Run-6901053825036406338
+170205 173213.681|INFO|Thread-16|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #183 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173213.681|INFO|Thread-16|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #183 ) handlePacket
+170205 173213.681|INFO|Thread-16|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173213.681|INFO|Thread-16|dumpPacket|    To: TEAM1 @ site 1
+170205 173213.681|INFO|Thread-16|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 3 NEW66924 ms from TEAM1 @ site 1 id Run-6901053825036406338
+170205 173214.814|INFO|Thread-16|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #183 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173227.242|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for fengge Java file: C:\packetB_Magnolia\Fengge.java
+170205 173227.288|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #6 TEAM1 @ site 1 -> SERVER0 @ site 1
+170205 173227.304|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #6 TEAM1 @ site 1 -> SERVER0 @ site 1
+170205 173227.585|INFO|Thread-18|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #185 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173227.585|INFO|Thread-18|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #185 ) recieveObject
+170205 173227.585|INFO|Thread-18|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173227.585|INFO|Thread-18|dumpPacket|    To: TEAM1 @ site 1
+170205 173227.585|INFO|Thread-18|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 4 NEW80843 ms from TEAM1 @ site 1 id Run--5213246022120599946
+170205 173227.585|INFO|Thread-18|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #185 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173227.585|INFO|Thread-18|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #185 ) handlePacket
+170205 173227.585|INFO|Thread-18|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173227.585|INFO|Thread-18|dumpPacket|    To: TEAM1 @ site 1
+170205 173227.585|INFO|Thread-18|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 4 NEW80843 ms from TEAM1 @ site 1 id Run--5213246022120599946
+170205 173229.040|INFO|Thread-18|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #185 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173237.452|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for isidora Java file: C:\packetB_Magnolia\Isidora.java
+170205 173237.499|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #7 TEAM1 @ site 1 -> SERVER0 @ site 1
+170205 173237.515|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #7 TEAM1 @ site 1 -> SERVER0 @ site 1
+170205 173237.796|INFO|Thread-20|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #187 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173237.796|INFO|Thread-20|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #187 ) recieveObject
+170205 173237.796|INFO|Thread-20|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173237.796|INFO|Thread-20|dumpPacket|    To: TEAM1 @ site 1
+170205 173237.796|INFO|Thread-20|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 5 NEW91054 ms from TEAM1 @ site 1 id Run--4520130826694987383
+170205 173237.796|INFO|Thread-20|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #187 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173237.796|INFO|Thread-20|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #187 ) handlePacket
+170205 173237.796|INFO|Thread-20|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173237.796|INFO|Thread-20|dumpPacket|    To: TEAM1 @ site 1
+170205 173237.796|INFO|Thread-20|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 5 NEW91054 ms from TEAM1 @ site 1 id Run--4520130826694987383
+170205 173239.077|INFO|Thread-20|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #187 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173249.627|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for juan Java file: C:\packetB_Magnolia\Juan.java
+170205 173249.673|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #8 TEAM1 @ site 1 -> SERVER0 @ site 1
+170205 173249.689|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #8 TEAM1 @ site 1 -> SERVER0 @ site 1
+170205 173250.017|INFO|Thread-22|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #189 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173250.017|INFO|Thread-22|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #189 ) recieveObject
+170205 173250.017|INFO|Thread-22|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173250.017|INFO|Thread-22|dumpPacket|    To: TEAM1 @ site 1
+170205 173250.017|INFO|Thread-22|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 6 NEW103228 ms from TEAM1 @ site 1 id Run-3292650820582899681
+170205 173250.017|INFO|Thread-22|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #189 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173250.017|INFO|Thread-22|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #189 ) handlePacket
+170205 173250.033|INFO|Thread-22|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173250.033|INFO|Thread-22|dumpPacket|    To: TEAM1 @ site 1
+170205 173250.033|INFO|Thread-22|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 6 NEW103228 ms from TEAM1 @ site 1 id Run-3292650820582899681
+170205 173251.314|INFO|Thread-22|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #189 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173302.853|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for nastya Java file: C:\packetB_Magnolia\Nastya.java
+170205 173302.916|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #9 TEAM1 @ site 1 -> SERVER0 @ site 1
+170205 173302.931|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #9 TEAM1 @ site 1 -> SERVER0 @ site 1
+170205 173303.213|INFO|Thread-24|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #191 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173303.213|INFO|Thread-24|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #191 ) recieveObject
+170205 173303.213|INFO|Thread-24|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173303.213|INFO|Thread-24|dumpPacket|    To: TEAM1 @ site 1
+170205 173303.213|INFO|Thread-24|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 7 NEW116471 ms from TEAM1 @ site 1 id Run-8541642138066306690
+170205 173303.213|INFO|Thread-24|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #191 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173303.213|INFO|Thread-24|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #191 ) handlePacket
+170205 173303.213|INFO|Thread-24|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173303.213|INFO|Thread-24|dumpPacket|    To: TEAM1 @ site 1
+170205 173303.213|INFO|Thread-24|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 7 NEW116471 ms from TEAM1 @ site 1 id Run-8541642138066306690
+170205 173304.713|INFO|Thread-24|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #191 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173314.453|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for olga Java file: C:\packetB_Magnolia\Olga.java
+170205 173314.515|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #10 TEAM1 @ site 1 -> SERVER0 @ site 1
+170205 173314.531|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #10 TEAM1 @ site 1 -> SERVER0 @ site 1
+170205 173314.843|INFO|Thread-26|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #193 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173314.843|INFO|Thread-26|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #193 ) recieveObject
+170205 173314.843|INFO|Thread-26|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173314.843|INFO|Thread-26|dumpPacket|    To: TEAM1 @ site 1
+170205 173314.843|INFO|Thread-26|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 8 NEW128101 ms from TEAM1 @ site 1 id Run-8307988263027325380
+170205 173314.843|INFO|Thread-26|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #193 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173314.843|INFO|Thread-26|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #193 ) handlePacket
+170205 173314.843|INFO|Thread-26|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173314.843|INFO|Thread-26|dumpPacket|    To: TEAM1 @ site 1
+170205 173314.843|INFO|Thread-26|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 8 NEW128101 ms from TEAM1 @ site 1 id Run-8307988263027325380
+170205 173316.000|INFO|Thread-26|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #193 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173328.490|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for pdero Java file: C:\packetB_Magnolia\Pedro.java
+170205 173328.537|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #11 TEAM1 @ site 1 -> SERVER0 @ site 1
+170205 173328.552|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #11 TEAM1 @ site 1 -> SERVER0 @ site 1
+170205 173328.943|INFO|Thread-28|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #195 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173328.943|INFO|Thread-28|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #195 ) recieveObject
+170205 173328.943|INFO|Thread-28|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173328.959|INFO|Thread-28|dumpPacket|    To: TEAM1 @ site 1
+170205 173328.959|INFO|Thread-28|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 9 NEW142092 ms from TEAM1 @ site 1 id Run--6542613804973781179
+170205 173328.959|INFO|Thread-28|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #195 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173328.959|INFO|Thread-28|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #195 ) handlePacket
+170205 173328.959|INFO|Thread-28|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173328.959|INFO|Thread-28|dumpPacket|    To: TEAM1 @ site 1
+170205 173328.959|INFO|Thread-28|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 9 NEW142092 ms from TEAM1 @ site 1 id Run--6542613804973781179
+170205 173329.975|INFO|Thread-28|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #195 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173339.044|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for Roy Java file: C:\packetB_Magnolia\Roy.java
+170205 173339.106|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #12 TEAM1 @ site 1 -> SERVER0 @ site 1
+170205 173339.122|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #12 TEAM1 @ site 1 -> SERVER0 @ site 1
+170205 173339.387|INFO|Thread-30|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #197 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173339.387|INFO|Thread-30|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #197 ) recieveObject
+170205 173339.387|INFO|Thread-30|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173339.387|INFO|Thread-30|dumpPacket|    To: TEAM1 @ site 1
+170205 173339.387|INFO|Thread-30|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 10 NEW152645 ms from TEAM1 @ site 1 id Run-8107700643214541600
+170205 173339.387|INFO|Thread-30|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #197 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173339.387|INFO|Thread-30|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #197 ) handlePacket
+170205 173339.387|INFO|Thread-30|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173339.387|INFO|Thread-30|dumpPacket|    To: TEAM1 @ site 1
+170205 173339.387|INFO|Thread-30|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 10 NEW152645 ms from TEAM1 @ site 1 id Run-8107700643214541600
+170205 173340.515|INFO|Thread-30|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #197 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173353.783|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for Samantha Java file: C:\packetB_Magnolia\Samantha.java
+170205 173353.830|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #13 TEAM1 @ site 1 -> SERVER0 @ site 1
+170205 173353.846|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #13 TEAM1 @ site 1 -> SERVER0 @ site 1
+170205 173354.143|INFO|Thread-32|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #199 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173354.143|INFO|Thread-32|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #199 ) recieveObject
+170205 173354.158|INFO|Thread-32|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173354.158|INFO|Thread-32|dumpPacket|    To: TEAM1 @ site 1
+170205 173354.158|INFO|Thread-32|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 11 NEW167401 ms from TEAM1 @ site 1 id Run--1649764703146886050
+170205 173354.158|INFO|Thread-32|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #199 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173354.158|INFO|Thread-32|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #199 ) handlePacket
+170205 173354.158|INFO|Thread-32|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173354.158|INFO|Thread-32|dumpPacket|    To: TEAM1 @ site 1
+170205 173354.158|INFO|Thread-32|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 11 NEW167401 ms from TEAM1 @ site 1 id Run--1649764703146886050
+170205 173355.971|INFO|Thread-32|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #199 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173518.189|INFO|Thread-33|info| receiveObject(S) start got Packet[ADD_SETTING] #202 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173518.189|INFO|Thread-33|dumpPacket|Packet ADD_SETTING (Seq #202 ) recieveObject
+170205 173518.221|INFO|Thread-33|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173518.236|INFO|Thread-33|dumpPacket|    To: SERVER0 @ site 0
+170205 173518.252|INFO|Thread-33|dumpPacket|   key: PROBLEM is: edu.csus.ecs.pc2.core.model.Problem Kosta
+170205 173518.267|INFO|Thread-33|info|handlePacket start Packet[ADD_SETTING] #202 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173518.346|INFO|Thread-33|dumpPacket|Packet ADD_SETTING (Seq #202 ) handlePacket
+170205 173518.361|INFO|Thread-33|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173518.377|INFO|Thread-33|dumpPacket|    To: SERVER0 @ site 0
+170205 173518.377|INFO|Thread-33|dumpPacket|   key: PROBLEM is: edu.csus.ecs.pc2.core.model.Problem Kosta
+170205 173518.392|INFO|Thread-33|info|handlePacket end Packet[ADD_SETTING] #202 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173518.392|INFO|Thread-33|info| receiveObject(S) end   got Packet[ADD_SETTING] #202 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173544.563|INFO|Thread-34|info| receiveObject(S) start got Packet[UPDATE_SETTING] #204 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173544.579|INFO|Thread-34|dumpPacket|Packet UPDATE_SETTING (Seq #204 ) recieveObject
+170205 173544.594|INFO|Thread-34|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173544.610|INFO|Thread-34|dumpPacket|    To: SERVER0 @ site 0
+170205 173544.626|INFO|Thread-34|dumpPacket|   key: PROBLEM is: edu.csus.ecs.pc2.core.model.Problem Kosta
+170205 173544.641|INFO|Thread-34|info|handlePacket start Packet[UPDATE_SETTING] #204 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173544.641|INFO|Thread-34|dumpPacket|Packet UPDATE_SETTING (Seq #204 ) handlePacket
+170205 173544.641|INFO|Thread-34|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173544.641|INFO|Thread-34|dumpPacket|    To: SERVER0 @ site 0
+170205 173544.657|INFO|Thread-34|dumpPacket|   key: PROBLEM is: edu.csus.ecs.pc2.core.model.Problem Kosta
+170205 173544.657|INFO|Thread-34|info|handlePacket end Packet[UPDATE_SETTING] #204 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173544.673|INFO|Thread-34|info| receiveObject(S) end   got Packet[UPDATE_SETTING] #204 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173607.012|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for Kosta Java file: C:\packetB_Magnolia\Kostas.java
+170205 173607.059|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #14 TEAM1 @ site 1 -> SERVER0 @ site 1
+170205 173607.075|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #14 TEAM1 @ site 1 -> SERVER0 @ site 1
+170205 173607.356|INFO|Thread-36|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #205 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173607.356|INFO|Thread-36|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #205 ) recieveObject
+170205 173607.356|INFO|Thread-36|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173607.356|INFO|Thread-36|dumpPacket|    To: TEAM1 @ site 1
+170205 173607.356|INFO|Thread-36|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 12 NEW300630 ms from TEAM1 @ site 1 id Run-7852741599072339790
+170205 173607.356|INFO|Thread-36|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #205 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173607.356|INFO|Thread-36|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #205 ) handlePacket
+170205 173607.356|INFO|Thread-36|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173607.356|INFO|Thread-36|dumpPacket|    To: TEAM1 @ site 1
+170205 173607.356|INFO|Thread-36|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 12 NEW300630 ms from TEAM1 @ site 1 id Run-7852741599072339790
+170205 173608.497|INFO|Thread-36|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #205 SERVER0 @ site 1 -> TEAM1 @ site 1

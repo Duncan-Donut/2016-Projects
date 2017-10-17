@@ -1,0 +1,18 @@
+CSUS Programming Contest System
+Date: Sunday, February 5, 2017 5:42:45 PM CST
+Version 9.2.5 20151014 (Wednesday, October 14th 2015 03:59 UTC) Java ver 1.8.0_111 build 3204 Windows 8.1 6.3 (amd64) 
+
+Languages Report
+
+Contest date/time: Sun Feb 05 17:31:06 CST 2017
+
+
+-- 1 languages --
+
+  Language  'Java' v1 id=Java-3928238015251234210
+    site number         : 0
+    compiler command    : javac {:mainfile}
+    executable mask     : {:basename}.class
+    program execute cmd : java {:basename}
+
+end report

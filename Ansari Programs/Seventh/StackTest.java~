@@ -1,0 +1,106 @@
+//StackTest
+//Duncan, 1/22/17
+//Tests the Stacks for Arrays,Arraylists and LinkedLists
+public class StackTest{
+	
+	//Variables
+	public static StacksforArray Stack;
+	public static StacksforArrayLists stacks;
+	public static StacksforLinkedLists stackLinked;
+
+
+	public static void main(String[] args){
+		//StackArrayTest();
+		//StackArrayListTest();
+		StackLinkedTest();
+	}
+	
+	public static void StackArrayTest(){
+		//Constructs object
+		Stack = new StacksforArray(5);
+		
+		//Adds objects
+		Stack.push("A");
+		Stack.push("B");
+		Stack.push("C");
+		Stack.print();
+		
+		//Removes an object
+		System.out.println("Popped");
+		Stack.pop();
+		
+		System.out.println("Print");	
+		Stack.print();
+		
+		//Shows last object
+		System.out.println("Peek");
+		Stack.peek();
+		
+		//Checks if Array is empty
+		System.out.println("Empty?");
+		Stack.isEmpty();
+		//Prints size of Array
+		System.out.println("Size");
+		Stack.size();
+			
+	}
+	
+	public static void StackArrayListTest(){
+		//Constructs object
+		stacks = new StacksforArrayLists();
+		
+		//Adds objects
+		stacks.push("A");
+		stacks.push("B");
+		stacks.push("C");
+		stacks.print();
+		
+		//Removes an object
+		System.out.println("Popped");
+		stacks.pop();
+		
+		System.out.println("Print");	
+		stacks.print();
+		
+		//Shows last object
+		System.out.println("Peek");
+		stacks.peek();
+		
+		//Checks if Array is empty
+		System.out.println("Empty?");
+		stacks.isEmpty();
+		//Prints size of Array
+		System.out.println("Size");
+		stacks.size();
+	}
+	public static void StackLinkedTest(){
+		//Constructs object
+		stackLinked = new StacksforLinkedLists();
+		
+		//Adds objects
+		stackLinked.push("A");
+		stackLinked.push("B");
+		stackLinked.push("C");
+		stackLinked.print();
+		
+		//Removes an object
+		System.out.println("Popped");
+		stackLinked.pop();
+		
+		System.out.println("Print");	
+		stackLinked.print();
+		
+		//Shows last object
+		System.out.println("Peek");
+		stackLinked.peek();
+		
+		//Checks if Array is empty
+		System.out.println("Empty?");
+		stackLinked.isEmpty();
+		//Prints size of Array
+		System.out.println("Size");
+		stackLinked.size();
+	}
+	
+	
+}

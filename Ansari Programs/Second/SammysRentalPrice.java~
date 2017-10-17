@@ -1,0 +1,42 @@
+//SammysRentalPrice
+//Duncan, 9/5/16
+//Creates a price based on the minutes you used a piece of equipment
+
+import java.util.Scanner;
+
+public class SammysRentalPrice{
+
+	public static void main(String[] args){
+        
+		//user input
+		Scanner Sf = new Scanner(System.in);
+		System.out.println("Please enter the number of minutes you will use the equipment");
+		int number = Sf.nextInt();
+		
+		final int SECONDS = 60;
+		final int PRICE_PER_HOUR = 40;
+		
+		//calculations
+		int minutes = number % SECONDS;
+		
+		int hours = (number / SECONDS);
+		int hprice = hours * PRICE_PER_HOUR;
+		
+		int price =  minutes + hprice;
+	
+		//output
+		System.out.println("SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS");
+		System.out.println("S Sammy's makes it fun in the sun S");
+		System.out.println("SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS");
+		
+		System.out.println("The number of hours is " + hours);
+		System.out.println("The number of minutes is " + minutes);
+		System.out.println("The total price is " + price);
+
+	
+		
+	
+		
+	}
+	
+}

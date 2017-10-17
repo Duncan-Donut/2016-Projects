@@ -1,0 +1,73 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
+public class Kostas {
+
+	public static void main(String[] args) throws FileNotFoundException {
+		// TODO Auto-generated method stub
+		Scanner Sf = new Scanner(new File("Samantha.dat"));
+
+		while(Sf.hasNext()){
+			
+			String hi = Sf.next().toUpperCase();
+			hi = hi.replaceAll("A", "4");
+			hi = hi.replaceAll("B", "8");
+			hi = hi.replaceAll("C", "[");
+			hi = hi.replaceAll("D", ")");
+			hi = hi.replaceAll("E", "3");
+			hi = hi.replaceAll("F", "|=");
+			hi = hi.replaceAll("G", "6");
+			hi = hi.replaceAll("H", "#");
+			hi = hi.replaceAll("I", "|");
+			hi = hi.replaceAll("J", "]");
+			hi = hi.replaceAll("K", "|<");
+			hi = hi.replaceAll("L", "1");
+			hi = hi.replaceAll("M", "^^");
+			hi = hi.replaceAll("N", "^");
+			hi = hi.replaceAll("O", "0");
+			hi = hi.replaceAll("P", "|0");
+			hi = hi.replaceAll("Q", "9");
+			hi = hi.replaceAll("R", "2");
+			hi = hi.replaceAll("S", "5");
+			hi = hi.replaceAll("T", "7");
+			hi = hi.replaceAll("U", "(_)");
+			hi = hi.replaceAll("V", "\\/");
+			hi = hi.replaceAll("W", "vv");
+			hi = hi.replaceAll("X", "><");
+			hi = hi.replaceAll("Y", "/");
+			hi = hi.replaceAll("Z", "%");
+			
+			if(hi.substring(hi.length()-4,hi.length()).equals("><02")){
+				System.out.println(hi.substring(0,hi.length()-4) + "XOR");
+			}
+			if(hi.substring(hi.length()-3,hi.length()).equals("&02")){
+				System.out.println(hi.substring(0,hi.length()-3) + "ZOR");
+			}
+			if(hi.substring(hi.length()-3,hi.length()).equals("4^)")){
+				System.out.println(hi.substring(0,hi.length()-3) + "AND");
+			}
+			if(hi.substring(hi.length()-5,hi.length()).equals("4^^3")){
+				System.out.println(hi.substring(0,hi.length()-5) + "ANNED");
+			}
+			if(hi.substring(hi.length()-3,hi.length()).equals("4^7")){
+				System.out.println(hi.substring(0,hi.length()-3) + "ANT");
+			}
+			if(hi.substring(hi.length()-2,hi.length()).equals("3)")){
+				System.out.println(hi.substring(0,hi.length()-2) + "ED");
+			}
+
+				
+				
+				
+			
+			
+			
+		}
+		
+		
+		
+	}
+
+
+}

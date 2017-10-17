@@ -1,0 +1,60 @@
+170205 173036.383|CONFIG|main|setFileHandlers|Now logging to C:\PacketA_2017_Waller\pc2-9.2.5\bin\logs directory.
+170205 173036.383|INFO|main|info|
+170205 173036.399|INFO|main|info|Version 9.2.5 20151014 (Wednesday, October 14th 2015 03:59 UTC) Java ver 1.8.0_111 build 3204 Windows 8.1 6.3 (amd64) 
+170205 173036.399|INFO|main|startLog|Working directory is C:\PacketA_2017_Waller\pc2-9.2.5\bin
+170205 173036.461|INFO|main|startLog|Process id is 11660@Mellen
+170205 173036.461|INFO|main|start|Starting ConnectionManager...
+170205 173037.024|INFO|main|start|Started ConnectionManager
+170205 173037.039|INFO|main|setClientServerAndPort|INI File location: file:/C:/PacketA_2017_Waller/pc2-9.2.5/bin/pc2v9.ini
+170205 173037.039|INFO|main|setClientServerAndPort|setClientServerAndPort localhost parsed as localhost port 50002
+170205 173037.039|INFO|main|info|Contacting server at localhost:50002
+170205 173037.039|INFO|main|connectToMyServer|Connecting to localhost:50002
+170205 173037.321|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=localhost/127.0.0.1,port=50002,localport=52099]--8924505791955641235)
+170205 173037.790|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=localhost/127.0.0.1,port=50002,localport=52099]--8924505791955641235 key is com.sun.crypto.provider.DESKey@18412
+170205 173037.790|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+170205 173037.805|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    940e3b93 b097b77c 03b1e448 55cc9b0d 4883306a 50c2afe6 b0bce7df f13af399
+    f7caf543 276b1781 e7672fb8 f54c1d09 4e7207fa d0dc585e 43c30f15 ccaf44aa
+    42ae0a3f d1081eaf c00db3ce 0f923208 38ef9ba0 f2e03875 e4a95a38 c58cda1c
+    16dd2a1e 3609c767 e35789c6 42e64175 94a1561f 4afd8f72 db4056af 6dfaedd4
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+170205 173037.805|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@1960d34c
+170205 174107.295|CONFIG|main|setFileHandlers|Now logging to C:\PacketA_2017_Waller\pc2-9.2.5\bin\logs directory.
+170205 174107.295|INFO|main|info|
+170205 174107.310|INFO|main|info|Version 9.2.5 20151014 (Wednesday, October 14th 2015 03:59 UTC) Java ver 1.8.0_111 build 3204 Windows 8.1 6.3 (amd64) 
+170205 174107.310|INFO|main|startLog|Working directory is C:\PacketA_2017_Waller\pc2-9.2.5\bin
+170205 174107.373|INFO|main|startLog|Process id is 13476@Mellen
+170205 174107.373|INFO|main|start|Starting ConnectionManager...
+170205 174107.920|INFO|main|start|Started ConnectionManager
+170205 174107.935|INFO|main|setClientServerAndPort|INI File location: file:/C:/PacketA_2017_Waller/pc2-9.2.5/bin/pc2v9.ini
+170205 174107.935|INFO|main|setClientServerAndPort|setClientServerAndPort localhost parsed as localhost port 50002
+170205 174107.935|INFO|main|info|Contacting server at localhost:50002
+170205 174107.935|INFO|main|connectToMyServer|Connecting to localhost:50002
+170205 174108.551|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=localhost/127.0.0.1,port=50002,localport=52146]--4550336388591553071)
+170205 174109.084|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=localhost/127.0.0.1,port=50002,localport=52146]--4550336388591553071 key is com.sun.crypto.provider.DESKey@fffe7fc7
+170205 174109.084|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+170205 174109.100|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    5977fc67 6c9ae094 3e0bdfe3 439bb10e f1fd47e5 3d63ce2f ebeca0a0 a5012e74
+    b119c41a e9057a6e a8a911a9 88f8433b 42bcb271 6a128905 7222cb29 810f9216
+    8af9923a 5b512951 611d5332 c34d1bc2 bcca3728 68e3b701 bdf9c43d ceccce9b
+    36be3d5e 67683393 d5c1de94 1bce0ae0 f007124e bb1505c2 20a47c15 b79f3a4e
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+170205 174109.100|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@2e45fb43

@@ -1,0 +1,517 @@
+import java.util.Scanner;
+
+public class Lottery{
+
+	
+	public static void main(String[] args){
+		
+		int random1, random2, random3;
+		int guess1, guess2, guess3;
+		
+		final int MAX_NUMBER = 10;
+		int total = 0;
+		int numberMatch =0;
+		
+		random1 = (int) (Math.random()*MAX_NUMBER);
+		random2 = (int) (Math.random()*MAX_NUMBER);
+		random3 = (int) (Math.random()*MAX_NUMBER);
+		
+		System.out.println("Your random numbers were " + random1 + " " + random2 + " " + random3 + " ");
+		
+		Scanner Sf = new Scanner(System.in);
+		System.out.println("Please enter 3 random numbers");
+		guess1 = Sf.nextInt();
+		guess2 = Sf.nextInt();
+		guess3 = Sf.nextInt();
+	
+		
+		if(random1 != random2 && random1 != random3 && random2 != random3){
+			if(guess1 == random1 && guess2 == random2 && guess3 == random3){
+				total+=1000000;
+			}
+			else{
+				if(guess1 != guess2 && guess2!=guess3 && guess1 != guess3){
+					if(guess1 == random1 || guess1 == random2 || guess1 == random3){
+						numberMatch++;
+					}
+					if(guess2 == random1 || guess2== random2 || guess2 == random3){
+						numberMatch++;
+					}
+					if(guess3 == random1 || guess3 == random2 || guess3 == random3){
+						numberMatch++;
+					}
+					if(numberMatch == 1){
+						total+=10;
+					}
+					else if(numberMatch == 2){
+						total+=100;
+					}
+					else if(numberMatch == 3){
+						total+=1000;
+					}
+				}
+				else{
+					if(guess1 == guess2 && guess2 == guess3){
+							if(guess1 == random1){
+								numberMatch++;	
+							}
+							if(guess1 == random2){
+								numberMatch++;
+							}
+							if(guess1 == random3){
+								numberMatch++;
+							}
+							if(numberMatch == 1){
+								total+=10;
+							}
+							else if(numberMatch == 2){
+								total+=100;
+							}
+						
+					}
+					else if(guess1 == guess2){
+							if(guess1 == random1){
+								numberMatch++;	
+							}
+							else if(guess1 == random2){
+								numberMatch++;
+							}
+							else if(guess1 == random3){
+								numberMatch++;
+							}
+							if(guess3 == random1 || guess3 == random2 || guess3 == random3){
+								numberMatch++;	
+							}
+							if(numberMatch == 1){
+								total+=10;
+							}
+							else if(numberMatch == 2){
+								total+=100;
+							}
+						}
+					else if (guess2 == guess3){
+							if(guess2 == random1){
+								numberMatch++;	
+							}
+							else if(guess2 == random2){
+								numberMatch++;
+							}
+							else if(guess2 == random3){
+								numberMatch++;
+							}
+							if(guess1 == random1 || guess1 == random2 || guess1 == random3){
+								numberMatch++;	
+							}
+							if(numberMatch == 1){
+								total+=10;
+							}
+							else if(numberMatch == 2){
+								total+=100;
+							}
+						}
+					
+					else{
+							if(guess1 == random1){
+								numberMatch++;	
+							}
+							else if(guess1 == random2){
+								numberMatch++;
+							}
+							else if(guess1 == random3){
+								numberMatch++;
+							}
+							if(guess2 == random1 || guess2 == random2 || guess2 == random3){
+								numberMatch++;
+							}
+							if(numberMatch == 1){
+								total+=10;
+							}
+							else if(numberMatch == 2){
+								total+=100;
+							}
+						}
+				}
+			}
+		}
+		else{
+			if(guess1 == random1 && guess2 == random2 && guess3 == random3){
+				total+=1000000;
+			}
+			else if(random1 == random2){
+				if(guess1 != guess2 && guess2!=guess3 && guess1 != guess3){
+					if(guess1 == random1){
+						numberMatch++;
+					}
+					else if(guess2 == random1){
+						numberMatch++;
+					}
+					else if(guess3 == random1){
+						numberMatch++;
+					}
+					if(guess1 == random3){
+						numberMatch++;
+					}
+					else if(guess2 == random3){
+						numberMatch++;
+					}
+					else if(guess3== random3){
+						numberMatch++;
+					}
+					if(numberMatch == 1){
+						total+=10;
+					}
+					else if(numberMatch == 2){
+						total+=100;
+					}
+					else if(numberMatch == 3){
+						total+=1000;
+					}
+				}
+				else{
+					if(guess1 == guess2 && guess2 == guess3){
+							if(guess1 == random1){
+								numberMatch++;	
+							}
+							if(guess1 == random2){
+								numberMatch++;
+							}
+							if(guess1 == random3){
+								numberMatch++;
+							}
+							if(numberMatch == 1){
+								total+=10;
+							}
+							else if(numberMatch == 2){
+								total+=100;
+							}
+							else if(numberMatch == 3){
+								total+=1000;
+							}
+					}
+					else if(guess1 == guess2){
+						if(guess1 == random1){
+							numberMatch++;	
+						}
+						else if(guess3 == random1){
+							numberMatch++;
+						}
+						else if(guess3 == random3){
+							numberMatch++;	
+						}
+						else if(guess1 == random2){
+							numberMatch++;
+						}
+						if(numberMatch == 1){
+						total+=10;
+					}
+					else if(numberMatch == 2){
+						total+=100;
+					}
+					else if(numberMatch == 3){
+						total+=1000;
+					}
+					}
+					else if(guess2 == guess3){
+						if(guess1 == random1){
+							numberMatch++;	
+						}
+						else if(guess1 == random2){
+							numberMatch++;	
+						}
+						else if(guess2 == random2){
+							numberMatch++;	
+						}
+						if(numberMatch == 1){
+						total+=10;
+					}
+					else if(numberMatch == 2){
+						total+=100;
+					}
+					else if(numberMatch == 3){
+						total+=1000;
+					}
+					}
+					else{
+						if(guess1 == random1){
+							numberMatch++;	
+						}
+						else if(guess1 == random2){
+							numberMatch++;	
+						}
+						else if(guess2 == random3){
+							numberMatch++;
+						}
+						if(numberMatch == 1){
+						total+=10;
+					}
+					else if(numberMatch == 2){
+						total+=100;
+					}
+					else if(numberMatch == 3){
+						total+=1000;
+					}
+					}
+				}
+			}
+			else if(random1 == random3){
+				if(guess1 != guess2 && guess2!=guess3 && guess1 != guess3){
+					if(guess1 == random1){
+						numberMatch++;
+					}
+					else if(guess2 == random1){
+						numberMatch++;
+					}
+					else if(guess3 == random1){
+						numberMatch++;
+					}
+					if(guess1 == random2){
+						numberMatch++;
+					}
+					else if(guess2 == random2){
+						numberMatch++;
+					}
+					else if(guess3== random2){
+						numberMatch++;
+					}
+					if(numberMatch == 1){
+						total+=10;
+					}
+					else if(numberMatch == 2){
+						total+=100;
+					}
+					else if(numberMatch == 3){
+						total+=1000;
+					}
+				}
+				else{
+					if(guess1 == guess2 && guess2 == guess3){
+							if(guess1 == random1){
+								numberMatch++;	
+							}
+							if(guess1 == random2){
+								numberMatch++;
+							}
+							if(guess1 == random3){
+								numberMatch++;
+							}
+							if(numberMatch == 1){
+								total+=10;
+							}
+							else if(numberMatch == 2){
+								total+=100;
+							}
+						
+					}
+					else if(guess1 == guess2){
+						if(guess1 == random1){
+								numberMatch++;		
+							}
+						else if(guess3 == random1){
+							numberMatch++;		
+						}
+						else if(guess3 == random2){
+							numberMatch++;		
+						}
+						if(numberMatch == 1){
+								total+=10;
+							}
+						else if(numberMatch == 2){
+								total+=100;
+						}
+						else if(numberMatch == 3){
+							total+=1000;
+						}
+						
+					}
+					else if(guess2 == guess3){
+						if(guess1 == random1){
+							numberMatch++;	
+						}
+						if(guess1 == random2){
+							numberMatch++;		
+						}
+						if(guess2 == random3){
+							numberMatch++;		
+						}
+						if(guess2 == random1){
+							numberMatch++;
+						}
+						if(numberMatch == 1){
+								total+=10;
+							}
+						else if(numberMatch == 2){
+								total+=100;
+						}
+						else if(numberMatch == 3){
+							total+=1000;	
+						}
+						
+					}
+					else{
+						if(guess1 == random1){
+								numberMatch++;	
+						}
+						else if(guess2 == random1){
+							numberMatch++;	
+						}
+						else if(guess2 == random2){
+							numberMatch++;		
+						}
+						if(numberMatch == 1){
+						total+=10;
+						}
+						else if(numberMatch == 2){
+							total+=100;
+						}
+						else if(numberMatch == 3){
+							total+=1000;
+						}		
+					}
+				}
+			}
+			else{
+				if(guess1 != guess2 && guess2!=guess3 && guess1 != guess3){
+					if(guess1 == random2){
+						numberMatch++;
+					}
+					else if(guess2 == random2){
+						numberMatch++;
+					}
+					else if(guess3 == random2){
+						numberMatch++;
+					}
+					if(guess1 == random1){
+						numberMatch++;
+					}
+					else if(guess2 == random1){
+						numberMatch++;
+					}
+					else if(guess3== random1){
+						numberMatch++;
+					}
+					if(numberMatch == 1){
+						total+=10;
+					}
+					else if(numberMatch == 2){
+						total+=100;
+					}
+					else if(numberMatch == 3){
+						total+=1000;
+					}
+				}
+				else{
+					if(guess1 == guess2 && guess2 == guess3){
+							if(guess1 == random1){
+								numberMatch++;	
+							}
+							if(guess1 == random2){
+								numberMatch++;
+							}
+							if(guess1 == random3){
+								numberMatch++;
+							}
+							if(numberMatch == 1){
+								total+=10;
+							}
+							else if(numberMatch == 2){
+								total+=100;
+							}
+							else if(numberMatch == 3){
+								total+=1000;	
+							}
+						
+					}
+					else if(guess1 == guess2){
+						if(guess1 == random1){
+								numberMatch++;		
+						}
+						else if(guess1 == random2){
+							numberMatch++;		
+						}
+						else if(guess3 == random1){
+							numberMatch++;		
+						}
+						if(numberMatch == 1){
+								total+=10;
+							}
+							else if(numberMatch == 2){
+								total+=100;
+							}
+							else if(numberMatch == 3){
+								total+=1000;	
+							}
+								
+					}
+					else if(guess2 == guess3){
+						if(guess1 == random1){
+								numberMatch++;	
+						}
+						else if(guess1 == random2){
+							numberMatch++;		
+						}
+						else if(guess2 == random2){
+							numberMatch++;	
+						}	
+						if(numberMatch == 1){
+								total+=10;
+							}
+							else if(numberMatch == 2){
+								total+=100;
+							}
+							else if(numberMatch == 3){
+								total+=1000;	
+							}
+					}
+					else{
+						if(guess1 == random1){
+								numberMatch++;	
+						}
+						if(guess2 == random1){
+							numberMatch++;	
+						}
+						if(guess1 == random2){
+							numberMatch++;	
+						}
+						if(numberMatch == 1){
+								total+=10;
+							}
+						else if(numberMatch == 2){
+								total+=100;
+						}
+						else if(numberMatch == 3){
+							total+=1000;	
+						}
+							
+					}
+				}
+			}
+			
+			
+		}
+		
+		
+		System.out.println("Your guessed numbers were " + guess1 + " " + guess2 + " " + guess3 + " ");
+		System.out.println("Your total points were " + total);
+
+			
+		
+		
+		
+	}
+	
+	
+	
+
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+}

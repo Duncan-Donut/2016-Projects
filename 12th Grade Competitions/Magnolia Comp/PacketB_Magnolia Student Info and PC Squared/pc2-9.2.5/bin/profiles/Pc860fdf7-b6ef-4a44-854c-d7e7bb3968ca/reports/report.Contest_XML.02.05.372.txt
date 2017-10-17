@@ -1,0 +1,128 @@
+CSUS Programming Contest System
+Date: Sunday, February 5, 2017 5:42:44 PM CST
+Version 9.2.5 20151014 (Wednesday, October 14th 2015 03:59 UTC) Java ver 1.8.0_111 build 3204 Windows 8.1 6.3 (amd64) 
+
+Contest XML Report
+-- Start XML --
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<contest>
+  <version builddate="Wednesday, October 14th 2015 03:59 UTC" fullversion="9.2.5 20151014" major="9" minor="2" pc2build="3204" subminor="5" system="CSUS Programming Contest System" url="http://pc2.ecs.csus.edu/" version="9.2.5"/>
+  <fileinfo date="2017-02-05 17:42.44.465" fulldate="Sun February 5, 2017 17:42:44.465 CST" version="Version 9.2.5 20151014 (Wednesday, October 14th 2015 03:59 UTC) Java ver 1.8.0_111 build 3204 Windows 8.1 6.3 (amd64) "/>
+  <settings defaultAnswer="No response, read problem statement" maxFileSize="512000" teamDisplayMode="LOGIN_NAME_ONLY" title="MAGNOLIA PACKET B"/>
+  <site IP_KEY="localhost" PORT_KEY="50002" name="Site 1" number="1" password="site1" pc2id="Site 1-2591166999110032495"/>
+  <language ExecutableFilename="{:basename}.class" ProgramExecutionCommandLine="javac {:mainfile}" compileCommandLine="javac {:mainfile}" name="Java" pc2id="Java-3928238015251234210"/>
+  <problem active="true" computerJudged="false" datafilename="dryrun.dat" manualReview="false" name="DryRun" pc2id="DryRun-5571112114871408411" timeoutSecond="120"/>
+  <problem active="true" answerfilename="akio.out" computerJudged="false" datafilename="akio.dat" ignoreSpaces="false" internalValidatorOption="4" manualReview="false" name="Akio" pc2id="Akio-1144013089910933325" timeoutSecond="120" useInternalValidator="true" validatorCommand="{:validator} {:infile} {:outfile} {:ansfile} {:resfile}  -pc2 4 false" validatorProgram="pc2.jar edu.csus.ecs.pc2.validator.Validator"/>
+  <problem active="true" answerfilename="danna.out" computerJudged="false" datafilename="danna.dat" ignoreSpaces="false" internalValidatorOption="4" manualReview="false" name="danna" pc2id="danna-971622681069564991" timeoutSecond="120" useInternalValidator="true" validatorCommand="{:validator} {:infile} {:outfile} {:ansfile} {:resfile}  -pc2 4 false" validatorProgram="pc2.jar edu.csus.ecs.pc2.validator.Validator"/>
+  <problem active="true" answerfilename="evelyn.out" computerJudged="false" datafilename="evelyn.dat" ignoreSpaces="false" internalValidatorOption="4" manualReview="false" name="evelyn" pc2id="evelyn--9146031687924479864" timeoutSecond="120" useInternalValidator="true" validatorCommand="{:validator} {:infile} {:outfile} {:ansfile} {:resfile}  -pc2 4 false" validatorProgram="pc2.jar edu.csus.ecs.pc2.validator.Validator"/>
+  <problem active="true" answerfilename="fengge.out" computerJudged="false" datafilename="fengge.dat" ignoreSpaces="false" internalValidatorOption="4" manualReview="false" name="fengge" pc2id="fengge-8154034072517052724" timeoutSecond="120" useInternalValidator="true" validatorCommand="{:validator} {:infile} {:outfile} {:ansfile} {:resfile}  -pc2 4 false" validatorProgram="pc2.jar edu.csus.ecs.pc2.validator.Validator"/>
+  <problem active="true" answerfilename="isidora.out" computerJudged="false" datafilename="isidora.dat" ignoreSpaces="false" internalValidatorOption="4" manualReview="false" name="isidora" pc2id="isidora-4104540740655750798" timeoutSecond="120" useInternalValidator="true" validatorCommand="{:validator} {:infile} {:outfile} {:ansfile} {:resfile}  -pc2 4 false" validatorProgram="pc2.jar edu.csus.ecs.pc2.validator.Validator"/>
+  <problem active="true" answerfilename="juan.out" computerJudged="false" ignoreSpaces="false" internalValidatorOption="4" manualReview="false" name="juan" pc2id="juan--6294440183027966234" timeoutSecond="120" useInternalValidator="true" validatorCommand="{:validator} {:infile} {:outfile} {:ansfile} {:resfile}  -pc2 4 false" validatorProgram="pc2.jar edu.csus.ecs.pc2.validator.Validator"/>
+  <problem active="true" answerfilename="nastya.out" computerJudged="false" datafilename="nastya.dat" ignoreSpaces="false" internalValidatorOption="4" manualReview="false" name="nastya" pc2id="nastya--7456400759554429550" timeoutSecond="120" useInternalValidator="true" validatorCommand="{:validator} {:infile} {:outfile} {:ansfile} {:resfile}  -pc2 4 false" validatorProgram="pc2.jar edu.csus.ecs.pc2.validator.Validator"/>
+  <problem active="true" answerfilename="olga.out" computerJudged="false" datafilename="olga.dat" ignoreSpaces="false" internalValidatorOption="4" manualReview="false" name="olga" pc2id="olga--8745381373227763087" timeoutSecond="120" useInternalValidator="true" validatorCommand="{:validator} {:infile} {:outfile} {:ansfile} {:resfile}  -pc2 4 false" validatorProgram="pc2.jar edu.csus.ecs.pc2.validator.Validator"/>
+  <problem active="true" answerfilename="pedro.out" computerJudged="false" datafilename="pedro.dat" ignoreSpaces="false" internalValidatorOption="4" manualReview="false" name="pdero" pc2id="pdero--614943057240902443" timeoutSecond="120" useInternalValidator="true" validatorCommand="{:validator} {:infile} {:outfile} {:ansfile} {:resfile}  -pc2 4 false" validatorProgram="pc2.jar edu.csus.ecs.pc2.validator.Validator"/>
+  <problem active="true" answerfilename="roy.out" computerJudged="false" datafilename="roy.dat" ignoreSpaces="false" internalValidatorOption="4" manualReview="false" name="Roy" pc2id="Roy-1340154543560626632" timeoutSecond="120" useInternalValidator="true" validatorCommand="{:validator} {:infile} {:outfile} {:ansfile} {:resfile}  -pc2 4 false" validatorProgram="pc2.jar edu.csus.ecs.pc2.validator.Validator"/>
+  <problem active="true" answerfilename="samantha.out" computerJudged="false" datafilename="samantha.dat" ignoreSpaces="false" internalValidatorOption="4" manualReview="false" name="Samantha" pc2id="Samantha-8654084596796213131" timeoutSecond="120" useInternalValidator="true" validatorCommand="{:validator} {:infile} {:outfile} {:ansfile} {:resfile}  -pc2 4 false" validatorProgram="pc2.jar edu.csus.ecs.pc2.validator.Validator"/>
+  <problem active="true" answerfilename="kostas.out" computerJudged="false" datafilename="kostas.dat" ignoreSpaces="false" internalValidatorOption="4" manualReview="false" name="Kosta" pc2id="Kosta--4390803225918832102" timeoutSecond="120" useInternalValidator="true" validatorCommand="{:validator} {:infile} {:outfile} {:ansfile} {:resfile}  -pc2 4 false" validatorProgram="pc2.jar edu.csus.ecs.pc2.validator.Validator"/>
+  <problem active="true" computerJudged="false" manualReview="false" name="General" pc2id="General-3834976222495978843" timeoutSecond="0"/>
+  <account allowlogin="true" name="administrator1" number="1" password="magnolia" pc2triplet="1ADMINISTRATOR1" showonscoreboard="false" site="1" type="ADMINISTRATOR"/>
+  <account allowlogin="true" name="team1" number="1" password="team1" pc2triplet="1TEAM1" showonscoreboard="true" site="1" type="TEAM"/>
+  <account allowlogin="true" name="team2" number="2" password="rewq" pc2triplet="1TEAM2" showonscoreboard="true" site="1" type="TEAM"/>
+  <account allowlogin="true" name="team3" number="3" password="gfds" pc2triplet="1TEAM3" showonscoreboard="true" site="1" type="TEAM"/>
+  <account allowlogin="true" name="team4" number="4" password="sdfg" pc2triplet="1TEAM4" showonscoreboard="true" site="1" type="TEAM"/>
+  <account allowlogin="true" name="team5" number="5" password="five" pc2triplet="1TEAM5" showonscoreboard="true" site="1" type="TEAM"/>
+  <account allowlogin="true" name="team6" number="6" password="house" pc2triplet="1TEAM6" showonscoreboard="true" site="1" type="TEAM"/>
+  <account allowlogin="true" name="team7" number="7" password="lkj" pc2triplet="1TEAM7" showonscoreboard="true" site="1" type="TEAM"/>
+  <account allowlogin="true" name="team8" number="8" password="ate" pc2triplet="1TEAM8" showonscoreboard="true" site="1" type="TEAM"/>
+  <account allowlogin="true" name="team9" number="9" password="hinds" pc2triplet="1TEAM9" showonscoreboard="true" site="1" type="TEAM"/>
+  <account allowlogin="true" name="team10" number="10" password="jjj" pc2triplet="1TEAM10" showonscoreboard="true" site="1" type="TEAM"/>
+  <account allowlogin="true" name="team11" number="11" password="like" pc2triplet="1TEAM11" showonscoreboard="true" site="1" type="TEAM"/>
+  <account allowlogin="true" name="team12" number="12" password="snow" pc2triplet="1TEAM12" showonscoreboard="true" site="1" type="TEAM"/>
+  <account allowlogin="true" name="team13" number="13" password="unlucky" pc2triplet="1TEAM13" showonscoreboard="true" site="1" type="TEAM"/>
+  <account allowlogin="true" name="team14" number="14" password="teen" pc2triplet="1TEAM14" showonscoreboard="true" site="1" type="TEAM"/>
+  <account allowlogin="true" name="team15" number="15" password="fifth" pc2triplet="1TEAM15" showonscoreboard="true" site="1" type="TEAM"/>
+  <account allowlogin="true" name="team16" number="16" password="16b" pc2triplet="1TEAM16" showonscoreboard="true" site="1" type="TEAM"/>
+  <account allowlogin="true" name="team17" number="17" password="age" pc2triplet="1TEAM17" showonscoreboard="true" site="1" type="TEAM"/>
+  <account allowlogin="true" name="team18" number="18" password="eight" pc2triplet="1TEAM18" showonscoreboard="true" site="1" type="TEAM"/>
+  <account allowlogin="true" name="team19" number="19" password="cook" pc2triplet="1TEAM19" showonscoreboard="true" site="1" type="TEAM"/>
+  <account allowlogin="true" name="team20" number="20" password="whocares" pc2triplet="1TEAM20" showonscoreboard="true" site="1" type="TEAM"/>
+  <account allowlogin="true" name="team21" number="21" password="winner" pc2triplet="1TEAM21" showonscoreboard="true" site="1" type="TEAM"/>
+  <account allowlogin="true" name="team22" number="22" password="winning" pc2triplet="1TEAM22" showonscoreboard="true" site="1" type="TEAM"/>
+  <account allowlogin="true" name="team23" number="23" password="smile" pc2triplet="1TEAM23" showonscoreboard="true" site="1" type="TEAM"/>
+  <account allowlogin="true" name="team24" number="24" password="super" pc2triplet="1TEAM24" showonscoreboard="true" site="1" type="TEAM"/>
+  <account allowlogin="true" name="team25" number="25" password="five" pc2triplet="1TEAM25" showonscoreboard="true" site="1" type="TEAM"/>
+  <account allowlogin="true" name="team26" number="26" password="houses" pc2triplet="1TEAM26" showonscoreboard="true" site="1" type="TEAM"/>
+  <account allowlogin="true" name="team27" number="27" password="mellen" pc2triplet="1TEAM27" showonscoreboard="true" site="1" type="TEAM"/>
+  <account allowlogin="true" name="team28" number="28" password="hair" pc2triplet="1TEAM28" showonscoreboard="true" site="1" type="TEAM"/>
+  <account allowlogin="true" name="team29" number="29" password="joke" pc2triplet="1TEAM29" showonscoreboard="true" site="1" type="TEAM"/>
+  <account allowlogin="true" name="team30" number="30" password="killing" pc2triplet="1TEAM30" showonscoreboard="true" site="1" type="TEAM"/>
+  <account allowlogin="true" name="team31" number="31" password="can" pc2triplet="1TEAM31" showonscoreboard="true" site="1" type="TEAM"/>
+  <account allowlogin="true" name="team32" number="32" password="jog" pc2triplet="1TEAM32" showonscoreboard="true" site="1" type="TEAM"/>
+  <account allowlogin="true" name="team33" number="33" password="william" pc2triplet="1TEAM33" showonscoreboard="true" site="1" type="TEAM"/>
+  <account allowlogin="true" name="team34" number="34" password="tx" pc2triplet="1TEAM34" showonscoreboard="true" site="1" type="TEAM"/>
+  <account allowlogin="true" name="team35" number="35" password="past" pc2triplet="1TEAM35" showonscoreboard="true" site="1" type="TEAM"/>
+  <account allowlogin="true" name="team36" number="36" password="only" pc2triplet="1TEAM36" showonscoreboard="true" site="1" type="TEAM"/>
+  <account allowlogin="true" name="team37" number="37" password="good" pc2triplet="1TEAM37" showonscoreboard="true" site="1" type="TEAM"/>
+  <account allowlogin="true" name="team38" number="38" password="hound" pc2triplet="1TEAM38" showonscoreboard="true" site="1" type="TEAM"/>
+  <account allowlogin="true" name="team39" number="39" password="jeff" pc2triplet="1TEAM39" showonscoreboard="true" site="1" type="TEAM"/>
+  <account allowlogin="true" name="team40" number="40" password="forty" pc2triplet="1TEAM40" showonscoreboard="true" site="1" type="TEAM"/>
+  <account allowlogin="true" name="team41" number="41" password="onet" pc2triplet="1TEAM41" showonscoreboard="true" site="1" type="TEAM"/>
+  <account allowlogin="true" name="team42" number="42" password="fortytwo" pc2triplet="1TEAM42" showonscoreboard="true" site="1" type="TEAM"/>
+  <account allowlogin="true" name="team43" number="43" password="wow" pc2triplet="1TEAM43" showonscoreboard="true" site="1" type="TEAM"/>
+  <account allowlogin="true" name="team44" number="44" password="bob" pc2triplet="1TEAM44" showonscoreboard="true" site="1" type="TEAM"/>
+  <account allowlogin="true" name="team45" number="45" password="mom" pc2triplet="1TEAM45" showonscoreboard="true" site="1" type="TEAM"/>
+  <account allowlogin="true" name="team46" number="46" password="dad" pc2triplet="1TEAM46" showonscoreboard="true" site="1" type="TEAM"/>
+  <account allowlogin="true" name="team47" number="47" password="ntg" pc2triplet="1TEAM47" showonscoreboard="true" site="1" type="TEAM"/>
+  <account allowlogin="true" name="team48" number="48" password="onetogo" pc2triplet="1TEAM48" showonscoreboard="true" site="1" type="TEAM"/>
+  <account allowlogin="true" name="team49" number="49" password="hound" pc2triplet="1TEAM49" showonscoreboard="true" site="1" type="TEAM"/>
+  <account allowlogin="true" name="team50" number="50" password="last" pc2triplet="1TEAM50" showonscoreboard="true" site="1" type="TEAM"/>
+  <account allowlogin="true" name="judge1" number="1" password="magnolia" pc2triplet="1JUDGE1" showonscoreboard="false" site="1" type="JUDGE"/>
+  <account allowlogin="true" name="judge2" number="2" password="magnolia" pc2triplet="1JUDGE2" showonscoreboard="false" site="1" type="JUDGE"/>
+  <account allowlogin="true" name="judge3" number="3" password="magnolia" pc2triplet="1JUDGE3" showonscoreboard="false" site="1" type="JUDGE"/>
+  <account allowlogin="true" name="judge4" number="4" password="magnolia" pc2triplet="1JUDGE4" showonscoreboard="false" site="1" type="JUDGE"/>
+  <account allowlogin="true" name="judge5" number="5" password="magnolia" pc2triplet="1JUDGE5" showonscoreboard="false" site="1" type="JUDGE"/>
+  <account allowlogin="true" name="scoreboard1" number="1" password="magnolia" pc2triplet="1SCOREBOARD1" showonscoreboard="false" site="1" type="SCOREBOARD"/>
+  <run elapsed="0" filename="Akio.java" languageName="Java" number="1" pc2id="Run--7479037805327237497" problemName="Akio" site="1" solved="true">
+    <judgement active="true" id="0" judgement="Yes" pc2id="Yes-3241447729218406501" solved="true"/>
+  </run>
+  <run elapsed="0" filename="Danna.java" languageName="Java" number="2" pc2id="Run-2211619898059410867" problemName="danna" site="1" solved="true">
+    <judgement active="true" id="0" judgement="Yes" pc2id="Yes-3241447729218406501" solved="true"/>
+  </run>
+  <run elapsed="1" filename="Evelyn.java" languageName="Java" number="3" pc2id="Run-6901053825036406338" problemName="evelyn" site="1" solved="true">
+    <judgement active="true" id="0" judgement="Yes" pc2id="Yes-3241447729218406501" solved="true"/>
+  </run>
+  <run elapsed="1" filename="Fengge.java" languageName="Java" number="4" pc2id="Run--5213246022120599946" problemName="fengge" site="1" solved="true">
+    <judgement active="true" id="0" judgement="Yes" pc2id="Yes-3241447729218406501" solved="true"/>
+  </run>
+  <run elapsed="1" filename="Isidora.java" languageName="Java" number="5" pc2id="Run--4520130826694987383" problemName="isidora" site="1" solved="true">
+    <judgement active="true" id="0" judgement="Yes" pc2id="Yes-3241447729218406501" solved="true"/>
+  </run>
+  <run elapsed="1" filename="Juan.java" languageName="Java" number="6" pc2id="Run-3292650820582899681" problemName="juan" site="1" solved="true">
+    <judgement active="true" id="0" judgement="Yes" pc2id="Yes-3241447729218406501" solved="true"/>
+  </run>
+  <run elapsed="1" filename="Nastya.java" languageName="Java" number="7" pc2id="Run-8541642138066306690" problemName="nastya" site="1" solved="true">
+    <judgement active="true" id="0" judgement="Yes" pc2id="Yes-3241447729218406501" solved="true"/>
+  </run>
+  <run elapsed="2" filename="Olga.java" languageName="Java" number="8" pc2id="Run-8307988263027325380" problemName="olga" site="1" solved="true">
+    <judgement active="true" id="0" judgement="Yes" pc2id="Yes-3241447729218406501" solved="true"/>
+  </run>
+  <run elapsed="2" filename="Pedro.java" languageName="Java" number="9" pc2id="Run--6542613804973781179" problemName="pdero" site="1" solved="true">
+    <judgement active="true" id="0" judgement="Yes" pc2id="Yes-3241447729218406501" solved="true"/>
+  </run>
+  <run elapsed="2" filename="Roy.java" languageName="Java" number="10" pc2id="Run-8107700643214541600" problemName="Roy" site="1" solved="true">
+    <judgement active="true" id="0" judgement="Yes" pc2id="Yes-3241447729218406501" solved="true"/>
+  </run>
+  <run elapsed="2" filename="Samantha.java" languageName="Java" number="11" pc2id="Run--1649764703146886050" problemName="Samantha" site="1" solved="true">
+    <judgement active="true" id="0" judgement="Yes" pc2id="Yes-3241447729218406501" solved="true"/>
+  </run>
+  <run elapsed="5" filename="Kostas.java" languageName="Java" number="12" pc2id="Run-7852741599072339790" problemName="Kosta" site="1" solved="true">
+    <judgement active="true" id="0" judgement="Yes" pc2id="Yes-3241447729218406501" solved="true"/>
+  </run>
+  <ballonlist/>
+  <profiles contestid="Default-3425878675268062453" currentprofile="true" description="Default Contest" name="Default" path="profiles\Pc860fdf7-b6ef-4a44-854c-d7e7bb3968ca" pc2id="Default-4573646733056024069"/>
+</contest>
+
+
+-- End XML --
+
+end report

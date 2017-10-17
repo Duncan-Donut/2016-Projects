@@ -1,0 +1,100 @@
+CSUS Programming Contest System
+Date: Sunday, February 5, 2017 5:42:44 PM CST
+Version 9.2.5 20151014 (Wednesday, October 14th 2015 03:59 UTC) Java ver 1.8.0_111 build 3204 Windows 8.1 6.3 (amd64) 
+
+Fastest Solutions Per Problem Report
+
+There are 12 runs.
+
+Problem DryRun
+
+Rank Elap Run# Team
+
+No solutions for problem DryRun
+
+Problem Akio
+
+Rank Elap Run# Team
+   1    0    1 team1 (Site 1)
+
+There are 1 runs solving Akio
+
+Problem danna
+
+Rank Elap Run# Team
+   1    0    2 team1 (Site 1)
+
+There are 1 runs solving danna
+
+Problem evelyn
+
+Rank Elap Run# Team
+   1    1    3 team1 (Site 1)
+
+There are 1 runs solving evelyn
+
+Problem fengge
+
+Rank Elap Run# Team
+   1    1    4 team1 (Site 1)
+
+There are 1 runs solving fengge
+
+Problem isidora
+
+Rank Elap Run# Team
+   1    1    5 team1 (Site 1)
+
+There are 1 runs solving isidora
+
+Problem juan
+
+Rank Elap Run# Team
+   1    1    6 team1 (Site 1)
+
+There are 1 runs solving juan
+
+Problem nastya
+
+Rank Elap Run# Team
+   1    1    7 team1 (Site 1)
+
+There are 1 runs solving nastya
+
+Problem olga
+
+Rank Elap Run# Team
+   1    2    8 team1 (Site 1)
+
+There are 1 runs solving olga
+
+Problem pdero
+
+Rank Elap Run# Team
+   1    2    9 team1 (Site 1)
+
+There are 1 runs solving pdero
+
+Problem Roy
+
+Rank Elap Run# Team
+   1    2   10 team1 (Site 1)
+
+There are 1 runs solving Roy
+
+Problem Samantha
+
+Rank Elap Run# Team
+   1    2   11 team1 (Site 1)
+
+There are 1 runs solving Samantha
+
+Problem Kosta
+
+Rank Elap Run# Team
+   1    5   12 team1 (Site 1)
+
+There are 1 runs solving Kosta
+
+
+end report

@@ -1,0 +1,2270 @@
+CSUS Programming Contest System
+Date: Sunday, February 5, 2017 5:42:44 PM CST
+Version 9.2.5 20151014 (Wednesday, October 14th 2015 03:59 UTC) Java ver 1.8.0_111 build 3204 Windows 8.1 6.3 (amd64) 
+
+Standings XML  Report
+
+-- Start XML --
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<contestStandings>
+  <standingsHeader currentDate="Sun Feb 05 17:42:44 CST 2017" generatorId="$Id: DefaultScoringAlgorithm.java 2534 2012-04-18 02:27:12Z boudreat $" groupCount="1" medianProblemsSolved="0" problemCount="13" problemsAttempted="12" siteCount="1" systemName="CSUS Programming Contest System" systemURL="http://pc2.ecs.csus.edu/" systemVersion="9.2.5 20151014 build 3204" title="MAGNOLIA PACKET B" totalAttempts="12" totalSolved="12">
+    <groupList/>
+    <colorList/>
+    <problem attempts="0" id="1" numberSolved="0" title="DryRun"/>
+    <problem attempts="1" bestSolutionTime="0" id="2" lastSolutionTime="0" numberSolved="1" title="Akio"/>
+    <problem attempts="1" bestSolutionTime="0" id="3" lastSolutionTime="0" numberSolved="1" title="danna"/>
+    <problem attempts="1" bestSolutionTime="1" id="4" lastSolutionTime="1" numberSolved="1" title="evelyn"/>
+    <problem attempts="1" bestSolutionTime="1" id="5" lastSolutionTime="1" numberSolved="1" title="fengge"/>
+    <problem attempts="1" bestSolutionTime="1" id="6" lastSolutionTime="1" numberSolved="1" title="isidora"/>
+    <problem attempts="1" bestSolutionTime="1" id="7" lastSolutionTime="1" numberSolved="1" title="juan"/>
+    <problem attempts="1" bestSolutionTime="1" id="8" lastSolutionTime="1" numberSolved="1" title="nastya"/>
+    <problem attempts="1" bestSolutionTime="2" id="9" lastSolutionTime="2" numberSolved="1" title="olga"/>
+    <problem attempts="1" bestSolutionTime="2" id="10" lastSolutionTime="2" numberSolved="1" title="pdero"/>
+    <problem attempts="1" bestSolutionTime="2" id="11" lastSolutionTime="2" numberSolved="1" title="Roy"/>
+    <problem attempts="1" bestSolutionTime="2" id="12" lastSolutionTime="2" numberSolved="1" title="Samantha"/>
+    <problem attempts="1" bestSolutionTime="5" id="13" lastSolutionTime="5" numberSolved="1" title="Kosta"/>
+  </standingsHeader>
+  <teamStanding firstSolved="0" index="0" lastSolved="5" points="18" problemsAttempted="12" rank="1" solved="12" teamAlias="team1 (not aliasesd)" teamExternalId="" teamId="1" teamKey="1TEAM1" teamName="team1" teamSiteId="1" totalAttempts="12">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="DryRun-5571112114871408411" solutionTime="0"/>
+    <problemSummaryInfo attempts="1" index="2" isPending="false" isSolved="true" points="0" problemId="Akio-1144013089910933325" solutionTime="0"/>
+    <problemSummaryInfo attempts="1" index="3" isPending="false" isSolved="true" points="0" problemId="danna-971622681069564991" solutionTime="0"/>
+    <problemSummaryInfo attempts="1" index="4" isPending="false" isSolved="true" points="1" problemId="evelyn--9146031687924479864" solutionTime="1"/>
+    <problemSummaryInfo attempts="1" index="5" isPending="false" isSolved="true" points="1" problemId="fengge-8154034072517052724" solutionTime="1"/>
+    <problemSummaryInfo attempts="1" index="6" isPending="false" isSolved="true" points="1" problemId="isidora-4104540740655750798" solutionTime="1"/>
+    <problemSummaryInfo attempts="1" index="7" isPending="false" isSolved="true" points="1" problemId="juan--6294440183027966234" solutionTime="1"/>
+    <problemSummaryInfo attempts="1" index="8" isPending="false" isSolved="true" points="1" problemId="nastya--7456400759554429550" solutionTime="1"/>
+    <problemSummaryInfo attempts="1" index="9" isPending="false" isSolved="true" points="2" problemId="olga--8745381373227763087" solutionTime="2"/>
+    <problemSummaryInfo attempts="1" index="10" isPending="false" isSolved="true" points="2" problemId="pdero--614943057240902443" solutionTime="2"/>
+    <problemSummaryInfo attempts="1" index="11" isPending="false" isSolved="true" points="2" problemId="Roy-1340154543560626632" solutionTime="2"/>
+    <problemSummaryInfo attempts="1" index="12" isPending="false" isSolved="true" points="2" problemId="Samantha-8654084596796213131" solutionTime="2"/>
+    <problemSummaryInfo attempts="1" index="13" isPending="false" isSolved="true" points="5" problemId="Kosta--4390803225918832102" solutionTime="5"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="1" lastSolved="0" points="0" problemsAttempted="0" rank="2" solved="0" teamAlias="team2 (not aliasesd)" teamExternalId="" teamId="2" teamKey="1TEAM2" teamName="team2" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="DryRun-5571112114871408411" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Akio-1144013089910933325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="danna-971622681069564991" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="evelyn--9146031687924479864" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="fengge-8154034072517052724" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="isidora-4104540740655750798" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="juan--6294440183027966234" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="nastya--7456400759554429550" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="olga--8745381373227763087" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="pdero--614943057240902443" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Roy-1340154543560626632" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Samantha-8654084596796213131" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="13" isPending="false" isSolved="false" points="0" problemId="Kosta--4390803225918832102" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="2" lastSolved="0" points="0" problemsAttempted="0" rank="2" solved="0" teamAlias="team3 (not aliasesd)" teamExternalId="" teamId="3" teamKey="1TEAM3" teamName="team3" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="DryRun-5571112114871408411" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Akio-1144013089910933325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="danna-971622681069564991" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="evelyn--9146031687924479864" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="fengge-8154034072517052724" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="isidora-4104540740655750798" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="juan--6294440183027966234" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="nastya--7456400759554429550" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="olga--8745381373227763087" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="pdero--614943057240902443" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Roy-1340154543560626632" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Samantha-8654084596796213131" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="13" isPending="false" isSolved="false" points="0" problemId="Kosta--4390803225918832102" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="3" lastSolved="0" points="0" problemsAttempted="0" rank="2" solved="0" teamAlias="team4 (not aliasesd)" teamExternalId="" teamId="4" teamKey="1TEAM4" teamName="team4" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="DryRun-5571112114871408411" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Akio-1144013089910933325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="danna-971622681069564991" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="evelyn--9146031687924479864" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="fengge-8154034072517052724" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="isidora-4104540740655750798" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="juan--6294440183027966234" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="nastya--7456400759554429550" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="olga--8745381373227763087" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="pdero--614943057240902443" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Roy-1340154543560626632" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Samantha-8654084596796213131" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="13" isPending="false" isSolved="false" points="0" problemId="Kosta--4390803225918832102" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="4" lastSolved="0" points="0" problemsAttempted="0" rank="2" solved="0" teamAlias="team5 (not aliasesd)" teamExternalId="" teamId="5" teamKey="1TEAM5" teamName="team5" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="DryRun-5571112114871408411" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Akio-1144013089910933325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="danna-971622681069564991" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="evelyn--9146031687924479864" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="fengge-8154034072517052724" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="isidora-4104540740655750798" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="juan--6294440183027966234" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="nastya--7456400759554429550" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="olga--8745381373227763087" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="pdero--614943057240902443" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Roy-1340154543560626632" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Samantha-8654084596796213131" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="13" isPending="false" isSolved="false" points="0" problemId="Kosta--4390803225918832102" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="5" lastSolved="0" points="0" problemsAttempted="0" rank="2" solved="0" teamAlias="team6 (not aliasesd)" teamExternalId="" teamId="6" teamKey="1TEAM6" teamName="team6" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="DryRun-5571112114871408411" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Akio-1144013089910933325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="danna-971622681069564991" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="evelyn--9146031687924479864" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="fengge-8154034072517052724" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="isidora-4104540740655750798" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="juan--6294440183027966234" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="nastya--7456400759554429550" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="olga--8745381373227763087" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="pdero--614943057240902443" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Roy-1340154543560626632" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Samantha-8654084596796213131" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="13" isPending="false" isSolved="false" points="0" problemId="Kosta--4390803225918832102" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="6" lastSolved="0" points="0" problemsAttempted="0" rank="2" solved="0" teamAlias="team7 (not aliasesd)" teamExternalId="" teamId="7" teamKey="1TEAM7" teamName="team7" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="DryRun-5571112114871408411" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Akio-1144013089910933325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="danna-971622681069564991" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="evelyn--9146031687924479864" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="fengge-8154034072517052724" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="isidora-4104540740655750798" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="juan--6294440183027966234" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="nastya--7456400759554429550" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="olga--8745381373227763087" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="pdero--614943057240902443" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Roy-1340154543560626632" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Samantha-8654084596796213131" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="13" isPending="false" isSolved="false" points="0" problemId="Kosta--4390803225918832102" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="7" lastSolved="0" points="0" problemsAttempted="0" rank="2" solved="0" teamAlias="team8 (not aliasesd)" teamExternalId="" teamId="8" teamKey="1TEAM8" teamName="team8" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="DryRun-5571112114871408411" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Akio-1144013089910933325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="danna-971622681069564991" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="evelyn--9146031687924479864" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="fengge-8154034072517052724" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="isidora-4104540740655750798" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="juan--6294440183027966234" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="nastya--7456400759554429550" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="olga--8745381373227763087" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="pdero--614943057240902443" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Roy-1340154543560626632" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Samantha-8654084596796213131" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="13" isPending="false" isSolved="false" points="0" problemId="Kosta--4390803225918832102" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="8" lastSolved="0" points="0" problemsAttempted="0" rank="2" solved="0" teamAlias="team9 (not aliasesd)" teamExternalId="" teamId="9" teamKey="1TEAM9" teamName="team9" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="DryRun-5571112114871408411" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Akio-1144013089910933325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="danna-971622681069564991" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="evelyn--9146031687924479864" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="fengge-8154034072517052724" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="isidora-4104540740655750798" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="juan--6294440183027966234" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="nastya--7456400759554429550" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="olga--8745381373227763087" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="pdero--614943057240902443" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Roy-1340154543560626632" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Samantha-8654084596796213131" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="13" isPending="false" isSolved="false" points="0" problemId="Kosta--4390803225918832102" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="9" lastSolved="0" points="0" problemsAttempted="0" rank="2" solved="0" teamAlias="team10 (not aliasesd)" teamExternalId="" teamId="10" teamKey="1TEAM10" teamName="team10" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="DryRun-5571112114871408411" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Akio-1144013089910933325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="danna-971622681069564991" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="evelyn--9146031687924479864" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="fengge-8154034072517052724" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="isidora-4104540740655750798" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="juan--6294440183027966234" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="nastya--7456400759554429550" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="olga--8745381373227763087" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="pdero--614943057240902443" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Roy-1340154543560626632" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Samantha-8654084596796213131" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="13" isPending="false" isSolved="false" points="0" problemId="Kosta--4390803225918832102" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="10" lastSolved="0" points="0" problemsAttempted="0" rank="2" solved="0" teamAlias="team11 (not aliasesd)" teamExternalId="" teamId="11" teamKey="1TEAM11" teamName="team11" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="DryRun-5571112114871408411" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Akio-1144013089910933325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="danna-971622681069564991" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="evelyn--9146031687924479864" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="fengge-8154034072517052724" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="isidora-4104540740655750798" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="juan--6294440183027966234" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="nastya--7456400759554429550" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="olga--8745381373227763087" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="pdero--614943057240902443" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Roy-1340154543560626632" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Samantha-8654084596796213131" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="13" isPending="false" isSolved="false" points="0" problemId="Kosta--4390803225918832102" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="11" lastSolved="0" points="0" problemsAttempted="0" rank="2" solved="0" teamAlias="team12 (not aliasesd)" teamExternalId="" teamId="12" teamKey="1TEAM12" teamName="team12" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="DryRun-5571112114871408411" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Akio-1144013089910933325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="danna-971622681069564991" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="evelyn--9146031687924479864" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="fengge-8154034072517052724" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="isidora-4104540740655750798" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="juan--6294440183027966234" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="nastya--7456400759554429550" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="olga--8745381373227763087" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="pdero--614943057240902443" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Roy-1340154543560626632" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Samantha-8654084596796213131" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="13" isPending="false" isSolved="false" points="0" problemId="Kosta--4390803225918832102" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="12" lastSolved="0" points="0" problemsAttempted="0" rank="2" solved="0" teamAlias="team13 (not aliasesd)" teamExternalId="" teamId="13" teamKey="1TEAM13" teamName="team13" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="DryRun-5571112114871408411" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Akio-1144013089910933325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="danna-971622681069564991" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="evelyn--9146031687924479864" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="fengge-8154034072517052724" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="isidora-4104540740655750798" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="juan--6294440183027966234" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="nastya--7456400759554429550" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="olga--8745381373227763087" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="pdero--614943057240902443" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Roy-1340154543560626632" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Samantha-8654084596796213131" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="13" isPending="false" isSolved="false" points="0" problemId="Kosta--4390803225918832102" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="13" lastSolved="0" points="0" problemsAttempted="0" rank="2" solved="0" teamAlias="team14 (not aliasesd)" teamExternalId="" teamId="14" teamKey="1TEAM14" teamName="team14" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="DryRun-5571112114871408411" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Akio-1144013089910933325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="danna-971622681069564991" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="evelyn--9146031687924479864" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="fengge-8154034072517052724" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="isidora-4104540740655750798" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="juan--6294440183027966234" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="nastya--7456400759554429550" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="olga--8745381373227763087" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="pdero--614943057240902443" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Roy-1340154543560626632" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Samantha-8654084596796213131" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="13" isPending="false" isSolved="false" points="0" problemId="Kosta--4390803225918832102" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="14" lastSolved="0" points="0" problemsAttempted="0" rank="2" solved="0" teamAlias="team15 (not aliasesd)" teamExternalId="" teamId="15" teamKey="1TEAM15" teamName="team15" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="DryRun-5571112114871408411" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Akio-1144013089910933325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="danna-971622681069564991" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="evelyn--9146031687924479864" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="fengge-8154034072517052724" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="isidora-4104540740655750798" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="juan--6294440183027966234" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="nastya--7456400759554429550" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="olga--8745381373227763087" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="pdero--614943057240902443" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Roy-1340154543560626632" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Samantha-8654084596796213131" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="13" isPending="false" isSolved="false" points="0" problemId="Kosta--4390803225918832102" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="15" lastSolved="0" points="0" problemsAttempted="0" rank="2" solved="0" teamAlias="team16 (not aliasesd)" teamExternalId="" teamId="16" teamKey="1TEAM16" teamName="team16" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="DryRun-5571112114871408411" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Akio-1144013089910933325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="danna-971622681069564991" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="evelyn--9146031687924479864" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="fengge-8154034072517052724" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="isidora-4104540740655750798" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="juan--6294440183027966234" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="nastya--7456400759554429550" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="olga--8745381373227763087" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="pdero--614943057240902443" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Roy-1340154543560626632" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Samantha-8654084596796213131" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="13" isPending="false" isSolved="false" points="0" problemId="Kosta--4390803225918832102" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="16" lastSolved="0" points="0" problemsAttempted="0" rank="2" solved="0" teamAlias="team17 (not aliasesd)" teamExternalId="" teamId="17" teamKey="1TEAM17" teamName="team17" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="DryRun-5571112114871408411" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Akio-1144013089910933325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="danna-971622681069564991" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="evelyn--9146031687924479864" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="fengge-8154034072517052724" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="isidora-4104540740655750798" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="juan--6294440183027966234" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="nastya--7456400759554429550" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="olga--8745381373227763087" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="pdero--614943057240902443" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Roy-1340154543560626632" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Samantha-8654084596796213131" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="13" isPending="false" isSolved="false" points="0" problemId="Kosta--4390803225918832102" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="17" lastSolved="0" points="0" problemsAttempted="0" rank="2" solved="0" teamAlias="team18 (not aliasesd)" teamExternalId="" teamId="18" teamKey="1TEAM18" teamName="team18" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="DryRun-5571112114871408411" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Akio-1144013089910933325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="danna-971622681069564991" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="evelyn--9146031687924479864" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="fengge-8154034072517052724" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="isidora-4104540740655750798" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="juan--6294440183027966234" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="nastya--7456400759554429550" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="olga--8745381373227763087" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="pdero--614943057240902443" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Roy-1340154543560626632" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Samantha-8654084596796213131" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="13" isPending="false" isSolved="false" points="0" problemId="Kosta--4390803225918832102" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="18" lastSolved="0" points="0" problemsAttempted="0" rank="2" solved="0" teamAlias="team19 (not aliasesd)" teamExternalId="" teamId="19" teamKey="1TEAM19" teamName="team19" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="DryRun-5571112114871408411" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Akio-1144013089910933325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="danna-971622681069564991" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="evelyn--9146031687924479864" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="fengge-8154034072517052724" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="isidora-4104540740655750798" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="juan--6294440183027966234" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="nastya--7456400759554429550" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="olga--8745381373227763087" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="pdero--614943057240902443" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Roy-1340154543560626632" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Samantha-8654084596796213131" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="13" isPending="false" isSolved="false" points="0" problemId="Kosta--4390803225918832102" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="19" lastSolved="0" points="0" problemsAttempted="0" rank="2" solved="0" teamAlias="team20 (not aliasesd)" teamExternalId="" teamId="20" teamKey="1TEAM20" teamName="team20" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="DryRun-5571112114871408411" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Akio-1144013089910933325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="danna-971622681069564991" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="evelyn--9146031687924479864" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="fengge-8154034072517052724" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="isidora-4104540740655750798" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="juan--6294440183027966234" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="nastya--7456400759554429550" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="olga--8745381373227763087" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="pdero--614943057240902443" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Roy-1340154543560626632" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Samantha-8654084596796213131" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="13" isPending="false" isSolved="false" points="0" problemId="Kosta--4390803225918832102" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="20" lastSolved="0" points="0" problemsAttempted="0" rank="2" solved="0" teamAlias="team21 (not aliasesd)" teamExternalId="" teamId="21" teamKey="1TEAM21" teamName="team21" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="DryRun-5571112114871408411" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Akio-1144013089910933325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="danna-971622681069564991" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="evelyn--9146031687924479864" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="fengge-8154034072517052724" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="isidora-4104540740655750798" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="juan--6294440183027966234" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="nastya--7456400759554429550" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="olga--8745381373227763087" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="pdero--614943057240902443" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Roy-1340154543560626632" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Samantha-8654084596796213131" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="13" isPending="false" isSolved="false" points="0" problemId="Kosta--4390803225918832102" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="21" lastSolved="0" points="0" problemsAttempted="0" rank="2" solved="0" teamAlias="team22 (not aliasesd)" teamExternalId="" teamId="22" teamKey="1TEAM22" teamName="team22" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="DryRun-5571112114871408411" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Akio-1144013089910933325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="danna-971622681069564991" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="evelyn--9146031687924479864" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="fengge-8154034072517052724" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="isidora-4104540740655750798" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="juan--6294440183027966234" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="nastya--7456400759554429550" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="olga--8745381373227763087" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="pdero--614943057240902443" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Roy-1340154543560626632" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Samantha-8654084596796213131" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="13" isPending="false" isSolved="false" points="0" problemId="Kosta--4390803225918832102" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="22" lastSolved="0" points="0" problemsAttempted="0" rank="2" solved="0" teamAlias="team23 (not aliasesd)" teamExternalId="" teamId="23" teamKey="1TEAM23" teamName="team23" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="DryRun-5571112114871408411" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Akio-1144013089910933325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="danna-971622681069564991" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="evelyn--9146031687924479864" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="fengge-8154034072517052724" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="isidora-4104540740655750798" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="juan--6294440183027966234" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="nastya--7456400759554429550" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="olga--8745381373227763087" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="pdero--614943057240902443" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Roy-1340154543560626632" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Samantha-8654084596796213131" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="13" isPending="false" isSolved="false" points="0" problemId="Kosta--4390803225918832102" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="23" lastSolved="0" points="0" problemsAttempted="0" rank="2" solved="0" teamAlias="team24 (not aliasesd)" teamExternalId="" teamId="24" teamKey="1TEAM24" teamName="team24" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="DryRun-5571112114871408411" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Akio-1144013089910933325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="danna-971622681069564991" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="evelyn--9146031687924479864" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="fengge-8154034072517052724" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="isidora-4104540740655750798" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="juan--6294440183027966234" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="nastya--7456400759554429550" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="olga--8745381373227763087" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="pdero--614943057240902443" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Roy-1340154543560626632" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Samantha-8654084596796213131" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="13" isPending="false" isSolved="false" points="0" problemId="Kosta--4390803225918832102" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="24" lastSolved="0" points="0" problemsAttempted="0" rank="2" solved="0" teamAlias="team25 (not aliasesd)" teamExternalId="" teamId="25" teamKey="1TEAM25" teamName="team25" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="DryRun-5571112114871408411" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Akio-1144013089910933325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="danna-971622681069564991" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="evelyn--9146031687924479864" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="fengge-8154034072517052724" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="isidora-4104540740655750798" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="juan--6294440183027966234" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="nastya--7456400759554429550" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="olga--8745381373227763087" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="pdero--614943057240902443" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Roy-1340154543560626632" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Samantha-8654084596796213131" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="13" isPending="false" isSolved="false" points="0" problemId="Kosta--4390803225918832102" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="25" lastSolved="0" points="0" problemsAttempted="0" rank="2" solved="0" teamAlias="team26 (not aliasesd)" teamExternalId="" teamId="26" teamKey="1TEAM26" teamName="team26" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="DryRun-5571112114871408411" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Akio-1144013089910933325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="danna-971622681069564991" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="evelyn--9146031687924479864" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="fengge-8154034072517052724" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="isidora-4104540740655750798" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="juan--6294440183027966234" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="nastya--7456400759554429550" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="olga--8745381373227763087" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="pdero--614943057240902443" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Roy-1340154543560626632" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Samantha-8654084596796213131" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="13" isPending="false" isSolved="false" points="0" problemId="Kosta--4390803225918832102" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="26" lastSolved="0" points="0" problemsAttempted="0" rank="2" solved="0" teamAlias="team27 (not aliasesd)" teamExternalId="" teamId="27" teamKey="1TEAM27" teamName="team27" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="DryRun-5571112114871408411" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Akio-1144013089910933325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="danna-971622681069564991" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="evelyn--9146031687924479864" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="fengge-8154034072517052724" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="isidora-4104540740655750798" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="juan--6294440183027966234" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="nastya--7456400759554429550" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="olga--8745381373227763087" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="pdero--614943057240902443" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Roy-1340154543560626632" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Samantha-8654084596796213131" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="13" isPending="false" isSolved="false" points="0" problemId="Kosta--4390803225918832102" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="27" lastSolved="0" points="0" problemsAttempted="0" rank="2" solved="0" teamAlias="team28 (not aliasesd)" teamExternalId="" teamId="28" teamKey="1TEAM28" teamName="team28" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="DryRun-5571112114871408411" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Akio-1144013089910933325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="danna-971622681069564991" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="evelyn--9146031687924479864" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="fengge-8154034072517052724" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="isidora-4104540740655750798" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="juan--6294440183027966234" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="nastya--7456400759554429550" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="olga--8745381373227763087" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="pdero--614943057240902443" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Roy-1340154543560626632" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Samantha-8654084596796213131" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="13" isPending="false" isSolved="false" points="0" problemId="Kosta--4390803225918832102" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="28" lastSolved="0" points="0" problemsAttempted="0" rank="2" solved="0" teamAlias="team29 (not aliasesd)" teamExternalId="" teamId="29" teamKey="1TEAM29" teamName="team29" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="DryRun-5571112114871408411" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Akio-1144013089910933325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="danna-971622681069564991" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="evelyn--9146031687924479864" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="fengge-8154034072517052724" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="isidora-4104540740655750798" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="juan--6294440183027966234" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="nastya--7456400759554429550" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="olga--8745381373227763087" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="pdero--614943057240902443" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Roy-1340154543560626632" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Samantha-8654084596796213131" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="13" isPending="false" isSolved="false" points="0" problemId="Kosta--4390803225918832102" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="29" lastSolved="0" points="0" problemsAttempted="0" rank="2" solved="0" teamAlias="team30 (not aliasesd)" teamExternalId="" teamId="30" teamKey="1TEAM30" teamName="team30" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="DryRun-5571112114871408411" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Akio-1144013089910933325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="danna-971622681069564991" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="evelyn--9146031687924479864" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="fengge-8154034072517052724" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="isidora-4104540740655750798" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="juan--6294440183027966234" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="nastya--7456400759554429550" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="olga--8745381373227763087" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="pdero--614943057240902443" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Roy-1340154543560626632" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Samantha-8654084596796213131" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="13" isPending="false" isSolved="false" points="0" problemId="Kosta--4390803225918832102" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="30" lastSolved="0" points="0" problemsAttempted="0" rank="2" solved="0" teamAlias="team31 (not aliasesd)" teamExternalId="" teamId="31" teamKey="1TEAM31" teamName="team31" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="DryRun-5571112114871408411" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Akio-1144013089910933325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="danna-971622681069564991" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="evelyn--9146031687924479864" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="fengge-8154034072517052724" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="isidora-4104540740655750798" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="juan--6294440183027966234" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="nastya--7456400759554429550" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="olga--8745381373227763087" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="pdero--614943057240902443" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Roy-1340154543560626632" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Samantha-8654084596796213131" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="13" isPending="false" isSolved="false" points="0" problemId="Kosta--4390803225918832102" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="31" lastSolved="0" points="0" problemsAttempted="0" rank="2" solved="0" teamAlias="team32 (not aliasesd)" teamExternalId="" teamId="32" teamKey="1TEAM32" teamName="team32" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="DryRun-5571112114871408411" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Akio-1144013089910933325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="danna-971622681069564991" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="evelyn--9146031687924479864" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="fengge-8154034072517052724" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="isidora-4104540740655750798" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="juan--6294440183027966234" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="nastya--7456400759554429550" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="olga--8745381373227763087" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="pdero--614943057240902443" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Roy-1340154543560626632" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Samantha-8654084596796213131" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="13" isPending="false" isSolved="false" points="0" problemId="Kosta--4390803225918832102" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="32" lastSolved="0" points="0" problemsAttempted="0" rank="2" solved="0" teamAlias="team33 (not aliasesd)" teamExternalId="" teamId="33" teamKey="1TEAM33" teamName="team33" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="DryRun-5571112114871408411" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Akio-1144013089910933325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="danna-971622681069564991" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="evelyn--9146031687924479864" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="fengge-8154034072517052724" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="isidora-4104540740655750798" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="juan--6294440183027966234" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="nastya--7456400759554429550" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="olga--8745381373227763087" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="pdero--614943057240902443" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Roy-1340154543560626632" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Samantha-8654084596796213131" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="13" isPending="false" isSolved="false" points="0" problemId="Kosta--4390803225918832102" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="33" lastSolved="0" points="0" problemsAttempted="0" rank="2" solved="0" teamAlias="team34 (not aliasesd)" teamExternalId="" teamId="34" teamKey="1TEAM34" teamName="team34" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="DryRun-5571112114871408411" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Akio-1144013089910933325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="danna-971622681069564991" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="evelyn--9146031687924479864" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="fengge-8154034072517052724" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="isidora-4104540740655750798" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="juan--6294440183027966234" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="nastya--7456400759554429550" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="olga--8745381373227763087" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="pdero--614943057240902443" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Roy-1340154543560626632" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Samantha-8654084596796213131" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="13" isPending="false" isSolved="false" points="0" problemId="Kosta--4390803225918832102" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="34" lastSolved="0" points="0" problemsAttempted="0" rank="2" solved="0" teamAlias="team35 (not aliasesd)" teamExternalId="" teamId="35" teamKey="1TEAM35" teamName="team35" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="DryRun-5571112114871408411" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Akio-1144013089910933325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="danna-971622681069564991" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="evelyn--9146031687924479864" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="fengge-8154034072517052724" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="isidora-4104540740655750798" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="juan--6294440183027966234" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="nastya--7456400759554429550" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="olga--8745381373227763087" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="pdero--614943057240902443" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Roy-1340154543560626632" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Samantha-8654084596796213131" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="13" isPending="false" isSolved="false" points="0" problemId="Kosta--4390803225918832102" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="35" lastSolved="0" points="0" problemsAttempted="0" rank="2" solved="0" teamAlias="team36 (not aliasesd)" teamExternalId="" teamId="36" teamKey="1TEAM36" teamName="team36" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="DryRun-5571112114871408411" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Akio-1144013089910933325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="danna-971622681069564991" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="evelyn--9146031687924479864" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="fengge-8154034072517052724" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="isidora-4104540740655750798" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="juan--6294440183027966234" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="nastya--7456400759554429550" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="olga--8745381373227763087" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="pdero--614943057240902443" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Roy-1340154543560626632" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Samantha-8654084596796213131" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="13" isPending="false" isSolved="false" points="0" problemId="Kosta--4390803225918832102" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="36" lastSolved="0" points="0" problemsAttempted="0" rank="2" solved="0" teamAlias="team37 (not aliasesd)" teamExternalId="" teamId="37" teamKey="1TEAM37" teamName="team37" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="DryRun-5571112114871408411" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Akio-1144013089910933325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="danna-971622681069564991" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="evelyn--9146031687924479864" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="fengge-8154034072517052724" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="isidora-4104540740655750798" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="juan--6294440183027966234" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="nastya--7456400759554429550" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="olga--8745381373227763087" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="pdero--614943057240902443" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Roy-1340154543560626632" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Samantha-8654084596796213131" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="13" isPending="false" isSolved="false" points="0" problemId="Kosta--4390803225918832102" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="37" lastSolved="0" points="0" problemsAttempted="0" rank="2" solved="0" teamAlias="team38 (not aliasesd)" teamExternalId="" teamId="38" teamKey="1TEAM38" teamName="team38" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="DryRun-5571112114871408411" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Akio-1144013089910933325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="danna-971622681069564991" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="evelyn--9146031687924479864" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="fengge-8154034072517052724" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="isidora-4104540740655750798" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="juan--6294440183027966234" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="nastya--7456400759554429550" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="olga--8745381373227763087" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="pdero--614943057240902443" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Roy-1340154543560626632" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Samantha-8654084596796213131" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="13" isPending="false" isSolved="false" points="0" problemId="Kosta--4390803225918832102" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="38" lastSolved="0" points="0" problemsAttempted="0" rank="2" solved="0" teamAlias="team39 (not aliasesd)" teamExternalId="" teamId="39" teamKey="1TEAM39" teamName="team39" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="DryRun-5571112114871408411" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Akio-1144013089910933325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="danna-971622681069564991" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="evelyn--9146031687924479864" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="fengge-8154034072517052724" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="isidora-4104540740655750798" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="juan--6294440183027966234" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="nastya--7456400759554429550" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="olga--8745381373227763087" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="pdero--614943057240902443" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Roy-1340154543560626632" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Samantha-8654084596796213131" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="13" isPending="false" isSolved="false" points="0" problemId="Kosta--4390803225918832102" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="39" lastSolved="0" points="0" problemsAttempted="0" rank="2" solved="0" teamAlias="team40 (not aliasesd)" teamExternalId="" teamId="40" teamKey="1TEAM40" teamName="team40" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="DryRun-5571112114871408411" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Akio-1144013089910933325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="danna-971622681069564991" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="evelyn--9146031687924479864" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="fengge-8154034072517052724" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="isidora-4104540740655750798" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="juan--6294440183027966234" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="nastya--7456400759554429550" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="olga--8745381373227763087" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="pdero--614943057240902443" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Roy-1340154543560626632" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Samantha-8654084596796213131" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="13" isPending="false" isSolved="false" points="0" problemId="Kosta--4390803225918832102" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="40" lastSolved="0" points="0" problemsAttempted="0" rank="2" solved="0" teamAlias="team41 (not aliasesd)" teamExternalId="" teamId="41" teamKey="1TEAM41" teamName="team41" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="DryRun-5571112114871408411" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Akio-1144013089910933325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="danna-971622681069564991" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="evelyn--9146031687924479864" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="fengge-8154034072517052724" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="isidora-4104540740655750798" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="juan--6294440183027966234" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="nastya--7456400759554429550" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="olga--8745381373227763087" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="pdero--614943057240902443" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Roy-1340154543560626632" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Samantha-8654084596796213131" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="13" isPending="false" isSolved="false" points="0" problemId="Kosta--4390803225918832102" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="41" lastSolved="0" points="0" problemsAttempted="0" rank="2" solved="0" teamAlias="team42 (not aliasesd)" teamExternalId="" teamId="42" teamKey="1TEAM42" teamName="team42" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="DryRun-5571112114871408411" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Akio-1144013089910933325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="danna-971622681069564991" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="evelyn--9146031687924479864" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="fengge-8154034072517052724" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="isidora-4104540740655750798" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="juan--6294440183027966234" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="nastya--7456400759554429550" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="olga--8745381373227763087" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="pdero--614943057240902443" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Roy-1340154543560626632" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Samantha-8654084596796213131" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="13" isPending="false" isSolved="false" points="0" problemId="Kosta--4390803225918832102" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="42" lastSolved="0" points="0" problemsAttempted="0" rank="2" solved="0" teamAlias="team43 (not aliasesd)" teamExternalId="" teamId="43" teamKey="1TEAM43" teamName="team43" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="DryRun-5571112114871408411" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Akio-1144013089910933325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="danna-971622681069564991" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="evelyn--9146031687924479864" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="fengge-8154034072517052724" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="isidora-4104540740655750798" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="juan--6294440183027966234" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="nastya--7456400759554429550" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="olga--8745381373227763087" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="pdero--614943057240902443" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Roy-1340154543560626632" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Samantha-8654084596796213131" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="13" isPending="false" isSolved="false" points="0" problemId="Kosta--4390803225918832102" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="43" lastSolved="0" points="0" problemsAttempted="0" rank="2" solved="0" teamAlias="team44 (not aliasesd)" teamExternalId="" teamId="44" teamKey="1TEAM44" teamName="team44" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="DryRun-5571112114871408411" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Akio-1144013089910933325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="danna-971622681069564991" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="evelyn--9146031687924479864" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="fengge-8154034072517052724" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="isidora-4104540740655750798" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="juan--6294440183027966234" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="nastya--7456400759554429550" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="olga--8745381373227763087" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="pdero--614943057240902443" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Roy-1340154543560626632" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Samantha-8654084596796213131" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="13" isPending="false" isSolved="false" points="0" problemId="Kosta--4390803225918832102" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="44" lastSolved="0" points="0" problemsAttempted="0" rank="2" solved="0" teamAlias="team45 (not aliasesd)" teamExternalId="" teamId="45" teamKey="1TEAM45" teamName="team45" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="DryRun-5571112114871408411" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Akio-1144013089910933325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="danna-971622681069564991" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="evelyn--9146031687924479864" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="fengge-8154034072517052724" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="isidora-4104540740655750798" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="juan--6294440183027966234" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="nastya--7456400759554429550" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="olga--8745381373227763087" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="pdero--614943057240902443" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Roy-1340154543560626632" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Samantha-8654084596796213131" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="13" isPending="false" isSolved="false" points="0" problemId="Kosta--4390803225918832102" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="45" lastSolved="0" points="0" problemsAttempted="0" rank="2" solved="0" teamAlias="team46 (not aliasesd)" teamExternalId="" teamId="46" teamKey="1TEAM46" teamName="team46" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="DryRun-5571112114871408411" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Akio-1144013089910933325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="danna-971622681069564991" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="evelyn--9146031687924479864" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="fengge-8154034072517052724" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="isidora-4104540740655750798" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="juan--6294440183027966234" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="nastya--7456400759554429550" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="olga--8745381373227763087" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="pdero--614943057240902443" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Roy-1340154543560626632" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Samantha-8654084596796213131" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="13" isPending="false" isSolved="false" points="0" problemId="Kosta--4390803225918832102" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="46" lastSolved="0" points="0" problemsAttempted="0" rank="2" solved="0" teamAlias="team47 (not aliasesd)" teamExternalId="" teamId="47" teamKey="1TEAM47" teamName="team47" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="DryRun-5571112114871408411" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Akio-1144013089910933325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="danna-971622681069564991" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="evelyn--9146031687924479864" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="fengge-8154034072517052724" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="isidora-4104540740655750798" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="juan--6294440183027966234" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="nastya--7456400759554429550" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="olga--8745381373227763087" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="pdero--614943057240902443" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Roy-1340154543560626632" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Samantha-8654084596796213131" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="13" isPending="false" isSolved="false" points="0" problemId="Kosta--4390803225918832102" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="47" lastSolved="0" points="0" problemsAttempted="0" rank="2" solved="0" teamAlias="team48 (not aliasesd)" teamExternalId="" teamId="48" teamKey="1TEAM48" teamName="team48" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="DryRun-5571112114871408411" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Akio-1144013089910933325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="danna-971622681069564991" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="evelyn--9146031687924479864" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="fengge-8154034072517052724" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="isidora-4104540740655750798" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="juan--6294440183027966234" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="nastya--7456400759554429550" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="olga--8745381373227763087" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="pdero--614943057240902443" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Roy-1340154543560626632" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Samantha-8654084596796213131" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="13" isPending="false" isSolved="false" points="0" problemId="Kosta--4390803225918832102" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="48" lastSolved="0" points="0" problemsAttempted="0" rank="2" solved="0" teamAlias="team49 (not aliasesd)" teamExternalId="" teamId="49" teamKey="1TEAM49" teamName="team49" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="DryRun-5571112114871408411" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Akio-1144013089910933325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="danna-971622681069564991" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="evelyn--9146031687924479864" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="fengge-8154034072517052724" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="isidora-4104540740655750798" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="juan--6294440183027966234" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="nastya--7456400759554429550" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="olga--8745381373227763087" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="pdero--614943057240902443" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Roy-1340154543560626632" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Samantha-8654084596796213131" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="13" isPending="false" isSolved="false" points="0" problemId="Kosta--4390803225918832102" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="49" lastSolved="0" points="0" problemsAttempted="0" rank="2" solved="0" teamAlias="team50 (not aliasesd)" teamExternalId="" teamId="50" teamKey="1TEAM50" teamName="team50" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="DryRun-5571112114871408411" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Akio-1144013089910933325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="danna-971622681069564991" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="evelyn--9146031687924479864" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="fengge-8154034072517052724" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="isidora-4104540740655750798" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="juan--6294440183027966234" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="nastya--7456400759554429550" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="olga--8745381373227763087" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="pdero--614943057240902443" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Roy-1340154543560626632" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Samantha-8654084596796213131" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="13" isPending="false" isSolved="false" points="0" problemId="Kosta--4390803225918832102" solutionTime="0"/>
+  </teamStanding>
+</contestStandings>
+
+
+-- End XML --
+
+ #document DOCUMENT_NODE
+    contestStandings ELEMENT_NODE
+       #text TEXT_NODE
+       standingsHeader ELEMENT_NODE
+          #text TEXT_NODE
+          groupList ELEMENT_NODE
+          #text TEXT_NODE
+          colorList ELEMENT_NODE
+          #text TEXT_NODE
+          problem ELEMENT_NODE
+          #text TEXT_NODE
+          problem ELEMENT_NODE
+          #text TEXT_NODE
+          problem ELEMENT_NODE
+          #text TEXT_NODE
+          problem ELEMENT_NODE
+          #text TEXT_NODE
+          problem ELEMENT_NODE
+          #text TEXT_NODE
+          problem ELEMENT_NODE
+          #text TEXT_NODE
+          problem ELEMENT_NODE
+          #text TEXT_NODE
+          problem ELEMENT_NODE
+          #text TEXT_NODE
+          problem ELEMENT_NODE
+          #text TEXT_NODE
+          problem ELEMENT_NODE
+          #text TEXT_NODE
+          problem ELEMENT_NODE
+          #text TEXT_NODE
+          problem ELEMENT_NODE
+          #text TEXT_NODE
+          problem ELEMENT_NODE
+          #text TEXT_NODE
+       #text TEXT_NODE
+       teamStanding ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+       #text TEXT_NODE
+       teamStanding ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+       #text TEXT_NODE
+       teamStanding ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+       #text TEXT_NODE
+       teamStanding ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+       #text TEXT_NODE
+       teamStanding ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+       #text TEXT_NODE
+       teamStanding ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+       #text TEXT_NODE
+       teamStanding ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+       #text TEXT_NODE
+       teamStanding ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+       #text TEXT_NODE
+       teamStanding ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+       #text TEXT_NODE
+       teamStanding ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+       #text TEXT_NODE
+       teamStanding ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+       #text TEXT_NODE
+       teamStanding ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+       #text TEXT_NODE
+       teamStanding ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+       #text TEXT_NODE
+       teamStanding ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+       #text TEXT_NODE
+       teamStanding ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+       #text TEXT_NODE
+       teamStanding ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+       #text TEXT_NODE
+       teamStanding ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+       #text TEXT_NODE
+       teamStanding ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+       #text TEXT_NODE
+       teamStanding ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+       #text TEXT_NODE
+       teamStanding ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+       #text TEXT_NODE
+       teamStanding ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+       #text TEXT_NODE
+       teamStanding ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+       #text TEXT_NODE
+       teamStanding ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+       #text TEXT_NODE
+       teamStanding ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+       #text TEXT_NODE
+       teamStanding ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+       #text TEXT_NODE
+       teamStanding ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+       #text TEXT_NODE
+       teamStanding ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+       #text TEXT_NODE
+       teamStanding ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+       #text TEXT_NODE
+       teamStanding ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+       #text TEXT_NODE
+       teamStanding ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+       #text TEXT_NODE
+       teamStanding ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+       #text TEXT_NODE
+       teamStanding ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+       #text TEXT_NODE
+       teamStanding ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+       #text TEXT_NODE
+       teamStanding ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+       #text TEXT_NODE
+       teamStanding ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+       #text TEXT_NODE
+       teamStanding ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+       #text TEXT_NODE
+       teamStanding ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+       #text TEXT_NODE
+       teamStanding ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+       #text TEXT_NODE
+       teamStanding ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+       #text TEXT_NODE
+       teamStanding ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+       #text TEXT_NODE
+       teamStanding ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+       #text TEXT_NODE
+       teamStanding ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+       #text TEXT_NODE
+       teamStanding ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+       #text TEXT_NODE
+       teamStanding ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+       #text TEXT_NODE
+       teamStanding ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+       #text TEXT_NODE
+       teamStanding ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+       #text TEXT_NODE
+       teamStanding ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+       #text TEXT_NODE
+       teamStanding ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+       #text TEXT_NODE
+       teamStanding ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+       #text TEXT_NODE
+       teamStanding ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+          problemSummaryInfo ELEMENT_NODE
+          #text TEXT_NODE
+       #text TEXT_NODE
+
+
+end report

@@ -1,0 +1,17 @@
+//Student
+//Duncan, 1/10/17
+//Creates a student class
+
+import java.util.Scanner;
+
+public class Student{
+
+	private String name;
+	private int idNumber;
+	
+	public Student(String input, int numberInput){
+		name = input
+		idNumber = numberInput
+	}
+	
+}

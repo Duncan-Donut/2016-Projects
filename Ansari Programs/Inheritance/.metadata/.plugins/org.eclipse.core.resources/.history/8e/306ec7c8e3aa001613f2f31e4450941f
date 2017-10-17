@@ -1,0 +1,13 @@
+
+public class CreateAliens {
+
+	public static void main(String[] args) {
+		Martian mars = new Martian();
+		Jupiterian jups = new Jupiterian();
+		
+		System.out.println(mars.toString());
+		System.out.println(jups.toString());
+
+	}
+
+}

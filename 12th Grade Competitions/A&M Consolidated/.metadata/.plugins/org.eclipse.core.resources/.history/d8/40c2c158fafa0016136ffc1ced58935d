@@ -1,0 +1,23 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class book {
+
+	public static void main(String[] args) throws FileNotFoundException {
+		// TODO Auto-generated method stu
+		ArrayList<String> data = new ArrayList<>();
+		Scanner Sf = new Scanner(new File("book.dat"));
+		int num = Sf.nextInt(); Sf.nextLine();
+		for(int x = 0; x<num;x++){
+		
+		}
+		}
+			
+		
+		
+	}
+
+
+}

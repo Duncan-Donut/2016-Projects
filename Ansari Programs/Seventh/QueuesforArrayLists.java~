@@ -1,0 +1,68 @@
+//Student
+//Duncan, 1/10/17
+//Creates a student class
+
+import java.util.Scanner;
+import java.util.ArrayLists;
+
+public class QueuesforLists{
+	
+	public String[] Queue;
+	
+	public QueuesforArray(){
+		Queue = new String[x];
+	}
+
+	public void push(String value){
+		for(int x =0;x < Queue.length;x++){	
+			if(Queue[x] == null){
+				Queue[x] = value;
+				break;
+			}
+		}
+	}
+	
+	public void pop(){
+		for(int x =0;x < Queue.length;x++){	
+			if(Queue[x] == null){
+				System.out.println(Queue[x-1]);
+				Queue[x-1] = null;
+				break;
+			}
+		}
+	}
+	
+	public void peek(){
+		for(int x =0;x < Queue.length;x++){	
+			if(Queue[x] == null){
+				System.out.println(Queue[x-1]);
+				break;
+			}
+		}
+	}
+	
+	public boolean isEmpty(){
+		for(int x =0;x < Queue.length;x++){	
+			if(Queue[x] != null){
+				System.out.println("false");
+				return false;
+			}
+		}
+		System.out.println("True");
+		return true;
+	}
+	
+	public int size(){
+		System.out.println(Queue.length);
+		return Queue.length;
+	}
+	
+	public void print(){
+		for(int x =0; x< Queue.length;x++){	
+			System.out.println(Queue[x]);
+		}
+	}
+	
+	
+}
+

@@ -1,0 +1,785 @@
+170205 170340.214|CONFIG|AWT-EventQueue-0|setFileHandlers|Now logging to C:\PacketA_2017_Waller\pc2-9.2.5\bin\profiles\Pc860fdf7-b6ef-4a44-854c-d7e7bb3968ca\logs directory.
+170205 170340.214|INFO|AWT-EventQueue-0|info|
+170205 170340.214|INFO|AWT-EventQueue-0|info|Version 9.2.5 20151014 (Wednesday, October 14th 2015 03:59 UTC) Java ver 1.8.0_111 build 3204 Windows 8.1 6.3 (amd64) 
+170205 170340.214|INFO|AWT-EventQueue-0|info|Login: site1 (aka server0)
+170205 170340.214|INFO|AWT-EventQueue-0|startLog|Working directory is C:\PacketA_2017_Waller\pc2-9.2.5\bin
+170205 170340.214|INFO|AWT-EventQueue-0|startLog|Process id is 10520@Mellen
+170205 170340.214|DEBUG|AWT-EventQueue-0|login|Site Number is set as 1 (0 means unset)
+170205 170340.214|INFO|AWT-EventQueue-0|info|initializeServer STARTED this site as Site 1
+170205 170347.018|WARNING|AWT-EventQueue-0|logException|Exception
+|java.io.FileNotFoundException: Profile/config file missing profiles\Pc860fdf7-b6ef-4a44-854c-d7e7bb3968ca\db.1\\settings.dat
+|    at edu.csus.ecs.pc2.core.model.InternalContest.readConfiguration (InternalContest.java:2203)
+|    at edu.csus.ecs.pc2.core.model.InternalContest.readConfiguration (InternalContest.java:2218)
+|    at edu.csus.ecs.pc2.core.InternalController.readConfigFromDisk (InternalController.java:2904)
+|    at edu.csus.ecs.pc2.core.InternalController.initializeServer (InternalController.java:855)
+|    at edu.csus.ecs.pc2.core.InternalController.authenticateFirstServer (InternalController.java:995)
+|    at edu.csus.ecs.pc2.core.InternalController.login (InternalController.java:637)
+|    at edu.csus.ecs.pc2.ui.LoginFrame.attemptToLogin (LoginFrame.java:347)
+|    at edu.csus.ecs.pc2.ui.LoginFrame$3.keyPressed (LoginFrame.java:273)
+|    at java.awt.Component.processKeyEvent (Unknown Source)
+|    at javax.swing.JComponent.processKeyEvent (Unknown Source)
+|    at java.awt.Component.processEvent (Unknown Source)
+|    at java.awt.Container.processEvent (Unknown Source)
+|    at java.awt.Component.dispatchEventImpl (Unknown Source)
+|    at java.awt.Container.dispatchEventImpl (Unknown Source)
+|    at java.awt.Component.dispatchEvent (Unknown Source)
+|    at java.awt.KeyboardFocusManager.redispatchEvent (Unknown Source)
+|    at java.awt.DefaultKeyboardFocusManager.dispatchKeyEvent (Unknown Source)
+|    at java.awt.DefaultKeyboardFocusManager.preDispatchKeyEvent (Unknown Source)
+|    at java.awt.DefaultKeyboardFocusManager.typeAheadAssertions (Unknown Source)
+|    at java.awt.DefaultKeyboardFocusManager.dispatchEvent (Unknown Source)
+|    at java.awt.Component.dispatchEventImpl (Unknown Source)
+|    at java.awt.Container.dispatchEventImpl (Unknown Source)
+|    at java.awt.Window.dispatchEventImpl (Unknown Source)
+|    at java.awt.Component.dispatchEvent (Unknown Source)
+|    at java.awt.EventQueue.dispatchEventImpl (Unknown Source)
+|    at java.awt.EventQueue.access$500 (Unknown Source)
+|    at java.awt.EventQueue$3.run (Unknown Source)
+|    at java.awt.EventQueue$3.run (Unknown Source)
+|    at java.security.AccessController.doPrivileged (Unknown Source)
+|    at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege (Unknown Source)
+|    at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege (Unknown Source)
+|    at java.awt.EventQueue$4.run (Unknown Source)
+|    at java.awt.EventQueue$4.run (Unknown Source)
+|    at java.security.AccessController.doPrivileged (Unknown Source)
+|    at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege (Unknown Source)
+|    at java.awt.EventQueue.dispatchEvent (Unknown Source)
+|    at java.awt.EventDispatchThread.pumpOneEventForFilters (Unknown Source)
+|    at java.awt.EventDispatchThread.pumpEventsForFilter (Unknown Source)
+|    at java.awt.EventDispatchThread.pumpEventsForHierarchy (Unknown Source)
+|    at java.awt.EventDispatchThread.pumpEvents (Unknown Source)
+|    at java.awt.EventDispatchThread.pumpEvents (Unknown Source)
+|    at java.awt.EventDispatchThread.run (Unknown Source)
+170205 170347.018|INFO|AWT-EventQueue-0|initializeServer|initializing controller with default settings
+170205 170347.033|INFO|AWT-EventQueue-0|info|reject.ini not found, ok.  Loading default judgements
+170205 170347.049|INFO|AWT-EventQueue-0|info|initialized controller Site 1
+170205 170347.237|INFO|AWT-EventQueue-0|info|evals.log is opened at profiles\Pc860fdf7-b6ef-4a44-854c-d7e7bb3968ca\logs
+170205 170347.237|INFO|AWT-EventQueue-0|accecptConnections|accecptConnections on port:50002
+170205 170347.268|INFO|AWT-EventQueue-0|info|Started Server Transport listening on 50002
+170205 170347.268|INFO|AWT-EventQueue-0|info|Primary Server has .
+170205 170357.124|INFO|Thread-3|<init>|new ConnectionhandlerServerThread on Socket Socket[addr=/127.0.0.1,port=51818,localport=50002]
+170205 170357.468|INFO|Thread-4|registerIncomingConnectionRequest|registerIncomingConnectionRequest(myConnectionID, thread) 
+170205 170357.530|INFO|Thread-4|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+170205 170357.530|INFO|Thread-4|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    1ec4b3db dd970104 954d8481 01c3cf87 cb42e328 b9b3a232 9b833f20 8f554db6
+    5b519c57 3e810b89 44768237 1ed61a5b 1771084d 88a8ae92 93337c45 cd366db1
+    12dfb5ec 40902071 df206c60 d6cc9a24 431045fd 1cf594f0 ed3373f5 6e50b872
+    9cef9804 89f1b4d3 ff9acc22 92aed145 2b7dbbb0 104de709 075fecfc 001d2143
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+170205 170357.577|INFO|Thread-4|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@3cdffc28
+170205 170358.483|INFO|Thread-4|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909)
+170205 170358.483|INFO|Thread-4|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909 key is com.sun.crypto.provider.DESKey@fffe7948
+170205 170409.834|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 170410.115|INFO|Thread-6|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 170416.161|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 170416.474|INFO|Thread-8|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 170425.143|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 170425.237|INFO|Thread-10|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 170425.252|INFO|Thread-11|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 170517.591|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 170517.700|INFO|Thread-13|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 170518.029|INFO|Thread-14|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 170536.960|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 170536.991|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 170537.022|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 170538.210|INFO|Thread-18|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 170538.444|INFO|Thread-19|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 170538.569|INFO|Thread-20|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 170552.787|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 170553.053|INFO|Thread-22|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 170605.939|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 170606.126|INFO|Thread-24|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 170614.218|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 170614.499|INFO|Thread-26|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 170903.412|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 170903.568|INFO|Thread-28|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 170911.330|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 170911.486|INFO|Thread-30|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 170919.972|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 170920.175|INFO|Thread-32|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 170928.021|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 170928.193|INFO|Thread-34|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 170940.308|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 170940.449|INFO|Thread-36|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 170951.766|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 170951.938|INFO|Thread-38|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 171002.066|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 171002.269|INFO|Thread-40|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 171010.353|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 171010.509|INFO|Thread-42|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 171021.900|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 171022.056|INFO|Thread-44|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 171030.677|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 171030.802|INFO|Thread-46|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 171044.654|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 171044.810|INFO|Thread-48|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 171058.648|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 171058.789|INFO|Thread-50|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 171110.641|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 171110.844|INFO|Thread-52|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 171120.394|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 171120.550|INFO|Thread-54|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 171129.064|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 171129.205|INFO|Thread-56|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 171139.269|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 171139.410|INFO|Thread-58|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 171147.474|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 171147.599|INFO|Thread-60|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 171157.477|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 171157.633|INFO|Thread-62|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 171206.667|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 171206.792|INFO|Thread-64|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 171215.078|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 171215.203|INFO|Thread-66|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 171225.148|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 171225.304|INFO|Thread-68|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 171238.609|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 171238.749|INFO|Thread-70|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 171246.593|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 171246.734|INFO|Thread-72|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 171257.087|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 171257.212|INFO|Thread-74|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 171307.328|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 171307.484|INFO|Thread-76|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 171317.471|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 171317.627|INFO|Thread-78|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 171326.367|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 171326.523|INFO|Thread-80|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 171336.650|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 171336.807|INFO|Thread-82|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 171345.978|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 171346.118|INFO|Thread-84|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 171353.150|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 171353.291|INFO|Thread-86|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 171401.212|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 171401.353|INFO|Thread-88|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 171411.511|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 171411.636|INFO|Thread-90|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 171425.596|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 171425.799|INFO|Thread-92|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 171435.020|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 171435.145|INFO|Thread-94|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 171447.011|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 171447.121|INFO|Thread-96|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 171455.529|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 171455.654|INFO|Thread-98|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 171503.921|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 171504.078|INFO|Thread-100|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 171518.502|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 171518.690|INFO|Thread-102|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 171526.340|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 171526.480|INFO|Thread-104|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 171534.951|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 171535.092|INFO|Thread-106|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 171543.406|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 171543.594|INFO|Thread-108|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 171551.830|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 171551.986|INFO|Thread-110|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 171602.101|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 171602.242|INFO|Thread-112|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 171615.198|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 171615.338|INFO|Thread-114|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 171624.063|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 171624.251|INFO|Thread-116|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 171632.612|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 171632.752|INFO|Thread-118|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 171645.543|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 171645.684|INFO|Thread-120|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 171708.568|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 171708.724|INFO|Thread-122|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 171717.788|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 171717.929|INFO|Thread-124|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 171723.230|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 171723.339|INFO|Thread-126|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 171736.081|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 171736.221|INFO|Thread-128|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 171744.492|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 171744.633|INFO|Thread-130|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 171753.728|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 171753.869|INFO|Thread-132|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 171804.610|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 171804.781|INFO|Thread-134|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 171819.206|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 171819.331|INFO|Thread-136|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 172235.792|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 172235.995|INFO|Thread-138|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 172330.632|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 172330.757|INFO|Thread-140|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 172349.196|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 172349.321|INFO|Thread-142|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 172400.424|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 172400.564|INFO|Thread-144|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 172417.192|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 172417.349|INFO|Thread-146|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 172426.996|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 172427.089|INFO|Thread-148|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 172446.273|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 172446.414|INFO|Thread-150|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 172503.172|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 172503.312|INFO|Thread-152|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 172528.245|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 172528.401|INFO|Thread-154|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 172602.792|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 172602.948|INFO|Thread-156|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 172617.826|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 172617.935|INFO|Thread-158|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 172632.645|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 172632.755|INFO|Thread-160|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 172639.490|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 172639.584|INFO|Thread-162|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 172645.936|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 172646.061|INFO|Thread-164|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 172651.523|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 172651.632|INFO|Thread-166|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 172701.421|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 172701.515|INFO|Thread-168|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 172708.505|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 172708.614|INFO|Thread-170|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 172733.942|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 172734.083|INFO|Thread-172|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 172802.425|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 172802.565|INFO|Thread-174|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 172820.449|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 172820.605|INFO|Thread-176|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 172830.097|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 172830.206|INFO|Thread-178|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 172901.213|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 172901.353|INFO|Thread-180|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 173021.821|INFO|Thread-3|<init>|new ConnectionhandlerServerThread on Socket Socket[addr=/127.0.0.1,port=52095,localport=50002]
+170205 173021.837|INFO|Thread-181|registerIncomingConnectionRequest|registerIncomingConnectionRequest(myConnectionID, thread) 
+170205 173021.868|INFO|Thread-181|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+170205 173021.868|INFO|Thread-181|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    1ec4b3db dd970104 954d8481 01c3cf87 cb42e328 b9b3a232 9b833f20 8f554db6
+    5b519c57 3e810b89 44768237 1ed61a5b 1771084d 88a8ae92 93337c45 cd366db1
+    12dfb5ec 40902071 df206c60 d6cc9a24 431045fd 1cf594f0 ed3373f5 6e50b872
+    9cef9804 89f1b4d3 ff9acc22 92aed145 2b7dbbb0 104de709 075fecfc 001d2143
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+170205 173021.868|INFO|Thread-181|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@1fb1b3f9
+170205 173021.868|INFO|Thread-182|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 173022.508|INFO|Thread-181|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187)
+170205 173022.524|INFO|Thread-181|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187 key is com.sun.crypto.provider.DESKey@186f8
+170205 173029.331|INFO|Thread-181|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 173029.393|INFO|Thread-184|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+170205 173029.440|INFO|Thread-185|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 173029.440|INFO|Thread-186|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+170205 173037.055|INFO|Thread-3|<init>|new ConnectionhandlerServerThread on Socket Socket[addr=/127.0.0.1,port=52099,localport=50002]
+170205 173037.086|INFO|Thread-187|registerIncomingConnectionRequest|registerIncomingConnectionRequest(myConnectionID, thread) 
+170205 173037.102|INFO|Thread-187|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+170205 173037.117|INFO|Thread-187|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    1ec4b3db dd970104 954d8481 01c3cf87 cb42e328 b9b3a232 9b833f20 8f554db6
+    5b519c57 3e810b89 44768237 1ed61a5b 1771084d 88a8ae92 93337c45 cd366db1
+    12dfb5ec 40902071 df206c60 d6cc9a24 431045fd 1cf594f0 ed3373f5 6e50b872
+    9cef9804 89f1b4d3 ff9acc22 92aed145 2b7dbbb0 104de709 075fecfc 001d2143
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+170205 173037.117|INFO|Thread-187|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@7613e150
+170205 173037.117|INFO|Thread-188|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 173037.805|INFO|Thread-187|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/127.0.0.1,port=52099,localport=50002]-9125913213613695621)
+170205 173037.821|INFO|Thread-187|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/127.0.0.1,port=52099,localport=50002]-9125913213613695621 key is com.sun.crypto.provider.DESKey@18412
+170205 173041.810|INFO|Thread-187|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 173041.857|INFO|Thread-190|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52099,localport=50002]-9125913213613695621
+170205 173045.639|INFO|Thread-187|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 173045.717|INFO|Thread-192|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52099,localport=50002]-9125913213613695621
+170205 173045.717|INFO|Thread-193|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 173045.780|INFO|Thread-194|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+170205 173106.476|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 173106.523|INFO|Thread-196|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52099,localport=50002]-9125913213613695621
+170205 173106.601|INFO|Thread-198|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+170205 173106.601|INFO|Thread-197|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 173136.535|INFO|Thread-187|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 173136.816|INFO|Thread-200|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52099,localport=50002]-9125913213613695621
+170205 173136.832|INFO|Thread-201|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 173136.894|INFO|Thread-202|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+170205 173140.645|INFO|Thread-181|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 173140.832|INFO|Thread-204|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+170205 173140.848|INFO|Thread-205|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 173140.864|INFO|Thread-206|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+170205 173151.610|INFO|Thread-181|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 173151.750|INFO|Thread-208|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52099,localport=50002]-9125913213613695621
+170205 173151.782|INFO|Thread-209|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 173151.797|INFO|Thread-210|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+170205 173204.507|INFO|Thread-187|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 173204.741|INFO|Thread-212|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52099,localport=50002]-9125913213613695621
+170205 173204.741|INFO|Thread-213|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 173204.788|INFO|Thread-214|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+170205 173213.384|INFO|Thread-187|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 173213.619|INFO|Thread-216|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52099,localport=50002]-9125913213613695621
+170205 173213.650|INFO|Thread-217|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 173213.681|INFO|Thread-218|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+170205 173227.320|INFO|Thread-187|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 173227.538|INFO|Thread-220|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52099,localport=50002]-9125913213613695621
+170205 173227.554|INFO|Thread-221|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 173227.601|INFO|Thread-222|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+170205 173237.515|INFO|Thread-187|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 173237.749|INFO|Thread-224|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52099,localport=50002]-9125913213613695621
+170205 173237.765|INFO|Thread-225|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 173237.796|INFO|Thread-226|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+170205 173249.689|INFO|Thread-187|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 173249.970|INFO|Thread-228|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52099,localport=50002]-9125913213613695621
+170205 173249.986|INFO|Thread-229|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 173250.064|INFO|Thread-230|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+170205 173302.931|INFO|Thread-187|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 173303.166|INFO|Thread-232|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52099,localport=50002]-9125913213613695621
+170205 173303.181|INFO|Thread-233|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 173303.275|INFO|Thread-234|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+170205 173314.531|INFO|Thread-187|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 173314.796|INFO|Thread-236|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52099,localport=50002]-9125913213613695621
+170205 173314.812|INFO|Thread-237|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 173314.875|INFO|Thread-238|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+170205 173328.568|INFO|Thread-187|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 173328.896|INFO|Thread-240|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52099,localport=50002]-9125913213613695621
+170205 173328.927|INFO|Thread-241|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 173328.974|INFO|Thread-242|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+170205 173339.122|INFO|Thread-187|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 173339.356|INFO|Thread-244|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52099,localport=50002]-9125913213613695621
+170205 173339.356|INFO|Thread-245|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 173339.419|INFO|Thread-246|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+170205 173353.861|INFO|Thread-187|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 173354.096|INFO|Thread-248|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52099,localport=50002]-9125913213613695621
+170205 173354.111|INFO|Thread-249|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 173354.143|INFO|Thread-250|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+170205 173517.939|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 173518.111|INFO|Thread-252|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 173518.127|INFO|Thread-253|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+170205 173518.158|INFO|Thread-254|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52099,localport=50002]-9125913213613695621
+170205 173544.344|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 173544.454|INFO|Thread-256|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 173544.469|INFO|Thread-257|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+170205 173544.501|INFO|Thread-258|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52099,localport=50002]-9125913213613695621
+170205 173607.075|INFO|Thread-187|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 173607.325|INFO|Thread-260|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52099,localport=50002]-9125913213613695621
+170205 173607.372|INFO|Thread-261|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 173607.418|INFO|Thread-262|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+170205 173615.623|INFO|Thread-187|receive|SocketException in receive for Socket[addr=/127.0.0.1,port=52099,localport=50002]-9125913213613695621
+|java.net.SocketException: Connection reset
+|    at java.net.SocketInputStream.read (Unknown Source)
+|    at java.net.SocketInputStream.read (Unknown Source)
+|    at java.net.SocketInputStream.read (Unknown Source)
+|    at java.io.ObjectInputStream$PeekInputStream.peek (Unknown Source)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peek (Unknown Source)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peekByte (Unknown Source)
+|    at java.io.ObjectInputStream.readObject0 (Unknown Source)
+|    at java.io.ObjectInputStream.readObject (Unknown Source)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:151)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerServerThread.run (ConnectionHandlerServerThread.java:68)
+170205 173615.639|INFO|Thread-187|connectionDropped|connectionDropped(ConnectionHandlerID myConnectionID) 
+170205 173615.670|INFO|Thread-263|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 173615.686|INFO|Thread-264|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 173618.983|INFO|Thread-181|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 173619.108|INFO|Thread-266|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+170205 173619.140|INFO|Thread-267|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 173619.249|INFO|Thread-268|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+170205 173627.748|INFO|Thread-181|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 173627.905|INFO|Thread-270|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 173627.936|INFO|Thread-271|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+170205 173629.030|INFO|Thread-181|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 173629.155|INFO|Thread-273|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+170205 173629.171|INFO|Thread-274|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 173629.186|INFO|Thread-275|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+170205 173637.578|INFO|Thread-181|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 173637.735|INFO|Thread-277|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 173637.750|INFO|Thread-278|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+170205 173638.649|INFO|Thread-181|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 173638.821|INFO|Thread-280|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+170205 173638.836|INFO|Thread-281|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 173638.915|INFO|Thread-282|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+170205 173648.342|INFO|Thread-181|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 173648.498|INFO|Thread-284|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 173648.514|INFO|Thread-285|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+170205 173649.561|INFO|Thread-181|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 173649.717|INFO|Thread-287|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+170205 173649.733|INFO|Thread-288|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 173649.764|INFO|Thread-289|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+170205 173657.265|INFO|Thread-181|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 173657.452|INFO|Thread-291|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 173657.452|INFO|Thread-292|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+170205 173658.687|INFO|Thread-181|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 173659.000|INFO|Thread-294|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+170205 173659.015|INFO|Thread-295|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 173659.047|INFO|Thread-296|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+170205 173725.016|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 173725.126|INFO|Thread-298|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 173725.157|INFO|Thread-299|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+170205 173729.486|INFO|Thread-181|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 173729.689|INFO|Thread-301|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 173729.705|INFO|Thread-302|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+170205 173730.627|INFO|Thread-181|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 173730.908|INFO|Thread-304|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+170205 173730.923|INFO|Thread-305|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 173730.970|INFO|Thread-306|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+170205 173747.649|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 173747.758|INFO|Thread-308|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 173747.774|INFO|Thread-309|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+170205 173808.906|INFO|Thread-181|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 173809.109|INFO|Thread-311|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 173809.125|INFO|Thread-312|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+170205 173810.516|INFO|Thread-181|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 173810.703|INFO|Thread-314|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+170205 173810.735|INFO|Thread-315|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 173810.750|INFO|Thread-316|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+170205 173818.333|INFO|Thread-181|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 173818.504|INFO|Thread-318|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 173818.520|INFO|Thread-319|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+170205 173819.286|INFO|Thread-181|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 173819.442|INFO|Thread-321|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+170205 173819.489|INFO|Thread-322|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 173819.489|INFO|Thread-323|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+170205 173956.601|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 173956.726|INFO|Thread-325|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 173956.742|INFO|Thread-326|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+170205 174017.036|INFO|Thread-181|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 174017.286|INFO|Thread-328|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 174017.286|INFO|Thread-329|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+170205 174018.333|INFO|Thread-181|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 174018.458|INFO|Thread-331|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+170205 174018.458|INFO|Thread-332|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 174018.505|INFO|Thread-333|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+170205 174025.767|INFO|Thread-181|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 174026.002|INFO|Thread-335|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 174026.017|INFO|Thread-336|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+170205 174026.752|INFO|Thread-181|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 174026.861|INFO|Thread-338|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+170205 174026.892|INFO|Thread-339|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 174026.923|INFO|Thread-340|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+170205 174035.805|INFO|Thread-181|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 174035.993|INFO|Thread-342|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 174036.009|INFO|Thread-343|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+170205 174036.964|INFO|Thread-181|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 174037.167|INFO|Thread-345|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+170205 174037.198|INFO|Thread-347|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+170205 174037.198|INFO|Thread-346|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 174044.762|INFO|Thread-181|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 174044.950|INFO|Thread-349|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 174044.966|INFO|Thread-350|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+170205 174107.951|INFO|Thread-3|<init>|new ConnectionhandlerServerThread on Socket Socket[addr=/127.0.0.1,port=52146,localport=50002]
+170205 174107.983|INFO|Thread-351|registerIncomingConnectionRequest|registerIncomingConnectionRequest(myConnectionID, thread) 
+170205 174108.014|INFO|Thread-351|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+170205 174108.030|INFO|Thread-351|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    1ec4b3db dd970104 954d8481 01c3cf87 cb42e328 b9b3a232 9b833f20 8f554db6
+    5b519c57 3e810b89 44768237 1ed61a5b 1771084d 88a8ae92 93337c45 cd366db1
+    12dfb5ec 40902071 df206c60 d6cc9a24 431045fd 1cf594f0 ed3373f5 6e50b872
+    9cef9804 89f1b4d3 ff9acc22 92aed145 2b7dbbb0 104de709 075fecfc 001d2143
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+170205 174108.030|INFO|Thread-351|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@30ec9a99
+170205 174108.030|INFO|Thread-352|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 174109.115|INFO|Thread-351|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/127.0.0.1,port=52146,localport=50002]-5477376784103374545)
+170205 174109.115|INFO|Thread-351|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/127.0.0.1,port=52146,localport=50002]-5477376784103374545 key is com.sun.crypto.provider.DESKey@fffe7fc7
+170205 174116.390|INFO|Thread-351|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 174116.452|INFO|Thread-354|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52146,localport=50002]-5477376784103374545
+170205 174116.468|INFO|Thread-355|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 174116.484|INFO|Thread-356|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+170205 174200.330|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 174200.439|INFO|Thread-358|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 174200.455|INFO|Thread-359|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+170205 174200.517|INFO|Thread-360|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52146,localport=50002]-5477376784103374545
+170205 174225.214|INFO|Thread-351|receive|SocketException in receive for Socket[addr=/127.0.0.1,port=52146,localport=50002]-5477376784103374545
+|java.net.SocketException: Connection reset
+|    at java.net.SocketInputStream.read (Unknown Source)
+|    at java.net.SocketInputStream.read (Unknown Source)
+|    at java.net.SocketInputStream.read (Unknown Source)
+|    at java.io.ObjectInputStream$PeekInputStream.peek (Unknown Source)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peek (Unknown Source)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peekByte (Unknown Source)
+|    at java.io.ObjectInputStream.readObject0 (Unknown Source)
+|    at java.io.ObjectInputStream.readObject (Unknown Source)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:151)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerServerThread.run (ConnectionHandlerServerThread.java:68)
+170205 174225.214|INFO|Thread-351|connectionDropped|connectionDropped(ConnectionHandlerID myConnectionID) 
+170205 174225.261|INFO|Thread-361|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 174225.261|INFO|Thread-362|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 174235.454|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 174235.563|INFO|Thread-364|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+170205 174235.579|INFO|Thread-365|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+170205 174240.447|INFO|Thread-4|receive|SocketException in receive for Socket[addr=/127.0.0.1,port=51818,localport=50002]-2337819247435421909
+|java.net.SocketException: Connection reset
+|    at java.net.SocketInputStream.read (Unknown Source)
+|    at java.net.SocketInputStream.read (Unknown Source)
+|    at java.net.SocketInputStream.read (Unknown Source)
+|    at java.io.ObjectInputStream$PeekInputStream.peek (Unknown Source)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peek (Unknown Source)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peekByte (Unknown Source)
+|    at java.io.ObjectInputStream.readObject0 (Unknown Source)
+|    at java.io.ObjectInputStream.readObject (Unknown Source)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:151)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerServerThread.run (ConnectionHandlerServerThread.java:68)
+170205 174240.462|INFO|Thread-4|connectionDropped|connectionDropped(ConnectionHandlerID myConnectionID) 
+170205 174242.166|INFO|Thread-181|receive|SocketException in receive for Socket[addr=/127.0.0.1,port=52095,localport=50002]-8062255120021828187
+|java.net.SocketException: Connection reset
+|    at java.net.SocketInputStream.read (Unknown Source)
+|    at java.net.SocketInputStream.read (Unknown Source)
+|    at java.net.SocketInputStream.read (Unknown Source)
+|    at java.io.ObjectInputStream$PeekInputStream.peek (Unknown Source)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peek (Unknown Source)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peekByte (Unknown Source)
+|    at java.io.ObjectInputStream.readObject0 (Unknown Source)
+|    at java.io.ObjectInputStream.readObject (Unknown Source)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:151)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerServerThread.run (ConnectionHandlerServerThread.java:68)
+170205 174242.166|INFO|Thread-181|connectionDropped|connectionDropped(ConnectionHandlerID myConnectionID) 
+170205 174323.660|CONFIG|AWT-EventQueue-0|setFileHandlers|Now logging to C:\PacketA_2017_Waller\pc2-9.2.5\bin\profiles\Pc860fdf7-b6ef-4a44-854c-d7e7bb3968ca\logs directory.
+170205 174323.660|INFO|AWT-EventQueue-0|info|
+170205 174323.660|INFO|AWT-EventQueue-0|info|Version 9.2.5 20151014 (Wednesday, October 14th 2015 03:59 UTC) Java ver 1.8.0_111 build 3204 Windows 8.1 6.3 (amd64) 
+170205 174323.660|INFO|AWT-EventQueue-0|info|Login: site1 (aka server0)
+170205 174323.660|INFO|AWT-EventQueue-0|startLog|Working directory is C:\PacketA_2017_Waller\pc2-9.2.5\bin
+170205 174323.660|INFO|AWT-EventQueue-0|startLog|Process id is 15428@Mellen
+170205 174323.676|DEBUG|AWT-EventQueue-0|login|Site Number is set as 1 (0 means unset)
+170205 174323.676|INFO|AWT-EventQueue-0|info|initializeServer STARTED this site as Site 1
+170205 174327.254|INFO|AWT-EventQueue-0|loadFromDisk|Loading site number 1
+170205 174327.254|INFO|AWT-EventQueue-0|loadFromDisk|Loaded 1 languages
+170205 174327.270|INFO|AWT-EventQueue-0|loadFromDisk|Loaded 13 problems
+170205 174327.270|INFO|AWT-EventQueue-0|loadFromDisk|Loaded 1 contest_time_list
+170205 174327.270|INFO|AWT-EventQueue-0|loadFromDisk|Loaded 114 accounts
+170205 174327.270|INFO|AWT-EventQueue-0|loadFromDisk|Loaded 8 judgements
+170205 174327.270|INFO|AWT-EventQueue-0|loadProblemDataFilesInfo|Loaded 1 of 13 problem_data_files
+170205 174327.270|INFO|AWT-EventQueue-0|loadProblemDataFilesInfo|Loaded 2 of 13 problem_data_files
+170205 174327.270|INFO|AWT-EventQueue-0|loadProblemDataFilesInfo|Loaded 3 of 13 problem_data_files
+170205 174327.286|INFO|AWT-EventQueue-0|loadProblemDataFilesInfo|Loaded 4 of 13 problem_data_files
+170205 174327.286|INFO|AWT-EventQueue-0|loadProblemDataFilesInfo|Loaded 5 of 13 problem_data_files
+170205 174327.286|INFO|AWT-EventQueue-0|loadProblemDataFilesInfo|Loaded 6 of 13 problem_data_files
+170205 174327.286|INFO|AWT-EventQueue-0|loadProblemDataFilesInfo|Loaded 7 of 13 problem_data_files
+170205 174327.286|INFO|AWT-EventQueue-0|loadProblemDataFilesInfo|Loaded 8 of 13 problem_data_files
+170205 174327.286|INFO|AWT-EventQueue-0|loadProblemDataFilesInfo|Loaded 9 of 13 problem_data_files
+170205 174327.286|INFO|AWT-EventQueue-0|loadProblemDataFilesInfo|Loaded 10 of 13 problem_data_files
+170205 174327.286|INFO|AWT-EventQueue-0|loadProblemDataFilesInfo|Loaded 11 of 13 problem_data_files
+170205 174327.286|INFO|AWT-EventQueue-0|loadProblemDataFilesInfo|Loaded 12 of 13 problem_data_files
+170205 174327.286|INFO|AWT-EventQueue-0|loadProblemDataFilesInfo|Loaded 13 of 13 problem_data_files
+170205 174327.286|INFO|AWT-EventQueue-0|loadSomeSettings|Loaded 0 balloon_settings_list
+170205 174327.286|INFO|AWT-EventQueue-0|loadSomeSettings|Loaded contest_time
+170205 174327.286|INFO|AWT-EventQueue-0|loadSomeSettings|Loaded general_problem
+170205 174327.286|INFO|AWT-EventQueue-0|loadSomeSettings|Loaded 1 profiles
+170205 174327.286|INFO|AWT-EventQueue-0|loadSomeSettings|Loaded profile
+170205 174327.286|INFO|AWT-EventQueue-0|loadSomeSettings|Loaded 1 sites
+170205 174327.301|INFO|AWT-EventQueue-0|loadSomeSettings|Loaded Contest Information MAGNOLIA PACKET B
+170205 174327.301|INFO|AWT-EventQueue-0|loadSomeSettings|Loaded 4 client_settings_list
+170205 174327.301|INFO|AWT-EventQueue-0|loadSomeSettings|Loaded 0 groups
+170205 174327.333|INFO|AWT-EventQueue-0|info|Loaded configuration from disk
+170205 174327.458|INFO|AWT-EventQueue-0|info|evals.log is opened at profiles\Pc860fdf7-b6ef-4a44-854c-d7e7bb3968ca\logs
+170205 174327.458|INFO|AWT-EventQueue-0|accecptConnections|accecptConnections on port:50002
+170205 174327.489|INFO|AWT-EventQueue-0|info|Started Server Transport listening on 50002
+170205 174327.489|INFO|AWT-EventQueue-0|info|Primary Server has .
+170205 174442.971|INFO|Thread-3|<init>|new ConnectionhandlerServerThread on Socket Socket[addr=/127.0.0.1,port=52164,localport=50002]
+170205 174443.002|INFO|Thread-4|registerIncomingConnectionRequest|registerIncomingConnectionRequest(myConnectionID, thread) 
+170205 174443.018|INFO|Thread-4|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+170205 174443.018|INFO|Thread-4|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    589620d0 53c19cab 01dd4082 5f8f4192 3e29b3f5 54feb9ca 4ca14562 f71485cb
+    5eef3c6e ecf224b3 16033722 eadaf077 39bdf741 9074d2cb 51d70cdb 7eac27b8
+    35e8a7fe 9f30038a 90c9ca91 4d5ddbfe aa76eb21 ea267363 fdb5e2e7 bcc9da10
+    67de6849 982e6778 cb44a771 e1d838e6 99d254ae e385464b ca5ef1b3 395e797b
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+170205 174443.018|INFO|Thread-4|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@fdd71cb
+170205 174443.674|INFO|Thread-4|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/127.0.0.1,port=52164,localport=50002]-8914559254180077331)
+170205 174443.674|INFO|Thread-4|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/127.0.0.1,port=52164,localport=50002]-8914559254180077331 key is com.sun.crypto.provider.DESKey@fffe7dc5
+170205 174447.800|INFO|Thread-4|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+170205 174447.894|INFO|Thread-6|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52164,localport=50002]-8914559254180077331
+170205 174447.910|INFO|Thread-7|run|send(Serializable, ConnectionHandlerID) to Socket[addr=/127.0.0.1,port=52164,localport=50002]-8914559254180077331
+170209 123020.494|CONFIG|AWT-EventQueue-0|setFileHandlers|Now logging to C:\PacketB_Magnolia Student Info and PC Squared\pc2-9.2.5\bin\profiles\Pc860fdf7-b6ef-4a44-854c-d7e7bb3968ca\logs directory.
+170209 123020.541|INFO|AWT-EventQueue-0|info|
+170209 123020.541|INFO|AWT-EventQueue-0|info|Version 9.2.5 20151014 (Wednesday, October 14th 2015 03:59 UTC) Java ver 1.8.0_111 build 3204 Windows 8.1 6.3 (amd64) 
+170209 123020.556|INFO|AWT-EventQueue-0|info|Login: site1 (aka server0)
+170209 123020.556|INFO|AWT-EventQueue-0|startLog|Working directory is C:\PacketB_Magnolia Student Info and PC Squared\pc2-9.2.5\bin
+170209 123020.556|INFO|AWT-EventQueue-0|startLog|Process id is 1996@Mellen
+170209 123020.587|DEBUG|AWT-EventQueue-0|login|Site Number is set as 1 (0 means unset)
+170209 123020.587|INFO|AWT-EventQueue-0|info|initializeServer STARTED this site as Site 1
+170209 123023.401|INFO|AWT-EventQueue-0|verifyPassword|verify password - failed to decrypt object
+|java.lang.Exception: invalid stream header: 42BE1453
+|    at edu.csus.ecs.pc2.core.security.FileSecurity.decryptObject (FileSecurity.java:565)
+|    at edu.csus.ecs.pc2.core.security.FileSecurity.verifyPassword (FileSecurity.java:191)
+|    at edu.csus.ecs.pc2.ui.server.StartupContestDialog.confirmContestPassword (StartupContestDialog.java:411)
+|    at edu.csus.ecs.pc2.ui.server.StartupContestDialog.attemptToLogin (StartupContestDialog.java:379)
+|    at edu.csus.ecs.pc2.ui.server.StartupContestDialog$3.keyPressed (StartupContestDialog.java:444)
+|    at java.awt.Component.processKeyEvent (Unknown Source)
+|    at javax.swing.JComponent.processKeyEvent (Unknown Source)
+|    at java.awt.Component.processEvent (Unknown Source)
+|    at java.awt.Container.processEvent (Unknown Source)
+|    at java.awt.Component.dispatchEventImpl (Unknown Source)
+|    at java.awt.Container.dispatchEventImpl (Unknown Source)
+|    at java.awt.Component.dispatchEvent (Unknown Source)
+|    at java.awt.KeyboardFocusManager.redispatchEvent (Unknown Source)
+|    at java.awt.DefaultKeyboardFocusManager.dispatchKeyEvent (Unknown Source)
+|    at java.awt.DefaultKeyboardFocusManager.preDispatchKeyEvent (Unknown Source)
+|    at java.awt.DefaultKeyboardFocusManager.typeAheadAssertions (Unknown Source)
+|    at java.awt.DefaultKeyboardFocusManager.dispatchEvent (Unknown Source)
+|    at java.awt.Component.dispatchEventImpl (Unknown Source)
+|    at java.awt.Container.dispatchEventImpl (Unknown Source)
+|    at java.awt.Window.dispatchEventImpl (Unknown Source)
+|    at java.awt.Component.dispatchEvent (Unknown Source)
+|    at java.awt.EventQueue.dispatchEventImpl (Unknown Source)
+|    at java.awt.EventQueue.access$500 (Unknown Source)
+|    at java.awt.EventQueue$3.run (Unknown Source)
+|    at java.awt.EventQueue$3.run (Unknown Source)
+|    at java.security.AccessController.doPrivileged (Unknown Source)
+|    at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege (Unknown Source)
+|    at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege (Unknown Source)
+|    at java.awt.EventQueue$4.run (Unknown Source)
+|    at java.awt.EventQueue$4.run (Unknown Source)
+|    at java.security.AccessController.doPrivileged (Unknown Source)
+|    at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege (Unknown Source)
+|    at java.awt.EventQueue.dispatchEvent (Unknown Source)
+|    at java.awt.EventDispatchThread.pumpOneEventForFilters (Unknown Source)
+|    at java.awt.EventDispatchThread.pumpEventsForFilter (Unknown Source)
+|    at java.awt.EventDispatchThread.pumpEventsForFilter (Unknown Source)
+|    at java.awt.WaitDispatchSupport$2.run (Unknown Source)
+|    at java.awt.WaitDispatchSupport$4.run (Unknown Source)
+|    at java.awt.WaitDispatchSupport$4.run (Unknown Source)
+|    at java.security.AccessController.doPrivileged (Unknown Source)
+|    at java.awt.WaitDispatchSupport.enter (Unknown Source)
+|    at java.awt.Dialog.show (Unknown Source)
+|    at java.awt.Component.show (Unknown Source)
+|    at java.awt.Component.setVisible (Unknown Source)
+|    at java.awt.Window.setVisible (Unknown Source)
+|    at java.awt.Dialog.setVisible (Unknown Source)
+|    at edu.csus.ecs.pc2.core.InternalController.initializeServer (InternalController.java:814)
+|    at edu.csus.ecs.pc2.core.InternalController.authenticateFirstServer (InternalController.java:995)
+|    at edu.csus.ecs.pc2.core.InternalController.login (InternalController.java:637)
+|    at edu.csus.ecs.pc2.ui.LoginFrame.attemptToLogin (LoginFrame.java:347)
+|    at edu.csus.ecs.pc2.ui.LoginFrame$3.keyPressed (LoginFrame.java:273)
+|    at java.awt.Component.processKeyEvent (Unknown Source)
+|    at javax.swing.JComponent.processKeyEvent (Unknown Source)
+|    at java.awt.Component.processEvent (Unknown Source)
+|    at java.awt.Container.processEvent (Unknown Source)
+|    at java.awt.Component.dispatchEventImpl (Unknown Source)
+|    at java.awt.Container.dispatchEventImpl (Unknown Source)
+|    at java.awt.Component.dispatchEvent (Unknown Source)
+|    at java.awt.KeyboardFocusManager.redispatchEvent (Unknown Source)
+|    at java.awt.DefaultKeyboardFocusManager.dispatchKeyEvent (Unknown Source)
+|    at java.awt.DefaultKeyboardFocusManager.preDispatchKeyEvent (Unknown Source)
+|    at java.awt.DefaultKeyboardFocusManager.typeAheadAssertions (Unknown Source)
+|    at java.awt.DefaultKeyboardFocusManager.dispatchEvent (Unknown Source)
+|    at java.awt.Component.dispatchEventImpl (Unknown Source)
+|    at java.awt.Container.dispatchEventImpl (Unknown Source)
+|    at java.awt.Window.dispatchEventImpl (Unknown Source)
+|    at java.awt.Component.dispatchEvent (Unknown Source)
+|    at java.awt.EventQueue.dispatchEventImpl (Unknown Source)
+|    at java.awt.EventQueue.access$500 (Unknown Source)
+|    at java.awt.EventQueue$3.run (Unknown Source)
+|    at java.awt.EventQueue$3.run (Unknown Source)
+|    at java.security.AccessController.doPrivileged (Unknown Source)
+|    at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege (Unknown Source)
+|    at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege (Unknown Source)
+|    at java.awt.EventQueue$4.run (Unknown Source)
+|    at java.awt.EventQueue$4.run (Unknown Source)
+|    at java.security.AccessController.doPrivileged (Unknown Source)
+|    at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege (Unknown Source)
+|    at java.awt.EventQueue.dispatchEvent (Unknown Source)
+|    at java.awt.EventDispatchThread.pumpOneEventForFilters (Unknown Source)
+|    at java.awt.EventDispatchThread.pumpEventsForFilter (Unknown Source)
+|    at java.awt.EventDispatchThread.pumpEventsForHierarchy (Unknown Source)
+|    at java.awt.EventDispatchThread.pumpEvents (Unknown Source)
+|    at java.awt.EventDispatchThread.pumpEvents (Unknown Source)
+|    at java.awt.EventDispatchThread.run (Unknown Source)
+170209 123028.067|INFO|AWT-EventQueue-0|loadFromDisk|Loading site number 1
+170209 123028.067|INFO|AWT-EventQueue-0|loadFromDisk|Loaded 1 languages
+170209 123028.083|INFO|AWT-EventQueue-0|loadFromDisk|Loaded 13 problems
+170209 123028.083|INFO|AWT-EventQueue-0|loadFromDisk|Loaded 1 contest_time_list
+170209 123028.083|INFO|AWT-EventQueue-0|loadFromDisk|Loaded 114 accounts
+170209 123028.083|INFO|AWT-EventQueue-0|loadFromDisk|Loaded 8 judgements
+170209 123028.083|INFO|AWT-EventQueue-0|loadProblemDataFilesInfo|Loaded 1 of 13 problem_data_files
+170209 123028.083|INFO|AWT-EventQueue-0|loadProblemDataFilesInfo|Loaded 2 of 13 problem_data_files
+170209 123028.098|INFO|AWT-EventQueue-0|loadProblemDataFilesInfo|Loaded 3 of 13 problem_data_files
+170209 123028.098|INFO|AWT-EventQueue-0|loadProblemDataFilesInfo|Loaded 4 of 13 problem_data_files
+170209 123028.098|INFO|AWT-EventQueue-0|loadProblemDataFilesInfo|Loaded 5 of 13 problem_data_files
+170209 123028.098|INFO|AWT-EventQueue-0|loadProblemDataFilesInfo|Loaded 6 of 13 problem_data_files
+170209 123028.098|INFO|AWT-EventQueue-0|loadProblemDataFilesInfo|Loaded 7 of 13 problem_data_files
+170209 123028.098|INFO|AWT-EventQueue-0|loadProblemDataFilesInfo|Loaded 8 of 13 problem_data_files
+170209 123028.098|INFO|AWT-EventQueue-0|loadProblemDataFilesInfo|Loaded 9 of 13 problem_data_files
+170209 123028.098|INFO|AWT-EventQueue-0|loadProblemDataFilesInfo|Loaded 10 of 13 problem_data_files
+170209 123028.098|INFO|AWT-EventQueue-0|loadProblemDataFilesInfo|Loaded 11 of 13 problem_data_files
+170209 123028.098|INFO|AWT-EventQueue-0|loadProblemDataFilesInfo|Loaded 12 of 13 problem_data_files
+170209 123028.098|INFO|AWT-EventQueue-0|loadProblemDataFilesInfo|Loaded 13 of 13 problem_data_files
+170209 123028.098|INFO|AWT-EventQueue-0|loadSomeSettings|Loaded 0 balloon_settings_list
+170209 123028.098|INFO|AWT-EventQueue-0|loadSomeSettings|Loaded contest_time
+170209 123028.098|INFO|AWT-EventQueue-0|loadSomeSettings|Loaded general_problem
+170209 123028.098|INFO|AWT-EventQueue-0|loadSomeSettings|Loaded 1 profiles
+170209 123028.098|INFO|AWT-EventQueue-0|loadSomeSettings|Loaded profile
+170209 123028.114|INFO|AWT-EventQueue-0|loadSomeSettings|Loaded 1 sites
+170209 123028.114|INFO|AWT-EventQueue-0|loadSomeSettings|Loaded Contest Information MAGNOLIA PACKET B
+170209 123028.114|INFO|AWT-EventQueue-0|loadSomeSettings|Loaded 4 client_settings_list
+170209 123028.114|INFO|AWT-EventQueue-0|loadSomeSettings|Loaded 0 groups
+170209 123028.177|INFO|AWT-EventQueue-0|info|Loaded configuration from disk
+170209 123028.395|INFO|AWT-EventQueue-0|info|evals.log is opened at profiles\Pc860fdf7-b6ef-4a44-854c-d7e7bb3968ca\logs
+170209 123028.395|INFO|AWT-EventQueue-0|accecptConnections|accecptConnections on port:50002
+170209 123028.411|INFO|AWT-EventQueue-0|info|Started Server Transport listening on 50002
+170209 123028.411|INFO|AWT-EventQueue-0|info|Primary Server has .
+170209 123044.159|CONFIG|AWT-EventQueue-0|setFileHandlers|Now logging to C:\PacketB_Magnolia Student Info and PC Squared\pc2-9.2.5\bin\profiles\Pc860fdf7-b6ef-4a44-854c-d7e7bb3968ca\logs directory.
+170209 123044.159|INFO|AWT-EventQueue-0|info|
+170209 123044.159|INFO|AWT-EventQueue-0|info|Version 9.2.5 20151014 (Wednesday, October 14th 2015 03:59 UTC) Java ver 1.8.0_111 build 3204 Windows 8.1 6.3 (amd64) 
+170209 123044.159|INFO|AWT-EventQueue-0|info|Login: site1 (aka server0)
+170209 123044.159|INFO|AWT-EventQueue-0|startLog|Working directory is C:\PacketB_Magnolia Student Info and PC Squared\pc2-9.2.5\bin
+170209 123044.159|INFO|AWT-EventQueue-0|startLog|Process id is 6424@Mellen
+170209 123044.159|DEBUG|AWT-EventQueue-0|login|Site Number is set as 1 (0 means unset)
+170209 123044.159|INFO|AWT-EventQueue-0|info|initializeServer STARTED this site as Site 1
+170209 123048.504|INFO|AWT-EventQueue-0|loadFromDisk|Loading site number 1
+170209 123048.519|INFO|AWT-EventQueue-0|loadFromDisk|Loaded 1 languages
+170209 123048.519|INFO|AWT-EventQueue-0|loadFromDisk|Loaded 13 problems
+170209 123048.519|INFO|AWT-EventQueue-0|loadFromDisk|Loaded 1 contest_time_list
+170209 123048.519|INFO|AWT-EventQueue-0|loadFromDisk|Loaded 114 accounts
+170209 123048.519|INFO|AWT-EventQueue-0|loadFromDisk|Loaded 8 judgements
+170209 123048.519|INFO|AWT-EventQueue-0|loadProblemDataFilesInfo|Loaded 1 of 13 problem_data_files
+170209 123048.519|INFO|AWT-EventQueue-0|loadProblemDataFilesInfo|Loaded 2 of 13 problem_data_files
+170209 123048.519|INFO|AWT-EventQueue-0|loadProblemDataFilesInfo|Loaded 3 of 13 problem_data_files
+170209 123048.535|INFO|AWT-EventQueue-0|loadProblemDataFilesInfo|Loaded 4 of 13 problem_data_files
+170209 123048.535|INFO|AWT-EventQueue-0|loadProblemDataFilesInfo|Loaded 5 of 13 problem_data_files
+170209 123048.535|INFO|AWT-EventQueue-0|loadProblemDataFilesInfo|Loaded 6 of 13 problem_data_files
+170209 123048.535|INFO|AWT-EventQueue-0|loadProblemDataFilesInfo|Loaded 7 of 13 problem_data_files
+170209 123048.535|INFO|AWT-EventQueue-0|loadProblemDataFilesInfo|Loaded 8 of 13 problem_data_files
+170209 123048.535|INFO|AWT-EventQueue-0|loadProblemDataFilesInfo|Loaded 9 of 13 problem_data_files
+170209 123048.535|INFO|AWT-EventQueue-0|loadProblemDataFilesInfo|Loaded 10 of 13 problem_data_files
+170209 123048.535|INFO|AWT-EventQueue-0|loadProblemDataFilesInfo|Loaded 11 of 13 problem_data_files
+170209 123048.535|INFO|AWT-EventQueue-0|loadProblemDataFilesInfo|Loaded 12 of 13 problem_data_files
+170209 123048.535|INFO|AWT-EventQueue-0|loadProblemDataFilesInfo|Loaded 13 of 13 problem_data_files
+170209 123048.535|INFO|AWT-EventQueue-0|loadSomeSettings|Loaded 0 balloon_settings_list
+170209 123048.535|INFO|AWT-EventQueue-0|loadSomeSettings|Loaded contest_time
+170209 123048.535|INFO|AWT-EventQueue-0|loadSomeSettings|Loaded general_problem
+170209 123048.535|INFO|AWT-EventQueue-0|loadSomeSettings|Loaded 1 profiles
+170209 123048.535|INFO|AWT-EventQueue-0|loadSomeSettings|Loaded profile
+170209 123048.535|INFO|AWT-EventQueue-0|loadSomeSettings|Loaded 1 sites
+170209 123048.535|INFO|AWT-EventQueue-0|loadSomeSettings|Loaded Contest Information MAGNOLIA PACKET B
+170209 123048.551|INFO|AWT-EventQueue-0|loadSomeSettings|Loaded 4 client_settings_list
+170209 123048.551|INFO|AWT-EventQueue-0|loadSomeSettings|Loaded 0 groups
+170209 123048.582|INFO|AWT-EventQueue-0|info|Loaded configuration from disk
+170209 123048.707|INFO|AWT-EventQueue-0|info|evals.log is opened at profiles\Pc860fdf7-b6ef-4a44-854c-d7e7bb3968ca\logs
+170209 123048.707|FINER|AWT-EventQueue-0|info|Login not successful: Does not match first site password

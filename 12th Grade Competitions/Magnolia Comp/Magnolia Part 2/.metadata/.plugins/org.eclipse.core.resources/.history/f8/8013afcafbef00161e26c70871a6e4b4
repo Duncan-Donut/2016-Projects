@@ -1,0 +1,23 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
+public class Kostas {
+
+	public static void main(String[] args) throws FileNotFoundException {
+		// TODO Auto-generated method stub
+		Scanner Sf = new Scanner(new File("Samantha.dat"));
+
+		while(Sf.hasNext()){
+			
+			Sf.next();
+			
+			
+		}
+		
+		
+		
+	}
+
+
+}

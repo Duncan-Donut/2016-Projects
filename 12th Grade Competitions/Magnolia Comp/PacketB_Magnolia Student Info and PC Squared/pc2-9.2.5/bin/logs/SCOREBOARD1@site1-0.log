@@ -1,0 +1,61 @@
+170205 174116.843|CONFIG|Thread-5|setFileHandlers|Now logging to C:\PacketA_2017_Waller\pc2-9.2.5\bin\logs directory.
+170205 174116.843|INFO|Thread-5|info|
+170205 174116.843|INFO|Thread-5|info|Version 9.2.5 20151014 (Wednesday, October 14th 2015 03:59 UTC) Java ver 1.8.0_111 build 3204 Windows 8.1 6.3 (amd64) 
+170205 174116.843|INFO|Thread-5|info|Login: scoreboard1 (aka scoreboard1)
+170205 174116.843|INFO|Thread-5|startLog|Working directory is C:\PacketA_2017_Waller\pc2-9.2.5\bin
+170205 174116.843|INFO|Thread-5|startLog|Process id is 13476@Mellen
+170205 174116.859|INFO|Thread-5|info|Attempting to load UI class edu.csus.ecs.pc2.ui.board.ScoreboardView
+170205 174116.874|INFO|Thread-5|info|Loaded UI class edu.csus.ecs.pc2.ui.board.ScoreboardView
+170205 174116.890|INFO|Thread-5|setContestAndController|Using XSL from directory C:\PacketA_2017_Waller\pc2-9.2.5\data\xsl
+170205 174117.109|INFO|Thread-5|info| handlePacket original LOGIN_SUCCESS after -- all settings loaded 
+170205 174117.109|INFO|Thread-5|info|handlePacket end Packet[LOGIN_SUCCESS] #271 SERVER0 @ site 1 -> SCOREBOARD1 @ site 1
+170205 174117.109|INFO|Thread-5|info| receiveObject(S) end   got Packet[LOGIN_SUCCESS] #271 SERVER0 @ site 1 -> SCOREBOARD1 @ site 1
+170205 174117.578|FINE|AWT-EventQueue-0|generateOutput|Sending output to C:\PacketA_2017_Waller\pc2-9.2.5\bin\html
+170205 174118.218|DEBUG|AWT-EventQueue-0|generateOutput|rename to C:\PacketA_2017_Waller\pc2-9.2.5\bin\html\full.html succeeded.
+170205 174118.453|DEBUG|AWT-EventQueue-0|generateOutput|rename to C:\PacketA_2017_Waller\pc2-9.2.5\bin\html\fullnums.html succeeded.
+170205 174118.672|DEBUG|AWT-EventQueue-0|generateOutput|rename2 to C:\PacketA_2017_Waller\pc2-9.2.5\bin\pc2export.dat succeeded.
+170205 174118.843|DEBUG|AWT-EventQueue-0|generateOutput|rename to C:\PacketA_2017_Waller\pc2-9.2.5\bin\html\sumatt.html succeeded.
+170205 174119.031|DEBUG|AWT-EventQueue-0|generateOutput|rename to C:\PacketA_2017_Waller\pc2-9.2.5\bin\html\summary.html succeeded.
+170205 174119.234|DEBUG|AWT-EventQueue-0|generateOutput|rename to C:\PacketA_2017_Waller\pc2-9.2.5\bin\html\sumtime.html succeeded.
+170205 174119.250|FINE|AWT-EventQueue-0|addTestRow|addTestRow no balloonSettings for site 1
+170205 174119.250|FINE|AWT-EventQueue-0|addTestRow|addTestRow no balloonSettings for site 1
+170205 174200.580|INFO|Thread-6|info| receiveObject(S) start got Packet[UPDATE_SETTING] #273 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 174200.596|INFO|Thread-6|dumpPacket|Packet UPDATE_SETTING (Seq #273 ) recieveObject
+170205 174200.596|INFO|Thread-6|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 174200.611|INFO|Thread-6|dumpPacket|    To: SERVER0 @ site 0
+170205 174200.627|INFO|Thread-6|dumpPacket|   key: CONTEST_INFORMATION is: edu.csus.ecs.pc2.core.model.ContestInformation edu.csus.ecs.pc2.core.model.ContestInformation@5f502318
+170205 174200.627|INFO|Thread-6|info|handlePacket start Packet[UPDATE_SETTING] #273 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 174200.627|INFO|Thread-6|dumpPacket|Packet UPDATE_SETTING (Seq #273 ) handlePacket
+170205 174200.642|INFO|Thread-6|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 174200.658|INFO|Thread-6|dumpPacket|    To: SERVER0 @ site 0
+170205 174200.689|INFO|Thread-6|dumpPacket|   key: CONTEST_INFORMATION is: edu.csus.ecs.pc2.core.model.ContestInformation edu.csus.ecs.pc2.core.model.ContestInformation@5f502318
+170205 174200.705|INFO|Thread-6|info|handlePacket end Packet[UPDATE_SETTING] #273 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 174200.736|INFO|Thread-6|info| receiveObject(S) end   got Packet[UPDATE_SETTING] #273 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 174200.846|FINE|AWT-EventQueue-0|generateOutput|Sending output to C:\PacketA_2017_Waller\pc2-9.2.5\bin\html
+170205 174201.017|DEBUG|AWT-EventQueue-0|generateOutput|rename2 to C:\PacketA_2017_Waller\pc2-9.2.5\bin\html\full.html succeeded.
+170205 174201.142|DEBUG|AWT-EventQueue-0|generateOutput|rename2 to C:\PacketA_2017_Waller\pc2-9.2.5\bin\html\fullnums.html succeeded.
+170205 174201.267|DEBUG|AWT-EventQueue-0|generateOutput|rename2 to C:\PacketA_2017_Waller\pc2-9.2.5\bin\pc2export.dat succeeded.
+170205 174201.424|DEBUG|AWT-EventQueue-0|generateOutput|rename2 to C:\PacketA_2017_Waller\pc2-9.2.5\bin\html\sumatt.html succeeded.
+170205 174201.596|DEBUG|AWT-EventQueue-0|generateOutput|rename2 to C:\PacketA_2017_Waller\pc2-9.2.5\bin\html\summary.html succeeded.
+170205 174201.736|DEBUG|AWT-EventQueue-0|generateOutput|rename2 to C:\PacketA_2017_Waller\pc2-9.2.5\bin\html\sumtime.html succeeded.
+170209 125143.735|CONFIG|Thread-7|setFileHandlers|Now logging to C:\PacketB_Magnolia Student Info and PC Squared\pc2-9.2.5\bin\logs directory.
+170209 125143.735|INFO|Thread-7|info|
+170209 125143.735|INFO|Thread-7|info|Version 9.2.5 20151014 (Wednesday, October 14th 2015 03:59 UTC) Java ver 1.8.0_111 build 3204 Windows 8.1 6.3 (amd64) 
+170209 125143.735|INFO|Thread-7|info|Login: scoreboard1 (aka scoreboard1)
+170209 125143.751|INFO|Thread-7|startLog|Working directory is C:\PacketB_Magnolia Student Info and PC Squared\pc2-9.2.5\bin
+170209 125143.751|INFO|Thread-7|startLog|Process id is 9540@Mellen
+170209 125143.751|INFO|Thread-7|info|Attempting to load UI class edu.csus.ecs.pc2.ui.board.ScoreboardView
+170209 125143.766|INFO|Thread-7|info|Loaded UI class edu.csus.ecs.pc2.ui.board.ScoreboardView
+170209 125143.766|INFO|Thread-7|setContestAndController|Using XSL from directory C:\PacketB_Magnolia Student Info and PC Squared\pc2-9.2.5\data\xsl
+170209 125143.985|INFO|Thread-7|info| handlePacket original LOGIN_SUCCESS after -- all settings loaded 
+170209 125143.985|INFO|Thread-7|info|handlePacket end Packet[LOGIN_SUCCESS] #101 SERVER0 @ site 1 -> SCOREBOARD1 @ site 1
+170209 125143.985|INFO|Thread-7|info| receiveObject(S) end   got Packet[LOGIN_SUCCESS] #101 SERVER0 @ site 1 -> SCOREBOARD1 @ site 1
+170209 125144.454|FINE|AWT-EventQueue-0|generateOutput|Sending output to C:\PacketB_Magnolia Student Info and PC Squared\pc2-9.2.5\bin\html
+170209 125145.096|DEBUG|AWT-EventQueue-0|generateOutput|rename2 to C:\PacketB_Magnolia Student Info and PC Squared\pc2-9.2.5\bin\html\full.html succeeded.
+170209 125145.284|DEBUG|AWT-EventQueue-0|generateOutput|rename2 to C:\PacketB_Magnolia Student Info and PC Squared\pc2-9.2.5\bin\html\fullnums.html succeeded.
+170209 125145.487|DEBUG|AWT-EventQueue-0|generateOutput|rename2 to C:\PacketB_Magnolia Student Info and PC Squared\pc2-9.2.5\bin\pc2export.dat succeeded.
+170209 125145.674|DEBUG|AWT-EventQueue-0|generateOutput|rename2 to C:\PacketB_Magnolia Student Info and PC Squared\pc2-9.2.5\bin\html\sumatt.html succeeded.
+170209 125146.018|DEBUG|AWT-EventQueue-0|generateOutput|rename2 to C:\PacketB_Magnolia Student Info and PC Squared\pc2-9.2.5\bin\html\summary.html succeeded.
+170209 125146.196|DEBUG|AWT-EventQueue-0|generateOutput|rename2 to C:\PacketB_Magnolia Student Info and PC Squared\pc2-9.2.5\bin\html\sumtime.html succeeded.
+170209 125146.228|FINE|AWT-EventQueue-0|addTestRow|addTestRow no balloonSettings for site 1
+170209 125146.228|FINE|AWT-EventQueue-0|addTestRow|addTestRow no balloonSettings for site 1

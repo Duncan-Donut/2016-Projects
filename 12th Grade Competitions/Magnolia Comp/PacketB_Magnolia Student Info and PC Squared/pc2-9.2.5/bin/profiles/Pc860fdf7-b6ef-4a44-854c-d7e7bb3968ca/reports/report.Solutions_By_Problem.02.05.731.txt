@@ -1,0 +1,28 @@
+CSUS Programming Contest System
+Date: Sunday, February 5, 2017 5:42:44 PM CST
+Version 9.2.5 20151014 (Wednesday, October 14th 2015 03:59 UTC) Java ver 1.8.0_111 build 3204 Windows 8.1 6.3 (amd64) 
+
+Solutions By Problem Report
+
+There are 12 runs.
+
+Incorrect  Correct  Total     %   Problem Description
+--------- --------- ----- ------  -------------------
+     0         0       0    0.00  DryRun
+     0         1       1  100.00  Akio
+     0         1       1  100.00  danna
+     0         1       1  100.00  evelyn
+     0         1       1  100.00  fengge
+     0         1       1  100.00  isidora
+     0         1       1  100.00  juan
+     0         1       1  100.00  nastya
+     0         1       1  100.00  olga
+     0         1       1  100.00  pdero
+     0         1       1  100.00  Roy
+     0         1       1  100.00  Samantha
+     0         1       1  100.00  Kosta
+--------- --------- ----- ------  -------------------
+     0        12      12  100.00  Totals
+--------- --------- ----- ------  -------------------
+
+end report

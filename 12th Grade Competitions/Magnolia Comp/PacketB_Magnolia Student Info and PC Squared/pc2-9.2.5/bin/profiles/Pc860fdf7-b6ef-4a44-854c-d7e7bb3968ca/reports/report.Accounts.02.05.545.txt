@@ -1,0 +1,368 @@
+CSUS Programming Contest System
+Version 9.2.5 20151014 (Wednesday, October 14th 2015 03:59 UTC) Java ver 1.8.0_111 build 3204 Windows 8.1 6.3 (amd64) 
+Contest Title: MAGNOLIA PACKET B
+On: Sunday, February 5, 2017 5:43:51 PM CST  Contest date/time: Sun Feb 05 17:31:06 CST 2017
+Profile: Default (Default Contest)
+
+
+** Accounts Report
+
+
+Site #   unkno    all  serve  admin   team  judge  score  spect  execu  other  total
+Site 1      -      -      -      1     50      5      1      -      -      -     57
+
+-- Accounts --
+
+Accounts ALL there are 57
+   Site 1 administrator1  id=ADMINISTRATOR1 @ site 1-1989817005395563270
+                      'administrator1' password 'magnolia' LOGIN 
+                      alias '' group ''
+   Site 1 team1           id=TEAM1 @ site 1--3225365629635799728
+                      'team1' password 'team1' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team2           id=TEAM2 @ site 1-5417505859179152520
+                      'team2' password 'rewq' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team3           id=TEAM3 @ site 1-7930490438950682851
+                      'team3' password 'gfds' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team4           id=TEAM4 @ site 1-4377067869964898530
+                      'team4' password 'sdfg' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team5           id=TEAM5 @ site 1-8822795537021813770
+                      'team5' password 'five' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team6           id=TEAM6 @ site 1--887003242913065241
+                      'team6' password 'house' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team7           id=TEAM7 @ site 1--5668555103780711597
+                      'team7' password 'lkj' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team8           id=TEAM8 @ site 1--3371049632959745801
+                      'team8' password 'ate' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team9           id=TEAM9 @ site 1-2313207891638549010
+                      'team9' password 'hinds' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team10          id=TEAM10 @ site 1-7377544025568786553
+                      'team10' password 'jjj' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team11          id=TEAM11 @ site 1--2788713058819166498
+                      'team11' password 'like' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team12          id=TEAM12 @ site 1--7684812701916978604
+                      'team12' password 'snow' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team13          id=TEAM13 @ site 1-731314091456215058
+                      'team13' password 'unlucky' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team14          id=TEAM14 @ site 1-346964334503979894
+                      'team14' password 'teen' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team15          id=TEAM15 @ site 1--7925565032767922099
+                      'team15' password 'fifth' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team16          id=TEAM16 @ site 1-6663625606386357585
+                      'team16' password '16b' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team17          id=TEAM17 @ site 1--1854176124282094862
+                      'team17' password 'age' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team18          id=TEAM18 @ site 1-192184777937072729
+                      'team18' password 'eight' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team19          id=TEAM19 @ site 1-2478202167988517033
+                      'team19' password 'cook' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team20          id=TEAM20 @ site 1-4357018725353816711
+                      'team20' password 'whocares' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team21          id=TEAM21 @ site 1--6835323449928823844
+                      'team21' password 'winner' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team22          id=TEAM22 @ site 1--6707476515752402983
+                      'team22' password 'winning' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team23          id=TEAM23 @ site 1-6999071553442569531
+                      'team23' password 'smile' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team24          id=TEAM24 @ site 1--2796616662821225777
+                      'team24' password 'super' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team25          id=TEAM25 @ site 1--4305108734704791496
+                      'team25' password 'five' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team26          id=TEAM26 @ site 1-5823208506870458096
+                      'team26' password 'houses' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team27          id=TEAM27 @ site 1--1249473018839050356
+                      'team27' password 'mellen' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team28          id=TEAM28 @ site 1--5599837357172328637
+                      'team28' password 'hair' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team29          id=TEAM29 @ site 1-2831367722627914160
+                      'team29' password 'joke' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team30          id=TEAM30 @ site 1-3582040043069532886
+                      'team30' password 'killing' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team31          id=TEAM31 @ site 1-2392533216626353509
+                      'team31' password 'can' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team32          id=TEAM32 @ site 1--5744849896266143429
+                      'team32' password 'jog' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team33          id=TEAM33 @ site 1-151618311742731821
+                      'team33' password 'william' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team34          id=TEAM34 @ site 1-914805604613017350
+                      'team34' password 'tx' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team35          id=TEAM35 @ site 1-5758396564401752271
+                      'team35' password 'past' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team36          id=TEAM36 @ site 1-7924628802830027344
+                      'team36' password 'only' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team37          id=TEAM37 @ site 1--6035133660231565353
+                      'team37' password 'good' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team38          id=TEAM38 @ site 1--6552507105942534345
+                      'team38' password 'hound' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team39          id=TEAM39 @ site 1-7644096606700754963
+                      'team39' password 'jeff' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team40          id=TEAM40 @ site 1--339596734244787108
+                      'team40' password 'forty' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team41          id=TEAM41 @ site 1--7558089163207693033
+                      'team41' password 'onet' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team42          id=TEAM42 @ site 1--1972182311161600157
+                      'team42' password 'fortytwo' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team43          id=TEAM43 @ site 1-535239975943671226
+                      'team43' password 'wow' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team44          id=TEAM44 @ site 1-1603967896375773558
+                      'team44' password 'bob' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team45          id=TEAM45 @ site 1-5737796864960864407
+                      'team45' password 'mom' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team46          id=TEAM46 @ site 1-8274924228612469699
+                      'team46' password 'dad' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team47          id=TEAM47 @ site 1-6806378449941616781
+                      'team47' password 'ntg' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team48          id=TEAM48 @ site 1-1694955684156118009
+                      'team48' password 'onetogo' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team49          id=TEAM49 @ site 1--7742936225983645377
+                      'team49' password 'hound' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team50          id=TEAM50 @ site 1--7657549216334663473
+                      'team50' password 'last' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 judge1          id=JUDGE1 @ site 1--3608785651824546923
+                      'judge1' password 'magnolia' LOGIN 
+                      alias '' group ''
+   Site 1 judge2          id=JUDGE2 @ site 1-1082692042811590270
+                      'judge2' password 'magnolia' LOGIN 
+                      alias '' group ''
+   Site 1 judge3          id=JUDGE3 @ site 1--7383984635250797712
+                      'judge3' password 'magnolia' LOGIN 
+                      alias '' group ''
+   Site 1 judge4          id=JUDGE4 @ site 1-3653427915646840021
+                      'judge4' password 'magnolia' LOGIN 
+                      alias '' group ''
+   Site 1 judge5          id=JUDGE5 @ site 1-5031856999692202253
+                      'judge5' password 'magnolia' LOGIN 
+                      alias '' group ''
+   Site 1 scoreboard1     id=SCOREBOARD1 @ site 1--3582320855559413191
+                      'scoreboard1' password 'magnolia' LOGIN 
+                      alias '' group ''
+
+Accounts ADMINISTRATOR there are 1
+   Site 1 administrator1  id=ADMINISTRATOR1 @ site 1-1989817005395563270
+                      'administrator1' password 'magnolia' LOGIN 
+                      alias '' group ''
+
+Accounts TEAM there are 50
+   Site 1 team1           id=TEAM1 @ site 1--3225365629635799728
+                      'team1' password 'team1' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team2           id=TEAM2 @ site 1-5417505859179152520
+                      'team2' password 'rewq' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team3           id=TEAM3 @ site 1-7930490438950682851
+                      'team3' password 'gfds' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team4           id=TEAM4 @ site 1-4377067869964898530
+                      'team4' password 'sdfg' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team5           id=TEAM5 @ site 1-8822795537021813770
+                      'team5' password 'five' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team6           id=TEAM6 @ site 1--887003242913065241
+                      'team6' password 'house' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team7           id=TEAM7 @ site 1--5668555103780711597
+                      'team7' password 'lkj' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team8           id=TEAM8 @ site 1--3371049632959745801
+                      'team8' password 'ate' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team9           id=TEAM9 @ site 1-2313207891638549010
+                      'team9' password 'hinds' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team10          id=TEAM10 @ site 1-7377544025568786553
+                      'team10' password 'jjj' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team11          id=TEAM11 @ site 1--2788713058819166498
+                      'team11' password 'like' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team12          id=TEAM12 @ site 1--7684812701916978604
+                      'team12' password 'snow' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team13          id=TEAM13 @ site 1-731314091456215058
+                      'team13' password 'unlucky' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team14          id=TEAM14 @ site 1-346964334503979894
+                      'team14' password 'teen' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team15          id=TEAM15 @ site 1--7925565032767922099
+                      'team15' password 'fifth' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team16          id=TEAM16 @ site 1-6663625606386357585
+                      'team16' password '16b' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team17          id=TEAM17 @ site 1--1854176124282094862
+                      'team17' password 'age' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team18          id=TEAM18 @ site 1-192184777937072729
+                      'team18' password 'eight' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team19          id=TEAM19 @ site 1-2478202167988517033
+                      'team19' password 'cook' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team20          id=TEAM20 @ site 1-4357018725353816711
+                      'team20' password 'whocares' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team21          id=TEAM21 @ site 1--6835323449928823844
+                      'team21' password 'winner' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team22          id=TEAM22 @ site 1--6707476515752402983
+                      'team22' password 'winning' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team23          id=TEAM23 @ site 1-6999071553442569531
+                      'team23' password 'smile' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team24          id=TEAM24 @ site 1--2796616662821225777
+                      'team24' password 'super' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team25          id=TEAM25 @ site 1--4305108734704791496
+                      'team25' password 'five' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team26          id=TEAM26 @ site 1-5823208506870458096
+                      'team26' password 'houses' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team27          id=TEAM27 @ site 1--1249473018839050356
+                      'team27' password 'mellen' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team28          id=TEAM28 @ site 1--5599837357172328637
+                      'team28' password 'hair' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team29          id=TEAM29 @ site 1-2831367722627914160
+                      'team29' password 'joke' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team30          id=TEAM30 @ site 1-3582040043069532886
+                      'team30' password 'killing' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team31          id=TEAM31 @ site 1-2392533216626353509
+                      'team31' password 'can' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team32          id=TEAM32 @ site 1--5744849896266143429
+                      'team32' password 'jog' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team33          id=TEAM33 @ site 1-151618311742731821
+                      'team33' password 'william' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team34          id=TEAM34 @ site 1-914805604613017350
+                      'team34' password 'tx' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team35          id=TEAM35 @ site 1-5758396564401752271
+                      'team35' password 'past' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team36          id=TEAM36 @ site 1-7924628802830027344
+                      'team36' password 'only' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team37          id=TEAM37 @ site 1--6035133660231565353
+                      'team37' password 'good' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team38          id=TEAM38 @ site 1--6552507105942534345
+                      'team38' password 'hound' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team39          id=TEAM39 @ site 1-7644096606700754963
+                      'team39' password 'jeff' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team40          id=TEAM40 @ site 1--339596734244787108
+                      'team40' password 'forty' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team41          id=TEAM41 @ site 1--7558089163207693033
+                      'team41' password 'onet' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team42          id=TEAM42 @ site 1--1972182311161600157
+                      'team42' password 'fortytwo' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team43          id=TEAM43 @ site 1-535239975943671226
+                      'team43' password 'wow' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team44          id=TEAM44 @ site 1-1603967896375773558
+                      'team44' password 'bob' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team45          id=TEAM45 @ site 1-5737796864960864407
+                      'team45' password 'mom' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team46          id=TEAM46 @ site 1-8274924228612469699
+                      'team46' password 'dad' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team47          id=TEAM47 @ site 1-6806378449941616781
+                      'team47' password 'ntg' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team48          id=TEAM48 @ site 1-1694955684156118009
+                      'team48' password 'onetogo' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team49          id=TEAM49 @ site 1--7742936225983645377
+                      'team49' password 'hound' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+   Site 1 team50          id=TEAM50 @ site 1--7657549216334663473
+                      'team50' password 'last' LOGIN DISPLAY_ON_SCOREBOARD 
+                      alias '' group ''
+
+Accounts JUDGE there are 5
+   Site 1 judge1          id=JUDGE1 @ site 1--3608785651824546923
+                      'judge1' password 'magnolia' LOGIN 
+                      alias '' group ''
+   Site 1 judge2          id=JUDGE2 @ site 1-1082692042811590270
+                      'judge2' password 'magnolia' LOGIN 
+                      alias '' group ''
+   Site 1 judge3          id=JUDGE3 @ site 1--7383984635250797712
+                      'judge3' password 'magnolia' LOGIN 
+                      alias '' group ''
+   Site 1 judge4          id=JUDGE4 @ site 1-3653427915646840021
+                      'judge4' password 'magnolia' LOGIN 
+                      alias '' group ''
+   Site 1 judge5          id=JUDGE5 @ site 1-5031856999692202253
+                      'judge5' password 'magnolia' LOGIN 
+                      alias '' group ''
+
+Accounts SCOREBOARD there are 1
+   Site 1 scoreboard1     id=SCOREBOARD1 @ site 1--3582320855559413191
+                      'scoreboard1' password 'magnolia' LOGIN 
+                      alias '' group ''
+
+end report

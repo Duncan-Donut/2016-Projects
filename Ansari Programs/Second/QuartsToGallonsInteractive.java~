@@ -1,0 +1,28 @@
+//QuartsToGallonsInteractive
+//Duncan, 9/5/16
+//Converts a user inputed Quarts into Gallons
+
+import java.util.Scanner;
+
+public class QuartsToGallonsInteractive{
+
+	public static void main(String[] args){
+		
+		//constant
+		final int quarts = 4;
+		
+		//user input
+		Scanner Sf = new Scanner(System.in);
+		System.out.println("Please insert the number of quarts you wish to convert");
+		int Quarts4job = Sf.nextInt();
+		
+		//calculations
+		int gallons = Quarts4job / quarts;
+		int leftover = Quarts4job % quarts;
+		
+		//output
+		System.out.println("A job that needs " + Quarts4job + " quarts requires " + gallons + " gallons plus " + leftover + " quarts." );
+		
+		
+	}
+}

@@ -1,0 +1,21 @@
+CSUS Programming Contest System
+Date: Sun Feb 05 17:42:46 CST 2017
+Version 9.2.5 20151014 (Wednesday, October 14th 2015 03:59 UTC) Java ver 1.8.0_111 build 3204 Windows 8.1 6.3 (amd64) 
+
+Runs (Version 8 content and format) Report
+
+-- 12 runs --
+run 1|site 1|proxy |team 1|team1:team1|prob Akio-1144013089910933325:Akio|lang Java-3928238015251234210:Java|tocj |os Windows 8.1|sel false|tocj false|jc true|0|rid Run--7479037805327237497|mmfr true|del? false|jt 10|jby judge1|jci Yes|
+run 2|site 1|proxy |team 1|team1:team1|prob danna-971622681069564991:danna|lang Java-3928238015251234210:Java|tocj |os Windows 8.1|sel false|tocj false|jc true|0|rid Run-2211619898059410867|mmfr true|del? false|jt 8|jby judge1|jci Yes|
+run 3|site 1|proxy |team 1|team1:team1|prob evelyn--9146031687924479864:evelyn|lang Java-3928238015251234210:Java|tocj |os Windows 8.1|sel false|tocj false|jc true|1|rid Run-6901053825036406338|mmfr true|del? false|jt 8|jby judge1|jci Yes|
+run 4|site 1|proxy |team 1|team1:team1|prob fengge-8154034072517052724:fengge|lang Java-3928238015251234210:Java|tocj |os Windows 8.1|sel false|tocj false|jc true|1|rid Run--5213246022120599946|mmfr true|del? false|jt 9|jby judge1|jci Yes|
+run 5|site 1|proxy |team 1|team1:team1|prob isidora-4104540740655750798:isidora|lang Java-3928238015251234210:Java|tocj |os Windows 8.1|sel false|tocj false|jc true|1|rid Run--4520130826694987383|mmfr true|del? false|jt 7|jby judge1|jci Yes|
+run 6|site 1|proxy |team 1|team1:team1|prob juan--6294440183027966234:juan|lang Java-3928238015251234210:Java|tocj |os Windows 8.1|sel false|tocj false|jc true|1|rid Run-3292650820582899681|mmfr true|del? false|jt 30|jby judge1|jci Yes|
+run 7|site 1|proxy |team 1|team1:team1|prob nastya--7456400759554429550:nastya|lang Java-3928238015251234210:Java|tocj |os Windows 8.1|sel false|tocj false|jc true|1|rid Run-8541642138066306690|mmfr true|del? false|jt 37|jby judge1|jci Yes|
+run 8|site 1|proxy |team 1|team1:team1|prob olga--8745381373227763087:olga|lang Java-3928238015251234210:Java|tocj |os Windows 8.1|sel false|tocj false|jc true|2|rid Run-8307988263027325380|mmfr true|del? false|jt 7|jby judge1|jci Yes|
+run 9|site 1|proxy |team 1|team1:team1|prob pdero--614943057240902443:pdero|lang Java-3928238015251234210:Java|tocj |os Windows 8.1|sel false|tocj false|jc true|2|rid Run--6542613804973781179|mmfr true|del? false|jt 117|jby judge1|jci Yes|
+run 10|site 1|proxy |team 1|team1:team1|prob Roy-1340154543560626632:Roy|lang Java-3928238015251234210:Java|tocj |os Windows 8.1|sel false|tocj false|jc true|2|rid Run-8107700643214541600|mmfr true|del? false|jt 7|jby judge1|jci Yes|
+run 11|site 1|proxy |team 1|team1:team1|prob Samantha-8654084596796213131:Samantha|lang Java-3928238015251234210:Java|tocj |os Windows 8.1|sel false|tocj false|jc true|2|rid Run--1649764703146886050|mmfr true|del? false|jt 8|jby judge1|jci Yes|
+run 12|site 1|proxy |team 1|team1:team1|prob Kosta--4390803225918832102:Kosta|lang Java-3928238015251234210:Java|tocj |os Windows 8.1|sel false|tocj false|jc true|5|rid Run-7852741599072339790|mmfr true|del? false|jt 7|jby judge1|jci Yes|
+
+end report

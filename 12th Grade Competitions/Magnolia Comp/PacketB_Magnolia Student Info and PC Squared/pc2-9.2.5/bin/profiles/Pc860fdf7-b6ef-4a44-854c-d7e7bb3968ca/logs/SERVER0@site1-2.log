@@ -1,0 +1,907 @@
+170209 123053.161|CONFIG|AWT-EventQueue-0|setFileHandlers|Now logging to C:\PacketB_Magnolia Student Info and PC Squared\pc2-9.2.5\bin\profiles\Pc860fdf7-b6ef-4a44-854c-d7e7bb3968ca\logs directory.
+170209 123053.161|INFO|AWT-EventQueue-0|info|
+170209 123053.161|INFO|AWT-EventQueue-0|info|Version 9.2.5 20151014 (Wednesday, October 14th 2015 03:59 UTC) Java ver 1.8.0_111 build 3204 Windows 8.1 6.3 (amd64) 
+170209 123053.161|INFO|AWT-EventQueue-0|info|Login: server0 (aka server0)
+170209 123053.176|INFO|AWT-EventQueue-0|startLog|Working directory is C:\PacketB_Magnolia Student Info and PC Squared\pc2-9.2.5\bin
+170209 123053.176|INFO|AWT-EventQueue-0|startLog|Process id is 6424@Mellen
+170209 123053.176|INFO|AWT-EventQueue-0|info|Attempting to load UI class edu.csus.ecs.pc2.ui.server.ServerView
+170209 123053.223|INFO|AWT-EventQueue-0|info|Loaded UI class edu.csus.ecs.pc2.ui.server.ServerView
+170209 123102.826|INFO|Thread-4|info|connectionEstablished: Socket[addr=/127.0.0.1,port=60658,localport=50002]--332917617616310735
+170209 123120.462|INFO|Thread-5|info|receiveObject start got Packet[LOGIN_REQUEST] #1 ADMINISTRATOR1 @ site 0 -> SERVER0 @ site 0
+170209 123120.462|INFO|Thread-5|info|receiveObject Packet[LOGIN_REQUEST] #1 ADMINISTRATOR1 @ site 0 -> SERVER0 @ site 0
+170209 123120.508|INFO|Thread-5|info|sendToClient (send) ADMINISTRATOR1 @ site 0 Packet[LOGIN_FAILED] #2 SERVER0 @ site 1 -> ADMINISTRATOR1 @ site 0 Socket[addr=/127.0.0.1,port=60658,localport=50002]--332917617616310735
+170209 123120.508|INFO|Thread-5|info|receiveObject end   got edu.csus.ecs.pc2.core.packet.Packet
+170209 123124.307|INFO|Thread-7|info|receiveObject start got Packet[LOGIN_REQUEST] #2 ADMINISTRATOR1 @ site 0 -> SERVER0 @ site 0
+170209 123124.307|INFO|Thread-7|info|receiveObject Packet[LOGIN_REQUEST] #2 ADMINISTRATOR1 @ site 0 -> SERVER0 @ site 0
+170209 123124.401|DEBUG|Thread-7|logDebugMessage|Login Event NEW_LOGIN ADMINISTRATOR1 @ site 1
+170209 123124.401|INFO|Thread-7|info|LOGIN logged in ADMINISTRATOR1 @ site 1 at Socket[addr=/127.0.0.1,port=60658,localport=50002]--332917617616310735
+170209 123124.416|INFO|Thread-7|info|sendToClient b4 to ADMINISTRATOR1 @ site 1 Packet[LOGIN_SUCCESS] #3 SERVER0 @ site 1 -> ADMINISTRATOR1 @ site 1
+170209 123124.416|INFO|Thread-7|info|sendToClient SERVER0 @ site 1 Socket[addr=/127.0.0.1,port=60658,localport=50002]--332917617616310735
+170209 123124.416|INFO|Thread-7|info|sendToClient (send) ADMINISTRATOR1 @ site 1 Packet[LOGIN_SUCCESS] #3 SERVER0 @ site 1 -> ADMINISTRATOR1 @ site 1 Socket[addr=/127.0.0.1,port=60658,localport=50002]--332917617616310735
+170209 123124.432|INFO|Thread-7|info|sendToClient af to ADMINISTRATOR1 @ site 1 Packet[LOGIN_SUCCESS] #3 SERVER0 @ site 1 -> ADMINISTRATOR1 @ site 1
+170209 123124.432|INFO|Thread-7|info|sendToClient (send) SERVER0 @ site 0 Packet[LOGIN] #4 SERVER0 @ site 1 -> SERVER0 @ site 0 Socket[addr=/127.0.0.1,port=60658,localport=50002]--332917617616310735
+170209 123124.764|INFO|Thread-7|info|receiveObject end   got edu.csus.ecs.pc2.core.packet.Packet
+170209 123216.955|INFO|Thread-10|info|receiveObject start got Packet[UPDATE_SETTING] #3 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123216.955|INFO|Thread-10|info|receiveObject Packet[UPDATE_SETTING] #3 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123216.955|INFO|Thread-10|dumpPacket|Packet UPDATE_SETTING (Seq #3 ) Packet Contest/Profile Identifer does not match contest's Default-3425878675268062453
+170209 123216.955|INFO|Thread-10|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 123216.955|INFO|Thread-10|dumpPacket|    To: SERVER0 @ site 1
+170209 123216.955|INFO|Thread-10|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account woods4
+170209 123216.955|INFO|Thread-10|info|handlePacket start Packet[UPDATE_SETTING] #3 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123216.955|INFO|Thread-10|dumpPacket|Packet UPDATE_SETTING (Seq #3 ) handlePacket
+170209 123216.971|INFO|Thread-10|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 123216.971|INFO|Thread-10|dumpPacket|    To: SERVER0 @ site 1
+170209 123216.971|INFO|Thread-10|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account woods4
+170209 123216.971|DEBUG|Thread-10|logDebugMessage|Account Event CHANGED TEAM2 @ site 1
+170209 123216.971|INFO|Thread-10|info|sendToClient b4 to TEAM2 @ site 1 Packet[UPDATE_SETTING] #5 SERVER0 @ site 1 -> TEAM2 @ site 1
+170209 123217.065|WARNING|Thread-10|logWarning|Unable to send packet to TEAM2 @ site 1 not logged in.  Packet saved in: profiles\Pc860fdf7-b6ef-4a44-854c-d7e7bb3968ca\packets\packet8316.4.packet
+170209 123217.065|INFO|Thread-10|info|sendToClient af to TEAM2 @ site 1 Packet[UPDATE_SETTING] #5 SERVER0 @ site 1 -> TEAM2 @ site 1
+170209 123217.127|INFO|Thread-10|info|sendToClient (send) TEAM2 @ site 1 Packet[UPDATE_SETTING] #5 SERVER0 @ site 1 -> TEAM2 @ site 1 Socket[addr=/127.0.0.1,port=60658,localport=50002]--332917617616310735
+170209 123217.143|INFO|Thread-10|info|handlePacket end Packet[UPDATE_SETTING] #3 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123217.143|INFO|Thread-10|info|receiveObject end   got edu.csus.ecs.pc2.core.packet.Packet
+170209 123237.306|INFO|Thread-12|info|receiveObject start got Packet[UPDATE_SETTING] #4 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123237.306|INFO|Thread-12|info|receiveObject Packet[UPDATE_SETTING] #4 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123237.306|INFO|Thread-12|dumpPacket|Packet UPDATE_SETTING (Seq #4 ) Packet Contest/Profile Identifer does not match contest's Default-3425878675268062453
+170209 123237.306|INFO|Thread-12|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 123237.306|INFO|Thread-12|dumpPacket|    To: SERVER0 @ site 1
+170209 123237.306|INFO|Thread-12|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account dayton
+170209 123237.306|INFO|Thread-12|info|handlePacket start Packet[UPDATE_SETTING] #4 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123237.306|INFO|Thread-12|dumpPacket|Packet UPDATE_SETTING (Seq #4 ) handlePacket
+170209 123237.322|INFO|Thread-12|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 123237.322|INFO|Thread-12|dumpPacket|    To: SERVER0 @ site 1
+170209 123237.322|INFO|Thread-12|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account dayton
+170209 123237.322|DEBUG|Thread-12|logDebugMessage|Account Event CHANGED TEAM3 @ site 1
+170209 123237.322|INFO|Thread-12|info|sendToClient b4 to TEAM3 @ site 1 Packet[UPDATE_SETTING] #7 SERVER0 @ site 1 -> TEAM3 @ site 1
+170209 123237.368|WARNING|Thread-12|logWarning|Unable to send packet to TEAM3 @ site 1 not logged in.  Packet saved in: profiles\Pc860fdf7-b6ef-4a44-854c-d7e7bb3968ca\packets\packet8316.5.packet
+170209 123237.368|INFO|Thread-12|info|sendToClient af to TEAM3 @ site 1 Packet[UPDATE_SETTING] #7 SERVER0 @ site 1 -> TEAM3 @ site 1
+170209 123237.431|INFO|Thread-12|info|sendToClient (send) TEAM3 @ site 1 Packet[UPDATE_SETTING] #7 SERVER0 @ site 1 -> TEAM3 @ site 1 Socket[addr=/127.0.0.1,port=60658,localport=50002]--332917617616310735
+170209 123237.447|INFO|Thread-12|info|handlePacket end Packet[UPDATE_SETTING] #4 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123237.447|INFO|Thread-12|info|receiveObject end   got edu.csus.ecs.pc2.core.packet.Packet
+170209 123322.951|INFO|Thread-14|info|receiveObject start got Packet[UPDATE_SETTING] #5 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123322.951|INFO|Thread-14|info|receiveObject Packet[UPDATE_SETTING] #5 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123322.951|INFO|Thread-14|dumpPacket|Packet UPDATE_SETTING (Seq #5 ) Packet Contest/Profile Identifer does not match contest's Default-3425878675268062453
+170209 123322.951|INFO|Thread-14|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 123322.967|INFO|Thread-14|dumpPacket|    To: SERVER0 @ site 1
+170209 123322.967|INFO|Thread-14|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account conroe
+170209 123322.967|INFO|Thread-14|info|handlePacket start Packet[UPDATE_SETTING] #5 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123322.967|INFO|Thread-14|dumpPacket|Packet UPDATE_SETTING (Seq #5 ) handlePacket
+170209 123322.967|INFO|Thread-14|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 123322.967|INFO|Thread-14|dumpPacket|    To: SERVER0 @ site 1
+170209 123322.967|INFO|Thread-14|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account conroe
+170209 123322.967|DEBUG|Thread-14|logDebugMessage|Account Event CHANGED TEAM4 @ site 1
+170209 123322.967|INFO|Thread-14|info|sendToClient b4 to TEAM4 @ site 1 Packet[UPDATE_SETTING] #9 SERVER0 @ site 1 -> TEAM4 @ site 1
+170209 123323.014|WARNING|Thread-14|logWarning|Unable to send packet to TEAM4 @ site 1 not logged in.  Packet saved in: profiles\Pc860fdf7-b6ef-4a44-854c-d7e7bb3968ca\packets\packet8316.6.packet
+170209 123323.014|INFO|Thread-14|info|sendToClient af to TEAM4 @ site 1 Packet[UPDATE_SETTING] #9 SERVER0 @ site 1 -> TEAM4 @ site 1
+170209 123323.076|INFO|Thread-14|info|sendToClient (send) TEAM4 @ site 1 Packet[UPDATE_SETTING] #9 SERVER0 @ site 1 -> TEAM4 @ site 1 Socket[addr=/127.0.0.1,port=60658,localport=50002]--332917617616310735
+170209 123323.092|INFO|Thread-14|info|handlePacket end Packet[UPDATE_SETTING] #5 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123323.092|INFO|Thread-14|info|receiveObject end   got edu.csus.ecs.pc2.core.packet.Packet
+170209 123350.579|INFO|Thread-16|info|receiveObject start got Packet[UPDATE_SETTING] #6 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123350.579|INFO|Thread-16|info|receiveObject Packet[UPDATE_SETTING] #6 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123350.579|INFO|Thread-16|dumpPacket|Packet UPDATE_SETTING (Seq #6 ) Packet Contest/Profile Identifer does not match contest's Default-3425878675268062453
+170209 123350.579|INFO|Thread-16|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 123350.595|INFO|Thread-16|dumpPacket|    To: SERVER0 @ site 1
+170209 123350.595|INFO|Thread-16|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account Tomball
+170209 123350.595|INFO|Thread-16|info|handlePacket start Packet[UPDATE_SETTING] #6 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123350.595|INFO|Thread-16|dumpPacket|Packet UPDATE_SETTING (Seq #6 ) handlePacket
+170209 123350.610|INFO|Thread-16|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 123350.610|INFO|Thread-16|dumpPacket|    To: SERVER0 @ site 1
+170209 123350.610|INFO|Thread-16|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account Tomball
+170209 123350.610|DEBUG|Thread-16|logDebugMessage|Account Event CHANGED TEAM5 @ site 1
+170209 123350.610|INFO|Thread-16|info|sendToClient b4 to TEAM5 @ site 1 Packet[UPDATE_SETTING] #11 SERVER0 @ site 1 -> TEAM5 @ site 1
+170209 123350.641|WARNING|Thread-16|logWarning|Unable to send packet to TEAM5 @ site 1 not logged in.  Packet saved in: profiles\Pc860fdf7-b6ef-4a44-854c-d7e7bb3968ca\packets\packet8316.7.packet
+170209 123350.657|INFO|Thread-16|info|sendToClient af to TEAM5 @ site 1 Packet[UPDATE_SETTING] #11 SERVER0 @ site 1 -> TEAM5 @ site 1
+170209 123350.720|INFO|Thread-16|info|sendToClient (send) TEAM5 @ site 1 Packet[UPDATE_SETTING] #11 SERVER0 @ site 1 -> TEAM5 @ site 1 Socket[addr=/127.0.0.1,port=60658,localport=50002]--332917617616310735
+170209 123350.735|INFO|Thread-16|info|handlePacket end Packet[UPDATE_SETTING] #6 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123350.735|INFO|Thread-16|info|receiveObject end   got edu.csus.ecs.pc2.core.packet.Packet
+170209 123411.974|INFO|Thread-18|info|receiveObject start got Packet[UPDATE_SETTING] #7 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123411.974|INFO|Thread-18|info|receiveObject Packet[UPDATE_SETTING] #7 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123411.974|INFO|Thread-18|dumpPacket|Packet UPDATE_SETTING (Seq #7 ) Packet Contest/Profile Identifer does not match contest's Default-3425878675268062453
+170209 123411.974|INFO|Thread-18|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 123411.974|INFO|Thread-18|dumpPacket|    To: SERVER0 @ site 1
+170209 123411.974|INFO|Thread-18|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account Klein Forest
+170209 123411.974|INFO|Thread-18|info|handlePacket start Packet[UPDATE_SETTING] #7 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123411.974|INFO|Thread-18|dumpPacket|Packet UPDATE_SETTING (Seq #7 ) handlePacket
+170209 123411.974|INFO|Thread-18|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 123411.974|INFO|Thread-18|dumpPacket|    To: SERVER0 @ site 1
+170209 123411.990|INFO|Thread-18|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account Klein Forest
+170209 123411.990|DEBUG|Thread-18|logDebugMessage|Account Event CHANGED TEAM6 @ site 1
+170209 123411.990|INFO|Thread-18|info|sendToClient b4 to TEAM6 @ site 1 Packet[UPDATE_SETTING] #13 SERVER0 @ site 1 -> TEAM6 @ site 1
+170209 123412.052|WARNING|Thread-18|logWarning|Unable to send packet to TEAM6 @ site 1 not logged in.  Packet saved in: profiles\Pc860fdf7-b6ef-4a44-854c-d7e7bb3968ca\packets\packet8316.8.packet
+170209 123412.052|INFO|Thread-18|info|sendToClient af to TEAM6 @ site 1 Packet[UPDATE_SETTING] #13 SERVER0 @ site 1 -> TEAM6 @ site 1
+170209 123412.146|INFO|Thread-18|info|sendToClient (send) TEAM6 @ site 1 Packet[UPDATE_SETTING] #13 SERVER0 @ site 1 -> TEAM6 @ site 1 Socket[addr=/127.0.0.1,port=60658,localport=50002]--332917617616310735
+170209 123412.162|INFO|Thread-18|info|handlePacket end Packet[UPDATE_SETTING] #7 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123412.177|INFO|Thread-18|info|receiveObject end   got edu.csus.ecs.pc2.core.packet.Packet
+170209 123515.443|INFO|Thread-20|info|receiveObject start got Packet[UPDATE_SETTING] #8 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123515.443|INFO|Thread-20|info|receiveObject Packet[UPDATE_SETTING] #8 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123515.443|INFO|Thread-20|dumpPacket|Packet UPDATE_SETTING (Seq #8 ) Packet Contest/Profile Identifer does not match contest's Default-3425878675268062453
+170209 123515.443|INFO|Thread-20|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 123515.458|INFO|Thread-20|dumpPacket|    To: SERVER0 @ site 1
+170209 123515.458|INFO|Thread-20|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account Magnolia
+170209 123515.458|INFO|Thread-20|info|handlePacket start Packet[UPDATE_SETTING] #8 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123515.458|INFO|Thread-20|dumpPacket|Packet UPDATE_SETTING (Seq #8 ) handlePacket
+170209 123515.458|INFO|Thread-20|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 123515.458|INFO|Thread-20|dumpPacket|    To: SERVER0 @ site 1
+170209 123515.458|INFO|Thread-20|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account Magnolia
+170209 123515.458|DEBUG|Thread-20|logDebugMessage|Account Event CHANGED TEAM7 @ site 1
+170209 123515.474|INFO|Thread-20|info|sendToClient b4 to TEAM7 @ site 1 Packet[UPDATE_SETTING] #15 SERVER0 @ site 1 -> TEAM7 @ site 1
+170209 123515.521|WARNING|Thread-20|logWarning|Unable to send packet to TEAM7 @ site 1 not logged in.  Packet saved in: profiles\Pc860fdf7-b6ef-4a44-854c-d7e7bb3968ca\packets\packet8316.9.packet
+170209 123515.521|INFO|Thread-20|info|sendToClient af to TEAM7 @ site 1 Packet[UPDATE_SETTING] #15 SERVER0 @ site 1 -> TEAM7 @ site 1
+170209 123515.583|INFO|Thread-20|info|sendToClient (send) TEAM7 @ site 1 Packet[UPDATE_SETTING] #15 SERVER0 @ site 1 -> TEAM7 @ site 1 Socket[addr=/127.0.0.1,port=60658,localport=50002]--332917617616310735
+170209 123515.599|INFO|Thread-20|info|handlePacket end Packet[UPDATE_SETTING] #8 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123515.599|INFO|Thread-20|info|receiveObject end   got edu.csus.ecs.pc2.core.packet.Packet
+170209 123602.819|INFO|Thread-22|info|receiveObject start got Packet[UPDATE_SETTING] #9 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123602.819|INFO|Thread-22|info|receiveObject Packet[UPDATE_SETTING] #9 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123602.819|INFO|Thread-22|dumpPacket|Packet UPDATE_SETTING (Seq #9 ) Packet Contest/Profile Identifer does not match contest's Default-3425878675268062453
+170209 123602.819|INFO|Thread-22|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 123602.819|INFO|Thread-22|dumpPacket|    To: SERVER0 @ site 1
+170209 123602.819|INFO|Thread-22|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account Klein Forest
+170209 123602.819|INFO|Thread-22|info|handlePacket start Packet[UPDATE_SETTING] #9 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123602.819|INFO|Thread-22|dumpPacket|Packet UPDATE_SETTING (Seq #9 ) handlePacket
+170209 123602.835|INFO|Thread-22|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 123602.835|INFO|Thread-22|dumpPacket|    To: SERVER0 @ site 1
+170209 123602.835|INFO|Thread-22|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account Klein Forest
+170209 123602.835|DEBUG|Thread-22|logDebugMessage|Account Event CHANGED TEAM8 @ site 1
+170209 123602.835|INFO|Thread-22|info|sendToClient b4 to TEAM8 @ site 1 Packet[UPDATE_SETTING] #17 SERVER0 @ site 1 -> TEAM8 @ site 1
+170209 123602.881|WARNING|Thread-22|logWarning|Unable to send packet to TEAM8 @ site 1 not logged in.  Packet saved in: profiles\Pc860fdf7-b6ef-4a44-854c-d7e7bb3968ca\packets\packet8316.10.packet
+170209 123602.881|INFO|Thread-22|info|sendToClient af to TEAM8 @ site 1 Packet[UPDATE_SETTING] #17 SERVER0 @ site 1 -> TEAM8 @ site 1
+170209 123602.960|INFO|Thread-22|info|sendToClient (send) TEAM8 @ site 1 Packet[UPDATE_SETTING] #17 SERVER0 @ site 1 -> TEAM8 @ site 1 Socket[addr=/127.0.0.1,port=60658,localport=50002]--332917617616310735
+170209 123602.975|INFO|Thread-22|info|handlePacket end Packet[UPDATE_SETTING] #9 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123602.975|INFO|Thread-22|info|receiveObject end   got edu.csus.ecs.pc2.core.packet.Packet
+170209 123619.782|INFO|Thread-24|info|receiveObject start got Packet[UPDATE_SETTING] #10 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123619.798|INFO|Thread-24|info|receiveObject Packet[UPDATE_SETTING] #10 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123619.798|INFO|Thread-24|dumpPacket|Packet UPDATE_SETTING (Seq #10 ) Packet Contest/Profile Identifer does not match contest's Default-3425878675268062453
+170209 123619.798|INFO|Thread-24|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 123619.798|INFO|Thread-24|dumpPacket|    To: SERVER0 @ site 1
+170209 123619.798|INFO|Thread-24|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account Tomball Memorial
+170209 123619.798|INFO|Thread-24|info|handlePacket start Packet[UPDATE_SETTING] #10 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123619.798|INFO|Thread-24|dumpPacket|Packet UPDATE_SETTING (Seq #10 ) handlePacket
+170209 123619.798|INFO|Thread-24|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 123619.798|INFO|Thread-24|dumpPacket|    To: SERVER0 @ site 1
+170209 123619.798|INFO|Thread-24|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account Tomball Memorial
+170209 123619.798|DEBUG|Thread-24|logDebugMessage|Account Event CHANGED TEAM9 @ site 1
+170209 123619.798|INFO|Thread-24|info|sendToClient b4 to TEAM9 @ site 1 Packet[UPDATE_SETTING] #19 SERVER0 @ site 1 -> TEAM9 @ site 1
+170209 123619.829|WARNING|Thread-24|logWarning|Unable to send packet to TEAM9 @ site 1 not logged in.  Packet saved in: profiles\Pc860fdf7-b6ef-4a44-854c-d7e7bb3968ca\packets\packet8316.11.packet
+170209 123619.845|INFO|Thread-24|info|sendToClient af to TEAM9 @ site 1 Packet[UPDATE_SETTING] #19 SERVER0 @ site 1 -> TEAM9 @ site 1
+170209 123619.923|INFO|Thread-24|info|sendToClient (send) TEAM9 @ site 1 Packet[UPDATE_SETTING] #19 SERVER0 @ site 1 -> TEAM9 @ site 1 Socket[addr=/127.0.0.1,port=60658,localport=50002]--332917617616310735
+170209 123619.954|INFO|Thread-24|info|handlePacket end Packet[UPDATE_SETTING] #10 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123619.970|INFO|Thread-24|info|receiveObject end   got edu.csus.ecs.pc2.core.packet.Packet
+170209 123638.411|INFO|Thread-26|info|receiveObject start got Packet[UPDATE_SETTING] #11 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123638.411|INFO|Thread-26|info|receiveObject Packet[UPDATE_SETTING] #11 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123638.411|INFO|Thread-26|dumpPacket|Packet UPDATE_SETTING (Seq #11 ) Packet Contest/Profile Identifer does not match contest's Default-3425878675268062453
+170209 123638.411|INFO|Thread-26|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 123638.411|INFO|Thread-26|dumpPacket|    To: SERVER0 @ site 1
+170209 123638.427|INFO|Thread-26|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account Giddings
+170209 123638.427|INFO|Thread-26|info|handlePacket start Packet[UPDATE_SETTING] #11 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123638.427|INFO|Thread-26|dumpPacket|Packet UPDATE_SETTING (Seq #11 ) handlePacket
+170209 123638.427|INFO|Thread-26|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 123638.427|INFO|Thread-26|dumpPacket|    To: SERVER0 @ site 1
+170209 123638.427|INFO|Thread-26|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account Giddings
+170209 123638.427|DEBUG|Thread-26|logDebugMessage|Account Event CHANGED TEAM10 @ site 1
+170209 123638.427|INFO|Thread-26|info|sendToClient b4 to TEAM10 @ site 1 Packet[UPDATE_SETTING] #21 SERVER0 @ site 1 -> TEAM10 @ site 1
+170209 123638.458|WARNING|Thread-26|logWarning|Unable to send packet to TEAM10 @ site 1 not logged in.  Packet saved in: profiles\Pc860fdf7-b6ef-4a44-854c-d7e7bb3968ca\packets\packet8316.12.packet
+170209 123638.458|INFO|Thread-26|info|sendToClient af to TEAM10 @ site 1 Packet[UPDATE_SETTING] #21 SERVER0 @ site 1 -> TEAM10 @ site 1
+170209 123638.552|INFO|Thread-26|info|sendToClient (send) TEAM10 @ site 1 Packet[UPDATE_SETTING] #21 SERVER0 @ site 1 -> TEAM10 @ site 1 Socket[addr=/127.0.0.1,port=60658,localport=50002]--332917617616310735
+170209 123638.567|INFO|Thread-26|info|handlePacket end Packet[UPDATE_SETTING] #11 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123638.567|INFO|Thread-26|info|receiveObject end   got edu.csus.ecs.pc2.core.packet.Packet
+170209 123656.298|INFO|Thread-28|info|receiveObject start got Packet[UPDATE_SETTING] #12 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123656.298|INFO|Thread-28|info|receiveObject Packet[UPDATE_SETTING] #12 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123656.298|INFO|Thread-28|dumpPacket|Packet UPDATE_SETTING (Seq #12 ) Packet Contest/Profile Identifer does not match contest's Default-3425878675268062453
+170209 123656.298|INFO|Thread-28|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 123656.298|INFO|Thread-28|dumpPacket|    To: SERVER0 @ site 1
+170209 123656.298|INFO|Thread-28|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account TWHS
+170209 123656.298|INFO|Thread-28|info|handlePacket start Packet[UPDATE_SETTING] #12 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123656.298|INFO|Thread-28|dumpPacket|Packet UPDATE_SETTING (Seq #12 ) handlePacket
+170209 123656.298|INFO|Thread-28|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 123656.298|INFO|Thread-28|dumpPacket|    To: SERVER0 @ site 1
+170209 123656.298|INFO|Thread-28|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account TWHS
+170209 123656.314|DEBUG|Thread-28|logDebugMessage|Account Event CHANGED TEAM11 @ site 1
+170209 123656.314|INFO|Thread-28|info|sendToClient b4 to TEAM11 @ site 1 Packet[UPDATE_SETTING] #23 SERVER0 @ site 1 -> TEAM11 @ site 1
+170209 123656.361|WARNING|Thread-28|logWarning|Unable to send packet to TEAM11 @ site 1 not logged in.  Packet saved in: profiles\Pc860fdf7-b6ef-4a44-854c-d7e7bb3968ca\packets\packet8316.13.packet
+170209 123656.361|INFO|Thread-28|info|sendToClient af to TEAM11 @ site 1 Packet[UPDATE_SETTING] #23 SERVER0 @ site 1 -> TEAM11 @ site 1
+170209 123656.439|INFO|Thread-28|info|sendToClient (send) TEAM11 @ site 1 Packet[UPDATE_SETTING] #23 SERVER0 @ site 1 -> TEAM11 @ site 1 Socket[addr=/127.0.0.1,port=60658,localport=50002]--332917617616310735
+170209 123656.455|INFO|Thread-28|info|handlePacket end Packet[UPDATE_SETTING] #12 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123656.455|INFO|Thread-28|info|receiveObject end   got edu.csus.ecs.pc2.core.packet.Packet
+170209 123723.186|INFO|Thread-30|info|receiveObject start got Packet[UPDATE_SETTING] #13 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123723.201|INFO|Thread-30|info|receiveObject Packet[UPDATE_SETTING] #13 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123723.201|INFO|Thread-30|dumpPacket|Packet UPDATE_SETTING (Seq #13 ) Packet Contest/Profile Identifer does not match contest's Default-3425878675268062453
+170209 123723.201|INFO|Thread-30|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 123723.217|INFO|Thread-30|dumpPacket|    To: SERVER0 @ site 1
+170209 123723.217|INFO|Thread-30|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account CyWoods
+170209 123723.217|INFO|Thread-30|info|handlePacket start Packet[UPDATE_SETTING] #13 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123723.217|INFO|Thread-30|dumpPacket|Packet UPDATE_SETTING (Seq #13 ) handlePacket
+170209 123723.217|INFO|Thread-30|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 123723.217|INFO|Thread-30|dumpPacket|    To: SERVER0 @ site 1
+170209 123723.233|INFO|Thread-30|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account CyWoods
+170209 123723.233|DEBUG|Thread-30|logDebugMessage|Account Event CHANGED TEAM12 @ site 1
+170209 123723.233|INFO|Thread-30|info|sendToClient b4 to TEAM12 @ site 1 Packet[UPDATE_SETTING] #25 SERVER0 @ site 1 -> TEAM12 @ site 1
+170209 123723.373|WARNING|Thread-30|logWarning|Unable to send packet to TEAM12 @ site 1 not logged in.  Packet saved in: profiles\Pc860fdf7-b6ef-4a44-854c-d7e7bb3968ca\packets\packet8316.14.packet
+170209 123723.389|INFO|Thread-30|info|sendToClient af to TEAM12 @ site 1 Packet[UPDATE_SETTING] #25 SERVER0 @ site 1 -> TEAM12 @ site 1
+170209 123723.451|INFO|Thread-30|info|sendToClient (send) TEAM12 @ site 1 Packet[UPDATE_SETTING] #25 SERVER0 @ site 1 -> TEAM12 @ site 1 Socket[addr=/127.0.0.1,port=60658,localport=50002]--332917617616310735
+170209 123723.467|INFO|Thread-30|info|handlePacket end Packet[UPDATE_SETTING] #13 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123723.467|INFO|Thread-30|info|receiveObject end   got edu.csus.ecs.pc2.core.packet.Packet
+170209 123743.820|INFO|Thread-32|info|receiveObject start got Packet[UPDATE_SETTING] #14 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123743.820|INFO|Thread-32|info|receiveObject Packet[UPDATE_SETTING] #14 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123743.820|INFO|Thread-32|dumpPacket|Packet UPDATE_SETTING (Seq #14 ) Packet Contest/Profile Identifer does not match contest's Default-3425878675268062453
+170209 123743.820|INFO|Thread-32|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 123743.820|INFO|Thread-32|dumpPacket|    To: SERVER0 @ site 1
+170209 123743.820|INFO|Thread-32|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account Conroe
+170209 123743.820|INFO|Thread-32|info|handlePacket start Packet[UPDATE_SETTING] #14 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123743.820|INFO|Thread-32|dumpPacket|Packet UPDATE_SETTING (Seq #14 ) handlePacket
+170209 123743.836|INFO|Thread-32|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 123743.836|INFO|Thread-32|dumpPacket|    To: SERVER0 @ site 1
+170209 123743.836|INFO|Thread-32|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account Conroe
+170209 123743.836|DEBUG|Thread-32|logDebugMessage|Account Event CHANGED TEAM13 @ site 1
+170209 123743.836|INFO|Thread-32|info|sendToClient b4 to TEAM13 @ site 1 Packet[UPDATE_SETTING] #27 SERVER0 @ site 1 -> TEAM13 @ site 1
+170209 123743.867|WARNING|Thread-32|logWarning|Unable to send packet to TEAM13 @ site 1 not logged in.  Packet saved in: profiles\Pc860fdf7-b6ef-4a44-854c-d7e7bb3968ca\packets\packet8316.15.packet
+170209 123743.867|INFO|Thread-32|info|sendToClient af to TEAM13 @ site 1 Packet[UPDATE_SETTING] #27 SERVER0 @ site 1 -> TEAM13 @ site 1
+170209 123743.945|INFO|Thread-32|info|sendToClient (send) TEAM13 @ site 1 Packet[UPDATE_SETTING] #27 SERVER0 @ site 1 -> TEAM13 @ site 1 Socket[addr=/127.0.0.1,port=60658,localport=50002]--332917617616310735
+170209 123743.945|INFO|Thread-32|info|handlePacket end Packet[UPDATE_SETTING] #14 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123743.945|INFO|Thread-32|info|receiveObject end   got edu.csus.ecs.pc2.core.packet.Packet
+170209 123813.250|INFO|Thread-34|info|receiveObject start got Packet[UPDATE_SETTING] #15 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123813.250|INFO|Thread-34|info|receiveObject Packet[UPDATE_SETTING] #15 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123813.250|INFO|Thread-34|dumpPacket|Packet UPDATE_SETTING (Seq #15 ) Packet Contest/Profile Identifer does not match contest's Default-3425878675268062453
+170209 123813.250|INFO|Thread-34|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 123813.250|INFO|Thread-34|dumpPacket|    To: SERVER0 @ site 1
+170209 123813.266|INFO|Thread-34|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account Woodlands
+170209 123813.266|INFO|Thread-34|info|handlePacket start Packet[UPDATE_SETTING] #15 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123813.266|INFO|Thread-34|dumpPacket|Packet UPDATE_SETTING (Seq #15 ) handlePacket
+170209 123813.266|INFO|Thread-34|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 123813.266|INFO|Thread-34|dumpPacket|    To: SERVER0 @ site 1
+170209 123813.266|INFO|Thread-34|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account Woodlands
+170209 123813.266|DEBUG|Thread-34|logDebugMessage|Account Event CHANGED TEAM14 @ site 1
+170209 123813.266|INFO|Thread-34|info|sendToClient b4 to TEAM14 @ site 1 Packet[UPDATE_SETTING] #29 SERVER0 @ site 1 -> TEAM14 @ site 1
+170209 123813.297|WARNING|Thread-34|logWarning|Unable to send packet to TEAM14 @ site 1 not logged in.  Packet saved in: profiles\Pc860fdf7-b6ef-4a44-854c-d7e7bb3968ca\packets\packet8316.16.packet
+170209 123813.297|INFO|Thread-34|info|sendToClient af to TEAM14 @ site 1 Packet[UPDATE_SETTING] #29 SERVER0 @ site 1 -> TEAM14 @ site 1
+170209 123813.359|INFO|Thread-34|info|sendToClient (send) TEAM14 @ site 1 Packet[UPDATE_SETTING] #29 SERVER0 @ site 1 -> TEAM14 @ site 1 Socket[addr=/127.0.0.1,port=60658,localport=50002]--332917617616310735
+170209 123813.375|INFO|Thread-34|info|handlePacket end Packet[UPDATE_SETTING] #15 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123813.375|INFO|Thread-34|info|receiveObject end   got edu.csus.ecs.pc2.core.packet.Packet
+170209 123830.541|INFO|Thread-36|info|receiveObject start got Packet[UPDATE_SETTING] #16 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123830.541|INFO|Thread-36|info|receiveObject Packet[UPDATE_SETTING] #16 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123830.541|INFO|Thread-36|dumpPacket|Packet UPDATE_SETTING (Seq #16 ) Packet Contest/Profile Identifer does not match contest's Default-3425878675268062453
+170209 123830.541|INFO|Thread-36|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 123830.541|INFO|Thread-36|dumpPacket|    To: SERVER0 @ site 1
+170209 123830.541|INFO|Thread-36|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account College Station
+170209 123830.541|INFO|Thread-36|info|handlePacket start Packet[UPDATE_SETTING] #16 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123830.557|INFO|Thread-36|dumpPacket|Packet UPDATE_SETTING (Seq #16 ) handlePacket
+170209 123830.557|INFO|Thread-36|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 123830.557|INFO|Thread-36|dumpPacket|    To: SERVER0 @ site 1
+170209 123830.557|INFO|Thread-36|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account College Station
+170209 123830.557|DEBUG|Thread-36|logDebugMessage|Account Event CHANGED TEAM15 @ site 1
+170209 123830.557|INFO|Thread-36|info|sendToClient b4 to TEAM15 @ site 1 Packet[UPDATE_SETTING] #31 SERVER0 @ site 1 -> TEAM15 @ site 1
+170209 123830.666|WARNING|Thread-36|logWarning|Unable to send packet to TEAM15 @ site 1 not logged in.  Packet saved in: profiles\Pc860fdf7-b6ef-4a44-854c-d7e7bb3968ca\packets\packet8316.17.packet
+170209 123830.666|INFO|Thread-36|info|sendToClient af to TEAM15 @ site 1 Packet[UPDATE_SETTING] #31 SERVER0 @ site 1 -> TEAM15 @ site 1
+170209 123830.728|INFO|Thread-36|info|sendToClient (send) TEAM15 @ site 1 Packet[UPDATE_SETTING] #31 SERVER0 @ site 1 -> TEAM15 @ site 1 Socket[addr=/127.0.0.1,port=60658,localport=50002]--332917617616310735
+170209 123830.728|INFO|Thread-36|info|handlePacket end Packet[UPDATE_SETTING] #16 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123830.744|INFO|Thread-36|info|receiveObject end   got edu.csus.ecs.pc2.core.packet.Packet
+170209 123849.652|INFO|Thread-38|info|receiveObject start got Packet[UPDATE_SETTING] #17 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123849.652|INFO|Thread-38|info|receiveObject Packet[UPDATE_SETTING] #17 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123849.652|INFO|Thread-38|dumpPacket|Packet UPDATE_SETTING (Seq #17 ) Packet Contest/Profile Identifer does not match contest's Default-3425878675268062453
+170209 123849.652|INFO|Thread-38|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 123849.652|INFO|Thread-38|dumpPacket|    To: SERVER0 @ site 1
+170209 123849.652|INFO|Thread-38|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account Needville
+170209 123849.652|INFO|Thread-38|info|handlePacket start Packet[UPDATE_SETTING] #17 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123849.652|INFO|Thread-38|dumpPacket|Packet UPDATE_SETTING (Seq #17 ) handlePacket
+170209 123849.652|INFO|Thread-38|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 123849.652|INFO|Thread-38|dumpPacket|    To: SERVER0 @ site 1
+170209 123849.652|INFO|Thread-38|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account Needville
+170209 123849.652|DEBUG|Thread-38|logDebugMessage|Account Event CHANGED TEAM16 @ site 1
+170209 123849.652|INFO|Thread-38|info|sendToClient b4 to TEAM16 @ site 1 Packet[UPDATE_SETTING] #33 SERVER0 @ site 1 -> TEAM16 @ site 1
+170209 123849.683|WARNING|Thread-38|logWarning|Unable to send packet to TEAM16 @ site 1 not logged in.  Packet saved in: profiles\Pc860fdf7-b6ef-4a44-854c-d7e7bb3968ca\packets\packet8316.18.packet
+170209 123849.683|INFO|Thread-38|info|sendToClient af to TEAM16 @ site 1 Packet[UPDATE_SETTING] #33 SERVER0 @ site 1 -> TEAM16 @ site 1
+170209 123849.761|INFO|Thread-38|info|sendToClient (send) TEAM16 @ site 1 Packet[UPDATE_SETTING] #33 SERVER0 @ site 1 -> TEAM16 @ site 1 Socket[addr=/127.0.0.1,port=60658,localport=50002]--332917617616310735
+170209 123849.761|INFO|Thread-38|info|handlePacket end Packet[UPDATE_SETTING] #17 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123849.777|INFO|Thread-38|info|receiveObject end   got edu.csus.ecs.pc2.core.packet.Packet
+170209 123904.093|INFO|Thread-40|info|receiveObject start got Packet[UPDATE_SETTING] #18 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123904.093|INFO|Thread-40|info|receiveObject Packet[UPDATE_SETTING] #18 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123904.108|INFO|Thread-40|dumpPacket|Packet UPDATE_SETTING (Seq #18 ) Packet Contest/Profile Identifer does not match contest's Default-3425878675268062453
+170209 123904.108|INFO|Thread-40|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 123904.108|INFO|Thread-40|dumpPacket|    To: SERVER0 @ site 1
+170209 123904.108|INFO|Thread-40|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account Magnolia
+170209 123904.108|INFO|Thread-40|info|handlePacket start Packet[UPDATE_SETTING] #18 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123904.108|INFO|Thread-40|dumpPacket|Packet UPDATE_SETTING (Seq #18 ) handlePacket
+170209 123904.124|INFO|Thread-40|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 123904.124|INFO|Thread-40|dumpPacket|    To: SERVER0 @ site 1
+170209 123904.124|INFO|Thread-40|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account Magnolia
+170209 123904.124|DEBUG|Thread-40|logDebugMessage|Account Event CHANGED TEAM17 @ site 1
+170209 123904.124|INFO|Thread-40|info|sendToClient b4 to TEAM17 @ site 1 Packet[UPDATE_SETTING] #35 SERVER0 @ site 1 -> TEAM17 @ site 1
+170209 123904.171|WARNING|Thread-40|logWarning|Unable to send packet to TEAM17 @ site 1 not logged in.  Packet saved in: profiles\Pc860fdf7-b6ef-4a44-854c-d7e7bb3968ca\packets\packet8316.19.packet
+170209 123904.171|INFO|Thread-40|info|sendToClient af to TEAM17 @ site 1 Packet[UPDATE_SETTING] #35 SERVER0 @ site 1 -> TEAM17 @ site 1
+170209 123904.265|INFO|Thread-40|info|sendToClient (send) TEAM17 @ site 1 Packet[UPDATE_SETTING] #35 SERVER0 @ site 1 -> TEAM17 @ site 1 Socket[addr=/127.0.0.1,port=60658,localport=50002]--332917617616310735
+170209 123904.265|INFO|Thread-40|info|handlePacket end Packet[UPDATE_SETTING] #18 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123904.265|INFO|Thread-40|info|receiveObject end   got edu.csus.ecs.pc2.core.packet.Packet
+170209 123917.337|INFO|Thread-42|info|receiveObject start got Packet[UPDATE_SETTING] #19 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123917.337|INFO|Thread-42|info|receiveObject Packet[UPDATE_SETTING] #19 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123917.337|INFO|Thread-42|dumpPacket|Packet UPDATE_SETTING (Seq #19 ) Packet Contest/Profile Identifer does not match contest's Default-3425878675268062453
+170209 123917.337|INFO|Thread-42|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 123917.337|INFO|Thread-42|dumpPacket|    To: SERVER0 @ site 1
+170209 123917.337|INFO|Thread-42|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account Conroe
+170209 123917.337|INFO|Thread-42|info|handlePacket start Packet[UPDATE_SETTING] #19 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123917.353|INFO|Thread-42|dumpPacket|Packet UPDATE_SETTING (Seq #19 ) handlePacket
+170209 123917.353|INFO|Thread-42|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 123917.353|INFO|Thread-42|dumpPacket|    To: SERVER0 @ site 1
+170209 123917.353|INFO|Thread-42|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account Conroe
+170209 123917.353|DEBUG|Thread-42|logDebugMessage|Account Event CHANGED TEAM18 @ site 1
+170209 123917.353|INFO|Thread-42|info|sendToClient b4 to TEAM18 @ site 1 Packet[UPDATE_SETTING] #37 SERVER0 @ site 1 -> TEAM18 @ site 1
+170209 123917.415|WARNING|Thread-42|logWarning|Unable to send packet to TEAM18 @ site 1 not logged in.  Packet saved in: profiles\Pc860fdf7-b6ef-4a44-854c-d7e7bb3968ca\packets\packet8316.20.packet
+170209 123917.431|INFO|Thread-42|info|sendToClient af to TEAM18 @ site 1 Packet[UPDATE_SETTING] #37 SERVER0 @ site 1 -> TEAM18 @ site 1
+170209 123917.493|INFO|Thread-42|info|sendToClient (send) TEAM18 @ site 1 Packet[UPDATE_SETTING] #37 SERVER0 @ site 1 -> TEAM18 @ site 1 Socket[addr=/127.0.0.1,port=60658,localport=50002]--332917617616310735
+170209 123917.509|INFO|Thread-42|info|handlePacket end Packet[UPDATE_SETTING] #19 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123917.509|INFO|Thread-42|info|receiveObject end   got edu.csus.ecs.pc2.core.packet.Packet
+170209 123934.285|INFO|Thread-44|info|receiveObject start got Packet[UPDATE_SETTING] #20 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123934.285|INFO|Thread-44|info|receiveObject Packet[UPDATE_SETTING] #20 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123934.301|INFO|Thread-44|dumpPacket|Packet UPDATE_SETTING (Seq #20 ) Packet Contest/Profile Identifer does not match contest's Default-3425878675268062453
+170209 123934.301|INFO|Thread-44|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 123934.301|INFO|Thread-44|dumpPacket|    To: SERVER0 @ site 1
+170209 123934.301|INFO|Thread-44|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account Klein Oak
+170209 123934.301|INFO|Thread-44|info|handlePacket start Packet[UPDATE_SETTING] #20 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123934.301|INFO|Thread-44|dumpPacket|Packet UPDATE_SETTING (Seq #20 ) handlePacket
+170209 123934.301|INFO|Thread-44|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 123934.301|INFO|Thread-44|dumpPacket|    To: SERVER0 @ site 1
+170209 123934.301|INFO|Thread-44|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account Klein Oak
+170209 123934.301|DEBUG|Thread-44|logDebugMessage|Account Event CHANGED TEAM19 @ site 1
+170209 123934.301|INFO|Thread-44|info|sendToClient b4 to TEAM19 @ site 1 Packet[UPDATE_SETTING] #39 SERVER0 @ site 1 -> TEAM19 @ site 1
+170209 123934.348|WARNING|Thread-44|logWarning|Unable to send packet to TEAM19 @ site 1 not logged in.  Packet saved in: profiles\Pc860fdf7-b6ef-4a44-854c-d7e7bb3968ca\packets\packet8316.21.packet
+170209 123934.348|INFO|Thread-44|info|sendToClient af to TEAM19 @ site 1 Packet[UPDATE_SETTING] #39 SERVER0 @ site 1 -> TEAM19 @ site 1
+170209 123934.410|INFO|Thread-44|info|sendToClient (send) TEAM19 @ site 1 Packet[UPDATE_SETTING] #39 SERVER0 @ site 1 -> TEAM19 @ site 1 Socket[addr=/127.0.0.1,port=60658,localport=50002]--332917617616310735
+170209 123934.442|INFO|Thread-44|info|handlePacket end Packet[UPDATE_SETTING] #20 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123934.442|INFO|Thread-44|info|receiveObject end   got edu.csus.ecs.pc2.core.packet.Packet
+170209 123949.148|INFO|Thread-46|info|receiveObject start got Packet[UPDATE_SETTING] #21 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123949.148|INFO|Thread-46|info|receiveObject Packet[UPDATE_SETTING] #21 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123949.148|INFO|Thread-46|dumpPacket|Packet UPDATE_SETTING (Seq #21 ) Packet Contest/Profile Identifer does not match contest's Default-3425878675268062453
+170209 123949.148|INFO|Thread-46|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 123949.148|INFO|Thread-46|dumpPacket|    To: SERVER0 @ site 1
+170209 123949.148|INFO|Thread-46|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account Porter
+170209 123949.148|INFO|Thread-46|info|handlePacket start Packet[UPDATE_SETTING] #21 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123949.148|INFO|Thread-46|dumpPacket|Packet UPDATE_SETTING (Seq #21 ) handlePacket
+170209 123949.148|INFO|Thread-46|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 123949.148|INFO|Thread-46|dumpPacket|    To: SERVER0 @ site 1
+170209 123949.148|INFO|Thread-46|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account Porter
+170209 123949.148|DEBUG|Thread-46|logDebugMessage|Account Event CHANGED TEAM20 @ site 1
+170209 123949.164|INFO|Thread-46|info|sendToClient b4 to TEAM20 @ site 1 Packet[UPDATE_SETTING] #41 SERVER0 @ site 1 -> TEAM20 @ site 1
+170209 123949.195|WARNING|Thread-46|logWarning|Unable to send packet to TEAM20 @ site 1 not logged in.  Packet saved in: profiles\Pc860fdf7-b6ef-4a44-854c-d7e7bb3968ca\packets\packet8316.22.packet
+170209 123949.195|INFO|Thread-46|info|sendToClient af to TEAM20 @ site 1 Packet[UPDATE_SETTING] #41 SERVER0 @ site 1 -> TEAM20 @ site 1
+170209 123949.257|INFO|Thread-46|info|sendToClient (send) TEAM20 @ site 1 Packet[UPDATE_SETTING] #41 SERVER0 @ site 1 -> TEAM20 @ site 1 Socket[addr=/127.0.0.1,port=60658,localport=50002]--332917617616310735
+170209 123949.273|INFO|Thread-46|info|handlePacket end Packet[UPDATE_SETTING] #21 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 123949.273|INFO|Thread-46|info|receiveObject end   got edu.csus.ecs.pc2.core.packet.Packet
+170209 124004.082|INFO|Thread-48|info|receiveObject start got Packet[UPDATE_SETTING] #22 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124004.082|INFO|Thread-48|info|receiveObject Packet[UPDATE_SETTING] #22 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124004.082|INFO|Thread-48|dumpPacket|Packet UPDATE_SETTING (Seq #22 ) Packet Contest/Profile Identifer does not match contest's Default-3425878675268062453
+170209 124004.098|INFO|Thread-48|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 124004.114|INFO|Thread-48|dumpPacket|    To: SERVER0 @ site 1
+170209 124004.114|INFO|Thread-48|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account Conroe
+170209 124004.129|INFO|Thread-48|info|handlePacket start Packet[UPDATE_SETTING] #22 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124004.129|INFO|Thread-48|dumpPacket|Packet UPDATE_SETTING (Seq #22 ) handlePacket
+170209 124004.129|INFO|Thread-48|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 124004.145|INFO|Thread-48|dumpPacket|    To: SERVER0 @ site 1
+170209 124004.145|INFO|Thread-48|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account Conroe
+170209 124004.145|DEBUG|Thread-48|logDebugMessage|Account Event CHANGED TEAM21 @ site 1
+170209 124004.145|INFO|Thread-48|info|sendToClient b4 to TEAM21 @ site 1 Packet[UPDATE_SETTING] #43 SERVER0 @ site 1 -> TEAM21 @ site 1
+170209 124004.192|WARNING|Thread-48|logWarning|Unable to send packet to TEAM21 @ site 1 not logged in.  Packet saved in: profiles\Pc860fdf7-b6ef-4a44-854c-d7e7bb3968ca\packets\packet8316.23.packet
+170209 124004.192|INFO|Thread-48|info|sendToClient af to TEAM21 @ site 1 Packet[UPDATE_SETTING] #43 SERVER0 @ site 1 -> TEAM21 @ site 1
+170209 124004.254|INFO|Thread-48|info|sendToClient (send) TEAM21 @ site 1 Packet[UPDATE_SETTING] #43 SERVER0 @ site 1 -> TEAM21 @ site 1 Socket[addr=/127.0.0.1,port=60658,localport=50002]--332917617616310735
+170209 124004.254|INFO|Thread-48|info|handlePacket end Packet[UPDATE_SETTING] #22 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124004.270|INFO|Thread-48|info|receiveObject end   got edu.csus.ecs.pc2.core.packet.Packet
+170209 124026.060|INFO|Thread-50|info|receiveObject start got Packet[UPDATE_SETTING] #23 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124026.060|INFO|Thread-50|info|receiveObject Packet[UPDATE_SETTING] #23 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124026.060|INFO|Thread-50|dumpPacket|Packet UPDATE_SETTING (Seq #23 ) Packet Contest/Profile Identifer does not match contest's Default-3425878675268062453
+170209 124026.060|INFO|Thread-50|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 124026.060|INFO|Thread-50|dumpPacket|    To: SERVER0 @ site 1
+170209 124026.060|INFO|Thread-50|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account KO IV
+170209 124026.060|INFO|Thread-50|info|handlePacket start Packet[UPDATE_SETTING] #23 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124026.060|INFO|Thread-50|dumpPacket|Packet UPDATE_SETTING (Seq #23 ) handlePacket
+170209 124026.060|INFO|Thread-50|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 124026.060|INFO|Thread-50|dumpPacket|    To: SERVER0 @ site 1
+170209 124026.060|INFO|Thread-50|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account KO IV
+170209 124026.060|DEBUG|Thread-50|logDebugMessage|Account Event CHANGED TEAM22 @ site 1
+170209 124026.076|INFO|Thread-50|info|sendToClient b4 to TEAM22 @ site 1 Packet[UPDATE_SETTING] #45 SERVER0 @ site 1 -> TEAM22 @ site 1
+170209 124026.107|WARNING|Thread-50|logWarning|Unable to send packet to TEAM22 @ site 1 not logged in.  Packet saved in: profiles\Pc860fdf7-b6ef-4a44-854c-d7e7bb3968ca\packets\packet8316.24.packet
+170209 124026.107|INFO|Thread-50|info|sendToClient af to TEAM22 @ site 1 Packet[UPDATE_SETTING] #45 SERVER0 @ site 1 -> TEAM22 @ site 1
+170209 124026.169|INFO|Thread-50|info|sendToClient (send) TEAM22 @ site 1 Packet[UPDATE_SETTING] #45 SERVER0 @ site 1 -> TEAM22 @ site 1 Socket[addr=/127.0.0.1,port=60658,localport=50002]--332917617616310735
+170209 124026.185|INFO|Thread-50|info|handlePacket end Packet[UPDATE_SETTING] #23 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124026.185|INFO|Thread-50|info|receiveObject end   got edu.csus.ecs.pc2.core.packet.Packet
+170209 124038.134|INFO|Thread-52|info|receiveObject start got Packet[UPDATE_SETTING] #24 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124038.134|INFO|Thread-52|info|receiveObject Packet[UPDATE_SETTING] #24 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124038.150|INFO|Thread-52|dumpPacket|Packet UPDATE_SETTING (Seq #24 ) Packet Contest/Profile Identifer does not match contest's Default-3425878675268062453
+170209 124038.150|INFO|Thread-52|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 124038.150|INFO|Thread-52|dumpPacket|    To: SERVER0 @ site 1
+170209 124038.150|INFO|Thread-52|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account Magnolia
+170209 124038.150|INFO|Thread-52|info|handlePacket start Packet[UPDATE_SETTING] #24 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124038.150|INFO|Thread-52|dumpPacket|Packet UPDATE_SETTING (Seq #24 ) handlePacket
+170209 124038.150|INFO|Thread-52|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 124038.150|INFO|Thread-52|dumpPacket|    To: SERVER0 @ site 1
+170209 124038.150|INFO|Thread-52|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account Magnolia
+170209 124038.150|DEBUG|Thread-52|logDebugMessage|Account Event CHANGED TEAM23 @ site 1
+170209 124038.150|INFO|Thread-52|info|sendToClient b4 to TEAM23 @ site 1 Packet[UPDATE_SETTING] #47 SERVER0 @ site 1 -> TEAM23 @ site 1
+170209 124038.196|WARNING|Thread-52|logWarning|Unable to send packet to TEAM23 @ site 1 not logged in.  Packet saved in: profiles\Pc860fdf7-b6ef-4a44-854c-d7e7bb3968ca\packets\packet8316.25.packet
+170209 124038.196|INFO|Thread-52|info|sendToClient af to TEAM23 @ site 1 Packet[UPDATE_SETTING] #47 SERVER0 @ site 1 -> TEAM23 @ site 1
+170209 124038.259|INFO|Thread-52|info|sendToClient (send) TEAM23 @ site 1 Packet[UPDATE_SETTING] #47 SERVER0 @ site 1 -> TEAM23 @ site 1 Socket[addr=/127.0.0.1,port=60658,localport=50002]--332917617616310735
+170209 124038.275|INFO|Thread-52|info|handlePacket end Packet[UPDATE_SETTING] #24 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124038.275|INFO|Thread-52|info|receiveObject end   got edu.csus.ecs.pc2.core.packet.Packet
+170209 124054.378|INFO|Thread-54|info|receiveObject start got Packet[UPDATE_SETTING] #25 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124054.378|INFO|Thread-54|info|receiveObject Packet[UPDATE_SETTING] #25 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124054.378|INFO|Thread-54|dumpPacket|Packet UPDATE_SETTING (Seq #25 ) Packet Contest/Profile Identifer does not match contest's Default-3425878675268062453
+170209 124054.378|INFO|Thread-54|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 124054.378|INFO|Thread-54|dumpPacket|    To: SERVER0 @ site 1
+170209 124054.378|INFO|Thread-54|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account The Village
+170209 124054.378|INFO|Thread-54|info|handlePacket start Packet[UPDATE_SETTING] #25 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124054.378|INFO|Thread-54|dumpPacket|Packet UPDATE_SETTING (Seq #25 ) handlePacket
+170209 124054.378|INFO|Thread-54|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 124054.378|INFO|Thread-54|dumpPacket|    To: SERVER0 @ site 1
+170209 124054.378|INFO|Thread-54|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account The Village
+170209 124054.378|DEBUG|Thread-54|logDebugMessage|Account Event CHANGED TEAM24 @ site 1
+170209 124054.378|INFO|Thread-54|info|sendToClient b4 to TEAM24 @ site 1 Packet[UPDATE_SETTING] #49 SERVER0 @ site 1 -> TEAM24 @ site 1
+170209 124054.425|WARNING|Thread-54|logWarning|Unable to send packet to TEAM24 @ site 1 not logged in.  Packet saved in: profiles\Pc860fdf7-b6ef-4a44-854c-d7e7bb3968ca\packets\packet8316.26.packet
+170209 124054.425|INFO|Thread-54|info|sendToClient af to TEAM24 @ site 1 Packet[UPDATE_SETTING] #49 SERVER0 @ site 1 -> TEAM24 @ site 1
+170209 124054.487|INFO|Thread-54|info|sendToClient (send) TEAM24 @ site 1 Packet[UPDATE_SETTING] #49 SERVER0 @ site 1 -> TEAM24 @ site 1 Socket[addr=/127.0.0.1,port=60658,localport=50002]--332917617616310735
+170209 124054.503|INFO|Thread-54|info|handlePacket end Packet[UPDATE_SETTING] #25 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124054.503|INFO|Thread-54|info|receiveObject end   got edu.csus.ecs.pc2.core.packet.Packet
+170209 124109.281|INFO|Thread-56|info|receiveObject start got Packet[UPDATE_SETTING] #26 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124109.281|INFO|Thread-56|info|receiveObject Packet[UPDATE_SETTING] #26 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124109.281|INFO|Thread-56|dumpPacket|Packet UPDATE_SETTING (Seq #26 ) Packet Contest/Profile Identifer does not match contest's Default-3425878675268062453
+170209 124109.281|INFO|Thread-56|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 124109.281|INFO|Thread-56|dumpPacket|    To: SERVER0 @ site 1
+170209 124109.281|INFO|Thread-56|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account Conroe
+170209 124109.296|INFO|Thread-56|info|handlePacket start Packet[UPDATE_SETTING] #26 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124109.312|INFO|Thread-56|dumpPacket|Packet UPDATE_SETTING (Seq #26 ) handlePacket
+170209 124109.312|INFO|Thread-56|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 124109.312|INFO|Thread-56|dumpPacket|    To: SERVER0 @ site 1
+170209 124109.312|INFO|Thread-56|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account Conroe
+170209 124109.312|DEBUG|Thread-56|logDebugMessage|Account Event CHANGED TEAM25 @ site 1
+170209 124109.312|INFO|Thread-56|info|sendToClient b4 to TEAM25 @ site 1 Packet[UPDATE_SETTING] #51 SERVER0 @ site 1 -> TEAM25 @ site 1
+170209 124109.375|WARNING|Thread-56|logWarning|Unable to send packet to TEAM25 @ site 1 not logged in.  Packet saved in: profiles\Pc860fdf7-b6ef-4a44-854c-d7e7bb3968ca\packets\packet8316.27.packet
+170209 124109.375|INFO|Thread-56|info|sendToClient af to TEAM25 @ site 1 Packet[UPDATE_SETTING] #51 SERVER0 @ site 1 -> TEAM25 @ site 1
+170209 124109.453|INFO|Thread-56|info|sendToClient (send) TEAM25 @ site 1 Packet[UPDATE_SETTING] #51 SERVER0 @ site 1 -> TEAM25 @ site 1 Socket[addr=/127.0.0.1,port=60658,localport=50002]--332917617616310735
+170209 124109.468|INFO|Thread-56|info|handlePacket end Packet[UPDATE_SETTING] #26 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124109.468|INFO|Thread-56|info|receiveObject end   got edu.csus.ecs.pc2.core.packet.Packet
+170209 124134.123|INFO|Thread-58|info|receiveObject start got Packet[UPDATE_SETTING] #27 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124134.123|INFO|Thread-58|info|receiveObject Packet[UPDATE_SETTING] #27 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124134.123|INFO|Thread-58|dumpPacket|Packet UPDATE_SETTING (Seq #27 ) Packet Contest/Profile Identifer does not match contest's Default-3425878675268062453
+170209 124134.123|INFO|Thread-58|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 124134.123|INFO|Thread-58|dumpPacket|    To: SERVER0 @ site 1
+170209 124134.123|INFO|Thread-58|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account Montgomery
+170209 124134.123|INFO|Thread-58|info|handlePacket start Packet[UPDATE_SETTING] #27 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124134.123|INFO|Thread-58|dumpPacket|Packet UPDATE_SETTING (Seq #27 ) handlePacket
+170209 124134.123|INFO|Thread-58|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 124134.123|INFO|Thread-58|dumpPacket|    To: SERVER0 @ site 1
+170209 124134.123|INFO|Thread-58|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account Montgomery
+170209 124134.123|DEBUG|Thread-58|logDebugMessage|Account Event CHANGED TEAM26 @ site 1
+170209 124134.123|INFO|Thread-58|info|sendToClient b4 to TEAM26 @ site 1 Packet[UPDATE_SETTING] #53 SERVER0 @ site 1 -> TEAM26 @ site 1
+170209 124134.154|WARNING|Thread-58|logWarning|Unable to send packet to TEAM26 @ site 1 not logged in.  Packet saved in: profiles\Pc860fdf7-b6ef-4a44-854c-d7e7bb3968ca\packets\packet8316.28.packet
+170209 124134.154|INFO|Thread-58|info|sendToClient af to TEAM26 @ site 1 Packet[UPDATE_SETTING] #53 SERVER0 @ site 1 -> TEAM26 @ site 1
+170209 124134.216|INFO|Thread-58|info|sendToClient (send) TEAM26 @ site 1 Packet[UPDATE_SETTING] #53 SERVER0 @ site 1 -> TEAM26 @ site 1 Socket[addr=/127.0.0.1,port=60658,localport=50002]--332917617616310735
+170209 124134.232|INFO|Thread-58|info|handlePacket end Packet[UPDATE_SETTING] #27 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124134.232|INFO|Thread-58|info|receiveObject end   got edu.csus.ecs.pc2.core.packet.Packet
+170209 124203.226|INFO|Thread-60|info|receiveObject start got Packet[UPDATE_SETTING] #28 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124203.226|INFO|Thread-60|info|receiveObject Packet[UPDATE_SETTING] #28 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124203.241|INFO|Thread-60|dumpPacket|Packet UPDATE_SETTING (Seq #28 ) Packet Contest/Profile Identifer does not match contest's Default-3425878675268062453
+170209 124203.241|INFO|Thread-60|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 124203.241|INFO|Thread-60|dumpPacket|    To: SERVER0 @ site 1
+170209 124203.241|INFO|Thread-60|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account Magnolia
+170209 124203.241|INFO|Thread-60|info|handlePacket start Packet[UPDATE_SETTING] #28 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124203.241|INFO|Thread-60|dumpPacket|Packet UPDATE_SETTING (Seq #28 ) handlePacket
+170209 124203.241|INFO|Thread-60|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 124203.241|INFO|Thread-60|dumpPacket|    To: SERVER0 @ site 1
+170209 124203.241|INFO|Thread-60|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account Magnolia
+170209 124203.241|DEBUG|Thread-60|logDebugMessage|Account Event CHANGED TEAM27 @ site 1
+170209 124203.257|INFO|Thread-60|info|sendToClient b4 to TEAM27 @ site 1 Packet[UPDATE_SETTING] #55 SERVER0 @ site 1 -> TEAM27 @ site 1
+170209 124203.288|WARNING|Thread-60|logWarning|Unable to send packet to TEAM27 @ site 1 not logged in.  Packet saved in: profiles\Pc860fdf7-b6ef-4a44-854c-d7e7bb3968ca\packets\packet8316.29.packet
+170209 124203.288|INFO|Thread-60|info|sendToClient af to TEAM27 @ site 1 Packet[UPDATE_SETTING] #55 SERVER0 @ site 1 -> TEAM27 @ site 1
+170209 124203.351|INFO|Thread-60|info|sendToClient (send) TEAM27 @ site 1 Packet[UPDATE_SETTING] #55 SERVER0 @ site 1 -> TEAM27 @ site 1 Socket[addr=/127.0.0.1,port=60658,localport=50002]--332917617616310735
+170209 124203.366|INFO|Thread-60|info|handlePacket end Packet[UPDATE_SETTING] #28 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124203.366|INFO|Thread-60|info|receiveObject end   got edu.csus.ecs.pc2.core.packet.Packet
+170209 124224.579|INFO|Thread-62|info|receiveObject start got Packet[UPDATE_SETTING] #29 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124224.579|INFO|Thread-62|info|receiveObject Packet[UPDATE_SETTING] #29 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124224.579|INFO|Thread-62|dumpPacket|Packet UPDATE_SETTING (Seq #29 ) Packet Contest/Profile Identifer does not match contest's Default-3425878675268062453
+170209 124224.579|INFO|Thread-62|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 124224.579|INFO|Thread-62|dumpPacket|    To: SERVER0 @ site 1
+170209 124224.579|INFO|Thread-62|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account Montgomery
+170209 124224.579|INFO|Thread-62|info|handlePacket start Packet[UPDATE_SETTING] #29 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124224.579|INFO|Thread-62|dumpPacket|Packet UPDATE_SETTING (Seq #29 ) handlePacket
+170209 124224.579|INFO|Thread-62|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 124224.579|INFO|Thread-62|dumpPacket|    To: SERVER0 @ site 1
+170209 124224.579|INFO|Thread-62|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account Montgomery
+170209 124224.579|DEBUG|Thread-62|logDebugMessage|Account Event CHANGED TEAM28 @ site 1
+170209 124224.579|INFO|Thread-62|info|sendToClient b4 to TEAM28 @ site 1 Packet[UPDATE_SETTING] #57 SERVER0 @ site 1 -> TEAM28 @ site 1
+170209 124224.610|WARNING|Thread-62|logWarning|Unable to send packet to TEAM28 @ site 1 not logged in.  Packet saved in: profiles\Pc860fdf7-b6ef-4a44-854c-d7e7bb3968ca\packets\packet8316.30.packet
+170209 124224.626|INFO|Thread-62|info|sendToClient af to TEAM28 @ site 1 Packet[UPDATE_SETTING] #57 SERVER0 @ site 1 -> TEAM28 @ site 1
+170209 124224.673|INFO|Thread-62|info|sendToClient (send) TEAM28 @ site 1 Packet[UPDATE_SETTING] #57 SERVER0 @ site 1 -> TEAM28 @ site 1 Socket[addr=/127.0.0.1,port=60658,localport=50002]--332917617616310735
+170209 124224.688|INFO|Thread-62|info|handlePacket end Packet[UPDATE_SETTING] #29 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124224.688|INFO|Thread-62|info|receiveObject end   got edu.csus.ecs.pc2.core.packet.Packet
+170209 124242.636|INFO|Thread-64|info|receiveObject start got Packet[UPDATE_SETTING] #30 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124242.636|INFO|Thread-64|info|receiveObject Packet[UPDATE_SETTING] #30 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124242.636|INFO|Thread-64|dumpPacket|Packet UPDATE_SETTING (Seq #30 ) Packet Contest/Profile Identifer does not match contest's Default-3425878675268062453
+170209 124242.636|INFO|Thread-64|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 124242.636|INFO|Thread-64|dumpPacket|    To: SERVER0 @ site 1
+170209 124242.636|INFO|Thread-64|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account CyFalls
+170209 124242.636|INFO|Thread-64|info|handlePacket start Packet[UPDATE_SETTING] #30 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124242.636|INFO|Thread-64|dumpPacket|Packet UPDATE_SETTING (Seq #30 ) handlePacket
+170209 124242.636|INFO|Thread-64|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 124242.636|INFO|Thread-64|dumpPacket|    To: SERVER0 @ site 1
+170209 124242.636|INFO|Thread-64|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account CyFalls
+170209 124242.636|DEBUG|Thread-64|logDebugMessage|Account Event CHANGED TEAM29 @ site 1
+170209 124242.652|INFO|Thread-64|info|sendToClient b4 to TEAM29 @ site 1 Packet[UPDATE_SETTING] #59 SERVER0 @ site 1 -> TEAM29 @ site 1
+170209 124242.683|WARNING|Thread-64|logWarning|Unable to send packet to TEAM29 @ site 1 not logged in.  Packet saved in: profiles\Pc860fdf7-b6ef-4a44-854c-d7e7bb3968ca\packets\packet8316.31.packet
+170209 124242.683|INFO|Thread-64|info|sendToClient af to TEAM29 @ site 1 Packet[UPDATE_SETTING] #59 SERVER0 @ site 1 -> TEAM29 @ site 1
+170209 124242.730|INFO|Thread-64|info|sendToClient (send) TEAM29 @ site 1 Packet[UPDATE_SETTING] #59 SERVER0 @ site 1 -> TEAM29 @ site 1 Socket[addr=/127.0.0.1,port=60658,localport=50002]--332917617616310735
+170209 124242.746|INFO|Thread-64|info|handlePacket end Packet[UPDATE_SETTING] #30 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124242.746|INFO|Thread-64|info|receiveObject end   got edu.csus.ecs.pc2.core.packet.Packet
+170209 124304.165|INFO|Thread-66|info|receiveObject start got Packet[UPDATE_SETTING] #31 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124304.165|INFO|Thread-66|info|receiveObject Packet[UPDATE_SETTING] #31 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124304.165|INFO|Thread-66|dumpPacket|Packet UPDATE_SETTING (Seq #31 ) Packet Contest/Profile Identifer does not match contest's Default-3425878675268062453
+170209 124304.165|INFO|Thread-66|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 124304.165|INFO|Thread-66|dumpPacket|    To: SERVER0 @ site 1
+170209 124304.165|INFO|Thread-66|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account Conroe
+170209 124304.165|INFO|Thread-66|info|handlePacket start Packet[UPDATE_SETTING] #31 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124304.165|INFO|Thread-66|dumpPacket|Packet UPDATE_SETTING (Seq #31 ) handlePacket
+170209 124304.165|INFO|Thread-66|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 124304.165|INFO|Thread-66|dumpPacket|    To: SERVER0 @ site 1
+170209 124304.165|INFO|Thread-66|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account Conroe
+170209 124304.165|DEBUG|Thread-66|logDebugMessage|Account Event CHANGED TEAM30 @ site 1
+170209 124304.165|INFO|Thread-66|info|sendToClient b4 to TEAM30 @ site 1 Packet[UPDATE_SETTING] #61 SERVER0 @ site 1 -> TEAM30 @ site 1
+170209 124304.227|WARNING|Thread-66|logWarning|Unable to send packet to TEAM30 @ site 1 not logged in.  Packet saved in: profiles\Pc860fdf7-b6ef-4a44-854c-d7e7bb3968ca\packets\packet8316.32.packet
+170209 124304.227|INFO|Thread-66|info|sendToClient af to TEAM30 @ site 1 Packet[UPDATE_SETTING] #61 SERVER0 @ site 1 -> TEAM30 @ site 1
+170209 124304.290|INFO|Thread-66|info|sendToClient (send) TEAM30 @ site 1 Packet[UPDATE_SETTING] #61 SERVER0 @ site 1 -> TEAM30 @ site 1 Socket[addr=/127.0.0.1,port=60658,localport=50002]--332917617616310735
+170209 124304.305|INFO|Thread-66|info|handlePacket end Packet[UPDATE_SETTING] #31 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124304.305|INFO|Thread-66|info|receiveObject end   got edu.csus.ecs.pc2.core.packet.Packet
+170209 124411.167|INFO|Thread-68|info|receiveObject start got Packet[UPDATE_SETTING] #32 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124411.167|INFO|Thread-68|info|receiveObject Packet[UPDATE_SETTING] #32 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124411.167|INFO|Thread-68|dumpPacket|Packet UPDATE_SETTING (Seq #32 ) Packet Contest/Profile Identifer does not match contest's Default-3425878675268062453
+170209 124411.167|INFO|Thread-68|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 124411.167|INFO|Thread-68|dumpPacket|    To: SERVER0 @ site 1
+170209 124411.167|INFO|Thread-68|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account Magnolia
+170209 124411.167|INFO|Thread-68|info|handlePacket start Packet[UPDATE_SETTING] #32 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124411.167|INFO|Thread-68|dumpPacket|Packet UPDATE_SETTING (Seq #32 ) handlePacket
+170209 124411.167|INFO|Thread-68|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 124411.167|INFO|Thread-68|dumpPacket|    To: SERVER0 @ site 1
+170209 124411.167|INFO|Thread-68|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account Magnolia
+170209 124411.167|DEBUG|Thread-68|logDebugMessage|Account Event CHANGED TEAM31 @ site 1
+170209 124411.167|INFO|Thread-68|info|sendToClient b4 to TEAM31 @ site 1 Packet[UPDATE_SETTING] #63 SERVER0 @ site 1 -> TEAM31 @ site 1
+170209 124411.198|WARNING|Thread-68|logWarning|Unable to send packet to TEAM31 @ site 1 not logged in.  Packet saved in: profiles\Pc860fdf7-b6ef-4a44-854c-d7e7bb3968ca\packets\packet8316.33.packet
+170209 124411.198|INFO|Thread-68|info|sendToClient af to TEAM31 @ site 1 Packet[UPDATE_SETTING] #63 SERVER0 @ site 1 -> TEAM31 @ site 1
+170209 124411.260|INFO|Thread-68|info|sendToClient (send) TEAM31 @ site 1 Packet[UPDATE_SETTING] #63 SERVER0 @ site 1 -> TEAM31 @ site 1 Socket[addr=/127.0.0.1,port=60658,localport=50002]--332917617616310735
+170209 124411.276|INFO|Thread-68|info|handlePacket end Packet[UPDATE_SETTING] #32 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124411.276|INFO|Thread-68|info|receiveObject end   got edu.csus.ecs.pc2.core.packet.Packet
+170209 124430.364|INFO|Thread-70|info|receiveObject start got Packet[UPDATE_SETTING] #33 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124430.364|INFO|Thread-70|info|receiveObject Packet[UPDATE_SETTING] #33 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124430.364|INFO|Thread-70|dumpPacket|Packet UPDATE_SETTING (Seq #33 ) Packet Contest/Profile Identifer does not match contest's Default-3425878675268062453
+170209 124430.364|INFO|Thread-70|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 124430.364|INFO|Thread-70|dumpPacket|    To: SERVER0 @ site 1
+170209 124430.364|INFO|Thread-70|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account Tomball Memorial
+170209 124430.364|INFO|Thread-70|info|handlePacket start Packet[UPDATE_SETTING] #33 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124430.364|INFO|Thread-70|dumpPacket|Packet UPDATE_SETTING (Seq #33 ) handlePacket
+170209 124430.379|INFO|Thread-70|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 124430.379|INFO|Thread-70|dumpPacket|    To: SERVER0 @ site 1
+170209 124430.379|INFO|Thread-70|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account Tomball Memorial
+170209 124430.379|DEBUG|Thread-70|logDebugMessage|Account Event CHANGED TEAM32 @ site 1
+170209 124430.379|INFO|Thread-70|info|sendToClient b4 to TEAM32 @ site 1 Packet[UPDATE_SETTING] #65 SERVER0 @ site 1 -> TEAM32 @ site 1
+170209 124430.410|WARNING|Thread-70|logWarning|Unable to send packet to TEAM32 @ site 1 not logged in.  Packet saved in: profiles\Pc860fdf7-b6ef-4a44-854c-d7e7bb3968ca\packets\packet8316.34.packet
+170209 124430.410|INFO|Thread-70|info|sendToClient af to TEAM32 @ site 1 Packet[UPDATE_SETTING] #65 SERVER0 @ site 1 -> TEAM32 @ site 1
+170209 124430.473|INFO|Thread-70|info|sendToClient (send) TEAM32 @ site 1 Packet[UPDATE_SETTING] #65 SERVER0 @ site 1 -> TEAM32 @ site 1 Socket[addr=/127.0.0.1,port=60658,localport=50002]--332917617616310735
+170209 124430.489|INFO|Thread-70|info|handlePacket end Packet[UPDATE_SETTING] #33 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124430.489|INFO|Thread-70|info|receiveObject end   got edu.csus.ecs.pc2.core.packet.Packet
+170209 124452.985|INFO|Thread-72|info|receiveObject start got Packet[UPDATE_SETTING] #34 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124452.985|INFO|Thread-72|info|receiveObject Packet[UPDATE_SETTING] #34 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124452.985|INFO|Thread-72|dumpPacket|Packet UPDATE_SETTING (Seq #34 ) Packet Contest/Profile Identifer does not match contest's Default-3425878675268062453
+170209 124452.985|INFO|Thread-72|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 124453.001|INFO|Thread-72|dumpPacket|    To: SERVER0 @ site 1
+170209 124453.001|INFO|Thread-72|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account Klein High School
+170209 124453.001|INFO|Thread-72|info|handlePacket start Packet[UPDATE_SETTING] #34 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124453.001|INFO|Thread-72|dumpPacket|Packet UPDATE_SETTING (Seq #34 ) handlePacket
+170209 124453.001|INFO|Thread-72|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 124453.001|INFO|Thread-72|dumpPacket|    To: SERVER0 @ site 1
+170209 124453.001|INFO|Thread-72|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account Klein High School
+170209 124453.001|DEBUG|Thread-72|logDebugMessage|Account Event CHANGED TEAM33 @ site 1
+170209 124453.001|INFO|Thread-72|info|sendToClient b4 to TEAM33 @ site 1 Packet[UPDATE_SETTING] #67 SERVER0 @ site 1 -> TEAM33 @ site 1
+170209 124453.032|WARNING|Thread-72|logWarning|Unable to send packet to TEAM33 @ site 1 not logged in.  Packet saved in: profiles\Pc860fdf7-b6ef-4a44-854c-d7e7bb3968ca\packets\packet8316.35.packet
+170209 124453.047|INFO|Thread-72|info|sendToClient af to TEAM33 @ site 1 Packet[UPDATE_SETTING] #67 SERVER0 @ site 1 -> TEAM33 @ site 1
+170209 124453.126|INFO|Thread-72|info|sendToClient (send) TEAM33 @ site 1 Packet[UPDATE_SETTING] #67 SERVER0 @ site 1 -> TEAM33 @ site 1 Socket[addr=/127.0.0.1,port=60658,localport=50002]--332917617616310735
+170209 124453.141|INFO|Thread-72|info|handlePacket end Packet[UPDATE_SETTING] #34 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124453.141|INFO|Thread-72|info|receiveObject end   got edu.csus.ecs.pc2.core.packet.Packet
+170209 124512.515|INFO|Thread-74|info|receiveObject start got Packet[UPDATE_SETTING] #35 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124512.515|INFO|Thread-74|info|receiveObject Packet[UPDATE_SETTING] #35 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124512.515|INFO|Thread-74|dumpPacket|Packet UPDATE_SETTING (Seq #35 ) Packet Contest/Profile Identifer does not match contest's Default-3425878675268062453
+170209 124512.515|INFO|Thread-74|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 124512.515|INFO|Thread-74|dumpPacket|    To: SERVER0 @ site 1
+170209 124512.531|INFO|Thread-74|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account TWHS PLAID
+170209 124512.531|INFO|Thread-74|info|handlePacket start Packet[UPDATE_SETTING] #35 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124512.531|INFO|Thread-74|dumpPacket|Packet UPDATE_SETTING (Seq #35 ) handlePacket
+170209 124512.547|INFO|Thread-74|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 124512.547|INFO|Thread-74|dumpPacket|    To: SERVER0 @ site 1
+170209 124512.547|INFO|Thread-74|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account TWHS PLAID
+170209 124512.562|DEBUG|Thread-74|logDebugMessage|Account Event CHANGED TEAM34 @ site 1
+170209 124512.562|INFO|Thread-74|info|sendToClient b4 to TEAM34 @ site 1 Packet[UPDATE_SETTING] #69 SERVER0 @ site 1 -> TEAM34 @ site 1
+170209 124512.625|WARNING|Thread-74|logWarning|Unable to send packet to TEAM34 @ site 1 not logged in.  Packet saved in: profiles\Pc860fdf7-b6ef-4a44-854c-d7e7bb3968ca\packets\packet8316.36.packet
+170209 124512.625|INFO|Thread-74|info|sendToClient af to TEAM34 @ site 1 Packet[UPDATE_SETTING] #69 SERVER0 @ site 1 -> TEAM34 @ site 1
+170209 124512.703|INFO|Thread-74|info|sendToClient (send) TEAM34 @ site 1 Packet[UPDATE_SETTING] #69 SERVER0 @ site 1 -> TEAM34 @ site 1 Socket[addr=/127.0.0.1,port=60658,localport=50002]--332917617616310735
+170209 124512.703|INFO|Thread-74|info|handlePacket end Packet[UPDATE_SETTING] #35 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124512.703|INFO|Thread-74|info|receiveObject end   got edu.csus.ecs.pc2.core.packet.Packet
+170209 124559.682|INFO|Thread-76|info|receiveObject start got Packet[UPDATE_SETTING] #36 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124559.682|INFO|Thread-76|info|receiveObject Packet[UPDATE_SETTING] #36 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124559.682|INFO|Thread-76|dumpPacket|Packet UPDATE_SETTING (Seq #36 ) Packet Contest/Profile Identifer does not match contest's Default-3425878675268062453
+170209 124559.682|INFO|Thread-76|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 124559.682|INFO|Thread-76|dumpPacket|    To: SERVER0 @ site 1
+170209 124559.682|INFO|Thread-76|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account Klein High School
+170209 124559.682|INFO|Thread-76|info|handlePacket start Packet[UPDATE_SETTING] #36 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124559.682|INFO|Thread-76|dumpPacket|Packet UPDATE_SETTING (Seq #36 ) handlePacket
+170209 124559.682|INFO|Thread-76|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 124559.682|INFO|Thread-76|dumpPacket|    To: SERVER0 @ site 1
+170209 124559.682|INFO|Thread-76|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account Klein High School
+170209 124559.682|DEBUG|Thread-76|logDebugMessage|Account Event CHANGED TEAM35 @ site 1
+170209 124559.682|INFO|Thread-76|info|sendToClient b4 to TEAM35 @ site 1 Packet[UPDATE_SETTING] #71 SERVER0 @ site 1 -> TEAM35 @ site 1
+170209 124559.713|WARNING|Thread-76|logWarning|Unable to send packet to TEAM35 @ site 1 not logged in.  Packet saved in: profiles\Pc860fdf7-b6ef-4a44-854c-d7e7bb3968ca\packets\packet8316.37.packet
+170209 124559.729|INFO|Thread-76|info|sendToClient af to TEAM35 @ site 1 Packet[UPDATE_SETTING] #71 SERVER0 @ site 1 -> TEAM35 @ site 1
+170209 124559.775|INFO|Thread-76|info|sendToClient (send) TEAM35 @ site 1 Packet[UPDATE_SETTING] #71 SERVER0 @ site 1 -> TEAM35 @ site 1 Socket[addr=/127.0.0.1,port=60658,localport=50002]--332917617616310735
+170209 124559.791|INFO|Thread-76|info|handlePacket end Packet[UPDATE_SETTING] #36 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124559.791|INFO|Thread-76|info|receiveObject end   got edu.csus.ecs.pc2.core.packet.Packet
+170209 124610.185|INFO|Thread-78|info|receiveObject start got Packet[UPDATE_SETTING] #37 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124610.185|INFO|Thread-78|info|receiveObject Packet[UPDATE_SETTING] #37 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124610.185|INFO|Thread-78|dumpPacket|Packet UPDATE_SETTING (Seq #37 ) Packet Contest/Profile Identifer does not match contest's Default-3425878675268062453
+170209 124610.185|INFO|Thread-78|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 124610.185|INFO|Thread-78|dumpPacket|    To: SERVER0 @ site 1
+170209 124610.185|INFO|Thread-78|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account Needville
+170209 124610.185|INFO|Thread-78|info|handlePacket start Packet[UPDATE_SETTING] #37 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124610.185|INFO|Thread-78|dumpPacket|Packet UPDATE_SETTING (Seq #37 ) handlePacket
+170209 124610.185|INFO|Thread-78|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 124610.200|INFO|Thread-78|dumpPacket|    To: SERVER0 @ site 1
+170209 124610.200|INFO|Thread-78|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account Needville
+170209 124610.200|DEBUG|Thread-78|logDebugMessage|Account Event CHANGED TEAM36 @ site 1
+170209 124610.200|INFO|Thread-78|info|sendToClient b4 to TEAM36 @ site 1 Packet[UPDATE_SETTING] #73 SERVER0 @ site 1 -> TEAM36 @ site 1
+170209 124610.247|WARNING|Thread-78|logWarning|Unable to send packet to TEAM36 @ site 1 not logged in.  Packet saved in: profiles\Pc860fdf7-b6ef-4a44-854c-d7e7bb3968ca\packets\packet8316.38.packet
+170209 124610.247|INFO|Thread-78|info|sendToClient af to TEAM36 @ site 1 Packet[UPDATE_SETTING] #73 SERVER0 @ site 1 -> TEAM36 @ site 1
+170209 124610.310|INFO|Thread-78|info|sendToClient (send) TEAM36 @ site 1 Packet[UPDATE_SETTING] #73 SERVER0 @ site 1 -> TEAM36 @ site 1 Socket[addr=/127.0.0.1,port=60658,localport=50002]--332917617616310735
+170209 124610.325|INFO|Thread-78|info|handlePacket end Packet[UPDATE_SETTING] #37 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124610.325|INFO|Thread-78|info|receiveObject end   got edu.csus.ecs.pc2.core.packet.Packet
+170209 124626.847|INFO|Thread-80|info|receiveObject start got Packet[UPDATE_SETTING] #38 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124626.847|INFO|Thread-80|info|receiveObject Packet[UPDATE_SETTING] #38 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124626.847|INFO|Thread-80|dumpPacket|Packet UPDATE_SETTING (Seq #38 ) Packet Contest/Profile Identifer does not match contest's Default-3425878675268062453
+170209 124626.847|INFO|Thread-80|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 124626.847|INFO|Thread-80|dumpPacket|    To: SERVER0 @ site 1
+170209 124626.847|INFO|Thread-80|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account Navasota
+170209 124626.847|INFO|Thread-80|info|handlePacket start Packet[UPDATE_SETTING] #38 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124626.847|INFO|Thread-80|dumpPacket|Packet UPDATE_SETTING (Seq #38 ) handlePacket
+170209 124626.847|INFO|Thread-80|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 124626.847|INFO|Thread-80|dumpPacket|    To: SERVER0 @ site 1
+170209 124626.847|INFO|Thread-80|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account Navasota
+170209 124626.847|DEBUG|Thread-80|logDebugMessage|Account Event CHANGED TEAM37 @ site 1
+170209 124626.847|INFO|Thread-80|info|sendToClient b4 to TEAM37 @ site 1 Packet[UPDATE_SETTING] #75 SERVER0 @ site 1 -> TEAM37 @ site 1
+170209 124626.894|WARNING|Thread-80|logWarning|Unable to send packet to TEAM37 @ site 1 not logged in.  Packet saved in: profiles\Pc860fdf7-b6ef-4a44-854c-d7e7bb3968ca\packets\packet8316.39.packet
+170209 124626.894|INFO|Thread-80|info|sendToClient af to TEAM37 @ site 1 Packet[UPDATE_SETTING] #75 SERVER0 @ site 1 -> TEAM37 @ site 1
+170209 124626.972|INFO|Thread-80|info|sendToClient (send) TEAM37 @ site 1 Packet[UPDATE_SETTING] #75 SERVER0 @ site 1 -> TEAM37 @ site 1 Socket[addr=/127.0.0.1,port=60658,localport=50002]--332917617616310735
+170209 124626.988|INFO|Thread-80|info|handlePacket end Packet[UPDATE_SETTING] #38 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124626.988|INFO|Thread-80|info|receiveObject end   got edu.csus.ecs.pc2.core.packet.Packet
+170209 124639.998|INFO|Thread-82|info|receiveObject start got Packet[UPDATE_SETTING] #39 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124639.998|INFO|Thread-82|info|receiveObject Packet[UPDATE_SETTING] #39 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124639.998|INFO|Thread-82|dumpPacket|Packet UPDATE_SETTING (Seq #39 ) Packet Contest/Profile Identifer does not match contest's Default-3425878675268062453
+170209 124639.998|INFO|Thread-82|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 124639.998|INFO|Thread-82|dumpPacket|    To: SERVER0 @ site 1
+170209 124639.998|INFO|Thread-82|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account AMCHS
+170209 124639.998|INFO|Thread-82|info|handlePacket start Packet[UPDATE_SETTING] #39 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124639.998|INFO|Thread-82|dumpPacket|Packet UPDATE_SETTING (Seq #39 ) handlePacket
+170209 124639.998|INFO|Thread-82|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 124639.998|INFO|Thread-82|dumpPacket|    To: SERVER0 @ site 1
+170209 124639.998|INFO|Thread-82|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account AMCHS
+170209 124639.998|DEBUG|Thread-82|logDebugMessage|Account Event CHANGED TEAM38 @ site 1
+170209 124640.013|INFO|Thread-82|info|sendToClient b4 to TEAM38 @ site 1 Packet[UPDATE_SETTING] #77 SERVER0 @ site 1 -> TEAM38 @ site 1
+170209 124640.107|WARNING|Thread-82|logWarning|Unable to send packet to TEAM38 @ site 1 not logged in.  Packet saved in: profiles\Pc860fdf7-b6ef-4a44-854c-d7e7bb3968ca\packets\packet8316.40.packet
+170209 124640.107|INFO|Thread-82|info|sendToClient af to TEAM38 @ site 1 Packet[UPDATE_SETTING] #77 SERVER0 @ site 1 -> TEAM38 @ site 1
+170209 124640.171|INFO|Thread-82|info|sendToClient (send) TEAM38 @ site 1 Packet[UPDATE_SETTING] #77 SERVER0 @ site 1 -> TEAM38 @ site 1 Socket[addr=/127.0.0.1,port=60658,localport=50002]--332917617616310735
+170209 124640.186|INFO|Thread-82|info|handlePacket end Packet[UPDATE_SETTING] #39 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124640.186|INFO|Thread-82|info|receiveObject end   got edu.csus.ecs.pc2.core.packet.Packet
+170209 124707.655|INFO|Thread-84|info|receiveObject start got Packet[UPDATE_SETTING] #40 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124707.655|INFO|Thread-84|info|receiveObject Packet[UPDATE_SETTING] #40 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124707.655|INFO|Thread-84|dumpPacket|Packet UPDATE_SETTING (Seq #40 ) Packet Contest/Profile Identifer does not match contest's Default-3425878675268062453
+170209 124707.655|INFO|Thread-84|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 124707.655|INFO|Thread-84|dumpPacket|    To: SERVER0 @ site 1
+170209 124707.655|INFO|Thread-84|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account College Station
+170209 124707.655|INFO|Thread-84|info|handlePacket start Packet[UPDATE_SETTING] #40 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124707.655|INFO|Thread-84|dumpPacket|Packet UPDATE_SETTING (Seq #40 ) handlePacket
+170209 124707.671|INFO|Thread-84|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 124707.671|INFO|Thread-84|dumpPacket|    To: SERVER0 @ site 1
+170209 124707.671|INFO|Thread-84|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account College Station
+170209 124707.671|DEBUG|Thread-84|logDebugMessage|Account Event CHANGED TEAM39 @ site 1
+170209 124707.671|INFO|Thread-84|info|sendToClient b4 to TEAM39 @ site 1 Packet[UPDATE_SETTING] #79 SERVER0 @ site 1 -> TEAM39 @ site 1
+170209 124707.718|WARNING|Thread-84|logWarning|Unable to send packet to TEAM39 @ site 1 not logged in.  Packet saved in: profiles\Pc860fdf7-b6ef-4a44-854c-d7e7bb3968ca\packets\packet8316.41.packet
+170209 124707.718|INFO|Thread-84|info|sendToClient af to TEAM39 @ site 1 Packet[UPDATE_SETTING] #79 SERVER0 @ site 1 -> TEAM39 @ site 1
+170209 124707.780|INFO|Thread-84|info|sendToClient (send) TEAM39 @ site 1 Packet[UPDATE_SETTING] #79 SERVER0 @ site 1 -> TEAM39 @ site 1 Socket[addr=/127.0.0.1,port=60658,localport=50002]--332917617616310735
+170209 124707.780|INFO|Thread-84|info|handlePacket end Packet[UPDATE_SETTING] #40 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124707.780|INFO|Thread-84|info|receiveObject end   got edu.csus.ecs.pc2.core.packet.Packet
+170209 124722.665|INFO|Thread-86|info|receiveObject start got Packet[UPDATE_SETTING] #41 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124722.665|INFO|Thread-86|info|receiveObject Packet[UPDATE_SETTING] #41 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124722.665|INFO|Thread-86|dumpPacket|Packet UPDATE_SETTING (Seq #41 ) Packet Contest/Profile Identifer does not match contest's Default-3425878675268062453
+170209 124722.665|INFO|Thread-86|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 124722.665|INFO|Thread-86|dumpPacket|    To: SERVER0 @ site 1
+170209 124722.665|INFO|Thread-86|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account KO
+170209 124722.665|INFO|Thread-86|info|handlePacket start Packet[UPDATE_SETTING] #41 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124722.665|INFO|Thread-86|dumpPacket|Packet UPDATE_SETTING (Seq #41 ) handlePacket
+170209 124722.665|INFO|Thread-86|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 124722.665|INFO|Thread-86|dumpPacket|    To: SERVER0 @ site 1
+170209 124722.665|INFO|Thread-86|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account KO
+170209 124722.680|DEBUG|Thread-86|logDebugMessage|Account Event CHANGED TEAM40 @ site 1
+170209 124722.680|INFO|Thread-86|info|sendToClient b4 to TEAM40 @ site 1 Packet[UPDATE_SETTING] #81 SERVER0 @ site 1 -> TEAM40 @ site 1
+170209 124722.711|WARNING|Thread-86|logWarning|Unable to send packet to TEAM40 @ site 1 not logged in.  Packet saved in: profiles\Pc860fdf7-b6ef-4a44-854c-d7e7bb3968ca\packets\packet8316.42.packet
+170209 124722.711|INFO|Thread-86|info|sendToClient af to TEAM40 @ site 1 Packet[UPDATE_SETTING] #81 SERVER0 @ site 1 -> TEAM40 @ site 1
+170209 124722.774|INFO|Thread-86|info|sendToClient (send) TEAM40 @ site 1 Packet[UPDATE_SETTING] #81 SERVER0 @ site 1 -> TEAM40 @ site 1 Socket[addr=/127.0.0.1,port=60658,localport=50002]--332917617616310735
+170209 124722.790|INFO|Thread-86|info|handlePacket end Packet[UPDATE_SETTING] #41 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124722.790|INFO|Thread-86|info|receiveObject end   got edu.csus.ecs.pc2.core.packet.Packet
+170209 124739.314|INFO|Thread-88|info|receiveObject start got Packet[UPDATE_SETTING] #42 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124739.314|INFO|Thread-88|info|receiveObject Packet[UPDATE_SETTING] #42 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124739.314|INFO|Thread-88|dumpPacket|Packet UPDATE_SETTING (Seq #42 ) Packet Contest/Profile Identifer does not match contest's Default-3425878675268062453
+170209 124739.314|INFO|Thread-88|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 124739.314|INFO|Thread-88|dumpPacket|    To: SERVER0 @ site 1
+170209 124739.314|INFO|Thread-88|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account CyFalls
+170209 124739.314|INFO|Thread-88|info|handlePacket start Packet[UPDATE_SETTING] #42 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124739.314|INFO|Thread-88|dumpPacket|Packet UPDATE_SETTING (Seq #42 ) handlePacket
+170209 124739.314|INFO|Thread-88|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 124739.314|INFO|Thread-88|dumpPacket|    To: SERVER0 @ site 1
+170209 124739.314|INFO|Thread-88|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account CyFalls
+170209 124739.314|DEBUG|Thread-88|logDebugMessage|Account Event CHANGED TEAM41 @ site 1
+170209 124739.314|INFO|Thread-88|info|sendToClient b4 to TEAM41 @ site 1 Packet[UPDATE_SETTING] #83 SERVER0 @ site 1 -> TEAM41 @ site 1
+170209 124739.345|WARNING|Thread-88|logWarning|Unable to send packet to TEAM41 @ site 1 not logged in.  Packet saved in: profiles\Pc860fdf7-b6ef-4a44-854c-d7e7bb3968ca\packets\packet8316.43.packet
+170209 124739.360|INFO|Thread-88|info|sendToClient af to TEAM41 @ site 1 Packet[UPDATE_SETTING] #83 SERVER0 @ site 1 -> TEAM41 @ site 1
+170209 124739.407|INFO|Thread-88|info|sendToClient (send) TEAM41 @ site 1 Packet[UPDATE_SETTING] #83 SERVER0 @ site 1 -> TEAM41 @ site 1 Socket[addr=/127.0.0.1,port=60658,localport=50002]--332917617616310735
+170209 124739.423|INFO|Thread-88|info|handlePacket end Packet[UPDATE_SETTING] #42 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124739.423|INFO|Thread-88|info|receiveObject end   got edu.csus.ecs.pc2.core.packet.Packet
+170209 124755.125|INFO|Thread-90|info|receiveObject start got Packet[UPDATE_SETTING] #43 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124755.125|INFO|Thread-90|info|receiveObject Packet[UPDATE_SETTING] #43 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124755.125|INFO|Thread-90|dumpPacket|Packet UPDATE_SETTING (Seq #43 ) Packet Contest/Profile Identifer does not match contest's Default-3425878675268062453
+170209 124755.125|INFO|Thread-90|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 124755.125|INFO|Thread-90|dumpPacket|    To: SERVER0 @ site 1
+170209 124755.125|INFO|Thread-90|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account CyWoods
+170209 124755.125|INFO|Thread-90|info|handlePacket start Packet[UPDATE_SETTING] #43 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124755.125|INFO|Thread-90|dumpPacket|Packet UPDATE_SETTING (Seq #43 ) handlePacket
+170209 124755.125|INFO|Thread-90|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 124755.125|INFO|Thread-90|dumpPacket|    To: SERVER0 @ site 1
+170209 124755.125|INFO|Thread-90|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account CyWoods
+170209 124755.125|DEBUG|Thread-90|logDebugMessage|Account Event CHANGED TEAM42 @ site 1
+170209 124755.141|INFO|Thread-90|info|sendToClient b4 to TEAM42 @ site 1 Packet[UPDATE_SETTING] #85 SERVER0 @ site 1 -> TEAM42 @ site 1
+170209 124755.172|WARNING|Thread-90|logWarning|Unable to send packet to TEAM42 @ site 1 not logged in.  Packet saved in: profiles\Pc860fdf7-b6ef-4a44-854c-d7e7bb3968ca\packets\packet8316.44.packet
+170209 124755.172|INFO|Thread-90|info|sendToClient af to TEAM42 @ site 1 Packet[UPDATE_SETTING] #85 SERVER0 @ site 1 -> TEAM42 @ site 1
+170209 124755.219|INFO|Thread-90|info|sendToClient (send) TEAM42 @ site 1 Packet[UPDATE_SETTING] #85 SERVER0 @ site 1 -> TEAM42 @ site 1 Socket[addr=/127.0.0.1,port=60658,localport=50002]--332917617616310735
+170209 124755.235|INFO|Thread-90|info|handlePacket end Packet[UPDATE_SETTING] #43 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124755.235|INFO|Thread-90|info|receiveObject end   got edu.csus.ecs.pc2.core.packet.Packet
+170209 124811.933|INFO|Thread-92|info|receiveObject start got Packet[UPDATE_SETTING] #44 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124811.933|INFO|Thread-92|info|receiveObject Packet[UPDATE_SETTING] #44 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124811.949|INFO|Thread-92|dumpPacket|Packet UPDATE_SETTING (Seq #44 ) Packet Contest/Profile Identifer does not match contest's Default-3425878675268062453
+170209 124811.949|INFO|Thread-92|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 124811.949|INFO|Thread-92|dumpPacket|    To: SERVER0 @ site 1
+170209 124811.949|INFO|Thread-92|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account Klein Oak
+170209 124811.949|INFO|Thread-92|info|handlePacket start Packet[UPDATE_SETTING] #44 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124811.949|INFO|Thread-92|dumpPacket|Packet UPDATE_SETTING (Seq #44 ) handlePacket
+170209 124811.980|INFO|Thread-92|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 124811.980|INFO|Thread-92|dumpPacket|    To: SERVER0 @ site 1
+170209 124811.980|INFO|Thread-92|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account Klein Oak
+170209 124811.980|DEBUG|Thread-92|logDebugMessage|Account Event CHANGED TEAM43 @ site 1
+170209 124811.980|INFO|Thread-92|info|sendToClient b4 to TEAM43 @ site 1 Packet[UPDATE_SETTING] #87 SERVER0 @ site 1 -> TEAM43 @ site 1
+170209 124812.011|WARNING|Thread-92|logWarning|Unable to send packet to TEAM43 @ site 1 not logged in.  Packet saved in: profiles\Pc860fdf7-b6ef-4a44-854c-d7e7bb3968ca\packets\packet8316.45.packet
+170209 124812.011|INFO|Thread-92|info|sendToClient af to TEAM43 @ site 1 Packet[UPDATE_SETTING] #87 SERVER0 @ site 1 -> TEAM43 @ site 1
+170209 124812.074|INFO|Thread-92|info|sendToClient (send) TEAM43 @ site 1 Packet[UPDATE_SETTING] #87 SERVER0 @ site 1 -> TEAM43 @ site 1 Socket[addr=/127.0.0.1,port=60658,localport=50002]--332917617616310735
+170209 124812.089|INFO|Thread-92|info|handlePacket end Packet[UPDATE_SETTING] #44 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124812.105|INFO|Thread-92|info|receiveObject end   got edu.csus.ecs.pc2.core.packet.Packet
+170209 124826.635|INFO|Thread-94|info|receiveObject start got Packet[UPDATE_SETTING] #45 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124826.635|INFO|Thread-94|info|receiveObject Packet[UPDATE_SETTING] #45 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124826.635|INFO|Thread-94|dumpPacket|Packet UPDATE_SETTING (Seq #45 ) Packet Contest/Profile Identifer does not match contest's Default-3425878675268062453
+170209 124826.650|INFO|Thread-94|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 124826.650|INFO|Thread-94|dumpPacket|    To: SERVER0 @ site 1
+170209 124826.650|INFO|Thread-94|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account Navasota
+170209 124826.666|INFO|Thread-94|info|handlePacket start Packet[UPDATE_SETTING] #45 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124826.666|INFO|Thread-94|dumpPacket|Packet UPDATE_SETTING (Seq #45 ) handlePacket
+170209 124826.666|INFO|Thread-94|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 124826.666|INFO|Thread-94|dumpPacket|    To: SERVER0 @ site 1
+170209 124826.666|INFO|Thread-94|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account Navasota
+170209 124826.666|DEBUG|Thread-94|logDebugMessage|Account Event CHANGED TEAM44 @ site 1
+170209 124826.666|INFO|Thread-94|info|sendToClient b4 to TEAM44 @ site 1 Packet[UPDATE_SETTING] #89 SERVER0 @ site 1 -> TEAM44 @ site 1
+170209 124826.697|WARNING|Thread-94|logWarning|Unable to send packet to TEAM44 @ site 1 not logged in.  Packet saved in: profiles\Pc860fdf7-b6ef-4a44-854c-d7e7bb3968ca\packets\packet8316.46.packet
+170209 124826.697|INFO|Thread-94|info|sendToClient af to TEAM44 @ site 1 Packet[UPDATE_SETTING] #89 SERVER0 @ site 1 -> TEAM44 @ site 1
+170209 124826.760|INFO|Thread-94|info|sendToClient (send) TEAM44 @ site 1 Packet[UPDATE_SETTING] #89 SERVER0 @ site 1 -> TEAM44 @ site 1 Socket[addr=/127.0.0.1,port=60658,localport=50002]--332917617616310735
+170209 124826.775|INFO|Thread-94|info|handlePacket end Packet[UPDATE_SETTING] #45 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124826.775|INFO|Thread-94|info|receiveObject end   got edu.csus.ecs.pc2.core.packet.Packet
+170209 124844.978|INFO|Thread-96|info|receiveObject start got Packet[UPDATE_SETTING] #46 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124844.978|INFO|Thread-96|info|receiveObject Packet[UPDATE_SETTING] #46 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124844.978|INFO|Thread-96|dumpPacket|Packet UPDATE_SETTING (Seq #46 ) Packet Contest/Profile Identifer does not match contest's Default-3425878675268062453
+170209 124844.978|INFO|Thread-96|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 124844.993|INFO|Thread-96|dumpPacket|    To: SERVER0 @ site 1
+170209 124844.993|INFO|Thread-96|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account CyWoods
+170209 124844.993|INFO|Thread-96|info|handlePacket start Packet[UPDATE_SETTING] #46 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124844.993|INFO|Thread-96|dumpPacket|Packet UPDATE_SETTING (Seq #46 ) handlePacket
+170209 124844.993|INFO|Thread-96|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 124844.993|INFO|Thread-96|dumpPacket|    To: SERVER0 @ site 1
+170209 124844.993|INFO|Thread-96|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account CyWoods
+170209 124844.993|DEBUG|Thread-96|logDebugMessage|Account Event CHANGED TEAM45 @ site 1
+170209 124844.993|INFO|Thread-96|info|sendToClient b4 to TEAM45 @ site 1 Packet[UPDATE_SETTING] #91 SERVER0 @ site 1 -> TEAM45 @ site 1
+170209 124845.040|WARNING|Thread-96|logWarning|Unable to send packet to TEAM45 @ site 1 not logged in.  Packet saved in: profiles\Pc860fdf7-b6ef-4a44-854c-d7e7bb3968ca\packets\packet8316.47.packet
+170209 124845.040|INFO|Thread-96|info|sendToClient af to TEAM45 @ site 1 Packet[UPDATE_SETTING] #91 SERVER0 @ site 1 -> TEAM45 @ site 1
+170209 124845.103|INFO|Thread-96|info|sendToClient (send) TEAM45 @ site 1 Packet[UPDATE_SETTING] #91 SERVER0 @ site 1 -> TEAM45 @ site 1 Socket[addr=/127.0.0.1,port=60658,localport=50002]--332917617616310735
+170209 124845.118|INFO|Thread-96|info|handlePacket end Packet[UPDATE_SETTING] #46 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124845.118|INFO|Thread-96|info|receiveObject end   got edu.csus.ecs.pc2.core.packet.Packet
+170209 124908.958|INFO|Thread-98|info|receiveObject start got Packet[UPDATE_SETTING] #47 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124908.974|INFO|Thread-98|info|receiveObject Packet[UPDATE_SETTING] #47 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124908.974|INFO|Thread-98|dumpPacket|Packet UPDATE_SETTING (Seq #47 ) Packet Contest/Profile Identifer does not match contest's Default-3425878675268062453
+170209 124908.974|INFO|Thread-98|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 124908.989|INFO|Thread-98|dumpPacket|    To: SERVER0 @ site 1
+170209 124908.989|INFO|Thread-98|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account TWHS White
+170209 124908.989|INFO|Thread-98|info|handlePacket start Packet[UPDATE_SETTING] #47 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124908.989|INFO|Thread-98|dumpPacket|Packet UPDATE_SETTING (Seq #47 ) handlePacket
+170209 124908.989|INFO|Thread-98|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 124908.989|INFO|Thread-98|dumpPacket|    To: SERVER0 @ site 1
+170209 124908.989|INFO|Thread-98|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account TWHS White
+170209 124908.989|DEBUG|Thread-98|logDebugMessage|Account Event CHANGED TEAM46 @ site 1
+170209 124909.005|INFO|Thread-98|info|sendToClient b4 to TEAM46 @ site 1 Packet[UPDATE_SETTING] #93 SERVER0 @ site 1 -> TEAM46 @ site 1
+170209 124909.036|WARNING|Thread-98|logWarning|Unable to send packet to TEAM46 @ site 1 not logged in.  Packet saved in: profiles\Pc860fdf7-b6ef-4a44-854c-d7e7bb3968ca\packets\packet8316.48.packet
+170209 124909.036|INFO|Thread-98|info|sendToClient af to TEAM46 @ site 1 Packet[UPDATE_SETTING] #93 SERVER0 @ site 1 -> TEAM46 @ site 1
+170209 124909.099|INFO|Thread-98|info|sendToClient (send) TEAM46 @ site 1 Packet[UPDATE_SETTING] #93 SERVER0 @ site 1 -> TEAM46 @ site 1 Socket[addr=/127.0.0.1,port=60658,localport=50002]--332917617616310735
+170209 124909.114|INFO|Thread-98|info|handlePacket end Packet[UPDATE_SETTING] #47 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 124909.114|INFO|Thread-98|info|receiveObject end   got edu.csus.ecs.pc2.core.packet.Packet
+170209 124940.131|INFO|Thread-4|info|connection Dropped for Socket[addr=/127.0.0.1,port=60658,localport=50002]--332917617616310735
+170209 124940.131|INFO|Thread-4|connectionDropped|connection Dropped for Socket[addr=/127.0.0.1,port=60658,localport=50002]--332917617616310735 which is ADMINISTRATOR1 @ site 1
+170209 124940.131|DEBUG|Thread-4|logDebugMessage|Login Event LOGOFF ADMINISTRATOR1 @ site 1
+170209 124940.131|INFO|Thread-4|dumpPacket|Packet DROPPED_CONNECTION (Seq #96 ) removeConnection
+170209 124940.147|INFO|Thread-4|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: null)
+170209 124940.147|INFO|Thread-4|dumpPacket|    To: SERVER0 @ site 0
+170209 124940.147|INFO|Thread-4|dumpPacket|   key: CONNECTION_HANDLE_ID is: edu.csus.ecs.pc2.core.transport.ConnectionHandlerID Socket[addr=/127.0.0.1,port=60658,localport=50002]--332917617616310735
+170209 125103.819|INFO|Thread-100|info|connectionEstablished: Socket[addr=/127.0.0.1,port=60796,localport=50002]--8204634804458688201
+170209 125118.783|INFO|Thread-100|info|connection Dropped for Socket[addr=/127.0.0.1,port=60796,localport=50002]--8204634804458688201
+170209 125118.799|INFO|Thread-100|dumpPacket|Packet DROPPED_CONNECTION (Seq #98 ) removeConnection
+170209 125118.799|INFO|Thread-100|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: null)
+170209 125118.799|INFO|Thread-100|dumpPacket|    To: SERVER0 @ site 0
+170209 125118.814|INFO|Thread-100|dumpPacket|   key: CONNECTION_HANDLE_ID is: edu.csus.ecs.pc2.core.transport.ConnectionHandlerID Socket[addr=/127.0.0.1,port=60796,localport=50002]--8204634804458688201
+170209 125132.086|INFO|Thread-101|info|connectionEstablished: Socket[addr=/127.0.0.1,port=60797,localport=50002]--355433925373556244
+170209 125139.700|INFO|Thread-102|info|receiveObject start got Packet[LOGIN_REQUEST] #1 SCOREBOARD1 @ site 0 -> SERVER0 @ site 0
+170209 125139.700|INFO|Thread-102|info|receiveObject Packet[LOGIN_REQUEST] #1 SCOREBOARD1 @ site 0 -> SERVER0 @ site 0
+170209 125139.732|INFO|Thread-102|info|sendToClient (send) SCOREBOARD1 @ site 0 Packet[LOGIN_FAILED] #100 SERVER0 @ site 1 -> SCOREBOARD1 @ site 0 Socket[addr=/127.0.0.1,port=60797,localport=50002]--355433925373556244
+170209 125139.747|INFO|Thread-102|info|receiveObject end   got edu.csus.ecs.pc2.core.packet.Packet
+170209 125143.282|INFO|Thread-104|info|receiveObject start got Packet[LOGIN_REQUEST] #2 SCOREBOARD1 @ site 0 -> SERVER0 @ site 0
+170209 125143.282|INFO|Thread-104|info|receiveObject Packet[LOGIN_REQUEST] #2 SCOREBOARD1 @ site 0 -> SERVER0 @ site 0
+170209 125143.313|DEBUG|Thread-104|logDebugMessage|Login Event NEW_LOGIN SCOREBOARD1 @ site 1
+170209 125143.313|INFO|Thread-104|info|LOGIN logged in SCOREBOARD1 @ site 1 at Socket[addr=/127.0.0.1,port=60797,localport=50002]--355433925373556244
+170209 125143.313|INFO|Thread-104|info|sendToClient b4 to SCOREBOARD1 @ site 1 Packet[LOGIN_SUCCESS] #101 SERVER0 @ site 1 -> SCOREBOARD1 @ site 1
+170209 125143.313|INFO|Thread-104|info|sendToClient SERVER0 @ site 1 Socket[addr=/127.0.0.1,port=60797,localport=50002]--355433925373556244
+170209 125143.313|INFO|Thread-104|info|sendToClient (send) SCOREBOARD1 @ site 1 Packet[LOGIN_SUCCESS] #101 SERVER0 @ site 1 -> SCOREBOARD1 @ site 1 Socket[addr=/127.0.0.1,port=60797,localport=50002]--355433925373556244
+170209 125143.329|INFO|Thread-104|info|sendToClient af to SCOREBOARD1 @ site 1 Packet[LOGIN_SUCCESS] #101 SERVER0 @ site 1 -> SCOREBOARD1 @ site 1
+170209 125143.532|INFO|Thread-104|info|receiveObject end   got edu.csus.ecs.pc2.core.packet.Packet
+170209 125229.914|INFO|Thread-101|info|connection Dropped for Socket[addr=/127.0.0.1,port=60797,localport=50002]--355433925373556244
+170209 125229.914|INFO|Thread-101|connectionDropped|connection Dropped for Socket[addr=/127.0.0.1,port=60797,localport=50002]--355433925373556244 which is SCOREBOARD1 @ site 1
+170209 125229.929|DEBUG|Thread-101|logDebugMessage|Login Event LOGOFF SCOREBOARD1 @ site 1
+170209 125229.929|INFO|Thread-101|dumpPacket|Packet DROPPED_CONNECTION (Seq #104 ) removeConnection
+170209 125229.929|INFO|Thread-101|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: null)
+170209 125229.929|INFO|Thread-101|dumpPacket|    To: SERVER0 @ site 0
+170209 125229.929|INFO|Thread-101|dumpPacket|   key: CONNECTION_HANDLE_ID is: edu.csus.ecs.pc2.core.transport.ConnectionHandlerID Socket[addr=/127.0.0.1,port=60797,localport=50002]--355433925373556244
+170209 125240.661|INFO|Thread-106|info|connectionEstablished: Socket[addr=/127.0.0.1,port=60806,localport=50002]--32297514542753181
+170209 125246.986|INFO|Thread-107|info|receiveObject start got Packet[LOGIN_REQUEST] #1 ADMINISTRATOR0 @ site 0 -> SERVER0 @ site 0
+170209 125247.002|INFO|Thread-107|info|receiveObject Packet[LOGIN_REQUEST] #1 ADMINISTRATOR0 @ site 0 -> SERVER0 @ site 0
+170209 125247.022|INFO|Thread-107|info|sendToClient (send) ADMINISTRATOR0 @ site 0 Packet[LOGIN_FAILED] #106 SERVER0 @ site 1 -> ADMINISTRATOR0 @ site 0 Socket[addr=/127.0.0.1,port=60806,localport=50002]--32297514542753181
+170209 125247.038|INFO|Thread-107|info|receiveObject end   got edu.csus.ecs.pc2.core.packet.Packet
+170209 125254.243|INFO|Thread-109|info|receiveObject start got Packet[LOGIN_REQUEST] #2 ADMINISTRATOR1 @ site 0 -> SERVER0 @ site 0
+170209 125254.243|INFO|Thread-109|info|receiveObject Packet[LOGIN_REQUEST] #2 ADMINISTRATOR1 @ site 0 -> SERVER0 @ site 0
+170209 125254.274|DEBUG|Thread-109|logDebugMessage|Login Event NEW_LOGIN ADMINISTRATOR1 @ site 1
+170209 125254.289|INFO|Thread-109|info|LOGIN logged in ADMINISTRATOR1 @ site 1 at Socket[addr=/127.0.0.1,port=60806,localport=50002]--32297514542753181
+170209 125254.289|INFO|Thread-109|info|sendToClient b4 to ADMINISTRATOR1 @ site 1 Packet[LOGIN_SUCCESS] #107 SERVER0 @ site 1 -> ADMINISTRATOR1 @ site 1
+170209 125254.289|INFO|Thread-109|info|sendToClient SERVER0 @ site 1 Socket[addr=/127.0.0.1,port=60806,localport=50002]--32297514542753181
+170209 125254.305|INFO|Thread-109|info|sendToClient (send) ADMINISTRATOR1 @ site 1 Packet[LOGIN_SUCCESS] #107 SERVER0 @ site 1 -> ADMINISTRATOR1 @ site 1 Socket[addr=/127.0.0.1,port=60806,localport=50002]--32297514542753181
+170209 125254.321|INFO|Thread-109|info|sendToClient af to ADMINISTRATOR1 @ site 1 Packet[LOGIN_SUCCESS] #107 SERVER0 @ site 1 -> ADMINISTRATOR1 @ site 1
+170209 125254.321|INFO|Thread-109|info|sendToClient (send) SERVER0 @ site 0 Packet[LOGIN] #108 SERVER0 @ site 1 -> SERVER0 @ site 0 Socket[addr=/127.0.0.1,port=60806,localport=50002]--32297514542753181
+170209 125254.633|INFO|Thread-109|info|receiveObject end   got edu.csus.ecs.pc2.core.packet.Packet
+170209 125317.789|INFO|Thread-112|info|receiveObject start got Packet[UPDATE_SETTING] #3 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 125317.789|INFO|Thread-112|info|receiveObject Packet[UPDATE_SETTING] #3 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 125317.805|INFO|Thread-112|dumpPacket|Packet UPDATE_SETTING (Seq #3 ) Packet Contest/Profile Identifer does not match contest's Default-3425878675268062453
+170209 125317.805|INFO|Thread-112|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 125317.805|INFO|Thread-112|dumpPacket|    To: SERVER0 @ site 1
+170209 125317.820|INFO|Thread-112|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account The God that once was
+170209 125317.820|INFO|Thread-112|info|handlePacket start Packet[UPDATE_SETTING] #3 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 125317.820|INFO|Thread-112|dumpPacket|Packet UPDATE_SETTING (Seq #3 ) handlePacket
+170209 125317.820|INFO|Thread-112|dumpPacket|  From: ADMINISTRATOR1 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: Default-3425878675268062453)
+170209 125317.820|INFO|Thread-112|dumpPacket|    To: SERVER0 @ site 1
+170209 125317.820|INFO|Thread-112|dumpPacket|   key: ACCOUNT is: edu.csus.ecs.pc2.core.model.Account The God that once was
+170209 125317.820|DEBUG|Thread-112|logDebugMessage|Account Event CHANGED TEAM1 @ site 1
+170209 125317.820|INFO|Thread-112|info|sendToClient b4 to TEAM1 @ site 1 Packet[UPDATE_SETTING] #109 SERVER0 @ site 1 -> TEAM1 @ site 1
+170209 125317.867|WARNING|Thread-112|logWarning|Unable to send packet to TEAM1 @ site 1 not logged in.  Packet saved in: profiles\Pc860fdf7-b6ef-4a44-854c-d7e7bb3968ca\packets\packet8316.55.packet
+170209 125317.867|INFO|Thread-112|info|sendToClient af to TEAM1 @ site 1 Packet[UPDATE_SETTING] #109 SERVER0 @ site 1 -> TEAM1 @ site 1
+170209 125317.914|INFO|Thread-112|info|sendToClient (send) TEAM1 @ site 1 Packet[UPDATE_SETTING] #109 SERVER0 @ site 1 -> TEAM1 @ site 1 Socket[addr=/127.0.0.1,port=60806,localport=50002]--32297514542753181
+170209 125317.930|INFO|Thread-112|info|handlePacket end Packet[UPDATE_SETTING] #3 ADMINISTRATOR1 @ site 1 -> SERVER0 @ site 1
+170209 125317.930|INFO|Thread-112|info|receiveObject end   got edu.csus.ecs.pc2.core.packet.Packet
+170209 125329.607|INFO|Thread-106|info|connection Dropped for Socket[addr=/127.0.0.1,port=60806,localport=50002]--32297514542753181
+170209 125329.607|INFO|Thread-106|connectionDropped|connection Dropped for Socket[addr=/127.0.0.1,port=60806,localport=50002]--32297514542753181 which is ADMINISTRATOR1 @ site 1
+170209 125329.607|DEBUG|Thread-106|logDebugMessage|Login Event LOGOFF ADMINISTRATOR1 @ site 1
+170209 125329.623|INFO|Thread-106|dumpPacket|Packet DROPPED_CONNECTION (Seq #112 ) removeConnection
+170209 125329.623|INFO|Thread-106|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 10.252.65.255) (Contest Id: null)
+170209 125329.623|INFO|Thread-106|dumpPacket|    To: SERVER0 @ site 0
+170209 125329.623|INFO|Thread-106|dumpPacket|   key: CONNECTION_HANDLE_ID is: edu.csus.ecs.pc2.core.transport.ConnectionHandlerID Socket[addr=/127.0.0.1,port=60806,localport=50002]--32297514542753181

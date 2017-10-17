@@ -1,0 +1,32 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
+public class coupon {
+
+	public static void main(String[] args) throws FileNotFoundException {
+		// TODO Auto-generated method stub
+		Scanner Sf = new Scanner(new File("coupon.dat"));
+		int num = Sf.nextInt(); Sf.nextLine();
+		for(int x = 0; x<num;x++){
+			int players = Sf.nextInt(); Sf.nextLine();
+			int total = 0;
+			for(int y = 0; y < players; y++){
+				Sf.next();
+				int two = Sf.nextInt() * 2;
+				total += two;
+				int three = Sf.nextInt() * 3;
+				total += three;
+				int one = Sf.nextInt();
+				total += one;
+			}
+			if (total >= 80){
+				System.out.println("coupon");
+			}else{
+				System.out.println("full price");
+			}
+		}
+	}
+
+
+}

@@ -1,0 +1,106 @@
+//QueueTest
+//Duncan, 1/22/17
+//Tests the Queue for Arrays
+public class QueueTest{
+	
+	//Variables
+	public static QueuesforArray queue;
+	public static QueuesforArrayLists queues;
+	public static QueuesforLinkedLists queueLinked;
+
+
+	public static void main(String[] args){
+		//QueueArrayTest();
+		//QueueListTest();
+		QueueLinkedTest();
+	}
+	
+	public static void QueueArrayTest(){
+		//Constructs object
+		queue = new QueuesforArray(5);
+		
+		//Adds objects
+		queue.push("A");
+		queue.push("B");
+		queue.push("C");
+		queue.print();
+		
+		//Removes an object
+		System.out.println("Popped");
+		queue.pop();
+		
+		System.out.println("Print");	
+		queue.print();
+		
+		//Shows last object
+		System.out.println("Peek");
+		queue.peek();
+		
+		//Checks if Array is empty
+		System.out.println("Empty?");
+		queue.isEmpty();
+		//Prints size of Array
+		System.out.println("Size");
+		queue.size();
+			
+	}
+	
+	public static void QueueListTest(){
+		//Constructs object
+		queues = new QueuesforArrayLists();
+		
+		//Adds objects
+		queues.push("A");
+		queues.push("B");
+		queues.push("C");
+		queues.print();
+		
+		//Removes an object
+		System.out.println("Popped");
+		queues.pop();
+		
+		System.out.println("Print");	
+		queues.print();
+		
+		//Shows last object
+		System.out.println("Peek");
+		queues.peek();
+		
+		//Checks if Array is empty
+		System.out.println("Empty?");
+		queues.isEmpty();
+		//Prints size of Array
+		System.out.println("Size");
+		queues.size();
+	}
+	public static void QueueLinkedTest(){
+		//Constructs object
+		queueLinked = new QueuesforLinkedLists();
+		
+		//Adds objects
+		queueLinked.push("A");
+		queueLinked.push("B");
+		queueLinked.push("C");
+		queueLinked.print();
+		
+		//Removes an object
+		System.out.println("Popped");
+		queueLinked.pop();
+		
+		System.out.println("Print");	
+		queueLinked.print();
+		
+		//Shows last object
+		System.out.println("Peek");
+		queueLinked.peek();
+		
+		//Checks if Array is empty
+		System.out.println("Empty?");
+		queueLinked.isEmpty();
+		//Prints size of Array
+		System.out.println("Size");
+		queueLinked.size();
+	}
+	
+	
+}

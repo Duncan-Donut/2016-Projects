@@ -1,0 +1,56 @@
+//CScourse	       
+//Duncan, 1/10/17
+//LinkedList Class that has methods to alter the list
+import java.util.LinkedList;
+import java.util.Scanner;
+
+public class LinkedListDriver{
+
+	public static void main(String[] args){
+	
+	LinkedList<String> list = new LinkedList<String>();
+	Scanner scan = new Scanner(System.in);
+	String data;
+	int placement;
+	String answer = "no";
+	
+		while(answer != "no"){
+		System.out.println("Do you want to enter data? Yes or no?");
+			answer = scan.next();
+		System.out.println("Enter your data");
+			data = scan.next();
+			list.add(data);
+		}
+		
+		System.out.println("Add to the end");
+		data = scan.next();
+		LinkedList.addBegin(data);
+		list.addBegin(data);
+		list.iterator();
+		
+		
+		System.out.println("Add to the beginning");
+		data = scan.next();
+		list.addEnd(data);
+		list.iterator();
+	
+	
+		System.out.println("Add anywhere, insert point and then data");
+		placement = scan.nextInt();
+		data = scan.next();
+		list.addAnywhere(placement,data);
+		list.iterator();
+	
+	
+		System.out.println("Remove");
+		data = scan.next();
+		list.delete(data);
+		list.iterator();
+	}
+
+
+
+
+	
+	
+}

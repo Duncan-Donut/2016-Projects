@@ -1,0 +1,61 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class book {
+
+	public static void main(String[] args) throws FileNotFoundException {
+		// TODO Auto-generated method stu
+		ArrayList<String> data = new ArrayList<>();
+		Scanner Sf = new Scanner(new File("book.dat"));
+		int num = Sf.nextInt(); Sf.nextLine();
+		
+		for(int x = 0; x<num;x++){
+			String a = Sf.next();
+			
+			char[] b = a.toCharArray();
+			
+			for(int y=0;y<b.length;y++){
+				
+				int placement = 0;
+				
+				if(b[y] < 90){
+					placement = y;
+				}
+				if(placement == 0){
+					for(int p = 0;p<b.length-3;p++){
+						System.out.print(b[p]);
+					}
+					System.out.println();
+					break;
+				}
+				else{
+					if(b[placement+1] == 'a' && b[placement+2] =='y'){
+						System.out.print(b[placement]);
+						for(int z = 0; z<placement;z++){
+							System.out.print(b[z]);
+						}
+						System.out.println();
+					}
+					else{
+						System.out.print(b[placement]);
+						System.out.print(b[placement+1]);
+						for(int z = 0; z<placement;z++){
+							System.out.print(b[z]);
+						}
+						System.out.println();
+					}
+					
+				}
+			}
+			
+		}
+		
+			
+		
+		
+	}
+
+
+}

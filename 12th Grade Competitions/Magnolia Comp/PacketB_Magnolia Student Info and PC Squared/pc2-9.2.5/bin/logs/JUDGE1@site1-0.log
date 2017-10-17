@@ -1,0 +1,1031 @@
+170205 173029.721|CONFIG|Thread-5|setFileHandlers|Now logging to C:\PacketA_2017_Waller\pc2-9.2.5\bin\logs directory.
+170205 173029.721|INFO|Thread-5|info|
+170205 173029.721|INFO|Thread-5|info|Version 9.2.5 20151014 (Wednesday, October 14th 2015 03:59 UTC) Java ver 1.8.0_111 build 3204 Windows 8.1 6.3 (amd64) 
+170205 173029.721|INFO|Thread-5|info|Login: judge1 (aka judge1)
+170205 173029.721|INFO|Thread-5|startLog|Working directory is C:\PacketA_2017_Waller\pc2-9.2.5\bin
+170205 173029.721|INFO|Thread-5|startLog|Process id is 8024@Mellen
+170205 173029.721|INFO|Thread-5|info|Attempting to load UI class edu.csus.ecs.pc2.ui.judge.JudgeView
+170205 173029.737|INFO|Thread-5|info|Loaded UI class edu.csus.ecs.pc2.ui.judge.JudgeView
+170205 173030.284|INFO|Thread-5|info| handlePacket original LOGIN_SUCCESS after -- all settings loaded 
+170205 173030.284|INFO|Thread-5|info|handlePacket end Packet[LOGIN_SUCCESS] #168 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173030.284|INFO|Thread-5|info| receiveObject(S) end   got Packet[LOGIN_SUCCESS] #168 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173045.858|INFO|Thread-7|info| receiveObject(S) start got Packet[LOGIN] #173 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173045.873|INFO|Thread-7|dumpPacket|Packet LOGIN (Seq #173 ) recieveObject
+170205 173045.873|INFO|Thread-7|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173045.873|INFO|Thread-7|dumpPacket|    To: SERVER0 @ site 0
+170205 173045.873|INFO|Thread-7|dumpPacket|   key: CLIENT_SETTINGS is: edu.csus.ecs.pc2.core.model.ClientSettings edu.csus.ecs.pc2.core.model.ClientSettings@1d50a6bc
+170205 173045.873|INFO|Thread-7|dumpPacket|   key: CONNECTION_HANDLE_ID is: edu.csus.ecs.pc2.core.transport.ConnectionHandlerID Socket[addr=/127.0.0.1,port=52099,localport=50002]-9125913213613695621
+170205 173045.873|INFO|Thread-7|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId TEAM1 @ site 1
+170205 173045.889|INFO|Thread-7|info|handlePacket start Packet[LOGIN] #173 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173045.889|INFO|Thread-7|dumpPacket|Packet LOGIN (Seq #173 ) handlePacket
+170205 173045.889|INFO|Thread-7|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173045.889|INFO|Thread-7|dumpPacket|    To: SERVER0 @ site 0
+170205 173045.889|INFO|Thread-7|dumpPacket|   key: CLIENT_SETTINGS is: edu.csus.ecs.pc2.core.model.ClientSettings edu.csus.ecs.pc2.core.model.ClientSettings@1d50a6bc
+170205 173045.889|INFO|Thread-7|dumpPacket|   key: CONNECTION_HANDLE_ID is: edu.csus.ecs.pc2.core.transport.ConnectionHandlerID Socket[addr=/127.0.0.1,port=52099,localport=50002]-9125913213613695621
+170205 173045.889|INFO|Thread-7|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId TEAM1 @ site 1
+170205 173045.889|INFO|Thread-7|info|handlePacket end Packet[LOGIN] #173 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173045.889|INFO|Thread-7|info| receiveObject(S) end   got Packet[LOGIN] #173 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173106.648|INFO|Thread-8|info| receiveObject(S) start got Packet[CLOCK_STARTED] #174 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173106.664|INFO|Thread-8|dumpPacket|Packet CLOCK_STARTED (Seq #174 ) recieveObject
+170205 173106.695|INFO|Thread-8|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173106.695|INFO|Thread-8|dumpPacket|    To: SERVER0 @ site 0
+170205 173106.711|INFO|Thread-8|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId ADMINISTRATOR1 @ site 1
+170205 173106.711|INFO|Thread-8|dumpPacket|   key: SERVER_CLOCK_OFFSET is: java.util.GregorianCalendar java.util.GregorianCalendar[time=1486337466492,areFieldsSet=true,areAllFieldsSet=false,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2017,MONTH=1,WEEK_OF_YEAR=6,WEEK_OF_MONTH=2,DAY_OF_MONTH=5,DAY_OF_YEAR=36,DAY_OF_WEEK=1,DAY_OF_WEEK_IN_MONTH=1,AM_PM=1,HOUR=11,HOUR_OF_DAY=23,MINUTE=31,SECOND=6,MILLISECOND=492,ZONE_OFFSET=0,DST_OFFSET=0]
+170205 173106.711|INFO|Thread-8|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+170205 173106.711|INFO|Thread-8|info|handlePacket start Packet[CLOCK_STARTED] #174 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173106.711|INFO|Thread-8|dumpPacket|Packet CLOCK_STARTED (Seq #174 ) handlePacket
+170205 173106.711|INFO|Thread-8|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173106.711|INFO|Thread-8|dumpPacket|    To: SERVER0 @ site 0
+170205 173106.711|INFO|Thread-8|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId ADMINISTRATOR1 @ site 1
+170205 173106.711|INFO|Thread-8|dumpPacket|   key: SERVER_CLOCK_OFFSET is: java.util.GregorianCalendar java.util.GregorianCalendar[time=1486337466492,areFieldsSet=true,areAllFieldsSet=false,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2017,MONTH=1,WEEK_OF_YEAR=6,WEEK_OF_MONTH=2,DAY_OF_MONTH=5,DAY_OF_YEAR=36,DAY_OF_WEEK=1,DAY_OF_WEEK_IN_MONTH=1,AM_PM=1,HOUR=11,HOUR_OF_DAY=23,MINUTE=31,SECOND=6,MILLISECOND=492,ZONE_OFFSET=0,DST_OFFSET=0]
+170205 173106.711|INFO|Thread-8|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+170205 173106.726|INFO|Thread-8|contestStarted|debug ContestTime site 1 STARTED 0:00:00
+170205 173106.726|INFO|Thread-8|info|Clock for site 1 started by ADMINISTRATOR1 @ site 1 elapsed 0:00:00
+170205 173106.726|INFO|Thread-8|info| receiveObject(S) end   got Packet[CLOCK_STARTED] #174 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173136.941|INFO|Thread-9|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #175 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173136.957|INFO|Thread-9|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #175 ) recieveObject
+170205 173136.957|INFO|Thread-9|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173136.957|INFO|Thread-9|dumpPacket|    To: TEAM1 @ site 1
+170205 173136.972|INFO|Thread-9|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 1 NEW30074 ms from TEAM1 @ site 1 id Run--7479037805327237497
+170205 173136.972|INFO|Thread-9|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #175 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173136.972|INFO|Thread-9|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #175 ) handlePacket
+170205 173136.988|INFO|Thread-9|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173136.988|INFO|Thread-9|dumpPacket|    To: TEAM1 @ site 1
+170205 173136.988|INFO|Thread-9|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 1 NEW30074 ms from TEAM1 @ site 1 id Run--7479037805327237497
+170205 173136.988|INFO|Thread-9|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #175 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173140.614|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_REQUEST] #2 JUDGE1 @ site 1 -> SERVER0 @ site 1
+170205 173140.629|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_REQUEST] #2 JUDGE1 @ site 1 -> SERVER0 @ site 1
+170205 173140.879|INFO|Thread-11|info| receiveObject(S) start got Packet[RUN_CHECKOUT] #177 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173140.895|INFO|Thread-11|dumpPacket|Packet RUN_CHECKOUT (Seq #177 ) recieveObject
+170205 173140.895|INFO|Thread-11|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173140.895|INFO|Thread-11|dumpPacket|    To: JUDGE1 @ site 1
+170205 173140.895|INFO|Thread-11|dumpPacket|   key: RUN_RESULTS_FILE is: [Ledu.csus.ecs.pc2.core.model.RunResultFiles; [Ledu.csus.ecs.pc2.core.model.RunResultFiles;@7fd2d8ed
+170205 173140.895|INFO|Thread-11|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 173140.895|INFO|Thread-11|dumpPacket|   key: RUN_FILES is: edu.csus.ecs.pc2.core.model.RunFiles edu.csus.ecs.pc2.core.model.RunFiles@71153967
+170205 173140.910|INFO|Thread-11|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 1 BEING_JUDGED30074 ms from TEAM1 @ site 1 id Run--7479037805327237497
+170205 173140.910|INFO|Thread-11|info|handlePacket start Packet[RUN_CHECKOUT] #177 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173140.910|INFO|Thread-11|dumpPacket|Packet RUN_CHECKOUT (Seq #177 ) handlePacket
+170205 173140.910|INFO|Thread-11|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173140.910|INFO|Thread-11|dumpPacket|    To: JUDGE1 @ site 1
+170205 173140.910|INFO|Thread-11|dumpPacket|   key: RUN_RESULTS_FILE is: [Ledu.csus.ecs.pc2.core.model.RunResultFiles; [Ledu.csus.ecs.pc2.core.model.RunResultFiles;@7fd2d8ed
+170205 173140.910|INFO|Thread-11|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 173140.910|INFO|Thread-11|dumpPacket|   key: RUN_FILES is: edu.csus.ecs.pc2.core.model.RunFiles edu.csus.ecs.pc2.core.model.RunFiles@71153967
+170205 173140.910|INFO|Thread-11|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 1 BEING_JUDGED30074 ms from TEAM1 @ site 1 id Run--7479037805327237497
+170205 173140.926|INFO|Thread-11|setRunAndFiles|Fetched run Run 1 BEING_JUDGED30074 ms from TEAM1 @ site 1 id Run--7479037805327237497 to edit
+170205 173140.942|INFO|Thread-12|info| receiveObject(S) start got Packet[RUN_CHECKOUT_NOTIFICATION] #178 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173140.942|INFO|Thread-12|dumpPacket|Packet RUN_CHECKOUT_NOTIFICATION (Seq #178 ) recieveObject
+170205 173140.942|INFO|Thread-11|info|handlePacket end Packet[RUN_CHECKOUT] #177 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173140.942|INFO|Thread-12|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173140.942|INFO|Thread-11|info| receiveObject(S) end   got Packet[RUN_CHECKOUT] #177 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173140.942|INFO|Thread-12|dumpPacket|    To: JUDGE1 @ site 1
+170205 173140.942|INFO|Thread-12|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 173140.942|INFO|Thread-12|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 1 BEING_JUDGED30074 ms from TEAM1 @ site 1 id Run--7479037805327237497
+170205 173140.942|INFO|Thread-12|info|handlePacket start Packet[RUN_CHECKOUT_NOTIFICATION] #178 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173140.942|INFO|Thread-12|dumpPacket|Packet RUN_CHECKOUT_NOTIFICATION (Seq #178 ) handlePacket
+170205 173140.942|INFO|Thread-12|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173140.942|INFO|Thread-12|dumpPacket|    To: JUDGE1 @ site 1
+170205 173140.942|INFO|Thread-12|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 173140.942|INFO|Thread-12|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 1 BEING_JUDGED30074 ms from TEAM1 @ site 1 id Run--7479037805327237497
+170205 173140.942|INFO|Thread-12|info|handlePacket end Packet[RUN_CHECKOUT_NOTIFICATION] #178 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173140.957|INFO|Thread-12|info| receiveObject(S) end   got Packet[RUN_CHECKOUT_NOTIFICATION] #178 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173142.067|DEBUG|Thread-13|compileProgram|before substitution: javac {:mainfile}
+170205 173142.067|DEBUG|Thread-13|compileProgram|after  substitution: javac Akio.java
+170205 173142.129|CONFIG|Thread-13|runProgram|executing: 'javac Akio.java'
+170205 173144.260|DEBUG|Thread-13|executeProgram|before substitution: java {:basename}
+170205 173144.260|DEBUG|Thread-13|executeProgram|after  substitution: java Akio
+170205 173144.260|CONFIG|Thread-13|runProgram|executing: 'java Akio'
+170205 173144.954|DEBUG|Thread-13|validateProgram|before substitution: java -cp C:\PacketA_2017_Waller\pc2-9.2.5\lib\{:validator} {:infile} {:outfile} {:ansfile} {:resfile}  -pc2 4 false
+170205 173144.954|DEBUG|Thread-13|validateProgram|after  substitution: java -cp C:\PacketA_2017_Waller\pc2-9.2.5\lib\pc2.jar edu.csus.ecs.pc2.validator.Validator akio.dat estdout.pc2 akio.out 154XRSAM.txt  -pc2 4 false
+170205 173144.954|DEBUG|Thread-13|validateProgram|after replaceFirst: java -cp "C:\PacketA_2017_Waller\pc2-9.2.5\lib\pc2.jar" edu.csus.ecs.pc2.validator.Validator akio.dat estdout.pc2 akio.out 154XRSAM.txt  -pc2 4 false
+170205 173144.985|CONFIG|Thread-13|runProgram|executing: 'java -cp "C:\PacketA_2017_Waller\pc2-9.2.5\lib\pc2.jar" edu.csus.ecs.pc2.validator.Validator akio.dat estdout.pc2 akio.out 154XRSAM.txt  -pc2 4 false'
+170205 173148.140|CONFIG|AWT-EventQueue-0|showFiles|FileDiffPane::ShowFiles(executesite1judge1\estdout.pc2,executesite1judge1\akio.out) Begin
+170205 173151.578|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_JUDGEMENT] #3 JUDGE1 @ site 1 -> SERVER0 @ site 1
+170205 173151.594|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_JUDGEMENT] #3 JUDGE1 @ site 1 -> SERVER0 @ site 1
+170205 173151.828|INFO|Thread-23|info| receiveObject(S) start got Packet[RUN_JUDGEMENT_UPDATE] #180 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173151.844|INFO|Thread-23|dumpPacket|Packet RUN_JUDGEMENT_UPDATE (Seq #180 ) recieveObject
+170205 173151.844|INFO|Thread-23|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173151.844|INFO|Thread-23|dumpPacket|    To: SERVER0 @ site 0
+170205 173151.844|INFO|Thread-23|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 173151.844|INFO|Thread-23|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 1 JUDGED30074 ms from TEAM1 @ site 1 id Run--7479037805327237497
+170205 173151.844|INFO|Thread-23|info|handlePacket start Packet[RUN_JUDGEMENT_UPDATE] #180 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173151.844|INFO|Thread-23|dumpPacket|Packet RUN_JUDGEMENT_UPDATE (Seq #180 ) handlePacket
+170205 173151.844|INFO|Thread-23|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173151.844|INFO|Thread-23|dumpPacket|    To: SERVER0 @ site 0
+170205 173151.844|INFO|Thread-23|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 173151.844|INFO|Thread-23|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 1 JUDGED30074 ms from TEAM1 @ site 1 id Run--7479037805327237497
+170205 173151.860|INFO|Thread-23|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT_UPDATE] #180 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173204.820|INFO|Thread-24|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #181 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173204.835|INFO|Thread-24|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #181 ) recieveObject
+170205 173204.866|INFO|Thread-24|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173204.866|INFO|Thread-24|dumpPacket|    To: TEAM1 @ site 1
+170205 173204.882|INFO|Thread-24|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 2 NEW58046 ms from TEAM1 @ site 1 id Run-2211619898059410867
+170205 173204.882|INFO|Thread-24|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #181 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173204.882|INFO|Thread-24|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #181 ) handlePacket
+170205 173204.882|INFO|Thread-24|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173204.882|INFO|Thread-24|dumpPacket|    To: TEAM1 @ site 1
+170205 173204.882|INFO|Thread-24|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 2 NEW58046 ms from TEAM1 @ site 1 id Run-2211619898059410867
+170205 173204.882|INFO|Thread-24|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #181 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173213.744|INFO|Thread-25|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #183 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173213.759|INFO|Thread-25|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #183 ) recieveObject
+170205 173213.759|INFO|Thread-25|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173213.759|INFO|Thread-25|dumpPacket|    To: TEAM1 @ site 1
+170205 173213.775|INFO|Thread-25|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 3 NEW66924 ms from TEAM1 @ site 1 id Run-6901053825036406338
+170205 173213.775|INFO|Thread-25|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #183 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173213.775|INFO|Thread-25|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #183 ) handlePacket
+170205 173213.775|INFO|Thread-25|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173213.791|INFO|Thread-25|dumpPacket|    To: TEAM1 @ site 1
+170205 173213.791|INFO|Thread-25|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 3 NEW66924 ms from TEAM1 @ site 1 id Run-6901053825036406338
+170205 173213.791|INFO|Thread-25|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #183 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173227.663|INFO|Thread-26|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #185 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173227.663|INFO|Thread-26|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #185 ) recieveObject
+170205 173227.663|INFO|Thread-26|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173227.663|INFO|Thread-26|dumpPacket|    To: TEAM1 @ site 1
+170205 173227.679|INFO|Thread-26|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 4 NEW80843 ms from TEAM1 @ site 1 id Run--5213246022120599946
+170205 173227.679|INFO|Thread-26|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #185 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173227.679|INFO|Thread-26|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #185 ) handlePacket
+170205 173227.679|INFO|Thread-26|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173227.679|INFO|Thread-26|dumpPacket|    To: TEAM1 @ site 1
+170205 173227.679|INFO|Thread-26|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 4 NEW80843 ms from TEAM1 @ site 1 id Run--5213246022120599946
+170205 173227.679|INFO|Thread-26|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #185 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173237.827|INFO|Thread-27|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #187 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173237.843|INFO|Thread-27|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #187 ) recieveObject
+170205 173237.843|INFO|Thread-27|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173237.843|INFO|Thread-27|dumpPacket|    To: TEAM1 @ site 1
+170205 173237.874|INFO|Thread-27|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 5 NEW91054 ms from TEAM1 @ site 1 id Run--4520130826694987383
+170205 173237.874|INFO|Thread-27|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #187 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173237.890|INFO|Thread-27|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #187 ) handlePacket
+170205 173237.890|INFO|Thread-27|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173237.890|INFO|Thread-27|dumpPacket|    To: TEAM1 @ site 1
+170205 173237.905|INFO|Thread-27|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 5 NEW91054 ms from TEAM1 @ site 1 id Run--4520130826694987383
+170205 173237.952|INFO|Thread-27|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #187 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173250.095|INFO|Thread-28|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #189 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173250.095|INFO|Thread-28|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #189 ) recieveObject
+170205 173250.095|INFO|Thread-28|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173250.095|INFO|Thread-28|dumpPacket|    To: TEAM1 @ site 1
+170205 173250.111|INFO|Thread-28|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 6 NEW103228 ms from TEAM1 @ site 1 id Run-3292650820582899681
+170205 173250.111|INFO|Thread-28|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #189 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173250.111|INFO|Thread-28|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #189 ) handlePacket
+170205 173250.111|INFO|Thread-28|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173250.111|INFO|Thread-28|dumpPacket|    To: TEAM1 @ site 1
+170205 173250.111|INFO|Thread-28|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 6 NEW103228 ms from TEAM1 @ site 1 id Run-3292650820582899681
+170205 173250.127|INFO|Thread-28|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #189 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173303.306|INFO|Thread-29|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #191 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173303.306|INFO|Thread-29|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #191 ) recieveObject
+170205 173303.322|INFO|Thread-29|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173303.322|INFO|Thread-29|dumpPacket|    To: TEAM1 @ site 1
+170205 173303.322|INFO|Thread-29|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 7 NEW116471 ms from TEAM1 @ site 1 id Run-8541642138066306690
+170205 173303.322|INFO|Thread-29|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #191 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173303.322|INFO|Thread-29|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #191 ) handlePacket
+170205 173303.322|INFO|Thread-29|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173303.322|INFO|Thread-29|dumpPacket|    To: TEAM1 @ site 1
+170205 173303.322|INFO|Thread-29|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 7 NEW116471 ms from TEAM1 @ site 1 id Run-8541642138066306690
+170205 173303.338|INFO|Thread-29|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #191 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173314.953|INFO|Thread-30|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #193 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173314.953|INFO|Thread-30|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #193 ) recieveObject
+170205 173314.953|INFO|Thread-30|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173314.953|INFO|Thread-30|dumpPacket|    To: TEAM1 @ site 1
+170205 173314.953|INFO|Thread-30|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 8 NEW128101 ms from TEAM1 @ site 1 id Run-8307988263027325380
+170205 173314.953|INFO|Thread-30|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #193 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173314.953|INFO|Thread-30|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #193 ) handlePacket
+170205 173314.953|INFO|Thread-30|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173314.953|INFO|Thread-30|dumpPacket|    To: TEAM1 @ site 1
+170205 173314.953|INFO|Thread-30|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 8 NEW128101 ms from TEAM1 @ site 1 id Run-8307988263027325380
+170205 173314.968|INFO|Thread-30|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #193 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173329.037|INFO|Thread-31|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #195 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173329.037|INFO|Thread-31|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #195 ) recieveObject
+170205 173329.037|INFO|Thread-31|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173329.037|INFO|Thread-31|dumpPacket|    To: TEAM1 @ site 1
+170205 173329.037|INFO|Thread-31|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 9 NEW142092 ms from TEAM1 @ site 1 id Run--6542613804973781179
+170205 173329.037|INFO|Thread-31|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #195 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173329.037|INFO|Thread-31|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #195 ) handlePacket
+170205 173329.037|INFO|Thread-31|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173329.037|INFO|Thread-31|dumpPacket|    To: TEAM1 @ site 1
+170205 173329.037|INFO|Thread-31|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 9 NEW142092 ms from TEAM1 @ site 1 id Run--6542613804973781179
+170205 173329.037|INFO|Thread-31|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #195 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173339.434|INFO|Thread-32|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #197 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173339.434|INFO|Thread-32|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #197 ) recieveObject
+170205 173339.450|INFO|Thread-32|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173339.450|INFO|Thread-32|dumpPacket|    To: TEAM1 @ site 1
+170205 173339.450|INFO|Thread-32|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 10 NEW152645 ms from TEAM1 @ site 1 id Run-8107700643214541600
+170205 173339.450|INFO|Thread-32|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #197 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173339.450|INFO|Thread-32|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #197 ) handlePacket
+170205 173339.450|INFO|Thread-32|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173339.465|INFO|Thread-32|dumpPacket|    To: TEAM1 @ site 1
+170205 173339.465|INFO|Thread-32|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 10 NEW152645 ms from TEAM1 @ site 1 id Run-8107700643214541600
+170205 173339.465|INFO|Thread-32|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #197 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173354.174|INFO|Thread-33|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #199 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173354.190|INFO|Thread-33|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #199 ) recieveObject
+170205 173354.190|INFO|Thread-33|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173354.205|INFO|Thread-33|dumpPacket|    To: TEAM1 @ site 1
+170205 173354.205|INFO|Thread-33|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 11 NEW167401 ms from TEAM1 @ site 1 id Run--1649764703146886050
+170205 173354.205|INFO|Thread-33|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #199 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173354.221|INFO|Thread-33|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #199 ) handlePacket
+170205 173354.221|INFO|Thread-33|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173354.221|INFO|Thread-33|dumpPacket|    To: TEAM1 @ site 1
+170205 173354.221|INFO|Thread-33|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 11 NEW167401 ms from TEAM1 @ site 1 id Run--1649764703146886050
+170205 173354.221|INFO|Thread-33|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #199 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173518.158|INFO|Thread-34|info| receiveObject(S) start got Packet[ADD_SETTING] #201 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173518.158|INFO|Thread-34|dumpPacket|Packet ADD_SETTING (Seq #201 ) recieveObject
+170205 173518.158|INFO|Thread-34|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173518.189|INFO|Thread-34|dumpPacket|    To: SERVER0 @ site 0
+170205 173518.189|INFO|Thread-34|dumpPacket|   key: PROBLEM is: edu.csus.ecs.pc2.core.model.Problem Kosta
+170205 173518.221|INFO|Thread-34|dumpPacket|   key: PROBLEM_DATA_FILES is: edu.csus.ecs.pc2.core.model.ProblemDataFiles edu.csus.ecs.pc2.core.model.ProblemDataFiles@90dab70
+170205 173518.236|INFO|Thread-34|info|handlePacket start Packet[ADD_SETTING] #201 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173518.236|INFO|Thread-34|dumpPacket|Packet ADD_SETTING (Seq #201 ) handlePacket
+170205 173518.267|INFO|Thread-34|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173518.299|INFO|Thread-34|dumpPacket|    To: SERVER0 @ site 0
+170205 173518.346|INFO|Thread-34|dumpPacket|   key: PROBLEM is: edu.csus.ecs.pc2.core.model.Problem Kosta
+170205 173518.361|INFO|Thread-34|dumpPacket|   key: PROBLEM_DATA_FILES is: edu.csus.ecs.pc2.core.model.ProblemDataFiles edu.csus.ecs.pc2.core.model.ProblemDataFiles@90dab70
+170205 173518.377|INFO|Thread-34|info|handlePacket end Packet[ADD_SETTING] #201 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173518.377|INFO|Thread-34|info| receiveObject(S) end   got Packet[ADD_SETTING] #201 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173544.532|INFO|Thread-35|info| receiveObject(S) start got Packet[UPDATE_SETTING] #203 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173544.563|INFO|Thread-35|dumpPacket|Packet UPDATE_SETTING (Seq #203 ) recieveObject
+170205 173544.579|INFO|Thread-35|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173544.610|INFO|Thread-35|dumpPacket|    To: SERVER0 @ site 0
+170205 173544.626|INFO|Thread-35|dumpPacket|   key: PROBLEM is: edu.csus.ecs.pc2.core.model.Problem Kosta
+170205 173544.626|INFO|Thread-35|dumpPacket|   key: PROBLEM_DATA_FILES is: edu.csus.ecs.pc2.core.model.ProblemDataFiles edu.csus.ecs.pc2.core.model.ProblemDataFiles@422f7698
+170205 173544.641|INFO|Thread-35|info|handlePacket start Packet[UPDATE_SETTING] #203 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173544.641|INFO|Thread-35|dumpPacket|Packet UPDATE_SETTING (Seq #203 ) handlePacket
+170205 173544.641|INFO|Thread-35|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173544.657|INFO|Thread-35|dumpPacket|    To: SERVER0 @ site 0
+170205 173544.657|INFO|Thread-35|dumpPacket|   key: PROBLEM is: edu.csus.ecs.pc2.core.model.Problem Kosta
+170205 173544.657|INFO|Thread-35|dumpPacket|   key: PROBLEM_DATA_FILES is: edu.csus.ecs.pc2.core.model.ProblemDataFiles edu.csus.ecs.pc2.core.model.ProblemDataFiles@422f7698
+170205 173544.688|INFO|Thread-35|info|handlePacket end Packet[UPDATE_SETTING] #203 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173544.735|INFO|Thread-35|info| receiveObject(S) end   got Packet[UPDATE_SETTING] #203 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173607.434|INFO|Thread-36|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #205 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173607.450|INFO|Thread-36|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #205 ) recieveObject
+170205 173607.450|INFO|Thread-36|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173607.450|INFO|Thread-36|dumpPacket|    To: TEAM1 @ site 1
+170205 173607.450|INFO|Thread-36|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 12 NEW300630 ms from TEAM1 @ site 1 id Run-7852741599072339790
+170205 173607.450|INFO|Thread-36|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #205 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173607.450|INFO|Thread-36|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #205 ) handlePacket
+170205 173607.465|INFO|Thread-36|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173607.465|INFO|Thread-36|dumpPacket|    To: TEAM1 @ site 1
+170205 173607.465|INFO|Thread-36|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 12 NEW300630 ms from TEAM1 @ site 1 id Run-7852741599072339790
+170205 173607.481|INFO|Thread-36|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #205 SERVER0 @ site 1 -> TEAM1 @ site 1
+170205 173618.952|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_REQUEST] #4 JUDGE1 @ site 1 -> SERVER0 @ site 1
+170205 173618.968|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_REQUEST] #4 JUDGE1 @ site 1 -> SERVER0 @ site 1
+170205 173619.155|INFO|Thread-38|info| receiveObject(S) start got Packet[RUN_CHECKOUT] #209 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173619.155|INFO|Thread-38|dumpPacket|Packet RUN_CHECKOUT (Seq #209 ) recieveObject
+170205 173619.155|INFO|Thread-38|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173619.155|INFO|Thread-38|dumpPacket|    To: JUDGE1 @ site 1
+170205 173619.155|INFO|Thread-38|dumpPacket|   key: RUN_RESULTS_FILE is: [Ledu.csus.ecs.pc2.core.model.RunResultFiles; [Ledu.csus.ecs.pc2.core.model.RunResultFiles;@7cdf6bb7
+170205 173619.155|INFO|Thread-38|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 173619.155|INFO|Thread-38|dumpPacket|   key: RUN_FILES is: edu.csus.ecs.pc2.core.model.RunFiles edu.csus.ecs.pc2.core.model.RunFiles@72188a5c
+170205 173619.155|INFO|Thread-38|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 2 BEING_JUDGED58046 ms from TEAM1 @ site 1 id Run-2211619898059410867
+170205 173619.155|INFO|Thread-38|info|handlePacket start Packet[RUN_CHECKOUT] #209 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173619.155|INFO|Thread-38|dumpPacket|Packet RUN_CHECKOUT (Seq #209 ) handlePacket
+170205 173619.155|INFO|Thread-38|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173619.155|INFO|Thread-38|dumpPacket|    To: JUDGE1 @ site 1
+170205 173619.155|INFO|Thread-38|dumpPacket|   key: RUN_RESULTS_FILE is: [Ledu.csus.ecs.pc2.core.model.RunResultFiles; [Ledu.csus.ecs.pc2.core.model.RunResultFiles;@7cdf6bb7
+170205 173619.155|INFO|Thread-38|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 173619.155|INFO|Thread-38|dumpPacket|   key: RUN_FILES is: edu.csus.ecs.pc2.core.model.RunFiles edu.csus.ecs.pc2.core.model.RunFiles@72188a5c
+170205 173619.155|INFO|Thread-38|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 2 BEING_JUDGED58046 ms from TEAM1 @ site 1 id Run-2211619898059410867
+170205 173619.155|INFO|Thread-38|setRunAndFiles|Fetched run Run 2 BEING_JUDGED58046 ms from TEAM1 @ site 1 id Run-2211619898059410867 to edit
+170205 173619.155|INFO|Thread-38|info|handlePacket end Packet[RUN_CHECKOUT] #209 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173619.155|INFO|Thread-38|info| receiveObject(S) end   got Packet[RUN_CHECKOUT] #209 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173619.280|INFO|Thread-39|info| receiveObject(S) start got Packet[RUN_CHECKOUT_NOTIFICATION] #210 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173619.280|INFO|Thread-39|dumpPacket|Packet RUN_CHECKOUT_NOTIFICATION (Seq #210 ) recieveObject
+170205 173619.280|INFO|Thread-39|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173619.280|INFO|Thread-39|dumpPacket|    To: JUDGE1 @ site 1
+170205 173619.280|INFO|Thread-39|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 173619.280|INFO|Thread-39|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 2 BEING_JUDGED58046 ms from TEAM1 @ site 1 id Run-2211619898059410867
+170205 173619.280|INFO|Thread-39|info|handlePacket start Packet[RUN_CHECKOUT_NOTIFICATION] #210 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173619.280|INFO|Thread-39|dumpPacket|Packet RUN_CHECKOUT_NOTIFICATION (Seq #210 ) handlePacket
+170205 173619.280|INFO|Thread-39|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173619.280|INFO|Thread-39|dumpPacket|    To: JUDGE1 @ site 1
+170205 173619.280|INFO|Thread-39|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 173619.280|INFO|Thread-39|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 2 BEING_JUDGED58046 ms from TEAM1 @ site 1 id Run-2211619898059410867
+170205 173619.280|INFO|Thread-39|info|handlePacket end Packet[RUN_CHECKOUT_NOTIFICATION] #210 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173619.280|INFO|Thread-39|info| receiveObject(S) end   got Packet[RUN_CHECKOUT_NOTIFICATION] #210 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173620.734|DEBUG|Thread-40|compileProgram|before substitution: javac {:mainfile}
+170205 173620.749|DEBUG|Thread-40|compileProgram|after  substitution: javac Danna.java
+170205 173620.796|CONFIG|Thread-40|runProgram|executing: 'javac Danna.java'
+170205 173623.269|DEBUG|Thread-40|executeProgram|before substitution: java {:basename}
+170205 173623.269|DEBUG|Thread-40|executeProgram|after  substitution: java Danna
+170205 173623.269|CONFIG|Thread-40|runProgram|executing: 'java Danna'
+170205 173624.215|DEBUG|Thread-40|validateProgram|before substitution: java -cp C:\PacketA_2017_Waller\pc2-9.2.5\lib\{:validator} {:infile} {:outfile} {:ansfile} {:resfile}  -pc2 4 false
+170205 173624.215|DEBUG|Thread-40|validateProgram|after  substitution: java -cp C:\PacketA_2017_Waller\pc2-9.2.5\lib\pc2.jar edu.csus.ecs.pc2.validator.Validator danna.dat estdout.pc2 danna.out 215XRSAM.txt  -pc2 4 false
+170205 173624.215|DEBUG|Thread-40|validateProgram|after replaceFirst: java -cp "C:\PacketA_2017_Waller\pc2-9.2.5\lib\pc2.jar" edu.csus.ecs.pc2.validator.Validator danna.dat estdout.pc2 danna.out 215XRSAM.txt  -pc2 4 false
+170205 173624.247|CONFIG|Thread-40|runProgram|executing: 'java -cp "C:\PacketA_2017_Waller\pc2-9.2.5\lib\pc2.jar" edu.csus.ecs.pc2.validator.Validator danna.dat estdout.pc2 danna.out 215XRSAM.txt  -pc2 4 false'
+170205 173627.717|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_JUDGEMENT] #5 JUDGE1 @ site 1 -> SERVER0 @ site 1
+170205 173627.733|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_JUDGEMENT] #5 JUDGE1 @ site 1 -> SERVER0 @ site 1
+170205 173627.967|INFO|Thread-50|info| receiveObject(S) start got Packet[RUN_JUDGEMENT_UPDATE] #213 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173627.967|INFO|Thread-50|dumpPacket|Packet RUN_JUDGEMENT_UPDATE (Seq #213 ) recieveObject
+170205 173627.967|INFO|Thread-50|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173627.967|INFO|Thread-50|dumpPacket|    To: SERVER0 @ site 0
+170205 173627.967|INFO|Thread-50|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 173627.967|INFO|Thread-50|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 2 JUDGED58046 ms from TEAM1 @ site 1 id Run-2211619898059410867
+170205 173627.967|INFO|Thread-50|info|handlePacket start Packet[RUN_JUDGEMENT_UPDATE] #213 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173627.967|INFO|Thread-50|dumpPacket|Packet RUN_JUDGEMENT_UPDATE (Seq #213 ) handlePacket
+170205 173627.967|INFO|Thread-50|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173627.967|INFO|Thread-50|dumpPacket|    To: SERVER0 @ site 0
+170205 173627.967|INFO|Thread-50|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 173627.967|INFO|Thread-50|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 2 JUDGED58046 ms from TEAM1 @ site 1 id Run-2211619898059410867
+170205 173627.967|INFO|Thread-50|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT_UPDATE] #213 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173628.999|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_REQUEST] #6 JUDGE1 @ site 1 -> SERVER0 @ site 1
+170205 173629.015|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_REQUEST] #6 JUDGE1 @ site 1 -> SERVER0 @ site 1
+170205 173629.186|INFO|Thread-52|info| receiveObject(S) start got Packet[RUN_CHECKOUT] #214 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173629.202|INFO|Thread-52|dumpPacket|Packet RUN_CHECKOUT (Seq #214 ) recieveObject
+170205 173629.202|INFO|Thread-52|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173629.202|INFO|Thread-52|dumpPacket|    To: JUDGE1 @ site 1
+170205 173629.202|INFO|Thread-52|dumpPacket|   key: RUN_RESULTS_FILE is: [Ledu.csus.ecs.pc2.core.model.RunResultFiles; [Ledu.csus.ecs.pc2.core.model.RunResultFiles;@5ce1e52a
+170205 173629.202|INFO|Thread-52|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 173629.202|INFO|Thread-52|dumpPacket|   key: RUN_FILES is: edu.csus.ecs.pc2.core.model.RunFiles edu.csus.ecs.pc2.core.model.RunFiles@522610c6
+170205 173629.202|INFO|Thread-52|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 3 BEING_JUDGED66924 ms from TEAM1 @ site 1 id Run-6901053825036406338
+170205 173629.202|INFO|Thread-52|info|handlePacket start Packet[RUN_CHECKOUT] #214 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173629.202|INFO|Thread-52|dumpPacket|Packet RUN_CHECKOUT (Seq #214 ) handlePacket
+170205 173629.202|INFO|Thread-52|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173629.202|INFO|Thread-52|dumpPacket|    To: JUDGE1 @ site 1
+170205 173629.202|INFO|Thread-52|dumpPacket|   key: RUN_RESULTS_FILE is: [Ledu.csus.ecs.pc2.core.model.RunResultFiles; [Ledu.csus.ecs.pc2.core.model.RunResultFiles;@5ce1e52a
+170205 173629.202|INFO|Thread-52|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 173629.202|INFO|Thread-52|dumpPacket|   key: RUN_FILES is: edu.csus.ecs.pc2.core.model.RunFiles edu.csus.ecs.pc2.core.model.RunFiles@522610c6
+170205 173629.202|INFO|Thread-52|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 3 BEING_JUDGED66924 ms from TEAM1 @ site 1 id Run-6901053825036406338
+170205 173629.202|INFO|Thread-52|setRunAndFiles|Fetched run Run 3 BEING_JUDGED66924 ms from TEAM1 @ site 1 id Run-6901053825036406338 to edit
+170205 173629.233|INFO|Thread-52|info|handlePacket end Packet[RUN_CHECKOUT] #214 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173629.233|INFO|Thread-52|info| receiveObject(S) end   got Packet[RUN_CHECKOUT] #214 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173629.233|INFO|Thread-53|info| receiveObject(S) start got Packet[RUN_CHECKOUT_NOTIFICATION] #215 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173629.233|INFO|Thread-53|dumpPacket|Packet RUN_CHECKOUT_NOTIFICATION (Seq #215 ) recieveObject
+170205 173629.233|INFO|Thread-53|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173629.233|INFO|Thread-53|dumpPacket|    To: JUDGE1 @ site 1
+170205 173629.233|INFO|Thread-53|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 173629.233|INFO|Thread-53|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 3 BEING_JUDGED66924 ms from TEAM1 @ site 1 id Run-6901053825036406338
+170205 173629.233|INFO|Thread-53|info|handlePacket start Packet[RUN_CHECKOUT_NOTIFICATION] #215 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173629.233|INFO|Thread-53|dumpPacket|Packet RUN_CHECKOUT_NOTIFICATION (Seq #215 ) handlePacket
+170205 173629.233|INFO|Thread-53|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173629.233|INFO|Thread-53|dumpPacket|    To: JUDGE1 @ site 1
+170205 173629.233|INFO|Thread-53|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 173629.233|INFO|Thread-53|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 3 BEING_JUDGED66924 ms from TEAM1 @ site 1 id Run-6901053825036406338
+170205 173629.233|INFO|Thread-53|info|handlePacket end Packet[RUN_CHECKOUT_NOTIFICATION] #215 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173629.233|INFO|Thread-53|info| receiveObject(S) end   got Packet[RUN_CHECKOUT_NOTIFICATION] #215 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173630.530|DEBUG|Thread-54|compileProgram|before substitution: javac {:mainfile}
+170205 173630.530|DEBUG|Thread-54|compileProgram|after  substitution: javac Evelyn.java
+170205 173630.593|CONFIG|Thread-54|runProgram|executing: 'javac Evelyn.java'
+170205 173633.203|DEBUG|Thread-54|executeProgram|before substitution: java {:basename}
+170205 173633.203|DEBUG|Thread-54|executeProgram|after  substitution: java Evelyn
+170205 173633.218|CONFIG|Thread-54|runProgram|executing: 'java Evelyn'
+170205 173634.001|DEBUG|Thread-54|validateProgram|before substitution: java -cp C:\PacketA_2017_Waller\pc2-9.2.5\lib\{:validator} {:infile} {:outfile} {:ansfile} {:resfile}  -pc2 4 false
+170205 173634.001|DEBUG|Thread-54|validateProgram|after  substitution: java -cp C:\PacketA_2017_Waller\pc2-9.2.5\lib\pc2.jar edu.csus.ecs.pc2.validator.Validator evelyn.dat estdout.pc2 evelyn.out 386XRSAM.txt  -pc2 4 false
+170205 173634.001|DEBUG|Thread-54|validateProgram|after replaceFirst: java -cp "C:\PacketA_2017_Waller\pc2-9.2.5\lib\pc2.jar" edu.csus.ecs.pc2.validator.Validator evelyn.dat estdout.pc2 evelyn.out 386XRSAM.txt  -pc2 4 false
+170205 173634.032|CONFIG|Thread-54|runProgram|executing: 'java -cp "C:\PacketA_2017_Waller\pc2-9.2.5\lib\pc2.jar" edu.csus.ecs.pc2.validator.Validator evelyn.dat estdout.pc2 evelyn.out 386XRSAM.txt  -pc2 4 false'
+170205 173637.547|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_JUDGEMENT] #7 JUDGE1 @ site 1 -> SERVER0 @ site 1
+170205 173637.563|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_JUDGEMENT] #7 JUDGE1 @ site 1 -> SERVER0 @ site 1
+170205 173637.766|INFO|Thread-64|info| receiveObject(S) start got Packet[RUN_JUDGEMENT_UPDATE] #218 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173637.766|INFO|Thread-64|dumpPacket|Packet RUN_JUDGEMENT_UPDATE (Seq #218 ) recieveObject
+170205 173637.766|INFO|Thread-64|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173637.766|INFO|Thread-64|dumpPacket|    To: SERVER0 @ site 0
+170205 173637.766|INFO|Thread-64|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 173637.766|INFO|Thread-64|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 3 JUDGED66924 ms from TEAM1 @ site 1 id Run-6901053825036406338
+170205 173637.766|INFO|Thread-64|info|handlePacket start Packet[RUN_JUDGEMENT_UPDATE] #218 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173637.766|INFO|Thread-64|dumpPacket|Packet RUN_JUDGEMENT_UPDATE (Seq #218 ) handlePacket
+170205 173637.781|INFO|Thread-64|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173637.781|INFO|Thread-64|dumpPacket|    To: SERVER0 @ site 0
+170205 173637.781|INFO|Thread-64|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 173637.781|INFO|Thread-64|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 3 JUDGED66924 ms from TEAM1 @ site 1 id Run-6901053825036406338
+170205 173637.781|INFO|Thread-64|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT_UPDATE] #218 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173638.618|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_REQUEST] #8 JUDGE1 @ site 1 -> SERVER0 @ site 1
+170205 173638.633|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_REQUEST] #8 JUDGE1 @ site 1 -> SERVER0 @ site 1
+170205 173638.852|INFO|Thread-66|info| receiveObject(S) start got Packet[RUN_CHECKOUT] #219 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173638.852|INFO|Thread-66|dumpPacket|Packet RUN_CHECKOUT (Seq #219 ) recieveObject
+170205 173638.852|INFO|Thread-66|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173638.852|INFO|Thread-66|dumpPacket|    To: JUDGE1 @ site 1
+170205 173638.852|INFO|Thread-66|dumpPacket|   key: RUN_RESULTS_FILE is: [Ledu.csus.ecs.pc2.core.model.RunResultFiles; [Ledu.csus.ecs.pc2.core.model.RunResultFiles;@194164d4
+170205 173638.868|INFO|Thread-66|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 173638.868|INFO|Thread-66|dumpPacket|   key: RUN_FILES is: edu.csus.ecs.pc2.core.model.RunFiles edu.csus.ecs.pc2.core.model.RunFiles@1786998c
+170205 173638.868|INFO|Thread-66|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 4 BEING_JUDGED80843 ms from TEAM1 @ site 1 id Run--5213246022120599946
+170205 173638.868|INFO|Thread-66|info|handlePacket start Packet[RUN_CHECKOUT] #219 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173638.868|INFO|Thread-66|dumpPacket|Packet RUN_CHECKOUT (Seq #219 ) handlePacket
+170205 173638.868|INFO|Thread-66|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173638.868|INFO|Thread-66|dumpPacket|    To: JUDGE1 @ site 1
+170205 173638.868|INFO|Thread-66|dumpPacket|   key: RUN_RESULTS_FILE is: [Ledu.csus.ecs.pc2.core.model.RunResultFiles; [Ledu.csus.ecs.pc2.core.model.RunResultFiles;@194164d4
+170205 173638.868|INFO|Thread-66|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 173638.868|INFO|Thread-66|dumpPacket|   key: RUN_FILES is: edu.csus.ecs.pc2.core.model.RunFiles edu.csus.ecs.pc2.core.model.RunFiles@1786998c
+170205 173638.868|INFO|Thread-66|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 4 BEING_JUDGED80843 ms from TEAM1 @ site 1 id Run--5213246022120599946
+170205 173638.868|INFO|Thread-66|setRunAndFiles|Fetched run Run 4 BEING_JUDGED80843 ms from TEAM1 @ site 1 id Run--5213246022120599946 to edit
+170205 173638.868|INFO|Thread-66|info|handlePacket end Packet[RUN_CHECKOUT] #219 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173638.868|INFO|Thread-66|info| receiveObject(S) end   got Packet[RUN_CHECKOUT] #219 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173638.946|INFO|Thread-67|info| receiveObject(S) start got Packet[RUN_CHECKOUT_NOTIFICATION] #220 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173638.946|INFO|Thread-67|dumpPacket|Packet RUN_CHECKOUT_NOTIFICATION (Seq #220 ) recieveObject
+170205 173638.946|INFO|Thread-67|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173638.946|INFO|Thread-67|dumpPacket|    To: JUDGE1 @ site 1
+170205 173638.946|INFO|Thread-67|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 173638.946|INFO|Thread-67|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 4 BEING_JUDGED80843 ms from TEAM1 @ site 1 id Run--5213246022120599946
+170205 173638.946|INFO|Thread-67|info|handlePacket start Packet[RUN_CHECKOUT_NOTIFICATION] #220 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173638.946|INFO|Thread-67|dumpPacket|Packet RUN_CHECKOUT_NOTIFICATION (Seq #220 ) handlePacket
+170205 173638.946|INFO|Thread-67|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173638.946|INFO|Thread-67|dumpPacket|    To: JUDGE1 @ site 1
+170205 173638.946|INFO|Thread-67|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 173638.946|INFO|Thread-67|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 4 BEING_JUDGED80843 ms from TEAM1 @ site 1 id Run--5213246022120599946
+170205 173638.946|INFO|Thread-67|info|handlePacket end Packet[RUN_CHECKOUT_NOTIFICATION] #220 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173638.946|INFO|Thread-67|info| receiveObject(S) end   got Packet[RUN_CHECKOUT_NOTIFICATION] #220 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173639.711|DEBUG|Thread-68|compileProgram|before substitution: javac {:mainfile}
+170205 173639.711|DEBUG|Thread-68|compileProgram|after  substitution: javac Fengge.java
+170205 173639.758|CONFIG|Thread-68|runProgram|executing: 'javac Fengge.java'
+170205 173641.931|DEBUG|Thread-68|executeProgram|before substitution: java {:basename}
+170205 173641.931|DEBUG|Thread-68|executeProgram|after  substitution: java Fengge
+170205 173641.931|CONFIG|Thread-68|runProgram|executing: 'java Fengge'
+170205 173642.741|DEBUG|Thread-68|validateProgram|before substitution: java -cp C:\PacketA_2017_Waller\pc2-9.2.5\lib\{:validator} {:infile} {:outfile} {:ansfile} {:resfile}  -pc2 4 false
+170205 173642.741|DEBUG|Thread-68|validateProgram|after  substitution: java -cp C:\PacketA_2017_Waller\pc2-9.2.5\lib\pc2.jar edu.csus.ecs.pc2.validator.Validator fengge.dat estdout.pc2 fengge.out 441XRSAM.txt  -pc2 4 false
+170205 173642.741|DEBUG|Thread-68|validateProgram|after replaceFirst: java -cp "C:\PacketA_2017_Waller\pc2-9.2.5\lib\pc2.jar" edu.csus.ecs.pc2.validator.Validator fengge.dat estdout.pc2 fengge.out 441XRSAM.txt  -pc2 4 false
+170205 173642.779|CONFIG|Thread-68|runProgram|executing: 'java -cp "C:\PacketA_2017_Waller\pc2-9.2.5\lib\pc2.jar" edu.csus.ecs.pc2.validator.Validator fengge.dat estdout.pc2 fengge.out 441XRSAM.txt  -pc2 4 false'
+170205 173648.295|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_JUDGEMENT] #9 JUDGE1 @ site 1 -> SERVER0 @ site 1
+170205 173648.311|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_JUDGEMENT] #9 JUDGE1 @ site 1 -> SERVER0 @ site 1
+170205 173648.545|INFO|Thread-78|info| receiveObject(S) start got Packet[RUN_JUDGEMENT_UPDATE] #223 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173648.545|INFO|Thread-78|dumpPacket|Packet RUN_JUDGEMENT_UPDATE (Seq #223 ) recieveObject
+170205 173648.545|INFO|Thread-78|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173648.545|INFO|Thread-78|dumpPacket|    To: SERVER0 @ site 0
+170205 173648.545|INFO|Thread-78|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 173648.545|INFO|Thread-78|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 4 JUDGED80843 ms from TEAM1 @ site 1 id Run--5213246022120599946
+170205 173648.545|INFO|Thread-78|info|handlePacket start Packet[RUN_JUDGEMENT_UPDATE] #223 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173648.545|INFO|Thread-78|dumpPacket|Packet RUN_JUDGEMENT_UPDATE (Seq #223 ) handlePacket
+170205 173648.545|INFO|Thread-78|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173648.545|INFO|Thread-78|dumpPacket|    To: SERVER0 @ site 0
+170205 173648.545|INFO|Thread-78|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 173648.545|INFO|Thread-78|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 4 JUDGED80843 ms from TEAM1 @ site 1 id Run--5213246022120599946
+170205 173648.545|INFO|Thread-78|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT_UPDATE] #223 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173649.530|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_REQUEST] #10 JUDGE1 @ site 1 -> SERVER0 @ site 1
+170205 173649.545|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_REQUEST] #10 JUDGE1 @ site 1 -> SERVER0 @ site 1
+170205 173649.764|INFO|Thread-80|info| receiveObject(S) start got Packet[RUN_CHECKOUT] #224 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173649.764|INFO|Thread-80|dumpPacket|Packet RUN_CHECKOUT (Seq #224 ) recieveObject
+170205 173649.764|INFO|Thread-80|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173649.764|INFO|Thread-80|dumpPacket|    To: JUDGE1 @ site 1
+170205 173649.764|INFO|Thread-80|dumpPacket|   key: RUN_RESULTS_FILE is: [Ledu.csus.ecs.pc2.core.model.RunResultFiles; [Ledu.csus.ecs.pc2.core.model.RunResultFiles;@9f2628
+170205 173649.764|INFO|Thread-80|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 173649.764|INFO|Thread-80|dumpPacket|   key: RUN_FILES is: edu.csus.ecs.pc2.core.model.RunFiles edu.csus.ecs.pc2.core.model.RunFiles@e58d84b
+170205 173649.764|INFO|Thread-80|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 5 BEING_JUDGED91054 ms from TEAM1 @ site 1 id Run--4520130826694987383
+170205 173649.764|INFO|Thread-80|info|handlePacket start Packet[RUN_CHECKOUT] #224 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173649.764|INFO|Thread-80|dumpPacket|Packet RUN_CHECKOUT (Seq #224 ) handlePacket
+170205 173649.764|INFO|Thread-80|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173649.764|INFO|Thread-80|dumpPacket|    To: JUDGE1 @ site 1
+170205 173649.764|INFO|Thread-80|dumpPacket|   key: RUN_RESULTS_FILE is: [Ledu.csus.ecs.pc2.core.model.RunResultFiles; [Ledu.csus.ecs.pc2.core.model.RunResultFiles;@9f2628
+170205 173649.764|INFO|Thread-80|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 173649.764|INFO|Thread-80|dumpPacket|   key: RUN_FILES is: edu.csus.ecs.pc2.core.model.RunFiles edu.csus.ecs.pc2.core.model.RunFiles@e58d84b
+170205 173649.764|INFO|Thread-80|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 5 BEING_JUDGED91054 ms from TEAM1 @ site 1 id Run--4520130826694987383
+170205 173649.764|INFO|Thread-80|setRunAndFiles|Fetched run Run 5 BEING_JUDGED91054 ms from TEAM1 @ site 1 id Run--4520130826694987383 to edit
+170205 173649.764|INFO|Thread-80|info|handlePacket end Packet[RUN_CHECKOUT] #224 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173649.780|INFO|Thread-80|info| receiveObject(S) end   got Packet[RUN_CHECKOUT] #224 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173649.826|INFO|Thread-81|info| receiveObject(S) start got Packet[RUN_CHECKOUT_NOTIFICATION] #225 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173649.826|INFO|Thread-81|dumpPacket|Packet RUN_CHECKOUT_NOTIFICATION (Seq #225 ) recieveObject
+170205 173649.826|INFO|Thread-81|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173649.826|INFO|Thread-81|dumpPacket|    To: JUDGE1 @ site 1
+170205 173649.826|INFO|Thread-81|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 173649.826|INFO|Thread-81|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 5 BEING_JUDGED91054 ms from TEAM1 @ site 1 id Run--4520130826694987383
+170205 173649.826|INFO|Thread-81|info|handlePacket start Packet[RUN_CHECKOUT_NOTIFICATION] #225 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173649.826|INFO|Thread-81|dumpPacket|Packet RUN_CHECKOUT_NOTIFICATION (Seq #225 ) handlePacket
+170205 173649.826|INFO|Thread-81|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173649.826|INFO|Thread-81|dumpPacket|    To: JUDGE1 @ site 1
+170205 173649.826|INFO|Thread-81|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 173649.826|INFO|Thread-81|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 5 BEING_JUDGED91054 ms from TEAM1 @ site 1 id Run--4520130826694987383
+170205 173649.826|INFO|Thread-81|info|handlePacket end Packet[RUN_CHECKOUT_NOTIFICATION] #225 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173649.826|INFO|Thread-81|info| receiveObject(S) end   got Packet[RUN_CHECKOUT_NOTIFICATION] #225 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173650.514|DEBUG|Thread-82|compileProgram|before substitution: javac {:mainfile}
+170205 173650.514|DEBUG|Thread-82|compileProgram|after  substitution: javac Isidora.java
+170205 173650.576|CONFIG|Thread-82|runProgram|executing: 'javac Isidora.java'
+170205 173653.172|DEBUG|Thread-82|executeProgram|before substitution: java {:basename}
+170205 173653.172|DEBUG|Thread-82|executeProgram|after  substitution: java Isidora
+170205 173653.172|CONFIG|Thread-82|runProgram|executing: 'java Isidora'
+170205 173654.050|DEBUG|Thread-82|validateProgram|before substitution: java -cp C:\PacketA_2017_Waller\pc2-9.2.5\lib\{:validator} {:infile} {:outfile} {:ansfile} {:resfile}  -pc2 4 false
+170205 173654.050|DEBUG|Thread-82|validateProgram|after  substitution: java -cp C:\PacketA_2017_Waller\pc2-9.2.5\lib\pc2.jar edu.csus.ecs.pc2.validator.Validator isidora.dat estdout.pc2 isidora.out 534XRSAM.txt  -pc2 4 false
+170205 173654.050|DEBUG|Thread-82|validateProgram|after replaceFirst: java -cp "C:\PacketA_2017_Waller\pc2-9.2.5\lib\pc2.jar" edu.csus.ecs.pc2.validator.Validator isidora.dat estdout.pc2 isidora.out 534XRSAM.txt  -pc2 4 false
+170205 173654.081|CONFIG|Thread-82|runProgram|executing: 'java -cp "C:\PacketA_2017_Waller\pc2-9.2.5\lib\pc2.jar" edu.csus.ecs.pc2.validator.Validator isidora.dat estdout.pc2 isidora.out 534XRSAM.txt  -pc2 4 false'
+170205 173657.234|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_JUDGEMENT] #11 JUDGE1 @ site 1 -> SERVER0 @ site 1
+170205 173657.249|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_JUDGEMENT] #11 JUDGE1 @ site 1 -> SERVER0 @ site 1
+170205 173657.468|INFO|Thread-92|info| receiveObject(S) start got Packet[RUN_JUDGEMENT_UPDATE] #228 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173657.468|INFO|Thread-92|dumpPacket|Packet RUN_JUDGEMENT_UPDATE (Seq #228 ) recieveObject
+170205 173657.468|INFO|Thread-92|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173657.468|INFO|Thread-92|dumpPacket|    To: SERVER0 @ site 0
+170205 173657.468|INFO|Thread-92|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 173657.484|INFO|Thread-92|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 5 JUDGED91054 ms from TEAM1 @ site 1 id Run--4520130826694987383
+170205 173657.484|INFO|Thread-92|info|handlePacket start Packet[RUN_JUDGEMENT_UPDATE] #228 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173657.484|INFO|Thread-92|dumpPacket|Packet RUN_JUDGEMENT_UPDATE (Seq #228 ) handlePacket
+170205 173657.484|INFO|Thread-92|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173657.484|INFO|Thread-92|dumpPacket|    To: SERVER0 @ site 0
+170205 173657.484|INFO|Thread-92|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 173657.484|INFO|Thread-92|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 5 JUDGED91054 ms from TEAM1 @ site 1 id Run--4520130826694987383
+170205 173657.484|INFO|Thread-92|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT_UPDATE] #228 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173658.640|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_REQUEST] #12 JUDGE1 @ site 1 -> SERVER0 @ site 1
+170205 173658.656|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_REQUEST] #12 JUDGE1 @ site 1 -> SERVER0 @ site 1
+170205 173659.047|INFO|Thread-94|info| receiveObject(S) start got Packet[RUN_CHECKOUT] #229 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173659.047|INFO|Thread-94|dumpPacket|Packet RUN_CHECKOUT (Seq #229 ) recieveObject
+170205 173659.047|INFO|Thread-94|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173659.047|INFO|Thread-94|dumpPacket|    To: JUDGE1 @ site 1
+170205 173659.047|INFO|Thread-94|dumpPacket|   key: RUN_RESULTS_FILE is: [Ledu.csus.ecs.pc2.core.model.RunResultFiles; [Ledu.csus.ecs.pc2.core.model.RunResultFiles;@5f0f836
+170205 173659.047|INFO|Thread-94|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 173659.047|INFO|Thread-94|dumpPacket|   key: RUN_FILES is: edu.csus.ecs.pc2.core.model.RunFiles edu.csus.ecs.pc2.core.model.RunFiles@b3706f8
+170205 173659.047|INFO|Thread-94|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 6 BEING_JUDGED103228 ms from TEAM1 @ site 1 id Run-3292650820582899681
+170205 173659.047|INFO|Thread-94|info|handlePacket start Packet[RUN_CHECKOUT] #229 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173659.047|INFO|Thread-94|dumpPacket|Packet RUN_CHECKOUT (Seq #229 ) handlePacket
+170205 173659.047|INFO|Thread-94|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173659.062|INFO|Thread-94|dumpPacket|    To: JUDGE1 @ site 1
+170205 173659.062|INFO|Thread-94|dumpPacket|   key: RUN_RESULTS_FILE is: [Ledu.csus.ecs.pc2.core.model.RunResultFiles; [Ledu.csus.ecs.pc2.core.model.RunResultFiles;@5f0f836
+170205 173659.062|INFO|Thread-94|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 173659.062|INFO|Thread-94|dumpPacket|   key: RUN_FILES is: edu.csus.ecs.pc2.core.model.RunFiles edu.csus.ecs.pc2.core.model.RunFiles@b3706f8
+170205 173659.062|INFO|Thread-94|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 6 BEING_JUDGED103228 ms from TEAM1 @ site 1 id Run-3292650820582899681
+170205 173659.062|INFO|Thread-94|setRunAndFiles|Fetched run Run 6 BEING_JUDGED103228 ms from TEAM1 @ site 1 id Run-3292650820582899681 to edit
+170205 173659.062|INFO|Thread-94|info|handlePacket end Packet[RUN_CHECKOUT] #229 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173659.062|INFO|Thread-94|info| receiveObject(S) end   got Packet[RUN_CHECKOUT] #229 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173659.062|INFO|Thread-95|info| receiveObject(S) start got Packet[RUN_CHECKOUT_NOTIFICATION] #230 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173659.062|INFO|Thread-95|dumpPacket|Packet RUN_CHECKOUT_NOTIFICATION (Seq #230 ) recieveObject
+170205 173659.062|INFO|Thread-95|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173659.062|INFO|Thread-95|dumpPacket|    To: JUDGE1 @ site 1
+170205 173659.062|INFO|Thread-95|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 173659.062|INFO|Thread-95|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 6 BEING_JUDGED103228 ms from TEAM1 @ site 1 id Run-3292650820582899681
+170205 173659.062|INFO|Thread-95|info|handlePacket start Packet[RUN_CHECKOUT_NOTIFICATION] #230 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173659.062|INFO|Thread-95|dumpPacket|Packet RUN_CHECKOUT_NOTIFICATION (Seq #230 ) handlePacket
+170205 173659.062|INFO|Thread-95|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173659.062|INFO|Thread-95|dumpPacket|    To: JUDGE1 @ site 1
+170205 173659.062|INFO|Thread-95|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 173659.062|INFO|Thread-95|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 6 BEING_JUDGED103228 ms from TEAM1 @ site 1 id Run-3292650820582899681
+170205 173659.062|INFO|Thread-95|info|handlePacket end Packet[RUN_CHECKOUT_NOTIFICATION] #230 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173659.062|INFO|Thread-95|info| receiveObject(S) end   got Packet[RUN_CHECKOUT_NOTIFICATION] #230 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173659.672|DEBUG|Thread-96|compileProgram|before substitution: javac {:mainfile}
+170205 173659.687|DEBUG|Thread-96|compileProgram|after  substitution: javac Juan.java
+170205 173659.734|CONFIG|Thread-96|runProgram|executing: 'javac Juan.java'
+170205 173701.802|DEBUG|Thread-96|executeProgram|before substitution: java {:basename}
+170205 173701.802|DEBUG|Thread-96|executeProgram|after  substitution: java Juan
+170205 173701.802|CONFIG|Thread-96|runProgram|executing: 'java Juan'
+170205 173702.366|DEBUG|Thread-96|validateProgram|before substitution: java -cp C:\PacketA_2017_Waller\pc2-9.2.5\lib\{:validator} {:infile} {:outfile} {:ansfile} {:resfile}  -pc2 4 false
+170205 173702.366|DEBUG|Thread-96|validateProgram|after  substitution: java -cp C:\PacketA_2017_Waller\pc2-9.2.5\lib\pc2.jar edu.csus.ecs.pc2.validator.Validator - estdout.pc2 juan.out 666XRSAM.txt  -pc2 4 false
+170205 173702.366|DEBUG|Thread-96|validateProgram|after replaceFirst: java -cp "C:\PacketA_2017_Waller\pc2-9.2.5\lib\pc2.jar" edu.csus.ecs.pc2.validator.Validator - estdout.pc2 juan.out 666XRSAM.txt  -pc2 4 false
+170205 173702.397|CONFIG|Thread-96|runProgram|executing: 'java -cp "C:\PacketA_2017_Waller\pc2-9.2.5\lib\pc2.jar" edu.csus.ecs.pc2.validator.Validator - estdout.pc2 juan.out 666XRSAM.txt  -pc2 4 false'
+170205 173725.172|INFO|Thread-105|info| receiveObject(S) start got Packet[UPDATE_SETTING] #231 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173725.172|INFO|Thread-105|dumpPacket|Packet UPDATE_SETTING (Seq #231 ) recieveObject
+170205 173725.188|INFO|Thread-105|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173725.188|INFO|Thread-105|dumpPacket|    To: SERVER0 @ site 0
+170205 173725.188|INFO|Thread-105|dumpPacket|   key: PROBLEM is: edu.csus.ecs.pc2.core.model.Problem juan
+170205 173725.204|INFO|Thread-105|dumpPacket|   key: PROBLEM_DATA_FILES is: edu.csus.ecs.pc2.core.model.ProblemDataFiles edu.csus.ecs.pc2.core.model.ProblemDataFiles@4f0a57ae
+170205 173725.219|INFO|Thread-105|info|handlePacket start Packet[UPDATE_SETTING] #231 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173725.219|INFO|Thread-105|dumpPacket|Packet UPDATE_SETTING (Seq #231 ) handlePacket
+170205 173725.219|INFO|Thread-105|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173725.219|INFO|Thread-105|dumpPacket|    To: SERVER0 @ site 0
+170205 173725.219|INFO|Thread-105|dumpPacket|   key: PROBLEM is: edu.csus.ecs.pc2.core.model.Problem juan
+170205 173725.235|INFO|Thread-105|dumpPacket|   key: PROBLEM_DATA_FILES is: edu.csus.ecs.pc2.core.model.ProblemDataFiles edu.csus.ecs.pc2.core.model.ProblemDataFiles@4f0a57ae
+170205 173725.235|INFO|Thread-105|info|handlePacket end Packet[UPDATE_SETTING] #231 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173725.251|INFO|Thread-105|info| receiveObject(S) end   got Packet[UPDATE_SETTING] #231 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173729.455|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_JUDGEMENT] #13 JUDGE1 @ site 1 -> SERVER0 @ site 1
+170205 173729.470|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_JUDGEMENT] #13 JUDGE1 @ site 1 -> SERVER0 @ site 1
+170205 173729.736|INFO|Thread-107|info| receiveObject(S) start got Packet[RUN_JUDGEMENT_UPDATE] #235 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173729.752|INFO|Thread-107|dumpPacket|Packet RUN_JUDGEMENT_UPDATE (Seq #235 ) recieveObject
+170205 173729.767|INFO|Thread-107|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173729.767|INFO|Thread-107|dumpPacket|    To: SERVER0 @ site 0
+170205 173729.767|INFO|Thread-107|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 173729.783|INFO|Thread-107|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 6 JUDGED103228 ms from TEAM1 @ site 1 id Run-3292650820582899681
+170205 173729.783|INFO|Thread-107|info|handlePacket start Packet[RUN_JUDGEMENT_UPDATE] #235 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173729.783|INFO|Thread-107|dumpPacket|Packet RUN_JUDGEMENT_UPDATE (Seq #235 ) handlePacket
+170205 173729.798|INFO|Thread-107|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173729.814|INFO|Thread-107|dumpPacket|    To: SERVER0 @ site 0
+170205 173729.814|INFO|Thread-107|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 173729.814|INFO|Thread-107|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 6 JUDGED103228 ms from TEAM1 @ site 1 id Run-3292650820582899681
+170205 173729.814|INFO|Thread-107|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT_UPDATE] #235 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173730.595|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_REQUEST] #14 JUDGE1 @ site 1 -> SERVER0 @ site 1
+170205 173730.611|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_REQUEST] #14 JUDGE1 @ site 1 -> SERVER0 @ site 1
+170205 173730.939|INFO|Thread-109|info| receiveObject(S) start got Packet[RUN_CHECKOUT] #236 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173730.939|INFO|Thread-109|dumpPacket|Packet RUN_CHECKOUT (Seq #236 ) recieveObject
+170205 173730.939|INFO|Thread-109|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173730.939|INFO|Thread-109|dumpPacket|    To: JUDGE1 @ site 1
+170205 173730.939|INFO|Thread-109|dumpPacket|   key: RUN_RESULTS_FILE is: [Ledu.csus.ecs.pc2.core.model.RunResultFiles; [Ledu.csus.ecs.pc2.core.model.RunResultFiles;@aea6b91
+170205 173730.939|INFO|Thread-109|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 173730.939|INFO|Thread-109|dumpPacket|   key: RUN_FILES is: edu.csus.ecs.pc2.core.model.RunFiles edu.csus.ecs.pc2.core.model.RunFiles@42d94bc
+170205 173730.939|INFO|Thread-109|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 7 BEING_JUDGED116471 ms from TEAM1 @ site 1 id Run-8541642138066306690
+170205 173730.939|INFO|Thread-109|info|handlePacket start Packet[RUN_CHECKOUT] #236 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173730.939|INFO|Thread-109|dumpPacket|Packet RUN_CHECKOUT (Seq #236 ) handlePacket
+170205 173730.939|INFO|Thread-109|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173730.939|INFO|Thread-109|dumpPacket|    To: JUDGE1 @ site 1
+170205 173730.939|INFO|Thread-109|dumpPacket|   key: RUN_RESULTS_FILE is: [Ledu.csus.ecs.pc2.core.model.RunResultFiles; [Ledu.csus.ecs.pc2.core.model.RunResultFiles;@aea6b91
+170205 173730.939|INFO|Thread-109|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 173730.939|INFO|Thread-109|dumpPacket|   key: RUN_FILES is: edu.csus.ecs.pc2.core.model.RunFiles edu.csus.ecs.pc2.core.model.RunFiles@42d94bc
+170205 173730.939|INFO|Thread-109|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 7 BEING_JUDGED116471 ms from TEAM1 @ site 1 id Run-8541642138066306690
+170205 173730.939|INFO|Thread-109|setRunAndFiles|Fetched run Run 7 BEING_JUDGED116471 ms from TEAM1 @ site 1 id Run-8541642138066306690 to edit
+170205 173730.939|INFO|Thread-109|info|handlePacket end Packet[RUN_CHECKOUT] #236 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173730.955|INFO|Thread-109|info| receiveObject(S) end   got Packet[RUN_CHECKOUT] #236 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173731.002|INFO|Thread-110|info| receiveObject(S) start got Packet[RUN_CHECKOUT_NOTIFICATION] #237 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173731.002|INFO|Thread-110|dumpPacket|Packet RUN_CHECKOUT_NOTIFICATION (Seq #237 ) recieveObject
+170205 173731.002|INFO|Thread-110|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173731.002|INFO|Thread-110|dumpPacket|    To: JUDGE1 @ site 1
+170205 173731.002|INFO|Thread-110|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 173731.002|INFO|Thread-110|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 7 BEING_JUDGED116471 ms from TEAM1 @ site 1 id Run-8541642138066306690
+170205 173731.002|INFO|Thread-110|info|handlePacket start Packet[RUN_CHECKOUT_NOTIFICATION] #237 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173731.002|INFO|Thread-110|dumpPacket|Packet RUN_CHECKOUT_NOTIFICATION (Seq #237 ) handlePacket
+170205 173731.002|INFO|Thread-110|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173731.002|INFO|Thread-110|dumpPacket|    To: JUDGE1 @ site 1
+170205 173731.002|INFO|Thread-110|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 173731.002|INFO|Thread-110|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 7 BEING_JUDGED116471 ms from TEAM1 @ site 1 id Run-8541642138066306690
+170205 173731.002|INFO|Thread-110|info|handlePacket end Packet[RUN_CHECKOUT_NOTIFICATION] #237 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173731.002|INFO|Thread-110|info| receiveObject(S) end   got Packet[RUN_CHECKOUT_NOTIFICATION] #237 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173732.040|DEBUG|Thread-111|compileProgram|before substitution: javac {:mainfile}
+170205 173732.040|DEBUG|Thread-111|compileProgram|after  substitution: javac Nastya.java
+170205 173732.103|CONFIG|Thread-111|runProgram|executing: 'javac Nastya.java'
+170205 173734.556|DEBUG|Thread-111|executeProgram|before substitution: java {:basename}
+170205 173734.556|DEBUG|Thread-111|executeProgram|after  substitution: java Nastya
+170205 173734.556|CONFIG|Thread-111|runProgram|executing: 'java Nastya'
+170205 173735.384|DEBUG|Thread-111|validateProgram|before substitution: java -cp C:\PacketA_2017_Waller\pc2-9.2.5\lib\{:validator} {:infile} {:outfile} {:ansfile} {:resfile}  -pc2 4 false
+170205 173735.384|DEBUG|Thread-111|validateProgram|after  substitution: java -cp C:\PacketA_2017_Waller\pc2-9.2.5\lib\pc2.jar edu.csus.ecs.pc2.validator.Validator nastya.dat estdout.pc2 nastya.out 784XRSAM.txt  -pc2 4 false
+170205 173735.384|DEBUG|Thread-111|validateProgram|after replaceFirst: java -cp "C:\PacketA_2017_Waller\pc2-9.2.5\lib\pc2.jar" edu.csus.ecs.pc2.validator.Validator nastya.dat estdout.pc2 nastya.out 784XRSAM.txt  -pc2 4 false
+170205 173735.416|CONFIG|Thread-111|runProgram|executing: 'java -cp "C:\PacketA_2017_Waller\pc2-9.2.5\lib\pc2.jar" edu.csus.ecs.pc2.validator.Validator nastya.dat estdout.pc2 nastya.out 784XRSAM.txt  -pc2 4 false'
+170205 173747.868|INFO|Thread-120|info| receiveObject(S) start got Packet[UPDATE_SETTING] #238 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173747.883|INFO|Thread-120|dumpPacket|Packet UPDATE_SETTING (Seq #238 ) recieveObject
+170205 173747.883|INFO|Thread-120|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173747.899|INFO|Thread-120|dumpPacket|    To: SERVER0 @ site 0
+170205 173747.899|INFO|Thread-120|dumpPacket|   key: PROBLEM is: edu.csus.ecs.pc2.core.model.Problem nastya
+170205 173747.899|INFO|Thread-120|dumpPacket|   key: PROBLEM_DATA_FILES is: edu.csus.ecs.pc2.core.model.ProblemDataFiles edu.csus.ecs.pc2.core.model.ProblemDataFiles@6fb09912
+170205 173747.899|INFO|Thread-120|info|handlePacket start Packet[UPDATE_SETTING] #238 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173747.899|INFO|Thread-120|dumpPacket|Packet UPDATE_SETTING (Seq #238 ) handlePacket
+170205 173747.899|INFO|Thread-120|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173747.899|INFO|Thread-120|dumpPacket|    To: SERVER0 @ site 0
+170205 173747.914|INFO|Thread-120|dumpPacket|   key: PROBLEM is: edu.csus.ecs.pc2.core.model.Problem nastya
+170205 173747.914|INFO|Thread-120|dumpPacket|   key: PROBLEM_DATA_FILES is: edu.csus.ecs.pc2.core.model.ProblemDataFiles edu.csus.ecs.pc2.core.model.ProblemDataFiles@6fb09912
+170205 173747.914|INFO|Thread-120|info|handlePacket end Packet[UPDATE_SETTING] #238 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173747.930|INFO|Thread-120|info| receiveObject(S) end   got Packet[UPDATE_SETTING] #238 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173751.040|DEBUG|Thread-121|compileProgram|before substitution: javac {:mainfile}
+170205 173751.040|DEBUG|Thread-121|compileProgram|after  substitution: javac Nastya.java
+170205 173751.103|CONFIG|Thread-121|runProgram|executing: 'javac Nastya.java'
+170205 173753.635|DEBUG|Thread-121|executeProgram|before substitution: java {:basename}
+170205 173753.635|DEBUG|Thread-121|executeProgram|after  substitution: java Nastya
+170205 173753.635|CONFIG|Thread-121|runProgram|executing: 'java Nastya'
+170205 173756.482|CONFIG|AWT-EventQueue-0|showFiles|FileDiffPane::ShowFiles(executesite1judge1\estdout.pc2,executesite1judge1\nastya.out) Begin
+170205 173808.875|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_JUDGEMENT] #15 JUDGE1 @ site 1 -> SERVER0 @ site 1
+170205 173808.891|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_JUDGEMENT] #15 JUDGE1 @ site 1 -> SERVER0 @ site 1
+170205 173809.172|INFO|Thread-129|info| receiveObject(S) start got Packet[RUN_JUDGEMENT_UPDATE] #242 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173809.172|INFO|Thread-129|dumpPacket|Packet RUN_JUDGEMENT_UPDATE (Seq #242 ) recieveObject
+170205 173809.187|INFO|Thread-129|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173809.187|INFO|Thread-129|dumpPacket|    To: SERVER0 @ site 0
+170205 173809.187|INFO|Thread-129|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 173809.203|INFO|Thread-129|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 7 JUDGED116471 ms from TEAM1 @ site 1 id Run-8541642138066306690
+170205 173809.203|INFO|Thread-129|info|handlePacket start Packet[RUN_JUDGEMENT_UPDATE] #242 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173809.203|INFO|Thread-129|dumpPacket|Packet RUN_JUDGEMENT_UPDATE (Seq #242 ) handlePacket
+170205 173809.219|INFO|Thread-129|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173809.219|INFO|Thread-129|dumpPacket|    To: SERVER0 @ site 0
+170205 173809.234|INFO|Thread-129|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 173809.234|INFO|Thread-129|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 7 JUDGED116471 ms from TEAM1 @ site 1 id Run-8541642138066306690
+170205 173809.234|INFO|Thread-129|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT_UPDATE] #242 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173810.485|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_REQUEST] #16 JUDGE1 @ site 1 -> SERVER0 @ site 1
+170205 173810.500|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_REQUEST] #16 JUDGE1 @ site 1 -> SERVER0 @ site 1
+170205 173810.750|INFO|Thread-131|info| receiveObject(S) start got Packet[RUN_CHECKOUT] #243 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173810.750|INFO|Thread-131|dumpPacket|Packet RUN_CHECKOUT (Seq #243 ) recieveObject
+170205 173810.750|INFO|Thread-131|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173810.750|INFO|Thread-131|dumpPacket|    To: JUDGE1 @ site 1
+170205 173810.750|INFO|Thread-131|dumpPacket|   key: RUN_RESULTS_FILE is: [Ledu.csus.ecs.pc2.core.model.RunResultFiles; [Ledu.csus.ecs.pc2.core.model.RunResultFiles;@5c337f9c
+170205 173810.750|INFO|Thread-131|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 173810.750|INFO|Thread-131|dumpPacket|   key: RUN_FILES is: edu.csus.ecs.pc2.core.model.RunFiles edu.csus.ecs.pc2.core.model.RunFiles@52f49a6a
+170205 173810.750|INFO|Thread-131|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 8 BEING_JUDGED128101 ms from TEAM1 @ site 1 id Run-8307988263027325380
+170205 173810.750|INFO|Thread-131|info|handlePacket start Packet[RUN_CHECKOUT] #243 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173810.750|INFO|Thread-131|dumpPacket|Packet RUN_CHECKOUT (Seq #243 ) handlePacket
+170205 173810.750|INFO|Thread-131|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173810.750|INFO|Thread-131|dumpPacket|    To: JUDGE1 @ site 1
+170205 173810.750|INFO|Thread-131|dumpPacket|   key: RUN_RESULTS_FILE is: [Ledu.csus.ecs.pc2.core.model.RunResultFiles; [Ledu.csus.ecs.pc2.core.model.RunResultFiles;@5c337f9c
+170205 173810.750|INFO|Thread-131|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 173810.750|INFO|Thread-131|dumpPacket|   key: RUN_FILES is: edu.csus.ecs.pc2.core.model.RunFiles edu.csus.ecs.pc2.core.model.RunFiles@52f49a6a
+170205 173810.750|INFO|Thread-131|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 8 BEING_JUDGED128101 ms from TEAM1 @ site 1 id Run-8307988263027325380
+170205 173810.750|INFO|Thread-131|setRunAndFiles|Fetched run Run 8 BEING_JUDGED128101 ms from TEAM1 @ site 1 id Run-8307988263027325380 to edit
+170205 173810.750|INFO|Thread-131|info|handlePacket end Packet[RUN_CHECKOUT] #243 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173810.750|INFO|Thread-131|info| receiveObject(S) end   got Packet[RUN_CHECKOUT] #243 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173810.797|INFO|Thread-132|info| receiveObject(S) start got Packet[RUN_CHECKOUT_NOTIFICATION] #244 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173810.797|INFO|Thread-132|dumpPacket|Packet RUN_CHECKOUT_NOTIFICATION (Seq #244 ) recieveObject
+170205 173810.797|INFO|Thread-132|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173810.797|INFO|Thread-132|dumpPacket|    To: JUDGE1 @ site 1
+170205 173810.797|INFO|Thread-132|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 173810.813|INFO|Thread-132|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 8 BEING_JUDGED128101 ms from TEAM1 @ site 1 id Run-8307988263027325380
+170205 173810.813|INFO|Thread-132|info|handlePacket start Packet[RUN_CHECKOUT_NOTIFICATION] #244 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173810.813|INFO|Thread-132|dumpPacket|Packet RUN_CHECKOUT_NOTIFICATION (Seq #244 ) handlePacket
+170205 173810.813|INFO|Thread-132|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173810.813|INFO|Thread-132|dumpPacket|    To: JUDGE1 @ site 1
+170205 173810.813|INFO|Thread-132|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 173810.813|INFO|Thread-132|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 8 BEING_JUDGED128101 ms from TEAM1 @ site 1 id Run-8307988263027325380
+170205 173810.813|INFO|Thread-132|info|handlePacket end Packet[RUN_CHECKOUT_NOTIFICATION] #244 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173810.813|INFO|Thread-132|info| receiveObject(S) end   got Packet[RUN_CHECKOUT_NOTIFICATION] #244 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173811.672|DEBUG|Thread-133|compileProgram|before substitution: javac {:mainfile}
+170205 173811.672|DEBUG|Thread-133|compileProgram|after  substitution: javac Olga.java
+170205 173811.719|CONFIG|Thread-133|runProgram|executing: 'javac Olga.java'
+170205 173813.993|DEBUG|Thread-133|executeProgram|before substitution: java {:basename}
+170205 173814.009|DEBUG|Thread-133|executeProgram|after  substitution: java Olga
+170205 173814.009|CONFIG|Thread-133|runProgram|executing: 'java Olga'
+170205 173814.689|DEBUG|Thread-133|validateProgram|before substitution: java -cp C:\PacketA_2017_Waller\pc2-9.2.5\lib\{:validator} {:infile} {:outfile} {:ansfile} {:resfile}  -pc2 4 false
+170205 173814.689|DEBUG|Thread-133|validateProgram|after  substitution: java -cp C:\PacketA_2017_Waller\pc2-9.2.5\lib\pc2.jar edu.csus.ecs.pc2.validator.Validator olga.dat estdout.pc2 olga.out 889XRSAM.txt  -pc2 4 false
+170205 173814.689|DEBUG|Thread-133|validateProgram|after replaceFirst: java -cp "C:\PacketA_2017_Waller\pc2-9.2.5\lib\pc2.jar" edu.csus.ecs.pc2.validator.Validator olga.dat estdout.pc2 olga.out 889XRSAM.txt  -pc2 4 false
+170205 173814.705|CONFIG|Thread-133|runProgram|executing: 'java -cp "C:\PacketA_2017_Waller\pc2-9.2.5\lib\pc2.jar" edu.csus.ecs.pc2.validator.Validator olga.dat estdout.pc2 olga.out 889XRSAM.txt  -pc2 4 false'
+170205 173818.317|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_JUDGEMENT] #17 JUDGE1 @ site 1 -> SERVER0 @ site 1
+170205 173818.333|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_JUDGEMENT] #17 JUDGE1 @ site 1 -> SERVER0 @ site 1
+170205 173818.536|INFO|Thread-143|info| receiveObject(S) start got Packet[RUN_JUDGEMENT_UPDATE] #247 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173818.536|INFO|Thread-143|dumpPacket|Packet RUN_JUDGEMENT_UPDATE (Seq #247 ) recieveObject
+170205 173818.551|INFO|Thread-143|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173818.551|INFO|Thread-143|dumpPacket|    To: SERVER0 @ site 0
+170205 173818.551|INFO|Thread-143|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 173818.551|INFO|Thread-143|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 8 JUDGED128101 ms from TEAM1 @ site 1 id Run-8307988263027325380
+170205 173818.551|INFO|Thread-143|info|handlePacket start Packet[RUN_JUDGEMENT_UPDATE] #247 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173818.551|INFO|Thread-143|dumpPacket|Packet RUN_JUDGEMENT_UPDATE (Seq #247 ) handlePacket
+170205 173818.551|INFO|Thread-143|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173818.551|INFO|Thread-143|dumpPacket|    To: SERVER0 @ site 0
+170205 173818.551|INFO|Thread-143|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 173818.551|INFO|Thread-143|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 8 JUDGED128101 ms from TEAM1 @ site 1 id Run-8307988263027325380
+170205 173818.551|INFO|Thread-143|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT_UPDATE] #247 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173819.254|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_REQUEST] #18 JUDGE1 @ site 1 -> SERVER0 @ site 1
+170205 173819.270|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_REQUEST] #18 JUDGE1 @ site 1 -> SERVER0 @ site 1
+170205 173819.489|INFO|Thread-145|info| receiveObject(S) start got Packet[RUN_CHECKOUT] #248 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173819.489|INFO|Thread-145|dumpPacket|Packet RUN_CHECKOUT (Seq #248 ) recieveObject
+170205 173819.489|INFO|Thread-145|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173819.489|INFO|Thread-145|dumpPacket|    To: JUDGE1 @ site 1
+170205 173819.489|INFO|Thread-145|dumpPacket|   key: RUN_RESULTS_FILE is: [Ledu.csus.ecs.pc2.core.model.RunResultFiles; [Ledu.csus.ecs.pc2.core.model.RunResultFiles;@a6ea53b
+170205 173819.489|INFO|Thread-145|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 173819.489|INFO|Thread-145|dumpPacket|   key: RUN_FILES is: edu.csus.ecs.pc2.core.model.RunFiles edu.csus.ecs.pc2.core.model.RunFiles@4a94a06
+170205 173819.489|INFO|Thread-145|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 9 BEING_JUDGED142092 ms from TEAM1 @ site 1 id Run--6542613804973781179
+170205 173819.489|INFO|Thread-145|info|handlePacket start Packet[RUN_CHECKOUT] #248 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173819.489|INFO|Thread-145|dumpPacket|Packet RUN_CHECKOUT (Seq #248 ) handlePacket
+170205 173819.489|INFO|Thread-145|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173819.489|INFO|Thread-145|dumpPacket|    To: JUDGE1 @ site 1
+170205 173819.489|INFO|Thread-145|dumpPacket|   key: RUN_RESULTS_FILE is: [Ledu.csus.ecs.pc2.core.model.RunResultFiles; [Ledu.csus.ecs.pc2.core.model.RunResultFiles;@a6ea53b
+170205 173819.489|INFO|Thread-145|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 173819.489|INFO|Thread-145|dumpPacket|   key: RUN_FILES is: edu.csus.ecs.pc2.core.model.RunFiles edu.csus.ecs.pc2.core.model.RunFiles@4a94a06
+170205 173819.489|INFO|Thread-145|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 9 BEING_JUDGED142092 ms from TEAM1 @ site 1 id Run--6542613804973781179
+170205 173819.504|INFO|Thread-145|setRunAndFiles|Fetched run Run 9 BEING_JUDGED142092 ms from TEAM1 @ site 1 id Run--6542613804973781179 to edit
+170205 173819.504|INFO|Thread-145|info|handlePacket end Packet[RUN_CHECKOUT] #248 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173819.504|INFO|Thread-145|info| receiveObject(S) end   got Packet[RUN_CHECKOUT] #248 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173819.520|INFO|Thread-146|info| receiveObject(S) start got Packet[RUN_CHECKOUT_NOTIFICATION] #249 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173819.520|INFO|Thread-146|dumpPacket|Packet RUN_CHECKOUT_NOTIFICATION (Seq #249 ) recieveObject
+170205 173819.520|INFO|Thread-146|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173819.520|INFO|Thread-146|dumpPacket|    To: JUDGE1 @ site 1
+170205 173819.520|INFO|Thread-146|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 173819.520|INFO|Thread-146|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 9 BEING_JUDGED142092 ms from TEAM1 @ site 1 id Run--6542613804973781179
+170205 173819.520|INFO|Thread-146|info|handlePacket start Packet[RUN_CHECKOUT_NOTIFICATION] #249 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173819.520|INFO|Thread-146|dumpPacket|Packet RUN_CHECKOUT_NOTIFICATION (Seq #249 ) handlePacket
+170205 173819.520|INFO|Thread-146|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173819.520|INFO|Thread-146|dumpPacket|    To: JUDGE1 @ site 1
+170205 173819.520|INFO|Thread-146|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 173819.520|INFO|Thread-146|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 9 BEING_JUDGED142092 ms from TEAM1 @ site 1 id Run--6542613804973781179
+170205 173819.520|INFO|Thread-146|info|handlePacket end Packet[RUN_CHECKOUT_NOTIFICATION] #249 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173819.520|INFO|Thread-146|info| receiveObject(S) end   got Packet[RUN_CHECKOUT_NOTIFICATION] #249 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 173820.630|DEBUG|Thread-147|compileProgram|before substitution: javac {:mainfile}
+170205 173820.630|DEBUG|Thread-147|compileProgram|after  substitution: javac Pedro.java
+170205 173820.692|CONFIG|Thread-147|runProgram|executing: 'javac Pedro.java'
+170205 173823.193|DEBUG|Thread-147|executeProgram|before substitution: java {:basename}
+170205 173823.193|DEBUG|Thread-147|executeProgram|after  substitution: java Pedro
+170205 173823.193|CONFIG|Thread-147|runProgram|executing: 'java Pedro'
+170205 173833.706|DEBUG|Thread-147|validateProgram|before substitution: java -cp C:\PacketA_2017_Waller\pc2-9.2.5\lib\{:validator} {:infile} {:outfile} {:ansfile} {:resfile}  -pc2 4 false
+170205 173833.706|DEBUG|Thread-147|validateProgram|after  substitution: java -cp C:\PacketA_2017_Waller\pc2-9.2.5\lib\pc2.jar edu.csus.ecs.pc2.validator.Validator pedro.dat estdout.pc2 pedro.out 96XRSAM.txt  -pc2 4 false
+170205 173833.706|DEBUG|Thread-147|validateProgram|after replaceFirst: java -cp "C:\PacketA_2017_Waller\pc2-9.2.5\lib\pc2.jar" edu.csus.ecs.pc2.validator.Validator pedro.dat estdout.pc2 pedro.out 96XRSAM.txt  -pc2 4 false
+170205 173833.737|CONFIG|Thread-147|runProgram|executing: 'java -cp "C:\PacketA_2017_Waller\pc2-9.2.5\lib\pc2.jar" edu.csus.ecs.pc2.validator.Validator pedro.dat estdout.pc2 pedro.out 96XRSAM.txt  -pc2 4 false'
+170205 173838.454|DEBUG|Thread-156|compileProgram|before substitution: javac {:mainfile}
+170205 173838.454|DEBUG|Thread-156|compileProgram|after  substitution: javac Pedro.java
+170205 173838.517|CONFIG|Thread-156|runProgram|executing: 'javac Pedro.java'
+170205 173841.049|DEBUG|Thread-156|executeProgram|before substitution: java {:basename}
+170205 173841.049|DEBUG|Thread-156|executeProgram|after  substitution: java Pedro
+170205 173841.049|CONFIG|Thread-156|runProgram|executing: 'java Pedro'
+170205 173851.740|DEBUG|Thread-156|validateProgram|before substitution: java -cp C:\PacketA_2017_Waller\pc2-9.2.5\lib\{:validator} {:infile} {:outfile} {:ansfile} {:resfile}  -pc2 4 false
+170205 173851.740|DEBUG|Thread-156|validateProgram|after  substitution: java -cp C:\PacketA_2017_Waller\pc2-9.2.5\lib\pc2.jar edu.csus.ecs.pc2.validator.Validator pedro.dat estdout.pc2 pedro.out 940XRSAM.txt  -pc2 4 false
+170205 173851.740|DEBUG|Thread-156|validateProgram|after replaceFirst: java -cp "C:\PacketA_2017_Waller\pc2-9.2.5\lib\pc2.jar" edu.csus.ecs.pc2.validator.Validator pedro.dat estdout.pc2 pedro.out 940XRSAM.txt  -pc2 4 false
+170205 173851.771|CONFIG|Thread-156|runProgram|executing: 'java -cp "C:\PacketA_2017_Waller\pc2-9.2.5\lib\pc2.jar" edu.csus.ecs.pc2.validator.Validator pedro.dat estdout.pc2 pedro.out 940XRSAM.txt  -pc2 4 false'
+170205 173853.995|CONFIG|AWT-EventQueue-0|showFiles|FileDiffPane::ShowFiles(executesite1judge1\estdout.pc2,executesite1judge1\pedro.out) Begin
+170205 173956.758|INFO|Thread-165|info| receiveObject(S) start got Packet[UPDATE_SETTING] #250 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173956.758|INFO|Thread-165|dumpPacket|Packet UPDATE_SETTING (Seq #250 ) recieveObject
+170205 173956.773|INFO|Thread-165|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173956.773|INFO|Thread-165|dumpPacket|    To: SERVER0 @ site 0
+170205 173956.789|INFO|Thread-165|dumpPacket|   key: PROBLEM is: edu.csus.ecs.pc2.core.model.Problem pdero
+170205 173956.789|INFO|Thread-165|dumpPacket|   key: PROBLEM_DATA_FILES is: edu.csus.ecs.pc2.core.model.ProblemDataFiles edu.csus.ecs.pc2.core.model.ProblemDataFiles@742e56a2
+170205 173956.789|INFO|Thread-165|info|handlePacket start Packet[UPDATE_SETTING] #250 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173956.789|INFO|Thread-165|dumpPacket|Packet UPDATE_SETTING (Seq #250 ) handlePacket
+170205 173956.789|INFO|Thread-165|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 173956.789|INFO|Thread-165|dumpPacket|    To: SERVER0 @ site 0
+170205 173956.789|INFO|Thread-165|dumpPacket|   key: PROBLEM is: edu.csus.ecs.pc2.core.model.Problem pdero
+170205 173956.789|INFO|Thread-165|dumpPacket|   key: PROBLEM_DATA_FILES is: edu.csus.ecs.pc2.core.model.ProblemDataFiles edu.csus.ecs.pc2.core.model.ProblemDataFiles@742e56a2
+170205 173956.789|INFO|Thread-165|info|handlePacket end Packet[UPDATE_SETTING] #250 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173956.789|INFO|Thread-165|info| receiveObject(S) end   got Packet[UPDATE_SETTING] #250 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 173959.696|DEBUG|Thread-166|compileProgram|before substitution: javac {:mainfile}
+170205 173959.696|DEBUG|Thread-166|compileProgram|after  substitution: javac Pedro.java
+170205 173959.758|CONFIG|Thread-166|runProgram|executing: 'javac Pedro.java'
+170205 174002.324|DEBUG|Thread-166|executeProgram|before substitution: java {:basename}
+170205 174002.339|DEBUG|Thread-166|executeProgram|after  substitution: java Pedro
+170205 174002.339|CONFIG|Thread-166|runProgram|executing: 'java Pedro'
+170205 174017.005|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_JUDGEMENT] #19 JUDGE1 @ site 1 -> SERVER0 @ site 1
+170205 174017.021|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_JUDGEMENT] #19 JUDGE1 @ site 1 -> SERVER0 @ site 1
+170205 174017.380|INFO|Thread-174|info| receiveObject(S) start got Packet[RUN_JUDGEMENT_UPDATE] #254 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 174017.396|INFO|Thread-174|dumpPacket|Packet RUN_JUDGEMENT_UPDATE (Seq #254 ) recieveObject
+170205 174017.411|INFO|Thread-174|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 174017.427|INFO|Thread-174|dumpPacket|    To: SERVER0 @ site 0
+170205 174017.427|INFO|Thread-174|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 174017.427|INFO|Thread-174|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 9 JUDGED142092 ms from TEAM1 @ site 1 id Run--6542613804973781179
+170205 174017.427|INFO|Thread-174|info|handlePacket start Packet[RUN_JUDGEMENT_UPDATE] #254 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 174017.443|INFO|Thread-174|dumpPacket|Packet RUN_JUDGEMENT_UPDATE (Seq #254 ) handlePacket
+170205 174017.443|INFO|Thread-174|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 174017.443|INFO|Thread-174|dumpPacket|    To: SERVER0 @ site 0
+170205 174017.443|INFO|Thread-174|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 174017.443|INFO|Thread-174|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 9 JUDGED142092 ms from TEAM1 @ site 1 id Run--6542613804973781179
+170205 174017.443|INFO|Thread-174|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT_UPDATE] #254 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 174018.302|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_REQUEST] #20 JUDGE1 @ site 1 -> SERVER0 @ site 1
+170205 174018.318|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_REQUEST] #20 JUDGE1 @ site 1 -> SERVER0 @ site 1
+170205 174018.489|INFO|Thread-176|info| receiveObject(S) start got Packet[RUN_CHECKOUT] #255 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 174018.489|INFO|Thread-176|dumpPacket|Packet RUN_CHECKOUT (Seq #255 ) recieveObject
+170205 174018.489|INFO|Thread-176|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 174018.489|INFO|Thread-176|dumpPacket|    To: JUDGE1 @ site 1
+170205 174018.489|INFO|Thread-176|dumpPacket|   key: RUN_RESULTS_FILE is: [Ledu.csus.ecs.pc2.core.model.RunResultFiles; [Ledu.csus.ecs.pc2.core.model.RunResultFiles;@1e32bbb5
+170205 174018.489|INFO|Thread-176|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 174018.489|INFO|Thread-176|dumpPacket|   key: RUN_FILES is: edu.csus.ecs.pc2.core.model.RunFiles edu.csus.ecs.pc2.core.model.RunFiles@10f54603
+170205 174018.489|INFO|Thread-176|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 10 BEING_JUDGED152645 ms from TEAM1 @ site 1 id Run-8107700643214541600
+170205 174018.489|INFO|Thread-176|info|handlePacket start Packet[RUN_CHECKOUT] #255 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 174018.489|INFO|Thread-176|dumpPacket|Packet RUN_CHECKOUT (Seq #255 ) handlePacket
+170205 174018.489|INFO|Thread-176|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 174018.489|INFO|Thread-176|dumpPacket|    To: JUDGE1 @ site 1
+170205 174018.489|INFO|Thread-176|dumpPacket|   key: RUN_RESULTS_FILE is: [Ledu.csus.ecs.pc2.core.model.RunResultFiles; [Ledu.csus.ecs.pc2.core.model.RunResultFiles;@1e32bbb5
+170205 174018.489|INFO|Thread-176|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 174018.489|INFO|Thread-176|dumpPacket|   key: RUN_FILES is: edu.csus.ecs.pc2.core.model.RunFiles edu.csus.ecs.pc2.core.model.RunFiles@10f54603
+170205 174018.489|INFO|Thread-176|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 10 BEING_JUDGED152645 ms from TEAM1 @ site 1 id Run-8107700643214541600
+170205 174018.489|INFO|Thread-176|setRunAndFiles|Fetched run Run 10 BEING_JUDGED152645 ms from TEAM1 @ site 1 id Run-8107700643214541600 to edit
+170205 174018.489|INFO|Thread-176|info|handlePacket end Packet[RUN_CHECKOUT] #255 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 174018.489|INFO|Thread-176|info| receiveObject(S) end   got Packet[RUN_CHECKOUT] #255 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 174018.521|INFO|Thread-177|info| receiveObject(S) start got Packet[RUN_CHECKOUT_NOTIFICATION] #256 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 174018.521|INFO|Thread-177|dumpPacket|Packet RUN_CHECKOUT_NOTIFICATION (Seq #256 ) recieveObject
+170205 174018.521|INFO|Thread-177|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 174018.521|INFO|Thread-177|dumpPacket|    To: JUDGE1 @ site 1
+170205 174018.521|INFO|Thread-177|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 174018.521|INFO|Thread-177|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 10 BEING_JUDGED152645 ms from TEAM1 @ site 1 id Run-8107700643214541600
+170205 174018.521|INFO|Thread-177|info|handlePacket start Packet[RUN_CHECKOUT_NOTIFICATION] #256 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 174018.521|INFO|Thread-177|dumpPacket|Packet RUN_CHECKOUT_NOTIFICATION (Seq #256 ) handlePacket
+170205 174018.521|INFO|Thread-177|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 174018.521|INFO|Thread-177|dumpPacket|    To: JUDGE1 @ site 1
+170205 174018.521|INFO|Thread-177|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 174018.521|INFO|Thread-177|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 10 BEING_JUDGED152645 ms from TEAM1 @ site 1 id Run-8107700643214541600
+170205 174018.521|INFO|Thread-177|info|handlePacket end Packet[RUN_CHECKOUT_NOTIFICATION] #256 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 174018.521|INFO|Thread-177|info| receiveObject(S) end   got Packet[RUN_CHECKOUT_NOTIFICATION] #256 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 174019.349|DEBUG|Thread-178|compileProgram|before substitution: javac {:mainfile}
+170205 174019.349|DEBUG|Thread-178|compileProgram|after  substitution: javac Roy.java
+170205 174019.412|CONFIG|Thread-178|runProgram|executing: 'javac Roy.java'
+170205 174022.084|DEBUG|Thread-178|executeProgram|before substitution: java {:basename}
+170205 174022.084|DEBUG|Thread-178|executeProgram|after  substitution: java Roy
+170205 174022.084|CONFIG|Thread-178|runProgram|executing: 'java Roy'
+170205 174022.928|DEBUG|Thread-178|validateProgram|before substitution: java -cp C:\PacketA_2017_Waller\pc2-9.2.5\lib\{:validator} {:infile} {:outfile} {:ansfile} {:resfile}  -pc2 4 false
+170205 174022.928|DEBUG|Thread-178|validateProgram|after  substitution: java -cp C:\PacketA_2017_Waller\pc2-9.2.5\lib\pc2.jar edu.csus.ecs.pc2.validator.Validator roy.dat estdout.pc2 roy.out 1028XRSAM.txt  -pc2 4 false
+170205 174022.928|DEBUG|Thread-178|validateProgram|after replaceFirst: java -cp "C:\PacketA_2017_Waller\pc2-9.2.5\lib\pc2.jar" edu.csus.ecs.pc2.validator.Validator roy.dat estdout.pc2 roy.out 1028XRSAM.txt  -pc2 4 false
+170205 174022.960|CONFIG|Thread-178|runProgram|executing: 'java -cp "C:\PacketA_2017_Waller\pc2-9.2.5\lib\pc2.jar" edu.csus.ecs.pc2.validator.Validator roy.dat estdout.pc2 roy.out 1028XRSAM.txt  -pc2 4 false'
+170205 174025.752|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_JUDGEMENT] #21 JUDGE1 @ site 1 -> SERVER0 @ site 1
+170205 174025.752|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_JUDGEMENT] #21 JUDGE1 @ site 1 -> SERVER0 @ site 1
+170205 174026.064|INFO|Thread-188|info| receiveObject(S) start got Packet[RUN_JUDGEMENT_UPDATE] #259 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 174026.064|INFO|Thread-188|dumpPacket|Packet RUN_JUDGEMENT_UPDATE (Seq #259 ) recieveObject
+170205 174026.064|INFO|Thread-188|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 174026.064|INFO|Thread-188|dumpPacket|    To: SERVER0 @ site 0
+170205 174026.064|INFO|Thread-188|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 174026.064|INFO|Thread-188|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 10 JUDGED152645 ms from TEAM1 @ site 1 id Run-8107700643214541600
+170205 174026.064|INFO|Thread-188|info|handlePacket start Packet[RUN_JUDGEMENT_UPDATE] #259 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 174026.064|INFO|Thread-188|dumpPacket|Packet RUN_JUDGEMENT_UPDATE (Seq #259 ) handlePacket
+170205 174026.064|INFO|Thread-188|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 174026.064|INFO|Thread-188|dumpPacket|    To: SERVER0 @ site 0
+170205 174026.064|INFO|Thread-188|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 174026.064|INFO|Thread-188|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 10 JUDGED152645 ms from TEAM1 @ site 1 id Run-8107700643214541600
+170205 174026.064|INFO|Thread-188|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT_UPDATE] #259 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 174026.720|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_REQUEST] #22 JUDGE1 @ site 1 -> SERVER0 @ site 1
+170205 174026.736|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_REQUEST] #22 JUDGE1 @ site 1 -> SERVER0 @ site 1
+170205 174026.908|INFO|Thread-190|info| receiveObject(S) start got Packet[RUN_CHECKOUT] #260 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 174026.908|INFO|Thread-190|dumpPacket|Packet RUN_CHECKOUT (Seq #260 ) recieveObject
+170205 174026.908|INFO|Thread-190|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 174026.908|INFO|Thread-190|dumpPacket|    To: JUDGE1 @ site 1
+170205 174026.908|INFO|Thread-190|dumpPacket|   key: RUN_RESULTS_FILE is: [Ledu.csus.ecs.pc2.core.model.RunResultFiles; [Ledu.csus.ecs.pc2.core.model.RunResultFiles;@6c38d3ca
+170205 174026.908|INFO|Thread-190|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 174026.908|INFO|Thread-190|dumpPacket|   key: RUN_FILES is: edu.csus.ecs.pc2.core.model.RunFiles edu.csus.ecs.pc2.core.model.RunFiles@62ff303d
+170205 174026.908|INFO|Thread-190|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 11 BEING_JUDGED167401 ms from TEAM1 @ site 1 id Run--1649764703146886050
+170205 174026.908|INFO|Thread-190|info|handlePacket start Packet[RUN_CHECKOUT] #260 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 174026.908|INFO|Thread-190|dumpPacket|Packet RUN_CHECKOUT (Seq #260 ) handlePacket
+170205 174026.908|INFO|Thread-190|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 174026.908|INFO|Thread-190|dumpPacket|    To: JUDGE1 @ site 1
+170205 174026.908|INFO|Thread-190|dumpPacket|   key: RUN_RESULTS_FILE is: [Ledu.csus.ecs.pc2.core.model.RunResultFiles; [Ledu.csus.ecs.pc2.core.model.RunResultFiles;@6c38d3ca
+170205 174026.908|INFO|Thread-190|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 174026.908|INFO|Thread-190|dumpPacket|   key: RUN_FILES is: edu.csus.ecs.pc2.core.model.RunFiles edu.csus.ecs.pc2.core.model.RunFiles@62ff303d
+170205 174026.908|INFO|Thread-190|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 11 BEING_JUDGED167401 ms from TEAM1 @ site 1 id Run--1649764703146886050
+170205 174026.908|INFO|Thread-190|setRunAndFiles|Fetched run Run 11 BEING_JUDGED167401 ms from TEAM1 @ site 1 id Run--1649764703146886050 to edit
+170205 174026.908|INFO|Thread-190|info|handlePacket end Packet[RUN_CHECKOUT] #260 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 174026.908|INFO|Thread-190|info| receiveObject(S) end   got Packet[RUN_CHECKOUT] #260 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 174026.986|INFO|Thread-191|info| receiveObject(S) start got Packet[RUN_CHECKOUT_NOTIFICATION] #261 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 174026.986|INFO|Thread-191|dumpPacket|Packet RUN_CHECKOUT_NOTIFICATION (Seq #261 ) recieveObject
+170205 174026.986|INFO|Thread-191|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 174026.986|INFO|Thread-191|dumpPacket|    To: JUDGE1 @ site 1
+170205 174026.986|INFO|Thread-191|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 174026.986|INFO|Thread-191|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 11 BEING_JUDGED167401 ms from TEAM1 @ site 1 id Run--1649764703146886050
+170205 174026.986|INFO|Thread-191|info|handlePacket start Packet[RUN_CHECKOUT_NOTIFICATION] #261 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 174026.986|INFO|Thread-191|dumpPacket|Packet RUN_CHECKOUT_NOTIFICATION (Seq #261 ) handlePacket
+170205 174026.986|INFO|Thread-191|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 174026.986|INFO|Thread-191|dumpPacket|    To: JUDGE1 @ site 1
+170205 174026.986|INFO|Thread-191|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 174026.986|INFO|Thread-191|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 11 BEING_JUDGED167401 ms from TEAM1 @ site 1 id Run--1649764703146886050
+170205 174026.986|INFO|Thread-191|info|handlePacket end Packet[RUN_CHECKOUT_NOTIFICATION] #261 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 174026.986|INFO|Thread-191|info| receiveObject(S) end   got Packet[RUN_CHECKOUT_NOTIFICATION] #261 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 174028.747|DEBUG|Thread-192|compileProgram|before substitution: javac {:mainfile}
+170205 174028.747|DEBUG|Thread-192|compileProgram|after  substitution: javac Samantha.java
+170205 174028.810|CONFIG|Thread-192|runProgram|executing: 'javac Samantha.java'
+170205 174031.435|DEBUG|Thread-192|executeProgram|before substitution: java {:basename}
+170205 174031.435|DEBUG|Thread-192|executeProgram|after  substitution: java Samantha
+170205 174031.435|CONFIG|Thread-192|runProgram|executing: 'java Samantha'
+170205 174032.252|DEBUG|Thread-192|validateProgram|before substitution: java -cp C:\PacketA_2017_Waller\pc2-9.2.5\lib\{:validator} {:infile} {:outfile} {:ansfile} {:resfile}  -pc2 4 false
+170205 174032.252|DEBUG|Thread-192|validateProgram|after  substitution: java -cp C:\PacketA_2017_Waller\pc2-9.2.5\lib\pc2.jar edu.csus.ecs.pc2.validator.Validator samantha.dat estdout.pc2 samantha.out 1136XRSAM.txt  -pc2 4 false
+170205 174032.252|DEBUG|Thread-192|validateProgram|after replaceFirst: java -cp "C:\PacketA_2017_Waller\pc2-9.2.5\lib\pc2.jar" edu.csus.ecs.pc2.validator.Validator samantha.dat estdout.pc2 samantha.out 1136XRSAM.txt  -pc2 4 false
+170205 174032.283|CONFIG|Thread-192|runProgram|executing: 'java -cp "C:\PacketA_2017_Waller\pc2-9.2.5\lib\pc2.jar" edu.csus.ecs.pc2.validator.Validator samantha.dat estdout.pc2 samantha.out 1136XRSAM.txt  -pc2 4 false'
+170205 174035.773|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_JUDGEMENT] #23 JUDGE1 @ site 1 -> SERVER0 @ site 1
+170205 174035.789|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_JUDGEMENT] #23 JUDGE1 @ site 1 -> SERVER0 @ site 1
+170205 174036.025|INFO|Thread-202|info| receiveObject(S) start got Packet[RUN_JUDGEMENT_UPDATE] #264 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 174036.025|INFO|Thread-202|dumpPacket|Packet RUN_JUDGEMENT_UPDATE (Seq #264 ) recieveObject
+170205 174036.025|INFO|Thread-202|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 174036.025|INFO|Thread-202|dumpPacket|    To: SERVER0 @ site 0
+170205 174036.025|INFO|Thread-202|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 174036.025|INFO|Thread-202|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 11 JUDGED167401 ms from TEAM1 @ site 1 id Run--1649764703146886050
+170205 174036.025|INFO|Thread-202|info|handlePacket start Packet[RUN_JUDGEMENT_UPDATE] #264 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 174036.025|INFO|Thread-202|dumpPacket|Packet RUN_JUDGEMENT_UPDATE (Seq #264 ) handlePacket
+170205 174036.025|INFO|Thread-202|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 174036.025|INFO|Thread-202|dumpPacket|    To: SERVER0 @ site 0
+170205 174036.025|INFO|Thread-202|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 174036.025|INFO|Thread-202|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 11 JUDGED167401 ms from TEAM1 @ site 1 id Run--1649764703146886050
+170205 174036.025|INFO|Thread-202|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT_UPDATE] #264 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 174036.932|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_REQUEST] #24 JUDGE1 @ site 1 -> SERVER0 @ site 1
+170205 174036.948|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_REQUEST] #24 JUDGE1 @ site 1 -> SERVER0 @ site 1
+170205 174037.214|INFO|Thread-204|info| receiveObject(S) start got Packet[RUN_CHECKOUT] #265 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 174037.229|INFO|Thread-204|dumpPacket|Packet RUN_CHECKOUT (Seq #265 ) recieveObject
+170205 174037.229|INFO|Thread-204|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 174037.229|INFO|Thread-204|dumpPacket|    To: JUDGE1 @ site 1
+170205 174037.229|INFO|Thread-204|dumpPacket|   key: RUN_RESULTS_FILE is: [Ledu.csus.ecs.pc2.core.model.RunResultFiles; [Ledu.csus.ecs.pc2.core.model.RunResultFiles;@5c07d5f4
+170205 174037.229|INFO|Thread-204|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 174037.229|INFO|Thread-204|dumpPacket|   key: RUN_FILES is: edu.csus.ecs.pc2.core.model.RunFiles edu.csus.ecs.pc2.core.model.RunFiles@52c03004
+170205 174037.229|INFO|Thread-204|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 12 BEING_JUDGED300630 ms from TEAM1 @ site 1 id Run-7852741599072339790
+170205 174037.229|INFO|Thread-204|info|handlePacket start Packet[RUN_CHECKOUT] #265 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 174037.229|INFO|Thread-204|dumpPacket|Packet RUN_CHECKOUT (Seq #265 ) handlePacket
+170205 174037.229|INFO|Thread-204|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 174037.229|INFO|Thread-204|dumpPacket|    To: JUDGE1 @ site 1
+170205 174037.229|INFO|Thread-204|dumpPacket|   key: RUN_RESULTS_FILE is: [Ledu.csus.ecs.pc2.core.model.RunResultFiles; [Ledu.csus.ecs.pc2.core.model.RunResultFiles;@5c07d5f4
+170205 174037.229|INFO|Thread-204|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 174037.229|INFO|Thread-204|dumpPacket|   key: RUN_FILES is: edu.csus.ecs.pc2.core.model.RunFiles edu.csus.ecs.pc2.core.model.RunFiles@52c03004
+170205 174037.229|INFO|Thread-204|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 12 BEING_JUDGED300630 ms from TEAM1 @ site 1 id Run-7852741599072339790
+170205 174037.245|INFO|Thread-205|info| receiveObject(S) start got Packet[RUN_CHECKOUT_NOTIFICATION] #266 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 174037.245|INFO|Thread-204|setRunAndFiles|Fetched run Run 12 BEING_JUDGED300630 ms from TEAM1 @ site 1 id Run-7852741599072339790 to edit
+170205 174037.245|INFO|Thread-205|dumpPacket|Packet RUN_CHECKOUT_NOTIFICATION (Seq #266 ) recieveObject
+170205 174037.245|INFO|Thread-205|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 174037.245|INFO|Thread-205|dumpPacket|    To: JUDGE1 @ site 1
+170205 174037.245|INFO|Thread-205|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 174037.245|INFO|Thread-205|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 12 BEING_JUDGED300630 ms from TEAM1 @ site 1 id Run-7852741599072339790
+170205 174037.245|INFO|Thread-205|info|handlePacket start Packet[RUN_CHECKOUT_NOTIFICATION] #266 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 174037.245|INFO|Thread-205|dumpPacket|Packet RUN_CHECKOUT_NOTIFICATION (Seq #266 ) handlePacket
+170205 174037.245|INFO|Thread-205|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 174037.245|INFO|Thread-205|dumpPacket|    To: JUDGE1 @ site 1
+170205 174037.245|INFO|Thread-205|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 174037.245|INFO|Thread-205|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 12 BEING_JUDGED300630 ms from TEAM1 @ site 1 id Run-7852741599072339790
+170205 174037.245|INFO|Thread-205|info|handlePacket end Packet[RUN_CHECKOUT_NOTIFICATION] #266 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 174037.245|INFO|Thread-205|info| receiveObject(S) end   got Packet[RUN_CHECKOUT_NOTIFICATION] #266 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 174037.245|INFO|Thread-204|info|handlePacket end Packet[RUN_CHECKOUT] #265 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 174037.245|INFO|Thread-204|info| receiveObject(S) end   got Packet[RUN_CHECKOUT] #265 SERVER0 @ site 1 -> JUDGE1 @ site 1
+170205 174038.135|DEBUG|Thread-206|compileProgram|before substitution: javac {:mainfile}
+170205 174038.151|DEBUG|Thread-206|compileProgram|after  substitution: javac Kostas.java
+170205 174038.198|CONFIG|Thread-206|runProgram|executing: 'javac Kostas.java'
+170205 174040.620|DEBUG|Thread-206|executeProgram|before substitution: java {:basename}
+170205 174040.620|DEBUG|Thread-206|executeProgram|after  substitution: java Kostas
+170205 174040.620|CONFIG|Thread-206|runProgram|executing: 'java Kostas'
+170205 174041.399|DEBUG|Thread-206|validateProgram|before substitution: java -cp C:\PacketA_2017_Waller\pc2-9.2.5\lib\{:validator} {:infile} {:outfile} {:ansfile} {:resfile}  -pc2 4 false
+170205 174041.414|DEBUG|Thread-206|validateProgram|after  substitution: java -cp C:\PacketA_2017_Waller\pc2-9.2.5\lib\pc2.jar edu.csus.ecs.pc2.validator.Validator kostas.dat estdout.pc2 kostas.out 1299XRSAM.txt  -pc2 4 false
+170205 174041.414|DEBUG|Thread-206|validateProgram|after replaceFirst: java -cp "C:\PacketA_2017_Waller\pc2-9.2.5\lib\pc2.jar" edu.csus.ecs.pc2.validator.Validator kostas.dat estdout.pc2 kostas.out 1299XRSAM.txt  -pc2 4 false
+170205 174041.430|CONFIG|Thread-206|runProgram|executing: 'java -cp "C:\PacketA_2017_Waller\pc2-9.2.5\lib\pc2.jar" edu.csus.ecs.pc2.validator.Validator kostas.dat estdout.pc2 kostas.out 1299XRSAM.txt  -pc2 4 false'
+170205 174044.746|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_JUDGEMENT] #25 JUDGE1 @ site 1 -> SERVER0 @ site 1
+170205 174044.762|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_JUDGEMENT] #25 JUDGE1 @ site 1 -> SERVER0 @ site 1
+170205 174044.981|INFO|Thread-216|info| receiveObject(S) start got Packet[RUN_JUDGEMENT_UPDATE] #269 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 174044.981|INFO|Thread-216|dumpPacket|Packet RUN_JUDGEMENT_UPDATE (Seq #269 ) recieveObject
+170205 174044.981|INFO|Thread-216|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 174044.981|INFO|Thread-216|dumpPacket|    To: SERVER0 @ site 0
+170205 174044.981|INFO|Thread-216|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 174044.981|INFO|Thread-216|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 12 JUDGED300630 ms from TEAM1 @ site 1 id Run-7852741599072339790
+170205 174044.981|INFO|Thread-216|info|handlePacket start Packet[RUN_JUDGEMENT_UPDATE] #269 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 174044.981|INFO|Thread-216|dumpPacket|Packet RUN_JUDGEMENT_UPDATE (Seq #269 ) handlePacket
+170205 174044.997|INFO|Thread-216|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 174044.997|INFO|Thread-216|dumpPacket|    To: SERVER0 @ site 0
+170205 174044.997|INFO|Thread-216|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE1 @ site 1
+170205 174044.997|INFO|Thread-216|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 12 JUDGED300630 ms from TEAM1 @ site 1 id Run-7852741599072339790
+170205 174044.997|INFO|Thread-216|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT_UPDATE] #269 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 174116.593|INFO|Thread-217|info| receiveObject(S) start got Packet[LOGIN] #272 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 174116.624|INFO|Thread-217|dumpPacket|Packet LOGIN (Seq #272 ) recieveObject
+170205 174116.624|INFO|Thread-217|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 174116.640|INFO|Thread-217|dumpPacket|    To: SERVER0 @ site 0
+170205 174116.656|INFO|Thread-217|dumpPacket|   key: CLIENT_SETTINGS is: edu.csus.ecs.pc2.core.model.ClientSettings edu.csus.ecs.pc2.core.model.ClientSettings@18f5cc99
+170205 174116.656|INFO|Thread-217|dumpPacket|   key: CONNECTION_HANDLE_ID is: edu.csus.ecs.pc2.core.transport.ConnectionHandlerID Socket[addr=/127.0.0.1,port=52146,localport=50002]-5477376784103374545
+170205 174116.656|INFO|Thread-217|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SCOREBOARD1 @ site 1
+170205 174116.687|INFO|Thread-217|info|handlePacket start Packet[LOGIN] #272 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 174116.702|INFO|Thread-217|dumpPacket|Packet LOGIN (Seq #272 ) handlePacket
+170205 174116.702|INFO|Thread-217|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 174116.702|INFO|Thread-217|dumpPacket|    To: SERVER0 @ site 0
+170205 174116.702|INFO|Thread-217|dumpPacket|   key: CLIENT_SETTINGS is: edu.csus.ecs.pc2.core.model.ClientSettings edu.csus.ecs.pc2.core.model.ClientSettings@18f5cc99
+170205 174116.702|INFO|Thread-217|dumpPacket|   key: CONNECTION_HANDLE_ID is: edu.csus.ecs.pc2.core.transport.ConnectionHandlerID Socket[addr=/127.0.0.1,port=52146,localport=50002]-5477376784103374545
+170205 174116.718|INFO|Thread-217|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SCOREBOARD1 @ site 1
+170205 174116.718|INFO|Thread-217|info|handlePacket end Packet[LOGIN] #272 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 174116.734|INFO|Thread-217|info| receiveObject(S) end   got Packet[LOGIN] #272 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 174200.517|INFO|Thread-218|info| receiveObject(S) start got Packet[UPDATE_SETTING] #273 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 174200.517|INFO|Thread-218|dumpPacket|Packet UPDATE_SETTING (Seq #273 ) recieveObject
+170205 174200.564|INFO|Thread-218|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 174200.580|INFO|Thread-218|dumpPacket|    To: SERVER0 @ site 0
+170205 174200.580|INFO|Thread-218|dumpPacket|   key: CONTEST_INFORMATION is: edu.csus.ecs.pc2.core.model.ContestInformation edu.csus.ecs.pc2.core.model.ContestInformation@53ac0a45
+170205 174200.596|INFO|Thread-218|info|handlePacket start Packet[UPDATE_SETTING] #273 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 174200.611|INFO|Thread-218|dumpPacket|Packet UPDATE_SETTING (Seq #273 ) handlePacket
+170205 174200.611|INFO|Thread-218|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 174200.627|INFO|Thread-218|dumpPacket|    To: SERVER0 @ site 0
+170205 174200.627|INFO|Thread-218|dumpPacket|   key: CONTEST_INFORMATION is: edu.csus.ecs.pc2.core.model.ContestInformation edu.csus.ecs.pc2.core.model.ContestInformation@53ac0a45
+170205 174200.689|INFO|Thread-218|info|handlePacket end Packet[UPDATE_SETTING] #273 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 174200.689|INFO|Thread-218|info| receiveObject(S) end   got Packet[UPDATE_SETTING] #273 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 174235.641|INFO|Thread-219|info| receiveObject(S) start got Packet[UPDATE_SETTING] #276 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 174235.657|INFO|Thread-219|dumpPacket|Packet UPDATE_SETTING (Seq #276 ) recieveObject
+170205 174235.657|INFO|Thread-219|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 174235.672|INFO|Thread-219|dumpPacket|    To: SERVER0 @ site 0
+170205 174235.688|INFO|Thread-219|dumpPacket|   key: CONTEST_INFORMATION is: edu.csus.ecs.pc2.core.model.ContestInformation edu.csus.ecs.pc2.core.model.ContestInformation@4faa8226
+170205 174235.688|INFO|Thread-219|info|handlePacket start Packet[UPDATE_SETTING] #276 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 174235.688|INFO|Thread-219|dumpPacket|Packet UPDATE_SETTING (Seq #276 ) handlePacket
+170205 174235.688|INFO|Thread-219|dumpPacket|  From: SERVER0 @ site 1 (Mellen @ 192.168.1.13) (Contest Id: Default-3425878675268062453)
+170205 174235.688|INFO|Thread-219|dumpPacket|    To: SERVER0 @ site 0
+170205 174235.688|INFO|Thread-219|dumpPacket|   key: CONTEST_INFORMATION is: edu.csus.ecs.pc2.core.model.ContestInformation edu.csus.ecs.pc2.core.model.ContestInformation@4faa8226
+170205 174235.704|INFO|Thread-219|info|handlePacket end Packet[UPDATE_SETTING] #276 SERVER0 @ site 1 -> SERVER0 @ site 0
+170205 174235.704|INFO|Thread-219|info| receiveObject(S) end   got Packet[UPDATE_SETTING] #276 SERVER0 @ site 1 -> SERVER0 @ site 0

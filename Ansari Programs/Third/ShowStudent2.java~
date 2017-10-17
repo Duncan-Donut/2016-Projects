@@ -1,0 +1,23 @@
+public class ShowStudent2{
+	
+	int idNumber;
+	int points;
+	int creditHours;
+	
+	public static void main(String[] args){
+	
+		ShowStudent2 Ji = new ShowStudent2();
+		
+		System.out.println(Ji.idNumber);
+		System.out.println(Ji.points);
+		System.out.println(Ji.creditHours);
+	
+	}
+	
+	public ShowStudent2(){
+		 idNumber = 9999;
+		 points = 12;
+		 creditHours = 3;
+	}
+	
+}

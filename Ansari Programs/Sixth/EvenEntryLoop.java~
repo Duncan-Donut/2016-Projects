@@ -1,0 +1,31 @@
+public java.util.Scanner;
+
+public class EvenEntryLoop{
+	
+	public static void main(String[] args){
+		
+		int response;
+		Scanner Sf = new Scanner(System.in);
+		System.out.println("Please enter a number");
+		
+		while(response != 999){
+			response = Sf.nextInt();
+			
+			if(response%2 == 0){
+				System.out.println("Good job!");	
+			}
+			if(response%2 == 1){
+				System.out.println("ERROR");
+				
+			}
+			
+		}
+		
+		
+		
+	}
+	
+	
+	
+	
+}

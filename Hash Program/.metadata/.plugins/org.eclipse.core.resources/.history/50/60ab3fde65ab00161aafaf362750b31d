@@ -1,0 +1,24 @@
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Hash {
+	
+	static ArrayList<String> original = new ArrayList<String>();
+
+	
+
+	public static void main(String[] args) throws IOException {
+		
+		Scanner Sf = new Scanner(System.in);
+		
+		System.out.println("Please enter what you desire to be encoded");
+		
+		String input = Sf.nextLine();
+		
+		String [] words = input.split("\\s+");
+		 
+		System.out.println(words[0],words[1]);
+		
+	}
+}

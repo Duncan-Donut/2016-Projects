@@ -1,0 +1,56 @@
+//LinkedLists
+//Duncan, 1/22/17
+//Creates a Stack for LinkedList class
+
+import java.util.Scanner;
+import java.util.LinkedList;
+
+public class StacksforLinkedLists{
+	
+	public LinkedList<String> Stack;
+	
+	//Constructor
+	public StacksforLinkedLists(){
+		Stack = new LinkedList<String>();
+	}
+
+	//Method for adding a value
+	public void push(String value){
+		Stack.add(value);
+	}
+
+	//Method for removing a value
+	public void pop(){
+		Stack.remove(Stack.size() - 1);
+	}
+	
+	//Method for looking at the last value
+	public void peek(){
+		System.out.println(Stack.get(Stack.size() - 1));
+	}
+	
+	//Method for testing if it is empty
+	public boolean isEmpty(){
+		if(Stack.isEmpty()){
+			System.out.println("True");
+			return true;
+		}
+		System.out.println("False");
+		return false;
+	}
+	
+	//Method for showing size
+	public int size(){
+		System.out.println(Stack.size());
+		return Stack.size();
+	}
+	//Method for printing the arraylists
+	public void print(){
+		for(String x: Stack){	
+			System.out.println(x);
+		}
+	}
+	
+	
+}
+
