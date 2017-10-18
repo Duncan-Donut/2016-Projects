@@ -15,7 +15,7 @@ public class MySQLAccess extends StudentGovernmentAttendance {
 	//Constants
   final private static String HOST = "127.0.0.1";
   final private static String USER = "root";
-  final private static String PASSWD = "Tw1gletdog";
+  final private static String PASSWD = "";
 	
    //Variables
   private static Connection connect = null;
